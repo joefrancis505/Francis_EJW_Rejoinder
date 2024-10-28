@@ -1,0 +1,42 @@
+Synthetic Control Analysis for John Knox
+
+Synthetic Control Weights:
+           Name   Weight
+ William Caxton 0.637218
+     Lord Byron 0.073643
+         Malory 0.071242
+   Robert Burns 0.064611
+          Renan 0.060420
+      Helmholtz 0.037000
+        Pasteur 0.018414
+          Plato 0.007609
+      Herodotus 0.006054
+        Tacitus 0.004847
+         Dryden 0.004094
+  Joseph Lister 0.002336
+   Edward Haies 0.001840
+ Francis Pretty 0.001733
+         Bigges 0.001054
+
+Predictor Balance:
+                               Treated Synthetic Sample Mean
+YearofPublication                 1548  1531.948    1603.797
+wrote_English                        1     0.862       0.335
+wrote_German                         0     0.038       0.388
+wrote_French                         0     0.079       0.115
+wrote_Greek                          0     0.014       0.066
+wrote_Latin                          0     0.006       0.062
+wrote_Italian                        0     0.000       0.022
+wrote_Spanish                        0     0.000       0.009
+YearofTranslationtoEnglish        1548  1573.123    1803.479
+Socialist                            0     0.000       0.101
+Political                            0     0.082       0.370
+special.cite_English.1914.1916       0     0.000       0.000
+special.cite_English.1908.1910       0     0.000       0.000
+special.cite_English.1902.1904       0     0.000       0.000
+special.cite_English.1896.1898       0     0.000       0.000
+special.cite_English.1890.1892       0     0.000       0.000
+special.cite_English.1884.1886       0     0.000       0.000
+special.cite_English.1878.1880       0     0.000       0.000
+
+Mean Squared Prediction Error (MSPE): 6.273662e-05 

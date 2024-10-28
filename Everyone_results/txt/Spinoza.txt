@@ -1,0 +1,37 @@
+Synthetic Control Analysis for Spinoza
+
+Synthetic Control Weights:
+           Name   Weight
+     Copernicus 0.556284
+    Dostoyevsky 0.173555
+         Goethe 0.076900
+         Cicero 0.066675
+         Kempis 0.052546
+         Dryden 0.041344
+      Herodotus 0.013078
+      Descartes 0.012195
+ William Harvey 0.004113
+    John Calvin 0.002261
+
+Predictor Balance:
+                               Treated Synthetic Sample Mean
+YearofPublication                 1677  1487.956    1603.229
+wrote_English                        0     0.042       0.339
+wrote_German                         0     0.077       0.388
+wrote_French                         0     0.012       0.115
+wrote_Greek                          0     0.013       0.066
+wrote_Latin                          1     0.682       0.057
+wrote_Italian                        0     0.000       0.022
+wrote_Spanish                        0     0.000       0.009
+YearofTranslationtoEnglish        1856  1857.430    1802.122
+Socialist                            0     0.000       0.101
+Political                            0     0.080       0.370
+special.cite_English.1914.1916       0     0.000       0.000
+special.cite_English.1908.1910       0     0.000       0.000
+special.cite_English.1902.1904       0     0.000       0.000
+special.cite_English.1896.1898       0     0.000       0.000
+special.cite_English.1890.1892       0     0.000       0.000
+special.cite_English.1884.1886       0     0.000       0.000
+special.cite_English.1878.1880       0     0.000       0.000
+
+Mean Squared Prediction Error (MSPE): 0.01524869 

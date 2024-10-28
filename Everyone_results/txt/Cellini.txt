@@ -1,0 +1,32 @@
+Synthetic Control Analysis for Cellini
+
+Synthetic Control Weights:
+               Name   Weight
+    Dante Alighieri 0.472224
+ Alessandro Manzoni 0.344788
+             Kelvin 0.102222
+           Voltaire 0.067579
+               Hume 0.012819
+
+Predictor Balance:
+                               Treated Synthetic Sample Mean
+YearofPublication                 1563  1581.687    1603.731
+wrote_English                        0     0.115       0.339
+wrote_German                         0     0.000       0.388
+wrote_French                         0     0.068       0.115
+wrote_Greek                          0     0.000       0.066
+wrote_Latin                          0     0.000       0.062
+wrote_Italian                        1     0.817       0.018
+wrote_Spanish                        0     0.000       0.009
+YearofTranslationtoEnglish        1910  1816.446    1801.884
+Socialist                            0     0.000       0.101
+Political                            0     0.081       0.370
+special.cite_English.1914.1916       0     0.000       0.000
+special.cite_English.1908.1910       0     0.000       0.000
+special.cite_English.1902.1904       0     0.000       0.000
+special.cite_English.1896.1898       0     0.000       0.000
+special.cite_English.1890.1892       0     0.000       0.000
+special.cite_English.1884.1886       0     0.000       0.000
+special.cite_English.1878.1880       0     0.000       0.000
+
+Mean Squared Prediction Error (MSPE): 0.0003954059 

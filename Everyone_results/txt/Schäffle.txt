@@ -1,0 +1,39 @@
+Synthetic Control Analysis for Schäffle
+
+Synthetic Control Weights:
+                       Name   Weight
+          Ferdinand Tönnies 0.538113
+                 Karl Knies 0.201670
+           Gustav Schönberg 0.126601
+                      Kafka 0.085220
+                  Rodbertus 0.007102
+ Christian Wilhelm von Dohm 0.005507
+            Wilhelm Roscher 0.003586
+                    Herbart 0.003104
+                Max Stirner 0.002958
+                Arnold Ruge 0.002228
+             Friedrich List 0.001867
+         Ferdinand Lassalle 0.001619
+
+Predictor Balance:
+                               Treated Synthetic Sample Mean
+YearofPublication                 1874  1874.770    1602.361
+wrote_English                        0     0.003       0.339
+wrote_German                         1     0.994       0.383
+wrote_French                         0     0.001       0.115
+wrote_Greek                          0     0.001       0.066
+wrote_Latin                          0     0.001       0.062
+wrote_Italian                        0     0.000       0.022
+wrote_Spanish                        0     0.000       0.009
+YearofTranslationtoEnglish        1890  1890.004    1801.973
+Socialist                            0     0.013       0.101
+Political                            1     0.899       0.366
+special.cite_English.1914.1916       0     0.000       0.000
+special.cite_English.1908.1910       0     0.000       0.000
+special.cite_English.1902.1904       0     0.000       0.000
+special.cite_English.1896.1898       0     0.000       0.000
+special.cite_English.1890.1892       0     0.000       0.000
+special.cite_English.1884.1886       0     0.000       0.000
+special.cite_English.1878.1880       0     0.000       0.000
+
+Mean Squared Prediction Error (MSPE): 1.187862e-05 

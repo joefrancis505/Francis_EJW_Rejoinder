@@ -1,0 +1,34 @@
+Synthetic Control Analysis for Machiavelli
+
+Synthetic Control Weights:
+            Name   Weight
+        Pericles 0.319487
+ Dante Alighieri 0.302492
+          Malory 0.224675
+         Tacitus 0.074073
+           Hegel 0.059486
+           Renan 0.016533
+ Robert Browning 0.002803
+
+Predictor Balance:
+                               Treated Synthetic Sample Mean
+YearofPublication                 1532   739.679    1603.868
+wrote_English                        0     0.228       0.339
+wrote_German                         0     0.060       0.388
+wrote_French                         0     0.017       0.115
+wrote_Greek                          0     0.320       0.066
+wrote_Latin                          0     0.074       0.062
+wrote_Italian                        1     0.302       0.018
+wrote_Spanish                        0     0.000       0.009
+YearofTranslationtoEnglish        1640  1665.322    1803.074
+Socialist                            0     0.000       0.101
+Political                            1     0.410       0.366
+special.cite_English.1914.1916       0     0.000       0.000
+special.cite_English.1908.1910       0     0.000       0.000
+special.cite_English.1902.1904       0     0.000       0.000
+special.cite_English.1896.1898       0     0.000       0.000
+special.cite_English.1890.1892       0     0.000       0.000
+special.cite_English.1884.1886       0     0.000       0.000
+special.cite_English.1878.1880       0     0.000       0.000
+
+Mean Squared Prediction Error (MSPE): 0.0183294 

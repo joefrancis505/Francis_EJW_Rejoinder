@@ -1,0 +1,36 @@
+Synthetic Control Analysis for Thomas More
+
+Synthetic Control Weights:
+           Name   Weight
+    John Calvin 0.514623
+        Spinoza 0.173738
+         Kempis 0.132668
+        Tacitus 0.064330
+    Machiavelli 0.035827
+      Froissart 0.032119
+     Adam Smith 0.026409
+ Edmund Spenser 0.010295
+      Herodotus 0.002770
+
+Predictor Balance:
+                               Treated Synthetic Sample Mean
+YearofPublication                 1516  1438.224    1603.938
+wrote_English                        0     0.040       0.339
+wrote_German                         0     0.003       0.388
+wrote_French                         0     0.033       0.115
+wrote_Greek                          0     0.003       0.066
+wrote_Latin                          1     0.885       0.057
+wrote_Italian                        0     0.036       0.022
+wrote_Spanish                        0     0.000       0.009
+YearofTranslationtoEnglish        1551  1611.144    1803.466
+Socialist                            0     0.001       0.101
+Political                            1     0.177       0.366
+special.cite_English.1914.1916       0     0.000       0.000
+special.cite_English.1908.1910       0     0.000       0.000
+special.cite_English.1902.1904       0     0.000       0.000
+special.cite_English.1896.1898       0     0.000       0.000
+special.cite_English.1890.1892       0     0.000       0.000
+special.cite_English.1884.1886       0     0.000       0.000
+special.cite_English.1878.1880       0     0.000       0.000
+
+Mean Squared Prediction Error (MSPE): 0.0005447491 

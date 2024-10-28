@@ -1,0 +1,43 @@
+Synthetic Control Analysis for Francis Bacon
+
+Synthetic Control Weights:
+                    Name   Weight
+          William Caxton 0.502301
+                 Marlowe 0.185840
+            Walt Whitman 0.140618
+          Henry Fielding 0.058455
+          Charles Darwin 0.046154
+          Philip Nichols 0.016108
+                  Kelvin 0.007442
+          Francis Pretty 0.005807
+                  Bigges 0.005725
+         Otto Pfleiderer 0.003402
+            Edward Haies 0.003268
+     Ralph Waldo Emerson 0.002184
+         Robert Browning 0.001921
+        William Harrison 0.001880
+           William Roper 0.001854
+ Hans Christian Andersen 0.001428
+
+Predictor Balance:
+                               Treated Synthetic Sample Mean
+YearofPublication                 1597  1595.469    1603.581
+wrote_English                        1     0.994       0.335
+wrote_German                         0     0.004       0.388
+wrote_French                         0     0.001       0.115
+wrote_Greek                          0     0.000       0.066
+wrote_Latin                          0     0.001       0.062
+wrote_Italian                        0     0.000       0.022
+wrote_Spanish                        0     0.000       0.009
+YearofTranslationtoEnglish        1597  1597.070    1803.263
+Socialist                            0     0.001       0.101
+Political                            0     0.005       0.370
+special.cite_English.1914.1916       0     0.000       0.000
+special.cite_English.1908.1910       0     0.000       0.000
+special.cite_English.1902.1904       0     0.000       0.000
+special.cite_English.1896.1898       0     0.000       0.000
+special.cite_English.1890.1892       0     0.000       0.000
+special.cite_English.1884.1886       0     0.000       0.000
+special.cite_English.1878.1880       0     0.000       0.000
+
+Mean Squared Prediction Error (MSPE): 3.485312e-05 

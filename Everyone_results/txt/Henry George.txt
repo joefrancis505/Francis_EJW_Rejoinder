@@ -1,0 +1,34 @@
+Synthetic Control Analysis for Henry George
+
+Synthetic Control Weights:
+             Name   Weight
+   Edward Bellamy 0.528503
+      Oscar Wilde 0.235958
+  Abraham Lincoln 0.129714
+          Pasteur 0.073712
+            Plato 0.017274
+ Thomas Jefferson 0.008521
+      Machiavelli 0.004401
+
+Predictor Balance:
+                               Treated Synthetic Sample Mean
+YearofPublication                 1879  1841.383    1602.339
+wrote_English                        1     0.904       0.335
+wrote_German                         0     0.000       0.388
+wrote_French                         0     0.074       0.115
+wrote_Greek                          0     0.017       0.066
+wrote_Latin                          0     0.000       0.062
+wrote_Italian                        0     0.004       0.022
+wrote_Spanish                        0     0.000       0.009
+YearofTranslationtoEnglish        1879  1880.445    1802.021
+Socialist                            1     0.765       0.097
+Political                            1     0.926       0.366
+special.cite_English.1914.1916       0     0.000       0.000
+special.cite_English.1908.1910       0     0.000       0.000
+special.cite_English.1902.1904       0     0.000       0.000
+special.cite_English.1896.1898       0     0.000       0.000
+special.cite_English.1890.1892       0     0.000       0.000
+special.cite_English.1884.1886       0     0.000       0.000
+special.cite_English.1878.1880       0     0.000       0.000
+
+Mean Squared Prediction Error (MSPE): 0.0002931719 

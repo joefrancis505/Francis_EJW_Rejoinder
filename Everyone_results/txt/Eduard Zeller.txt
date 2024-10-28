@@ -1,0 +1,35 @@
+Synthetic Control Analysis for Eduard Zeller
+
+Synthetic Control Weights:
+                       Name   Weight
+                Rudolf Haym 0.470490
+            Bernard Bolzano 0.389845
+           Wilhelm Drobisch 0.100683
+              Friedrich Ast 0.006606
+ Friedrich Carl von Savigny 0.002464
+             Heinrich Feder 0.002018
+         Dietrich Tiedemann 0.001648
+             Ludwig Büchner 0.001281
+
+Predictor Balance:
+                               Treated Synthetic Sample Mean
+YearofPublication                 1844  1843.967    1602.493
+wrote_English                        0     0.004       0.339
+wrote_German                         1     0.993       0.383
+wrote_French                         0     0.002       0.115
+wrote_Greek                          0     0.001       0.066
+wrote_Latin                          0     0.001       0.062
+wrote_Italian                        0     0.000       0.022
+wrote_Spanish                        0     0.000       0.009
+YearofTranslationtoEnglish        1886  1885.999    1801.990
+Socialist                            0     0.002       0.101
+Political                            0     0.006       0.370
+special.cite_English.1914.1916       0     0.000       0.000
+special.cite_English.1908.1910       0     0.000       0.000
+special.cite_English.1902.1904       0     0.000       0.000
+special.cite_English.1896.1898       0     0.000       0.000
+special.cite_English.1890.1892       0     0.000       0.000
+special.cite_English.1884.1886       0     0.000       0.000
+special.cite_English.1878.1880       0     0.000       0.000
+
+Mean Squared Prediction Error (MSPE): 9.948985e-07 

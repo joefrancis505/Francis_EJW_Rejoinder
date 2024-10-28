@@ -1,0 +1,33 @@
+Synthetic Control Analysis for Montesquieu
+
+Synthetic Control Weights:
+              Name   Weight
+       Tocqueville 0.340539
+ Benjamin Constant 0.283084
+         Froissart 0.270872
+          Rousseau 0.084250
+             Renan 0.013369
+            Newton 0.004196
+
+Predictor Balance:
+                               Treated Synthetic Sample Mean
+YearofPublication                 1748  1706.050    1602.916
+wrote_English                        0     0.001       0.339
+wrote_German                         0     0.001       0.388
+wrote_French                         1     0.993       0.110
+wrote_Greek                          0     0.000       0.066
+wrote_Latin                          0     0.004       0.062
+wrote_Italian                        0     0.000       0.022
+wrote_Spanish                        0     0.000       0.009
+YearofTranslationtoEnglish        1750  1752.397    1802.589
+Socialist                            0     0.001       0.101
+Political                            1     0.994       0.366
+special.cite_English.1914.1916       0     0.000       0.000
+special.cite_English.1908.1910       0     0.000       0.000
+special.cite_English.1902.1904       0     0.000       0.000
+special.cite_English.1896.1898       0     0.000       0.000
+special.cite_English.1890.1892       0     0.000       0.000
+special.cite_English.1884.1886       0     0.000       0.000
+special.cite_English.1878.1880       0     0.000       0.000
+
+Mean Squared Prediction Error (MSPE): 0.0005279704 

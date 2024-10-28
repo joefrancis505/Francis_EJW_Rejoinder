@@ -1,0 +1,91 @@
+Synthetic Control Analysis for Immanuel Kant
+
+Synthetic Control Weights:
+                       Name   Weight
+                Thomas Abbt 0.185495
+            Bernard Bolzano 0.160258
+         Friedrich Schiller 0.139796
+                Carl Stumpf 0.093519
+  Friedrich Heinrich Jacobi 0.046337
+             Grimmelshausen 0.040169
+                 Lord Acton 0.031827
+             Franz Brentano 0.018885
+                  Nietzsche 0.018699
+                  Hölderlin 0.014431
+              Hermann Cohen 0.013684
+                     Thünen 0.012944
+                    Dilthey 0.011010
+                    Herbart 0.009737
+                      Frege 0.007263
+                      Rilke 0.006383
+                     Simmel 0.006046
+          Pliny the Younger 0.005582
+ Friedrich Carl von Savigny 0.004857
+                Thomas Mann 0.004850
+            Theodor Fontane 0.004733
+                    Scheler 0.004545
+                 Clausewitz 0.004420
+                      Külpe 0.003997
+           Ludwig Feuerbach 0.003952
+             Ludwig Büchner 0.003933
+              Eduard Zeller 0.003890
+     Barthold Georg Niebuhr 0.003605
+                 Windelband 0.003272
+        Eduard von Hartmann 0.003239
+                   Durkheim 0.003125
+   Gotthold Ephraim Lessing 0.003122
+              Hermann Lotze 0.002933
+         Friedrich Schlegel 0.002694
+             E T A Hoffmann 0.002572
+                  Laspeyres 0.002553
+             Francis Pretty 0.002373
+                Bruno Bauer 0.002278
+             Gustav Freytag 0.002278
+                  de Gouges 0.002115
+          Moses Mendelssohn 0.002100
+          Ferdinand Tönnies 0.002009
+           Thomas Jefferson 0.001954
+             Fritz Schultze 0.001907
+                 Mainländer 0.001792
+                     Hamann 0.001782
+              Otto Liebmann 0.001780
+              Eugen Dühring 0.001779
+                     Natorp 0.001721
+                 Ebbinghaus 0.001512
+              Theodor Lipps 0.001505
+               Kuno Fischer 0.001408
+                Rudolf Haym 0.001379
+                      Wundt 0.001307
+              Amadeus Wendt 0.001260
+           Friedrich Krause 0.001225
+           Eduard Bernstein 0.001186
+                      Kafka 0.001180
+                  Wentscher 0.001179
+             Friedrich List 0.001165
+              Eduard Beneke 0.001155
+           Wilhelm Drobisch 0.001141
+                Max Stirner 0.001114
+                    Sombart 0.001018
+
+Predictor Balance:
+                               Treated Synthetic Sample Mean
+YearofPublication                 1785  1794.305    1602.753
+wrote_English                        0     0.063       0.339
+wrote_German                         1     0.903       0.383
+wrote_French                         0     0.015       0.115
+wrote_Greek                          0     0.005       0.066
+wrote_Latin                          0     0.010       0.062
+wrote_Italian                        0     0.003       0.022
+wrote_Spanish                        0     0.001       0.009
+YearofTranslationtoEnglish        1895  1895.033    1801.950
+Socialist                            0     0.015       0.101
+Political                            0     0.074       0.370
+special.cite_English.1914.1916       0     0.000       0.000
+special.cite_English.1908.1910       0     0.000       0.000
+special.cite_English.1902.1904       0     0.000       0.000
+special.cite_English.1896.1898       0     0.000       0.000
+special.cite_English.1890.1892       0     0.000       0.000
+special.cite_English.1884.1886       0     0.000       0.000
+special.cite_English.1878.1880       0     0.000       0.000
+
+Mean Squared Prediction Error (MSPE): 1.967384e-05 

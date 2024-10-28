@@ -1,0 +1,37 @@
+Synthetic Control Analysis for Helmholtz
+
+Synthetic Control Weights:
+         Name   Weight
+      Herbart 0.280066
+ Schopenhauer 0.216481
+       Dryden 0.097955
+    Herodotus 0.096072
+  SainteBeuve 0.074287
+       Kelvin 0.073497
+   Lord Byron 0.067941
+ Robert Burns 0.062014
+  Tocqueville 0.022324
+        Renan 0.008253
+
+Predictor Balance:
+                               Treated Synthetic Sample Mean
+YearofPublication                 1847  1588.382    1602.480
+wrote_English                        0     0.302       0.339
+wrote_German                         1     0.497       0.383
+wrote_French                         0     0.105       0.115
+wrote_Greek                          0     0.096       0.066
+wrote_Latin                          0     0.000       0.062
+wrote_Italian                        0     0.000       0.022
+wrote_Spanish                        0     0.000       0.009
+YearofTranslationtoEnglish        1847  1846.371    1802.162
+Socialist                            0     0.000       0.101
+Political                            0     0.127       0.370
+special.cite_English.1914.1916       0     0.000       0.000
+special.cite_English.1908.1910       0     0.000       0.000
+special.cite_English.1902.1904       0     0.000       0.000
+special.cite_English.1896.1898       0     0.000       0.000
+special.cite_English.1890.1892       0     0.000       0.000
+special.cite_English.1884.1886       0     0.000       0.000
+special.cite_English.1878.1880       0     0.000       0.000
+
+Mean Squared Prediction Error (MSPE): 0.001623131 

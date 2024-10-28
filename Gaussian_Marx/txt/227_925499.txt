@@ -1,0 +1,40 @@
+
+Synthetic Control Analysis (seed = 925499)
+
+Synthetic Control Weights:
+               Name   Weight
+   Eduard Bernstein 0.767395
+   Bruno Hildebrand 0.126598
+            Pasteur 0.026743
+            Sombart 0.009580
+         Moses Hess 0.004679
+        Montesquieu 0.004327
+ Ferdinand Lassalle 0.004232
+          Rodbertus 0.003629
+            Thoreau 0.001689
+        Tocqueville 0.001640
+             Virgil 0.001250
+
+Predictor Balance:
+                               Treated Synthetic Sample Mean
+YearofPublication                 1867  1868.656    1602.392
+wrote_English                        0     0.020       0.339
+wrote_German                         1     0.929       0.383
+wrote_French                         0     0.040       0.115
+wrote_Greek                          0     0.005       0.066
+wrote_Latin                          0     0.005       0.062
+wrote_Italian                        0     0.001       0.022
+wrote_Spanish                        0     0.000       0.009
+YearofTranslationtoEnglish        1887  1887.369    1801.986
+Socialist                            1     0.921       0.097
+Political                            1     0.945       0.366
+special.cite_English.1914.1916       0     0.000       0.000
+special.cite_English.1908.1910       0     0.000       0.000
+special.cite_English.1902.1904       0     0.000       0.000
+special.cite_English.1896.1898       0     0.000       0.000
+special.cite_English.1890.1892       0     0.000       0.000
+special.cite_English.1884.1886       0     0.000       0.000
+special.cite_English.1878.1880       0     0.000       0.000
+
+Mean Squared Prediction Error (MSPE): 3.73767226306166e-06
+

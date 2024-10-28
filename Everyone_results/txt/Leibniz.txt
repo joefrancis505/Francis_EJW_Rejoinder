@@ -1,0 +1,36 @@
+Synthetic Control Analysis for Leibniz
+
+Synthetic Control Weights:
+              Name   Weight
+   Bernard Bolzano 0.495779
+     Martin Luther 0.233383
+           Herbart 0.131384
+            Kelvin 0.035065
+           Pasteur 0.032944
+         Nietzsche 0.029155
+       Dostoyevsky 0.022096
+ Pliny the Younger 0.016009
+   Herbert Spencer 0.004179
+
+Predictor Balance:
+                               Treated Synthetic Sample Mean
+YearofPublication                 1666  1731.081    1603.278
+wrote_English                        0     0.039       0.339
+wrote_German                         0     0.890       0.388
+wrote_French                         0     0.033       0.115
+wrote_Greek                          0     0.000       0.066
+wrote_Latin                          1     0.016       0.057
+wrote_Italian                        0     0.000       0.022
+wrote_Spanish                        0     0.000       0.009
+YearofTranslationtoEnglish        1951  1935.685    1801.704
+Socialist                            0     0.000       0.101
+Political                            0     0.004       0.370
+special.cite_English.1914.1916       0     0.000       0.000
+special.cite_English.1908.1910       0     0.000       0.000
+special.cite_English.1902.1904       0     0.000       0.000
+special.cite_English.1896.1898       0     0.000       0.000
+special.cite_English.1890.1892       0     0.000       0.000
+special.cite_English.1884.1886       0     0.000       0.000
+special.cite_English.1878.1880       0     0.000       0.000
+
+Mean Squared Prediction Error (MSPE): 0.0009541564 

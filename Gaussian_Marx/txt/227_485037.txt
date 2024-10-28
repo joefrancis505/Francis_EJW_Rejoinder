@@ -1,0 +1,42 @@
+
+Synthetic Control Analysis (seed = 485037)
+
+Synthetic Control Weights:
+               Name   Weight
+   Eduard Bernstein 0.668385
+          Rodbertus 0.097334
+            Sombart 0.068165
+   Bruno Hildebrand 0.041480
+        John Milton 0.038569
+       August Bebel 0.031147
+     Schleiermacher 0.012533
+            Aquinas 0.004737
+ Ferdinand Lassalle 0.003926
+         Moses Hess 0.003311
+        John Bunyan 0.002639
+           Pericles 0.002352
+               Hume 0.001940
+
+Predictor Balance:
+                               Treated Synthetic Sample Mean
+YearofPublication                 1867  1865.489    1602.392
+wrote_English                        0     0.050       0.339
+wrote_German                         1     0.936       0.383
+wrote_French                         0     0.003       0.115
+wrote_Greek                          0     0.003       0.066
+wrote_Latin                          0     0.007       0.062
+wrote_Italian                        0     0.001       0.022
+wrote_Spanish                        0     0.000       0.009
+YearofTranslationtoEnglish        1887  1887.586    1801.986
+Socialist                            1     0.916       0.097
+Political                            1     0.965       0.366
+special.cite_English.1914.1916       0     0.000       0.000
+special.cite_English.1908.1910       0     0.000       0.000
+special.cite_English.1902.1904       0     0.000       0.000
+special.cite_English.1896.1898       0     0.000       0.000
+special.cite_English.1890.1892       0     0.000       0.000
+special.cite_English.1884.1886       0     0.000       0.000
+special.cite_English.1878.1880       0     0.000       0.000
+
+Mean Squared Prediction Error (MSPE): 1.4009009997006e-05
+

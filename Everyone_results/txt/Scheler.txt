@@ -1,0 +1,66 @@
+Synthetic Control Analysis for Scheler
+
+Synthetic Control Weights:
+                       Name   Weight
+              Hermann Cohen 0.821703
+                      Kafka 0.078354
+              Theodor Lipps 0.008651
+                     Natorp 0.006293
+                  Wentscher 0.005999
+                 Mainländer 0.003515
+                Carl Stumpf 0.003324
+             Fritz Schultze 0.003121
+              Otto Liebmann 0.002757
+                Rudolf Haym 0.002437
+               Kuno Fischer 0.001963
+                Bruno Bauer 0.001852
+           Wilhelm Drobisch 0.001843
+              Amadeus Wendt 0.001843
+                      Külpe 0.001708
+              Eduard Beneke 0.001633
+             Ludwig Büchner 0.001567
+              Friedrich Ast 0.001516
+        Eduard von Hartmann 0.001515
+             Gustav Freytag 0.001439
+           Ludwig Feuerbach 0.001411
+        Christian Schreiber 0.001385
+           Friedrich Krause 0.001376
+            Theodor Fontane 0.001370
+             E T A Hoffmann 0.001326
+     Barthold Georg Niebuhr 0.001298
+                Thomas Mann 0.001295
+         Friedrich Schiller 0.001283
+             Sigismund Beck 0.001272
+              Hermann Lotze 0.001266
+      Gottlob Ernst Schulze 0.001265
+                 Windelband 0.001261
+         Dietrich Tiedemann 0.001256
+         Friedrich Schlegel 0.001235
+             Heinrich Feder 0.001224
+              Eduard Zeller 0.001146
+ Friedrich Carl von Savigny 0.001103
+                Thomas Abbt 0.001052
+          Moses Mendelssohn 0.001017
+
+Predictor Balance:
+                               Treated Synthetic Sample Mean
+YearofPublication                 1913  1908.818    1602.189
+wrote_English                        0     0.006       0.339
+wrote_German                         1     0.990       0.383
+wrote_French                         0     0.002       0.115
+wrote_Greek                          0     0.001       0.066
+wrote_Latin                          0     0.001       0.062
+wrote_Italian                        0     0.000       0.022
+wrote_Spanish                        0     0.000       0.009
+YearofTranslationtoEnglish        1954  1954.019    1801.691
+Socialist                            0     0.002       0.101
+Political                            0     0.006       0.370
+special.cite_English.1914.1916       0     0.000       0.000
+special.cite_English.1908.1910       0     0.000       0.000
+special.cite_English.1902.1904       0     0.000       0.000
+special.cite_English.1896.1898       0     0.000       0.000
+special.cite_English.1890.1892       0     0.000       0.000
+special.cite_English.1884.1886       0     0.000       0.000
+special.cite_English.1878.1880       0     0.000       0.000
+
+Mean Squared Prediction Error (MSPE): 5.367677e-05 

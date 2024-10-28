@@ -1,0 +1,43 @@
+Synthetic Control Analysis for William Godwin
+
+Synthetic Control Weights:
+                       Name   Weight
+             Jonathan Swift 0.432883
+    James Fitzjames Stephen 0.273106
+             Wollstonecraft 0.146811
+      William Graham Sumner 0.102350
+                   Sismondi 0.019220
+                     Hobbes 0.003406
+              Nassau Senior 0.003131
+           Gustav Schönberg 0.001807
+ Christian Wilhelm von Dohm 0.001789
+          Ferdinand Tönnies 0.001567
+           Bruno Hildebrand 0.001334
+                Arnold Ruge 0.001323
+                 Moses Hess 0.001244
+                 Karl Knies 0.001232
+           Eduard Bernstein 0.001228
+            Wilhelm Roscher 0.001226
+
+Predictor Balance:
+                               Treated Synthetic Sample Mean
+YearofPublication                 1793  1793.773    1602.718
+wrote_English                        1     0.963       0.335
+wrote_German                         0     0.016       0.388
+wrote_French                         0     0.021       0.115
+wrote_Greek                          0     0.000       0.066
+wrote_Latin                          0     0.000       0.062
+wrote_Italian                        0     0.000       0.022
+wrote_Spanish                        0     0.000       0.009
+YearofTranslationtoEnglish        1793  1794.802    1802.400
+Socialist                            0     0.024       0.101
+Political                            1     0.997       0.366
+special.cite_English.1914.1916       0     0.000       0.000
+special.cite_English.1908.1910       0     0.000       0.000
+special.cite_English.1902.1904       0     0.000       0.000
+special.cite_English.1896.1898       0     0.000       0.000
+special.cite_English.1890.1892       0     0.000       0.000
+special.cite_English.1884.1886       0     0.000       0.000
+special.cite_English.1878.1880       0     0.000       0.000
+
+Mean Squared Prediction Error (MSPE): 8.475256e-05 

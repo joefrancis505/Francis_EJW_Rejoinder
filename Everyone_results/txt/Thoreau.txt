@@ -1,0 +1,37 @@
+Synthetic Control Analysis for Thoreau
+
+Synthetic Control Weights:
+             Name   Weight
+       Lord Acton 0.328835
+  Robert Browning 0.203860
+ Thomas Jefferson 0.146681
+           Kelvin 0.146667
+            Hegel 0.073618
+             Hume 0.055482
+  Herbert Spencer 0.021440
+  Abraham Lincoln 0.010361
+            Plato 0.006268
+         Rousseau 0.005588
+
+Predictor Balance:
+                               Treated Synthetic Sample Mean
+YearofPublication                 1854  1822.668    1602.449
+wrote_English                        1     0.914       0.335
+wrote_German                         0     0.074       0.388
+wrote_French                         0     0.006       0.115
+wrote_Greek                          0     0.006       0.066
+wrote_Latin                          0     0.000       0.062
+wrote_Italian                        0     0.000       0.022
+wrote_Spanish                        0     0.000       0.009
+YearofTranslationtoEnglish        1854  1848.980    1802.131
+Socialist                            0     0.000       0.101
+Political                            0     0.575       0.370
+special.cite_English.1914.1916       0     0.000       0.000
+special.cite_English.1908.1910       0     0.000       0.000
+special.cite_English.1902.1904       0     0.000       0.000
+special.cite_English.1896.1898       0     0.000       0.000
+special.cite_English.1890.1892       0     0.000       0.000
+special.cite_English.1884.1886       0     0.000       0.000
+special.cite_English.1878.1880       0     0.000       0.000
+
+Mean Squared Prediction Error (MSPE): 0.0008832217 

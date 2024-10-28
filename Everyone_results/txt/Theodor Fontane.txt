@@ -1,0 +1,59 @@
+Synthetic Control Analysis for Theodor Fontane
+
+Synthetic Control Weights:
+                       Name   Weight
+                Carl Stumpf 0.496702
+                Rudolf Haym 0.230657
+              Theodor Lipps 0.143330
+                      Rilke 0.032543
+              Hermann Cohen 0.007711
+              Otto Liebmann 0.004059
+                  Wentscher 0.003429
+             Ludwig Büchner 0.003423
+              Eugen Dühring 0.003383
+              Eduard Beneke 0.003375
+                      Külpe 0.002919
+ Friedrich Carl von Savigny 0.002745
+     Barthold Georg Niebuhr 0.002689
+             Franz Brentano 0.002685
+             Sigismund Beck 0.002573
+           Friedrich Krause 0.002558
+             Fritz Schultze 0.002464
+      Gottlob Ernst Schulze 0.002445
+        Christian Schreiber 0.002415
+             Heinrich Feder 0.002409
+              Eduard Zeller 0.002407
+         Dietrich Tiedemann 0.002404
+              Friedrich Ast 0.002044
+                 Mainländer 0.001985
+                Thomas Abbt 0.001836
+             E T A Hoffmann 0.001704
+           Ludwig Feuerbach 0.001672
+              Amadeus Wendt 0.001626
+                     Thünen 0.001610
+  Friedrich Heinrich Jacobi 0.001215
+                  Hölderlin 0.001104
+        Eduard von Hartmann 0.001027
+
+Predictor Balance:
+                               Treated Synthetic Sample Mean
+YearofPublication                 1894  1887.565    1602.273
+wrote_English                        0     0.007       0.339
+wrote_German                         1     0.986       0.383
+wrote_French                         0     0.003       0.115
+wrote_Greek                          0     0.001       0.066
+wrote_Latin                          0     0.001       0.062
+wrote_Italian                        0     0.001       0.022
+wrote_Spanish                        0     0.001       0.009
+YearofTranslationtoEnglish        1914  1914.284    1801.867
+Socialist                            0     0.005       0.101
+Political                            0     0.004       0.370
+special.cite_English.1914.1916       0     0.000       0.000
+special.cite_English.1908.1910       0     0.000       0.000
+special.cite_English.1902.1904       0     0.000       0.000
+special.cite_English.1896.1898       0     0.000       0.000
+special.cite_English.1890.1892       0     0.000       0.000
+special.cite_English.1884.1886       0     0.000       0.000
+special.cite_English.1878.1880       0     0.000       0.000
+
+Mean Squared Prediction Error (MSPE): 7.371115e-06 

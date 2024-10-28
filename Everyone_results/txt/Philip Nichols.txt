@@ -1,0 +1,41 @@
+Synthetic Control Analysis for Philip Nichols
+
+Synthetic Control Weights:
+                       Name   Weight
+               Edward Haies 0.836459
+            Otto Pfleiderer 0.105471
+             Francis Pretty 0.013613
+      William Graham Sumner 0.008330
+              Lujo Brentano 0.004135
+                     Bigges 0.003189
+                Dostoyevsky 0.002762
+            Hippolyte Taine 0.002569
+ Pedro Calderón de la Barca 0.002568
+              William Roper 0.001767
+                Jean Racine 0.001649
+                  de Gouges 0.001626
+         Alessandro Manzoni 0.001398
+              David Ricardo 0.001021
+
+Predictor Balance:
+                               Treated Synthetic Sample Mean
+YearofPublication                 1626  1622.381    1603.454
+wrote_English                        1     0.980       0.335
+wrote_German                         0     0.003       0.388
+wrote_French                         0     0.009       0.115
+wrote_Greek                          0     0.000       0.066
+wrote_Latin                          0     0.000       0.062
+wrote_Italian                        0     0.002       0.022
+wrote_Spanish                        0     0.003       0.009
+YearofTranslationtoEnglish        1626  1625.291    1803.135
+Socialist                            0     0.006       0.101
+Political                            0     0.021       0.370
+special.cite_English.1914.1916       0     0.000       0.000
+special.cite_English.1908.1910       0     0.000       0.000
+special.cite_English.1902.1904       0     0.000       0.000
+special.cite_English.1896.1898       0     0.000       0.000
+special.cite_English.1890.1892       0     0.000       0.000
+special.cite_English.1884.1886       0     0.000       0.000
+special.cite_English.1878.1880       0     0.000       0.000
+
+Mean Squared Prediction Error (MSPE): 4.58724e-06 

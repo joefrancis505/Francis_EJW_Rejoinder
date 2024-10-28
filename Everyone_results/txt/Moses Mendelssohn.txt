@@ -1,0 +1,39 @@
+Synthetic Control Analysis for Moses Mendelssohn
+
+Synthetic Control Weights:
+                     Name   Weight
+              Thomas Abbt 0.644526
+              Bruno Bauer 0.210178
+ Gotthold Ephraim Lessing 0.035109
+           Heinrich Feder 0.016566
+                    Kafka 0.015357
+            Hermann Lotze 0.012231
+       Friedrich Schiller 0.005033
+                   Kempis 0.003878
+           Schleiermacher 0.003543
+       Friedrich Schlegel 0.001681
+                 Voltaire 0.001437
+              Victor Hugo 0.001201
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1767.000  1770.174    1602.833
+wrote_English                     0.000     0.005       0.339
+wrote_German                      1.000     0.973       0.383
+wrote_French                      0.000     0.009       0.115
+wrote_Greek                       0.000     0.004       0.066
+wrote_Latin                       0.000     0.008       0.062
+wrote_Italian                     0.000     0.001       0.022
+wrote_Spanish                     0.000     0.001       0.009
+YearofTranslationtoEnglish     1802.359  1805.704    1802.359
+Socialist                         0.000     0.005       0.101
+Political                         0.000     0.017       0.370
+special.cite_English.1914.1916    0.000     0.000       0.000
+special.cite_English.1908.1910    0.000     0.000       0.000
+special.cite_English.1902.1904    0.000     0.000       0.000
+special.cite_English.1896.1898    0.000     0.000       0.000
+special.cite_English.1890.1892    0.000     0.000       0.000
+special.cite_English.1884.1886    0.000     0.000       0.000
+special.cite_English.1878.1880    0.000     0.000       0.000
+
+Mean Squared Prediction Error (MSPE): 4.582955e-06 

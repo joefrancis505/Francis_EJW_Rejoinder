@@ -1,0 +1,34 @@
+Synthetic Control Analysis for Robert Browning
+
+Synthetic Control Weights:
+            Name   Weight
+    Walt Whitman 0.603925
+   Joseph Lister 0.237655
+         Faraday 0.084821
+         Thoreau 0.038815
+          Malory 0.021040
+           Plato 0.005578
+ Otto Pfleiderer 0.003248
+
+Predictor Balance:
+                               Treated Synthetic Sample Mean
+YearofPublication                 1843  1831.146    1602.498
+wrote_English                        1     0.991       0.335
+wrote_German                         0     0.002       0.388
+wrote_French                         0     0.001       0.115
+wrote_Greek                          0     0.006       0.066
+wrote_Latin                          0     0.000       0.062
+wrote_Italian                        0     0.000       0.022
+wrote_Spanish                        0     0.000       0.009
+YearofTranslationtoEnglish        1843  1843.580    1802.180
+Socialist                            0     0.000       0.101
+Political                            0     0.007       0.370
+special.cite_English.1914.1916       0     0.000       0.000
+special.cite_English.1908.1910       0     0.000       0.000
+special.cite_English.1902.1904       0     0.000       0.000
+special.cite_English.1896.1898       0     0.000       0.000
+special.cite_English.1890.1892       0     0.000       0.000
+special.cite_English.1884.1886       0     0.000       0.000
+special.cite_English.1878.1880       0     0.000       0.000
+
+Mean Squared Prediction Error (MSPE): 0.002291399 

@@ -1,0 +1,37 @@
+Synthetic Control Analysis for William Harrison
+
+Synthetic Control Weights:
+             Name   Weight
+   William Caxton 0.373582
+     Edward Haies 0.351921
+   Francis Pretty 0.157409
+           Malory 0.022232
+           Kelvin 0.020784
+        Nietzsche 0.015574
+ Thomas Jefferson 0.009090
+     Robert Burns 0.004233
+           Dryden 0.002791
+       Lord Acton 0.001017
+
+Predictor Balance:
+                               Treated Synthetic Sample Mean
+YearofPublication                 1557  1552.494    1603.758
+wrote_English                        1     0.968       0.335
+wrote_German                         0     0.021       0.388
+wrote_French                         0     0.005       0.115
+wrote_Greek                          0     0.002       0.066
+wrote_Latin                          0     0.003       0.062
+wrote_Italian                        0     0.001       0.022
+wrote_Spanish                        0     0.000       0.009
+YearofTranslationtoEnglish        1557  1559.425    1803.439
+Socialist                            0     0.001       0.101
+Political                            0     0.024       0.370
+special.cite_English.1914.1916       0     0.000       0.000
+special.cite_English.1908.1910       0     0.000       0.000
+special.cite_English.1902.1904       0     0.000       0.000
+special.cite_English.1896.1898       0     0.000       0.000
+special.cite_English.1890.1892       0     0.000       0.000
+special.cite_English.1884.1886       0     0.000       0.000
+special.cite_English.1878.1880       0     0.000       0.000
+
+Mean Squared Prediction Error (MSPE): 1.806244e-06 

@@ -1,0 +1,33 @@
+Synthetic Control Analysis for Marx
+
+Synthetic Control Weights:
+            Name   Weight
+ Abraham Lincoln 0.404035
+       Nietzsche 0.327612
+          Kelvin 0.127780
+           Hegel 0.098075
+         Pasteur 0.038547
+           Plato 0.003785
+
+Predictor Balance:
+                               Treated Synthetic Sample Mean
+YearofPublication                 1867  1851.943    1602.392
+wrote_English                        0     0.532       0.339
+wrote_German                         1     0.426       0.383
+wrote_French                         0     0.039       0.115
+wrote_Greek                          0     0.004       0.066
+wrote_Latin                          0     0.000       0.062
+wrote_Italian                        0     0.000       0.022
+wrote_Spanish                        0     0.000       0.009
+YearofTranslationtoEnglish        1887  1880.734    1801.986
+Socialist                            1     0.000       0.097
+Political                            1     0.408       0.366
+special.cite_English.1914.1916       0     0.000       0.000
+special.cite_English.1908.1910       0     0.000       0.000
+special.cite_English.1902.1904       0     0.000       0.000
+special.cite_English.1896.1898       0     0.000       0.000
+special.cite_English.1890.1892       0     0.000       0.000
+special.cite_English.1884.1886       0     0.000       0.000
+special.cite_English.1878.1880       0     0.000       0.000
+
+Mean Squared Prediction Error (MSPE): 0.003168373 

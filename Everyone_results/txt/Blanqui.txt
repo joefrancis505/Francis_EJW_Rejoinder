@@ -1,0 +1,33 @@
+Synthetic Control Analysis for Blanqui
+
+Synthetic Control Weights:
+            Name   Weight
+       de Gouges 0.294006
+ Charles Fourier 0.291169
+         Bakunin 0.231230
+        Sismondi 0.138847
+     Carl Stumpf 0.035803
+       Herodotus 0.006081
+
+Predictor Balance:
+                               Treated Synthetic Sample Mean
+YearofPublication                 1866  1810.763    1602.396
+wrote_English                        0     0.001       0.339
+wrote_German                         0     0.037       0.388
+wrote_French                         1     0.956       0.110
+wrote_Greek                          0     0.006       0.066
+wrote_Latin                          0     0.000       0.062
+wrote_Italian                        0     0.000       0.022
+wrote_Spanish                        0     0.000       0.009
+YearofTranslationtoEnglish        1971  1915.693    1801.616
+Socialist                            1     0.661       0.097
+Political                            1     0.962       0.366
+special.cite_English.1914.1916       0     0.000       0.000
+special.cite_English.1908.1910       0     0.000       0.000
+special.cite_English.1902.1904       0     0.000       0.000
+special.cite_English.1896.1898       0     0.000       0.000
+special.cite_English.1890.1892       0     0.000       0.000
+special.cite_English.1884.1886       0     0.000       0.000
+special.cite_English.1878.1880       0     0.000       0.000
+
+Mean Squared Prediction Error (MSPE): 0.0002398381 

@@ -1,0 +1,34 @@
+Synthetic Control Analysis for Robert Burns
+
+Synthetic Control Weights:
+               Name   Weight
+ William Wordsworth 0.396066
+      Joseph Lister 0.261470
+            Faraday 0.151602
+             Malory 0.090118
+       Walt Whitman 0.054081
+             Kelvin 0.036357
+             Dryden 0.003185
+
+Predictor Balance:
+                               Treated Synthetic Sample Mean
+YearofPublication                 1793  1791.727    1602.718
+wrote_English                        1     0.995       0.335
+wrote_German                         0     0.003       0.388
+wrote_French                         0     0.001       0.115
+wrote_Greek                          0     0.000       0.066
+wrote_Latin                          0     0.001       0.062
+wrote_Italian                        0     0.000       0.022
+wrote_Spanish                        0     0.000       0.009
+YearofTranslationtoEnglish        1793  1793.012    1802.400
+Socialist                            0     0.001       0.101
+Political                            0     0.003       0.370
+special.cite_English.1914.1916       0     0.000       0.000
+special.cite_English.1908.1910       0     0.000       0.000
+special.cite_English.1902.1904       0     0.000       0.000
+special.cite_English.1896.1898       0     0.000       0.000
+special.cite_English.1890.1892       0     0.000       0.000
+special.cite_English.1884.1886       0     0.000       0.000
+special.cite_English.1878.1880       0     0.000       0.000
+
+Mean Squared Prediction Error (MSPE): 0.000313457 

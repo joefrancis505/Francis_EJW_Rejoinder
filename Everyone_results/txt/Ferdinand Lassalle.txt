@@ -1,0 +1,32 @@
+Synthetic Control Analysis for Ferdinand Lassalle
+
+Synthetic Control Weights:
+             Name   Weight
+ Eduard Bernstein 0.403307
+        Rodbertus 0.273876
+       Moses Hess 0.199634
+ Bruno Hildebrand 0.077909
+            Kafka 0.020068
+
+Predictor Balance:
+                               Treated Synthetic Sample Mean
+YearofPublication                 1863  1862.664    1602.410
+wrote_English                        0     0.009       0.339
+wrote_German                         1     0.983       0.383
+wrote_French                         0     0.004       0.115
+wrote_Greek                          0     0.002       0.066
+wrote_Latin                          0     0.002       0.062
+wrote_Italian                        0     0.001       0.022
+wrote_Spanish                        0     0.000       0.009
+YearofTranslationtoEnglish        1884  1882.868    1801.999
+Socialist                            1     0.959       0.097
+Political                            1     0.967       0.366
+special.cite_English.1914.1916       0     0.000       0.000
+special.cite_English.1908.1910       0     0.000       0.000
+special.cite_English.1902.1904       0     0.000       0.000
+special.cite_English.1896.1898       0     0.000       0.000
+special.cite_English.1890.1892       0     0.000       0.000
+special.cite_English.1884.1886       0     0.000       0.000
+special.cite_English.1878.1880       0     0.000       0.000
+
+Mean Squared Prediction Error (MSPE): 5.059614e-06 
