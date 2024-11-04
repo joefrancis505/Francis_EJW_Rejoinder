@@ -1,0 +1,28 @@
+Synthetic Control Analysis for Helmholtz
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+         Name   Weight
+      Herbart 0.514072
+ Schopenhauer 0.304233
+       Goethe 0.098113
+        Wundt 0.059956
+   Ebbinghaus 0.022967
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1847.000  1820.684    1845.375
+Socialist                         0.000     0.000       0.107
+Political                         0.000     0.000       0.214
+YearofTranslationtoEnglish     1847.000  1882.570    1899.536
+special.cite_English.1914.1916    0.599     0.799       0.209
+special.cite_English.1908.1910    1.129     1.016       0.220
+special.cite_English.1902.1904    1.171     1.269       0.234
+special.cite_English.1896.1898    1.627     1.558       0.249
+special.cite_English.1890.1892    1.383     1.419       0.268
+special.cite_English.1884.1886    1.180     1.386       0.285
+special.cite_English.1878.1880    1.600     1.305       0.265
+
+Root Mean Square Prediction Error (RMSPE) Post/Pre Ratio: 0.8857588 
+
+Overall Mean Squared Prediction Error (MSPE): 0.02568551 

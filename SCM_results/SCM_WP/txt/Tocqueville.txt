@@ -1,0 +1,39 @@
+Synthetic Control Analysis for Tocqueville
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+              Name   Weight
+           Bastiat 0.411898
+      Robert Burns 0.248051
+ Benjamin Constant 0.184615
+           Blanqui 0.090913
+          Voltaire 0.051389
+         de Gouges 0.003717
+          Proudhon 0.003647
+            Dryden 0.002439
+        Thucydides 0.001009
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1835.000  1820.156    1463.833
+Socialist                         0.000     0.095       0.146
+Political                         1.000     0.749       0.573
+YearofTranslationtoEnglish     1835.000  1853.062    1792.667
+wrote_English                     0.000     0.251       0.521
+wrote_French                      1.000     0.747       0.135
+wrote_Greek                       0.000     0.002       0.115
+wrote_Latin                       0.000     0.000       0.083
+wrote_Italian                     0.000     0.000       0.021
+wrote_Spanish                     0.000     0.000       0.010
+wrote_German                      0.000     0.000       0.104
+special.cite_English.1914.1916    0.171     0.215       0.673
+special.cite_English.1908.1910    0.327     0.323       0.916
+special.cite_English.1902.1904    0.356     0.388       1.012
+special.cite_English.1896.1898    0.554     0.517       1.049
+special.cite_English.1890.1892    0.423     0.442       1.177
+special.cite_English.1884.1886    0.478     0.495       1.120
+special.cite_English.1878.1880    0.526     0.507       1.193
+
+Root Mean Square Prediction Error (RMSPE) Post/Pre Ratio: 0.7362786 
+
+Overall Mean Squared Prediction Error (MSPE): 0.0005275958 

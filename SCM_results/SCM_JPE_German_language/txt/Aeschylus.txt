@@ -1,0 +1,35 @@
+Synthetic Control Analysis for Aeschylus
+Using citation variable: cite_German
+
+Synthetic Control Weights:
+        Name   Weight
+       Aesop 0.881770
+       Wundt 0.048374
+ Hippocrates 0.047632
+   Nietzsche 0.010873
+      Fichte 0.007754
+      Goethe 0.001990
+
+Predictor Balance:
+                               Treated Synthetic Sample Mean
+YearofPublication             -456.000  -368.614    1607.820
+Socialist                        0.000     0.000       0.101
+Political                        0.000     0.001       0.378
+wrote_English                    0.000     0.000       0.327
+wrote_French                     0.000     0.000       0.115
+wrote_Greek                      1.000     0.930       0.065
+wrote_Latin                      0.000     0.000       0.065
+wrote_Italian                    0.000     0.000       0.023
+wrote_Spanish                    0.000     0.000       0.009
+wrote_German                     0.000     0.070       0.392
+special.cite_German.1914.1916    0.894     0.692       1.118
+special.cite_German.1908.1910    0.790     0.755       1.269
+special.cite_German.1902.1904    0.550     0.811       1.232
+special.cite_German.1896.1898    1.077     0.848       1.220
+special.cite_German.1890.1892    0.565     0.690       1.300
+special.cite_German.1884.1886    0.582     0.731       1.440
+special.cite_German.1878.1880    0.692     0.852       1.491
+
+Root Mean Square Prediction Error (RMSPE) Post/Pre Ratio: 2.477328 
+
+Overall Mean Squared Prediction Error (MSPE): 0.001847406 

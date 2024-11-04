@@ -1,0 +1,44 @@
+Synthetic Control Analysis for Amadeus Wendt
+Using citation variable: cite_German
+
+Synthetic Control Weights:
+                       Name   Weight
+            Bernard Bolzano 0.791867
+        Christian Schreiber 0.168143
+                Carl Stumpf 0.003626
+           Wilhelm Drobisch 0.002285
+              Eduard Beneke 0.002156
+      Gottlob Ernst Schulze 0.001428
+           Gustav Schönberg 0.001412
+                Rudolf Haym 0.001355
+ Friedrich Carl von Savigny 0.001300
+             Sigismund Beck 0.001243
+                 Moses Hess 0.001202
+             Fritz Schultze 0.001160
+                 Karl Knies 0.001084
+     Barthold Georg Niebuhr 0.001075
+              Friedrich Ast 0.001038
+
+Predictor Balance:
+                               Treated Synthetic Sample Mean
+YearofPublication             1836.000  1830.721    1597.258
+Socialist                        0.000     0.004       0.101
+Political                        0.000     0.011       0.378
+wrote_English                    0.000     0.002       0.327
+wrote_French                     0.000     0.001       0.115
+wrote_Greek                      0.000     0.000       0.069
+wrote_Latin                      0.000     0.000       0.065
+wrote_Italian                    0.000     0.000       0.023
+wrote_Spanish                    0.000     0.000       0.009
+wrote_German                     1.000     0.997       0.387
+special.cite_German.1914.1916    0.006     0.017       1.122
+special.cite_German.1908.1910    0.012     0.011       1.272
+special.cite_German.1902.1904    0.004     0.008       1.235
+special.cite_German.1896.1898    0.005     0.007       1.225
+special.cite_German.1890.1892    0.006     0.008       1.303
+special.cite_German.1884.1886    0.006     0.013       1.443
+special.cite_German.1878.1880    0.002     0.008       1.494
+
+Root Mean Square Prediction Error (RMSPE) Post/Pre Ratio: 3.288013 
+
+Overall Mean Squared Prediction Error (MSPE): 2.772826e-06 

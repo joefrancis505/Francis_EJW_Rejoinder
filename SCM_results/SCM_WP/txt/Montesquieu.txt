@@ -1,0 +1,38 @@
+Synthetic Control Analysis for Montesquieu
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+              Name   Weight
+ Benjamin Constant 0.838255
+          Rousseau 0.052596
+         Aristotle 0.043615
+            Kempis 0.028604
+              Hume 0.015630
+           Marlowe 0.014745
+       Machiavelli 0.003202
+       John Milton 0.002458
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1748.000  1702.877    1464.740
+Socialist                         0.000     0.000       0.146
+Political                         1.000     0.956       0.573
+YearofTranslationtoEnglish     1750.000  1799.012    1793.552
+wrote_English                     0.000     0.033       0.521
+wrote_French                      1.000     0.891       0.135
+wrote_Greek                       0.000     0.044       0.115
+wrote_Latin                       0.000     0.029       0.083
+wrote_Italian                     0.000     0.003       0.021
+wrote_Spanish                     0.000     0.001       0.010
+wrote_German                      0.000     0.000       0.104
+special.cite_English.1914.1916    0.479     0.416       0.670
+special.cite_English.1908.1910    0.544     0.590       0.914
+special.cite_English.1902.1904    0.676     0.681       1.009
+special.cite_English.1896.1898    0.741     0.668       1.047
+special.cite_English.1890.1892    0.758     0.832       1.173
+special.cite_English.1884.1886    0.682     0.707       1.118
+special.cite_English.1878.1880    0.803     0.740       1.190
+
+Root Mean Square Prediction Error (RMSPE) Post/Pre Ratio: 0.4006731 
+
+Overall Mean Squared Prediction Error (MSPE): 0.01057571 

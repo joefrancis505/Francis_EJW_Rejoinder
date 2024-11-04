@@ -1,0 +1,68 @@
+Synthetic Control Analysis for Francis Bacon
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+                    Name   Weight
+          William Caxton 0.568229
+                 Marlowe 0.119184
+              Lord Acton 0.096827
+         Abraham Lincoln 0.043948
+         Robert Browning 0.036627
+         Herbert Spencer 0.028578
+                 Malthus 0.004145
+          Francis Pretty 0.003613
+                  Bigges 0.003485
+          Edmund Spenser 0.003409
+            Edward Haies 0.003218
+          Charles Darwin 0.002512
+          Philip Nichols 0.002384
+           William Roper 0.002267
+             John Bunyan 0.002011
+          Henry Fielding 0.001989
+          Wollstonecraft 0.001924
+     Ralph Waldo Emerson 0.001922
+    Percy Bysshe Shelley 0.001902
+          Jonathan Swift 0.001815
+         Auberon Herbert 0.001729
+          William Godwin 0.001625
+         Otto Pfleiderer 0.001562
+   Oliver Wendell Holmes 0.001558
+   William Graham Sumner 0.001453
+            John Woolman 0.001443
+        William Harrison 0.001439
+                  Hobbes 0.001378
+            Izaak Walton 0.001299
+           David Ricardo 0.001254
+           Thomas Browne 0.001214
+ Hans Christian Andersen 0.001128
+ James Fitzjames Stephen 0.001122
+              John Locke 0.001100
+           Nassau Senior 0.001071
+          Richard Cobden 0.001059
+           Joseph Lister 0.001046
+        Oliver Goldsmith 0.001045
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1597.000  1590.696    1564.103
+Socialist                         0.000     0.006       0.098
+Political                         0.000     0.215       0.397
+YearofTranslationtoEnglish     1597.000  1597.070    1801.041
+wrote_English                     1.000     0.974       0.392
+wrote_French                      0.000     0.005       0.134
+wrote_Greek                       0.000     0.002       0.077
+wrote_Latin                       0.000     0.004       0.072
+wrote_Italian                     0.000     0.002       0.026
+wrote_Spanish                     0.000     0.001       0.010
+wrote_German                      0.000     0.012       0.284
+special.cite_English.1914.1916    0.296     0.296       0.566
+special.cite_English.1908.1910    0.427     0.426       0.750
+special.cite_English.1902.1904    0.477     0.477       0.818
+special.cite_English.1896.1898    0.365     0.369       0.868
+special.cite_English.1890.1892    0.427     0.424       0.948
+special.cite_English.1884.1886    0.395     0.393       0.892
+special.cite_English.1878.1880    0.345     0.348       0.950
+
+Root Mean Square Prediction Error (RMSPE) Post/Pre Ratio: 0.5131089 
+
+Overall Mean Squared Prediction Error (MSPE): 4.393034e-06 

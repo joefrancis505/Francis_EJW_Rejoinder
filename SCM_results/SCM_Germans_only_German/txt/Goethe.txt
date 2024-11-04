@@ -1,0 +1,24 @@
+Synthetic Control Analysis for Goethe
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+      Name   Weight
+ Helmholtz 0.999997
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1808.000  1847.000    1842.373
+YearofTranslationtoEnglish     1821.000  1847.000    1891.627
+Socialist                         0.000     0.000       0.102
+Political                         0.000     0.000       0.203
+special.cite_English.1914.1916    4.143     0.599       0.140
+special.cite_English.1908.1910    5.503     1.129       0.141
+special.cite_English.1902.1904    6.657     1.171       0.137
+special.cite_English.1896.1898    6.547     1.627       0.160
+special.cite_English.1890.1892    7.580     1.383       0.156
+special.cite_English.1884.1886    9.627     1.180       0.132
+special.cite_English.1878.1880    9.367     1.600       0.129
+
+Root Mean Square Prediction Error (RMSPE) Post/Pre Ratio: 0.6656748 
+
+Overall Mean Squared Prediction Error (MSPE): 36.87493 

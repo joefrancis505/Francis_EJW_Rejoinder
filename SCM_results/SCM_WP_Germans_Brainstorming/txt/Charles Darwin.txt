@@ -1,0 +1,40 @@
+Synthetic Control Analysis for Charles Darwin
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+                 Name   Weight
+ Percy Bysshe Shelley 0.540372
+          John Bunyan 0.186364
+      Abraham Lincoln 0.087013
+                Ranke 0.062544
+              Bentham 0.036888
+         Robert Burns 0.030573
+      Herbert Spencer 0.024125
+              Leibniz 0.018543
+      Otto Pfleiderer 0.008980
+             Voltaire 0.004576
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1859.000  1793.162    1592.021
+Socialist                         0.000     0.000       0.132
+Political                         0.000     0.153       0.472
+YearofTranslationtoEnglish     1859.000  1799.913    1828.708
+wrote_English                     1.000     0.914       0.368
+wrote_French                      0.000     0.005       0.097
+wrote_Greek                       0.000     0.000       0.076
+wrote_Latin                       0.000     0.019       0.062
+wrote_Italian                     0.000     0.000       0.014
+wrote_Spanish                     0.000     0.000       0.007
+wrote_German                      0.000     0.063       0.368
+special.cite_English.1914.1916    0.297     0.345       0.477
+special.cite_English.1908.1910    0.558     0.476       0.642
+special.cite_English.1902.1904    0.354     0.413       0.711
+special.cite_English.1896.1898    0.430     0.416       0.741
+special.cite_English.1890.1892    0.427     0.437       0.825
+special.cite_English.1884.1886    0.523     0.481       0.781
+special.cite_English.1878.1880    0.331     0.380       0.826
+
+Root Mean Square Prediction Error (RMSPE) Post/Pre Ratio: 1.037774 
+
+Overall Mean Squared Prediction Error (MSPE): 0.001170693 

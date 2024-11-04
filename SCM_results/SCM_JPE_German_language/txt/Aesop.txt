@@ -1,0 +1,33 @@
+Synthetic Control Analysis for Aesop
+Using citation variable: cite_German
+
+Synthetic Control Weights:
+              Name   Weight
+   Marcus Aurelius 0.959886
+          Pericles 0.032321
+        Thucydides 0.005224
+ Pliny the Younger 0.002395
+
+Predictor Balance:
+                               Treated Synthetic Sample Mean
+YearofPublication             -546.000   148.069    1608.235
+Socialist                        0.000     0.000       0.101
+Political                        0.000     0.038       0.378
+wrote_English                    0.000     0.000       0.327
+wrote_French                     0.000     0.000       0.115
+wrote_Greek                      1.000     0.997       0.065
+wrote_Latin                      0.000     0.002       0.065
+wrote_Italian                    0.000     0.000       0.023
+wrote_Spanish                    0.000     0.000       0.009
+wrote_German                     0.000     0.000       0.392
+special.cite_German.1914.1916    0.099     0.251       1.122
+special.cite_German.1908.1910    0.149     0.305       1.272
+special.cite_German.1902.1904    0.157     0.317       1.234
+special.cite_German.1896.1898    0.384     0.297       1.223
+special.cite_German.1890.1892    0.287     0.251       1.302
+special.cite_German.1884.1886    0.428     0.368       1.441
+special.cite_German.1878.1880    0.517     0.368       1.492
+
+Root Mean Square Prediction Error (RMSPE) Post/Pre Ratio: 0.8571065 
+
+Overall Mean Squared Prediction Error (MSPE): 0.002042504 

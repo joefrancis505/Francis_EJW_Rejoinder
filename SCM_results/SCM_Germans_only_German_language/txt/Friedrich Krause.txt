@@ -1,0 +1,47 @@
+Synthetic Control Analysis for Friedrich Krause
+Using citation variable: cite_German
+
+Synthetic Control Weights:
+                      Name   Weight
+       Christian Schreiber 0.447462
+            Heinrich Feder 0.325826
+           Bernard Bolzano 0.047294
+             Friedrich Ast 0.035999
+             Amadeus Wendt 0.018493
+        Dietrich Tiedemann 0.014321
+     Gottlob Ernst Schulze 0.012429
+            Sigismund Beck 0.012189
+             Eduard Beneke 0.010851
+          Wilhelm Drobisch 0.010031
+    Barthold Georg Niebuhr 0.005727
+               Carl Stumpf 0.004248
+            Fritz Schultze 0.003390
+               Thomas Abbt 0.003377
+ Friedrich Heinrich Jacobi 0.003025
+               Rudolf Haym 0.002686
+                Mainländer 0.001785
+            Ludwig Büchner 0.001745
+             Hermann Lotze 0.001728
+  Gotthold Ephraim Lessing 0.001684
+             Hermann Cohen 0.001647
+            Franz Brentano 0.001621
+               Thomas Mann 0.001099
+             Eugen Dühring 0.001049
+             Theodor Lipps 0.001032
+
+Predictor Balance:
+                               Treated Synthetic Sample Mean
+YearofPublication             1804.000  1804.169    1841.096
+Socialist                        0.000     0.004       0.108
+Political                        0.000     0.005       0.205
+special.cite_German.1914.1916    0.039     0.039       1.482
+special.cite_German.1908.1910    0.028     0.039       1.703
+special.cite_German.1902.1904    0.032     0.039       1.617
+special.cite_German.1896.1898    0.020     0.033       1.404
+special.cite_German.1890.1892    0.038     0.032       1.474
+special.cite_German.1884.1886    0.020     0.032       1.448
+special.cite_German.1878.1880    0.026     0.034       1.477
+
+Root Mean Square Prediction Error (RMSPE) Post/Pre Ratio: 2.140066 
+
+Overall Mean Squared Prediction Error (MSPE): 6.116574e-06 

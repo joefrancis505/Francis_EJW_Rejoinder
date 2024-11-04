@@ -1,0 +1,37 @@
+Synthetic Control Analysis for Otto Liebmann
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+                      Name   Weight
+            Ludwig Büchner 0.755588
+               Carl Stumpf 0.137281
+         Ferdinand Tönnies 0.043850
+            Sigismund Beck 0.019111
+                     Rilke 0.007043
+    Barthold Georg Niebuhr 0.006351
+             Hermann Cohen 0.004955
+            Franz Brentano 0.002293
+                Moses Hess 0.001901
+               Thomas Abbt 0.001768
+ Friedrich Heinrich Jacobi 0.001364
+           Theodor Fontane 0.001355
+           Wilhelm Roscher 0.001278
+          Eduard Bernstein 0.001243
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1865.000  1862.945    1841.407
+YearofTranslationtoEnglish     1890.000  1891.120    1890.458
+Socialist                         0.000     0.004       0.102
+Political                         0.000     0.051       0.203
+special.cite_English.1914.1916    0.002     0.002       0.210
+special.cite_English.1908.1910    0.001     0.003       0.234
+special.cite_English.1902.1904    0.001     0.003       0.250
+special.cite_English.1896.1898    0.002     0.003       0.271
+special.cite_English.1890.1892    0.002     0.003       0.284
+special.cite_English.1884.1886    0.002     0.002       0.295
+special.cite_English.1878.1880    0.001     0.002       0.288
+
+Root Mean Square Prediction Error (RMSPE) Post/Pre Ratio: 0.7155663 
+
+Overall Mean Squared Prediction Error (MSPE): 3.41734e-06 

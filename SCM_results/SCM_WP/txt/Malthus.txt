@@ -1,0 +1,35 @@
+Synthetic Control Analysis for Malthus
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+            Name   Weight
+  William Godwin 0.564119
+ Herbert Spencer 0.410374
+          Hobbes 0.004265
+     John Bunyan 0.003675
+  Wollstonecraft 0.003075
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1798.000  1809.521    1464.219
+Socialist                         0.000     0.002       0.146
+Political                         1.000     0.989       0.573
+YearofTranslationtoEnglish     1798.000  1815.311    1793.052
+wrote_English                     1.000     0.991       0.510
+wrote_French                      0.000     0.002       0.146
+wrote_Greek                       0.000     0.002       0.115
+wrote_Latin                       0.000     0.002       0.083
+wrote_Italian                     0.000     0.000       0.021
+wrote_Spanish                     0.000     0.000       0.010
+wrote_German                      0.000     0.001       0.104
+special.cite_English.1914.1916    0.343     0.343       0.672
+special.cite_English.1908.1910    0.452     0.496       0.915
+special.cite_English.1902.1904    0.687     0.673       1.009
+special.cite_English.1896.1898    0.645     0.655       1.048
+special.cite_English.1890.1892    0.763     0.757       1.173
+special.cite_English.1884.1886    0.986     0.962       1.115
+special.cite_English.1878.1880    0.615     0.621       1.192
+
+Root Mean Square Prediction Error (RMSPE) Post/Pre Ratio: 2.31344 
+
+Overall Mean Squared Prediction Error (MSPE): 0.0001322772 

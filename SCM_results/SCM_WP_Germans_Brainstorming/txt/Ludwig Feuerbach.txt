@@ -1,0 +1,46 @@
+Synthetic Control Analysis for Ludwig Feuerbach
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+                       Name   Weight
+             Ludwig Büchner 0.608824
+     Barthold Georg Niebuhr 0.315804
+ Friedrich Carl von Savigny 0.012156
+                      Rilke 0.006386
+             Franz Brentano 0.004882
+            Theodor Fontane 0.004864
+              Hermann Cohen 0.004480
+              Eduard Zeller 0.004221
+                Carl Stumpf 0.004165
+             E T A Hoffmann 0.004054
+  Friedrich Heinrich Jacobi 0.002288
+                      Külpe 0.002205
+                     Thünen 0.001531
+                  Hölderlin 0.001526
+        Eduard von Hartmann 0.001517
+         Friedrich Schiller 0.001160
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1841.000  1838.625    1592.146
+Socialist                         0.000     0.003       0.132
+Political                         0.000     0.009       0.472
+YearofTranslationtoEnglish     1854.000  1854.882    1828.743
+wrote_English                     0.000     0.006       0.375
+wrote_French                      0.000     0.001       0.097
+wrote_Greek                       0.000     0.001       0.076
+wrote_Latin                       0.000     0.001       0.062
+wrote_Italian                     0.000     0.000       0.014
+wrote_Spanish                     0.000     0.000       0.007
+wrote_German                      1.000     0.991       0.361
+special.cite_English.1914.1916    0.005     0.005       0.480
+special.cite_English.1908.1910    0.006     0.007       0.646
+special.cite_English.1902.1904    0.008     0.007       0.713
+special.cite_English.1896.1898    0.007     0.007       0.744
+special.cite_English.1890.1892    0.007     0.007       0.828
+special.cite_English.1884.1886    0.006     0.007       0.785
+special.cite_English.1878.1880    0.004     0.007       0.828
+
+Root Mean Square Prediction Error (RMSPE) Post/Pre Ratio: 1.378311 
+
+Overall Mean Squared Prediction Error (MSPE): 9.98884e-07 

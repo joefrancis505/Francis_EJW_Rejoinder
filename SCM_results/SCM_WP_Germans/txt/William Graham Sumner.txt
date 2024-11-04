@@ -1,0 +1,37 @@
+Synthetic Control Analysis for William Graham Sumner
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+                    Name   Weight
+           David Ricardo 0.372624
+ James Fitzjames Stephen 0.224527
+           Lujo Brentano 0.165136
+         Otto Pfleiderer 0.101528
+       Ferdinand Tönnies 0.051909
+         Auberon Herbert 0.047867
+               de Gouges 0.035908
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1883.000  1848.463    1588.816
+Socialist                         0.000     0.165       0.135
+Political                         1.000     0.898       0.461
+YearofTranslationtoEnglish     1883.000  1858.760    1828.518
+wrote_English                     1.000     0.912       0.362
+wrote_French                      0.000     0.036       0.099
+wrote_Greek                       0.000     0.000       0.078
+wrote_Latin                       0.000     0.000       0.057
+wrote_Italian                     0.000     0.000       0.014
+wrote_Spanish                     0.000     0.000       0.007
+wrote_German                      0.000     0.052       0.376
+special.cite_English.1914.1916    0.015     0.010       0.487
+special.cite_English.1908.1910    0.017     0.019       0.656
+special.cite_English.1902.1904    0.004     0.016       0.725
+special.cite_English.1896.1898    0.005     0.020       0.755
+special.cite_English.1890.1892    0.010     0.023       0.843
+special.cite_English.1884.1886    0.010     0.017       0.797
+special.cite_English.1878.1880    0.000     0.022       0.844
+
+Root Mean Square Prediction Error (RMSPE) Post/Pre Ratio: 0.7771513 
+
+Overall Mean Squared Prediction Error (MSPE): 0.000130252 

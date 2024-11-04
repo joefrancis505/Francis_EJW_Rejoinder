@@ -1,0 +1,46 @@
+Synthetic Control Analysis for James Madison
+Using citation variable: cite_German
+
+Synthetic Control Weights:
+                    Name   Weight
+            John Woolman 0.765876
+   William Graham Sumner 0.049712
+         Auberon Herbert 0.049548
+   Oliver Wendell Holmes 0.035820
+          Edmund Spenser 0.029818
+ James Fitzjames Stephen 0.023706
+              Lord Acton 0.007462
+           Nassau Senior 0.007158
+           David Ricardo 0.003979
+         Abraham Lincoln 0.003963
+          Richard Cobden 0.003631
+          William Godwin 0.003015
+      Alexander Hamilton 0.002843
+        Thomas Jefferson 0.002614
+          Wollstonecraft 0.002553
+            Edmund Burke 0.001280
+          Jonathan Swift 0.001097
+
+Predictor Balance:
+                               Treated Synthetic Sample Mean
+YearofPublication             1787.000  1787.004    1597.484
+Socialist                        0.000     0.000       0.101
+Political                        1.000     0.997       0.373
+wrote_English                    1.000     0.997       0.323
+wrote_French                     0.000     0.000       0.115
+wrote_Greek                      0.000     0.000       0.069
+wrote_Latin                      0.000     0.000       0.065
+wrote_Italian                    0.000     0.000       0.023
+wrote_Spanish                    0.000     0.000       0.009
+wrote_German                     0.000     0.001       0.392
+special.cite_German.1914.1916    0.002     0.008       1.122
+special.cite_German.1908.1910    0.009     0.007       1.272
+special.cite_German.1902.1904    0.008     0.007       1.235
+special.cite_German.1896.1898    0.003     0.007       1.225
+special.cite_German.1890.1892    0.011     0.007       1.303
+special.cite_German.1884.1886    0.009     0.008       1.443
+special.cite_German.1878.1880    0.005     0.008       1.494
+
+Root Mean Square Prediction Error (RMSPE) Post/Pre Ratio: 2.889712 
+
+Overall Mean Squared Prediction Error (MSPE): 4.749297e-06 

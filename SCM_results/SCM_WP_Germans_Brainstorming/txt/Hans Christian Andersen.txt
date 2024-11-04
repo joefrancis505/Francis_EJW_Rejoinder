@@ -1,0 +1,37 @@
+Synthetic Control Analysis for Hans Christian Andersen
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+             Name   Weight
+  Otto Pfleiderer 0.749096
+      John Bunyan 0.118533
+           Hobbes 0.036100
+         Durkheim 0.027439
+     Robert Burns 0.025270
+      Dostoyevsky 0.006703
+ Oliver Goldsmith 0.001275
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1848.000  1839.444    1592.097
+Socialist                         0.000     0.003       0.132
+Political                         0.000     0.054       0.472
+YearofTranslationtoEnglish     1848.000  1853.760    1828.785
+wrote_English                     1.000     0.949       0.368
+wrote_French                      0.000     0.029       0.097
+wrote_Greek                       0.000     0.002       0.076
+wrote_Latin                       0.000     0.002       0.062
+wrote_Italian                     0.000     0.000       0.014
+wrote_Spanish                     0.000     0.000       0.007
+wrote_German                      0.000     0.011       0.368
+special.cite_English.1914.1916    0.056     0.050       0.479
+special.cite_English.1908.1910    0.064     0.086       0.646
+special.cite_English.1902.1904    0.075     0.071       0.713
+special.cite_English.1896.1898    0.085     0.081       0.743
+special.cite_English.1890.1892    0.074     0.081       0.828
+special.cite_English.1884.1886    0.095     0.093       0.784
+special.cite_English.1878.1880    0.082     0.077       0.828
+
+Root Mean Square Prediction Error (RMSPE) Post/Pre Ratio: 0.8283756 
+
+Overall Mean Squared Prediction Error (MSPE): 4.399735e-05 

@@ -1,0 +1,36 @@
+Synthetic Control Analysis for Percy Bysshe Shelley
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+                  Name   Weight
+       Otto Pfleiderer 0.666677
+           John Bunyan 0.282782
+        William Godwin 0.015012
+ William Graham Sumner 0.003857
+             Nietzsche 0.002945
+        Wollstonecraft 0.002051
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1819.000  1816.035    1578.531
+Socialist                         0.000     0.002       0.131
+Political                         0.000     0.030       0.476
+YearofTranslationtoEnglish     1819.000  1826.392    1827.600
+wrote_English                     1.000     0.979       0.366
+wrote_French                      0.000     0.002       0.097
+wrote_Greek                       0.000     0.002       0.083
+wrote_Latin                       0.000     0.002       0.062
+wrote_Italian                     0.000     0.000       0.014
+wrote_Spanish                     0.000     0.000       0.007
+wrote_German                      0.000     0.015       0.366
+special.cite_English.1914.1916    0.056     0.052       0.482
+special.cite_English.1908.1910    0.103     0.100       0.652
+special.cite_English.1902.1904    0.074     0.084       0.719
+special.cite_English.1896.1898    0.074     0.084       0.750
+special.cite_English.1890.1892    0.101     0.097       0.838
+special.cite_English.1884.1886    0.141     0.137       0.788
+special.cite_English.1878.1880    0.110     0.107       0.835
+
+Root Mean Square Prediction Error (RMSPE) Post/Pre Ratio: 2.438994 
+
+Overall Mean Squared Prediction Error (MSPE): 2.105321e-05 

@@ -1,0 +1,36 @@
+Synthetic Control Analysis for Thucydides
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+                  Name   Weight
+              Plutarch 0.538164
+             Aeschylus 0.255142
+                 Aesop 0.147904
+     Ferdinand Tönnies 0.029579
+             de Gouges 0.022405
+ William Graham Sumner 0.005449
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              -400.000  -152.965    1605.007
+Socialist                         0.000     0.001       0.135
+Political                         1.000     0.597       0.461
+YearofTranslationtoEnglish     1628.000  1608.075    1830.326
+wrote_English                     0.000     0.006       0.369
+wrote_French                      0.000     0.022       0.099
+wrote_Greek                       1.000     0.941       0.071
+wrote_Latin                       0.000     0.000       0.057
+wrote_Italian                     0.000     0.000       0.014
+wrote_Spanish                     0.000     0.000       0.007
+wrote_German                      0.000     0.030       0.376
+special.cite_English.1914.1916    0.638     0.772       0.482
+special.cite_English.1908.1910    1.107     1.415       0.648
+special.cite_English.1902.1904    1.017     1.456       0.717
+special.cite_English.1896.1898    1.377     1.437       0.746
+special.cite_English.1890.1892    1.843     1.768       0.830
+special.cite_English.1884.1886    1.343     1.609       0.788
+special.cite_English.1878.1880    1.827     2.024       0.831
+
+Root Mean Square Prediction Error (RMSPE) Post/Pre Ratio: 1.307263 
+
+Overall Mean Squared Prediction Error (MSPE): 0.06128486 

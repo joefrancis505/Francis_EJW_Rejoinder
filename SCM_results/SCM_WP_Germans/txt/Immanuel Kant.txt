@@ -1,0 +1,68 @@
+Synthetic Control Analysis for Immanuel Kant
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+                   Name   Weight
+         Grimmelshausen 0.267984
+            Carl Stumpf 0.216027
+     Friedrich Schiller 0.168955
+ Barthold Georg Niebuhr 0.138304
+            Thomas Mann 0.029566
+              Nietzsche 0.018661
+             Lord Acton 0.017742
+         Franz Brentano 0.010294
+             Windelband 0.008201
+                Herbart 0.007412
+                  Wundt 0.005512
+                  Rilke 0.004773
+             Clausewitz 0.004161
+       Thomas Jefferson 0.003761
+       Ludwig Feuerbach 0.003497
+         Ludwig Büchner 0.003266
+          Eduard Zeller 0.002843
+    Eduard von Hartmann 0.002843
+        Theodor Fontane 0.002740
+                  Külpe 0.002598
+          Hermann Lotze 0.002531
+              Hölderlin 0.002192
+                 Hamann 0.002099
+             Ebbinghaus 0.002000
+                 Herder 0.001994
+         Gustav Freytag 0.001941
+          Hermann Cohen 0.001889
+                Scheler 0.001680
+                 Thünen 0.001515
+                Thoreau 0.001368
+          James Madison 0.001305
+          Martin Luther 0.001294
+         Schleiermacher 0.001280
+                  Ranke 0.001213
+                Marlowe 0.001170
+     Alexander Hamilton 0.001158
+                  Kafka 0.001127
+                  Frege 0.001048
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1785.000  1788.768    1589.511
+Socialist                         0.000     0.009       0.135
+Political                         0.000     0.052       0.468
+YearofTranslationtoEnglish     1895.000  1894.976    1828.433
+wrote_English                     0.000     0.050       0.369
+wrote_French                      0.000     0.006       0.099
+wrote_Greek                       0.000     0.005       0.078
+wrote_Latin                       0.000     0.003       0.057
+wrote_Italian                     0.000     0.002       0.014
+wrote_Spanish                     0.000     0.001       0.007
+wrote_German                      1.000     0.933       0.369
+special.cite_English.1914.1916    0.094     0.092       0.486
+special.cite_English.1908.1910    0.076     0.084       0.656
+special.cite_English.1902.1904    0.096     0.086       0.724
+special.cite_English.1896.1898    0.077     0.079       0.755
+special.cite_English.1890.1892    0.065     0.067       0.842
+special.cite_English.1884.1886    0.058     0.059       0.797
+special.cite_English.1878.1880    0.050     0.054       0.844
+
+Root Mean Square Prediction Error (RMSPE) Post/Pre Ratio: 1.713722 
+
+Overall Mean Squared Prediction Error (MSPE): 2.255632e-05 

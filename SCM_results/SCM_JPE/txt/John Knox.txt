@@ -1,0 +1,38 @@
+Synthetic Control Analysis for John Knox
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+            Name   Weight
+  William Caxton 0.631801
+          Malory 0.127723
+      Lord Byron 0.071691
+          Dryden 0.063139
+ Robert Browning 0.060001
+   Joseph Lister 0.026892
+     John Bunyan 0.001319
+         Chaucer 0.001293
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1548.000  1546.369    1564.356
+Socialist                         0.000     0.001       0.098
+Political                         0.000     0.004       0.397
+YearofTranslationtoEnglish     1548.000  1548.246    1801.294
+wrote_English                     1.000     0.994       0.392
+wrote_French                      0.000     0.001       0.134
+wrote_Greek                       0.000     0.001       0.077
+wrote_Latin                       0.000     0.001       0.072
+wrote_Italian                     0.000     0.000       0.026
+wrote_Spanish                     0.000     0.000       0.010
+wrote_German                      0.000     0.002       0.284
+special.cite_English.1914.1916    0.234     0.259       0.567
+special.cite_English.1908.1910    0.382     0.382       0.751
+special.cite_English.1902.1904    0.430     0.463       0.819
+special.cite_English.1896.1898    0.572     0.538       0.867
+special.cite_English.1890.1892    0.576     0.557       0.947
+special.cite_English.1884.1886    0.538     0.485       0.891
+special.cite_English.1878.1880    0.545     0.583       0.949
+
+Root Mean Square Prediction Error (RMSPE) Post/Pre Ratio: 1.057996 
+
+Overall Mean Squared Prediction Error (MSPE): 0.0001317304 

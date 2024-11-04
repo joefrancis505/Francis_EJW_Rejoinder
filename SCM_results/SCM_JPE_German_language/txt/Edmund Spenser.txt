@@ -1,0 +1,35 @@
+Synthetic Control Analysis for Edmund Spenser
+Using citation variable: cite_German
+
+Synthetic Control Weights:
+              Name   Weight
+    Alexander Pope 0.797476
+    William Caxton 0.090999
+      John Woolman 0.059962
+ Pliny the Younger 0.034595
+             Aesop 0.003020
+       John Milton 0.001732
+
+Predictor Balance:
+                               Treated Synthetic Sample Mean
+YearofPublication             1590.000  1621.640    1598.392
+Socialist                        0.000     0.001       0.101
+Political                        1.000     0.865       0.373
+wrote_English                    1.000     0.956       0.323
+wrote_French                     0.000     0.001       0.115
+wrote_Greek                      0.000     0.004       0.069
+wrote_Latin                      0.000     0.035       0.065
+wrote_Italian                    0.000     0.000       0.023
+wrote_Spanish                    0.000     0.000       0.009
+wrote_German                     0.000     0.004       0.392
+special.cite_German.1914.1916    0.035     0.030       1.122
+special.cite_German.1908.1910    0.025     0.031       1.272
+special.cite_German.1902.1904    0.019     0.023       1.235
+special.cite_German.1896.1898    0.020     0.033       1.225
+special.cite_German.1890.1892    0.025     0.033       1.303
+special.cite_German.1884.1886    0.021     0.029       1.442
+special.cite_German.1878.1880    0.025     0.040       1.494
+
+Root Mean Square Prediction Error (RMSPE) Post/Pre Ratio: 1.155746 
+
+Overall Mean Squared Prediction Error (MSPE): 2.729979e-05 

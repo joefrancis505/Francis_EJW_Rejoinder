@@ -1,0 +1,51 @@
+Synthetic Control Analysis for Thünen
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+                      Name   Weight
+            Sigismund Beck 0.642932
+               Carl Stumpf 0.150815
+             Otto Liebmann 0.065535
+         Ferdinand Tönnies 0.019390
+           Theodor Fontane 0.018665
+            Ludwig Büchner 0.011410
+    Barthold Georg Niebuhr 0.009712
+                     Kafka 0.009461
+            Franz Brentano 0.005914
+ Friedrich Heinrich Jacobi 0.005252
+             Hermann Cohen 0.005068
+           Wilhelm Roscher 0.004609
+            Gustav Freytag 0.004441
+                     Rilke 0.003787
+               Thomas Abbt 0.003578
+                Moses Hess 0.002586
+             Hermann Lotze 0.002066
+             Eduard Zeller 0.001850
+          Ludwig Feuerbach 0.001748
+            Grimmelshausen 0.001525
+                  Schäffle 0.001254
+  Gotthold Ephraim Lessing 0.001253
+          Eduard Bernstein 0.001251
+       Eduard von Hartmann 0.001195
+                     Külpe 0.001179
+                 Hölderlin 0.001175
+                 Rodbertus 0.001083
+                   Scheler 0.001065
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1826.000  1824.840    1842.068
+YearofTranslationtoEnglish     1966.000  1966.129    1889.169
+Socialist                         0.000     0.007       0.102
+Political                         0.000     0.034       0.203
+special.cite_English.1914.1916    0.004     0.006       0.210
+special.cite_English.1908.1910    0.002     0.006       0.234
+special.cite_English.1902.1904    0.004     0.006       0.250
+special.cite_English.1896.1898    0.014     0.008       0.271
+special.cite_English.1890.1892    0.012     0.010       0.284
+special.cite_English.1884.1886    0.007     0.007       0.295
+special.cite_English.1878.1880    0.003     0.006       0.288
+
+Root Mean Square Prediction Error (RMSPE) Post/Pre Ratio: 0.3646391 
+
+Overall Mean Squared Prediction Error (MSPE): 1.567838e-05 

@@ -1,0 +1,34 @@
+Synthetic Control Analysis for Homer
+Using citation variable: cite_German
+
+Synthetic Control Weights:
+      Name   Weight
+ Herodotus 0.581098
+ Aristotle 0.227985
+    Herder 0.085677
+  Voltaire 0.077627
+    Goethe 0.027269
+
+Predictor Balance:
+                               Treated Synthetic Sample Mean
+YearofPublication             -700.000    13.274    1608.945
+Socialist                        0.000     0.000       0.101
+Political                        0.000     0.887       0.378
+wrote_English                    0.000     0.000       0.327
+wrote_French                     0.000     0.078       0.115
+wrote_Greek                      1.000     0.809       0.065
+wrote_Latin                      0.000     0.000       0.065
+wrote_Italian                    0.000     0.000       0.023
+wrote_Spanish                    0.000     0.000       0.009
+wrote_German                     0.000     0.113       0.392
+special.cite_German.1914.1916    7.637     7.489       1.087
+special.cite_German.1908.1910    8.717     8.752       1.232
+special.cite_German.1902.1904    8.607     8.262       1.195
+special.cite_German.1896.1898    9.093     9.417       1.183
+special.cite_German.1890.1892   11.447    11.725       1.250
+special.cite_German.1884.1886   15.323    13.249       1.372
+special.cite_German.1878.1880   15.287    14.967       1.424
+
+Root Mean Square Prediction Error (RMSPE) Post/Pre Ratio: 1.529395 
+
+Overall Mean Squared Prediction Error (MSPE): 0.01850647 

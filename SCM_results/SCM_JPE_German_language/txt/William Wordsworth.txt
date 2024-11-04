@@ -1,0 +1,38 @@
+Synthetic Control Analysis for William Wordsworth
+Using citation variable: cite_German
+
+Synthetic Control Weights:
+                    Name   Weight
+        Archibald Geikie 0.487950
+            Izaak Walton 0.249479
+           Edward Jenner 0.197619
+ Hans Christian Andersen 0.023532
+          Henry Fielding 0.006207
+        William Harrison 0.005706
+             John Bunyan 0.001794
+     Ralph Waldo Emerson 0.001284
+           Thomas Browne 0.001184
+
+Predictor Balance:
+                               Treated Synthetic Sample Mean
+YearofPublication             1798.000  1796.929    1597.433
+Socialist                        0.000     0.003       0.101
+Political                        0.000     0.015       0.378
+wrote_English                    1.000     0.994       0.323
+wrote_French                     0.000     0.002       0.115
+wrote_Greek                      0.000     0.000       0.069
+wrote_Latin                      0.000     0.001       0.065
+wrote_Italian                    0.000     0.000       0.023
+wrote_Spanish                    0.000     0.000       0.009
+wrote_German                     0.000     0.002       0.392
+special.cite_German.1914.1916    0.020     0.021       1.122
+special.cite_German.1908.1910    0.017     0.022       1.272
+special.cite_German.1902.1904    0.016     0.019       1.235
+special.cite_German.1896.1898    0.043     0.033       1.224
+special.cite_German.1890.1892    0.004     0.022       1.303
+special.cite_German.1884.1886    0.007     0.012       1.443
+special.cite_German.1878.1880    0.004     0.016       1.494
+
+Root Mean Square Prediction Error (RMSPE) Post/Pre Ratio: 1.357483 
+
+Overall Mean Squared Prediction Error (MSPE): 5.001821e-06 

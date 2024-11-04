@@ -1,0 +1,37 @@
+Synthetic Control Analysis for Dante Alighieri
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+                   Name   Weight
+            Dostoyevsky 0.361349
+ Barthold Georg Niebuhr 0.300013
+      Pliny the Younger 0.117241
+            Machiavelli 0.111333
+                  Aesop 0.054542
+        Otto Pfleiderer 0.050200
+              de Gouges 0.005238
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1320.000  1449.093    1581.972
+Socialist                         0.000     0.000       0.131
+Political                         0.000     0.117       0.476
+YearofTranslationtoEnglish     1785.000  1820.952    1827.834
+wrote_English                     0.000     0.050       0.372
+wrote_French                      0.000     0.005       0.097
+wrote_Greek                       0.000     0.055       0.083
+wrote_Latin                       0.000     0.117       0.062
+wrote_Italian                     1.000     0.111       0.007
+wrote_Spanish                     0.000     0.000       0.007
+wrote_German                      0.000     0.300       0.366
+special.cite_English.1914.1916    0.089     0.100       0.482
+special.cite_English.1908.1910    0.108     0.094       0.652
+special.cite_English.1902.1904    0.125     0.119       0.718
+special.cite_English.1896.1898    0.099     0.144       0.750
+special.cite_English.1890.1892    0.118     0.206       0.838
+special.cite_English.1884.1886    0.072     0.092       0.789
+special.cite_English.1878.1880    0.046     0.122       0.836
+
+Root Mean Square Prediction Error (RMSPE) Post/Pre Ratio: 1.083035 
+
+Overall Mean Squared Prediction Error (MSPE): 0.01594635 

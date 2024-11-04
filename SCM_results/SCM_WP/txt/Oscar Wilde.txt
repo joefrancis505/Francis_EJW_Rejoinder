@@ -1,0 +1,34 @@
+Synthetic Control Analysis for Oscar Wilde
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+         Name   Weight
+    Kropotkin 0.769981
+ Henry George 0.159230
+  Robert Owen 0.057676
+    Nietzsche 0.008310
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1891.000  1891.503    1463.250
+Socialist                         1.000     0.988       0.135
+Political                         1.000     0.990       0.573
+YearofTranslationtoEnglish     1891.000  1892.627    1792.083
+wrote_English                     1.000     0.990       0.510
+wrote_French                      0.000     0.001       0.146
+wrote_Greek                       0.000     0.000       0.115
+wrote_Latin                       0.000     0.000       0.083
+wrote_Italian                     0.000     0.000       0.021
+wrote_Spanish                     0.000     0.000       0.010
+wrote_German                      0.000     0.008       0.104
+special.cite_English.1914.1916    0.488     0.330       0.670
+special.cite_English.1908.1910    0.312     0.302       0.917
+special.cite_English.1902.1904    0.091     0.267       1.015
+special.cite_English.1896.1898    0.070     0.247       1.054
+special.cite_English.1890.1892    0.204     0.196       1.179
+special.cite_English.1884.1886    0.149     0.150       1.124
+special.cite_English.1878.1880    0.017     0.071       1.199
+
+Root Mean Square Prediction Error (RMSPE) Post/Pre Ratio: 1.402887 
+
+Overall Mean Squared Prediction Error (MSPE): 0.002586975 

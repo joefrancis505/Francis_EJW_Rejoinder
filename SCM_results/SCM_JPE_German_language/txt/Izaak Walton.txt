@@ -1,0 +1,43 @@
+Synthetic Control Analysis for Izaak Walton
+Using citation variable: cite_German
+
+Synthetic Control Weights:
+                    Name   Weight
+        William Harrison 0.666732
+ Hans Christian Andersen 0.292409
+    Percy Bysshe Shelley 0.008270
+   William Graham Sumner 0.001717
+         Auberon Herbert 0.001613
+ James Fitzjames Stephen 0.001605
+      Frederick Douglass 0.001567
+          Henry Fielding 0.001493
+            John Woolman 0.001357
+           Nassau Senior 0.001249
+           Thomas Browne 0.001100
+          Edward Bellamy 0.001099
+   Oliver Wendell Holmes 0.001093
+             John Bunyan 0.001029
+
+Predictor Balance:
+                               Treated Synthetic Sample Mean
+YearofPublication             1653.000  1651.861    1598.101
+Socialist                        0.000     0.002       0.101
+Political                        0.000     0.019       0.378
+wrote_English                    1.000     0.997       0.323
+wrote_French                     0.000     0.000       0.115
+wrote_Greek                      0.000     0.000       0.069
+wrote_Latin                      0.000     0.000       0.065
+wrote_Italian                    0.000     0.000       0.023
+wrote_Spanish                    0.000     0.000       0.009
+wrote_German                     0.000     0.002       0.392
+special.cite_German.1914.1916    0.003     0.007       1.122
+special.cite_German.1908.1910    0.003     0.008       1.272
+special.cite_German.1902.1904    0.001     0.007       1.235
+special.cite_German.1896.1898    0.001     0.010       1.225
+special.cite_German.1890.1892    0.000     0.007       1.303
+special.cite_German.1884.1886    0.003     0.006       1.443
+special.cite_German.1878.1880    0.002     0.010       1.494
+
+Root Mean Square Prediction Error (RMSPE) Post/Pre Ratio: 1.505207 
+
+Overall Mean Squared Prediction Error (MSPE): 3.184249e-06 

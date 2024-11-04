@@ -1,0 +1,42 @@
+Synthetic Control Analysis for Max Stirner
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+                      Name   Weight
+            Friedrich List 0.399861
+         Ferdinand Tönnies 0.382069
+            Sigismund Beck 0.077050
+               Thomas Abbt 0.057667
+                Moses Hess 0.034832
+    Barthold Georg Niebuhr 0.004309
+                 Nietzsche 0.003560
+             Eduard Zeller 0.002851
+ Friedrich Heinrich Jacobi 0.002499
+           Wilhelm Roscher 0.002231
+            Grimmelshausen 0.001759
+            Ludwig Büchner 0.001498
+                Clausewitz 0.001354
+             Otto Liebmann 0.001346
+                    Simmel 0.001198
+               Carl Stumpf 0.001168
+                   Sombart 0.001119
+           Theodor Fontane 0.001100
+                 Hölderlin 0.001075
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1845.000  1850.397    1841.746
+YearofTranslationtoEnglish     1907.000  1908.074    1890.169
+Socialist                         0.000     0.039       0.102
+Political                         1.000     0.824       0.186
+special.cite_English.1914.1916    0.017     0.019       0.210
+special.cite_English.1908.1910    0.020     0.018       0.234
+special.cite_English.1902.1904    0.006     0.011       0.250
+special.cite_English.1896.1898    0.009     0.009       0.271
+special.cite_English.1890.1892    0.005     0.006       0.284
+special.cite_English.1884.1886    0.002     0.006       0.295
+special.cite_English.1878.1880    0.003     0.004       0.288
+
+Root Mean Square Prediction Error (RMSPE) Post/Pre Ratio: 1.263901 
+
+Overall Mean Squared Prediction Error (MSPE): 1.1651e-05 

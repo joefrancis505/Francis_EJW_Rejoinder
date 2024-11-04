@@ -1,0 +1,37 @@
+Synthetic Control Analysis for Rousseau
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+            Name   Weight
+ Abraham Lincoln 0.313188
+            Hume 0.226726
+ Robert Browning 0.202418
+       Augustine 0.152511
+       Nietzsche 0.059629
+           Plato 0.043707
+    Henry George 0.001244
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1762.000  1518.736    1589.674
+Socialist                         0.000     0.001       0.135
+Political                         1.000     0.585       0.461
+YearofTranslationtoEnglish     1913.000  1834.471    1828.305
+wrote_English                     0.000     0.744       0.369
+wrote_French                      1.000     0.000       0.092
+wrote_Greek                       0.000     0.044       0.078
+wrote_Latin                       0.000     0.153       0.057
+wrote_Italian                     0.000     0.000       0.014
+wrote_Spanish                     0.000     0.000       0.007
+wrote_German                      0.000     0.060       0.376
+special.cite_English.1914.1916    2.607     2.490       0.468
+special.cite_English.1908.1910    2.993     3.173       0.635
+special.cite_English.1902.1904    3.447     3.305       0.700
+special.cite_English.1896.1898    3.230     3.297       0.732
+special.cite_English.1890.1892    3.927     3.616       0.815
+special.cite_English.1884.1886    3.167     3.195       0.775
+special.cite_English.1878.1880    3.433     3.525       0.820
+
+Root Mean Square Prediction Error (RMSPE) Post/Pre Ratio: 0.7490683 
+
+Overall Mean Squared Prediction Error (MSPE): 0.01436791 

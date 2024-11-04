@@ -1,0 +1,33 @@
+Synthetic Control Analysis for Rousseau
+Using citation variable: cite_German
+
+Synthetic Control Weights:
+        Name   Weight
+       Renan 0.415873
+ Montesquieu 0.318300
+    Voltaire 0.202800
+      Goethe 0.062545
+
+Predictor Balance:
+                               Treated Synthetic Sample Mean
+YearofPublication             1762.000  1789.917    1597.599
+Socialist                        0.000     0.000       0.101
+Political                        1.000     0.937       0.373
+wrote_English                    0.000     0.000       0.327
+wrote_French                     1.000     0.937       0.111
+wrote_Greek                      0.000     0.000       0.069
+wrote_Latin                      0.000     0.000       0.065
+wrote_Italian                    0.000     0.000       0.023
+wrote_Spanish                    0.000     0.000       0.009
+wrote_German                     0.000     0.063       0.392
+special.cite_German.1914.1916    4.853     4.794       1.100
+special.cite_German.1908.1910    4.980     5.450       1.249
+special.cite_German.1902.1904    6.273     4.788       1.206
+special.cite_German.1896.1898    5.357     4.798       1.200
+special.cite_German.1890.1892    4.493     5.305       1.282
+special.cite_German.1884.1886    7.917     6.917       1.406
+special.cite_German.1878.1880    5.937     5.889       1.467
+
+Root Mean Square Prediction Error (RMSPE) Post/Pre Ratio: 1.577642 
+
+Overall Mean Squared Prediction Error (MSPE): 0.01504913 

@@ -1,0 +1,26 @@
+Synthetic Control Analysis for August Bebel
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+             Name   Weight
+ Eduard Bernstein 0.431420
+       Moses Hess 0.339181
+          Sombart 0.219936
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1883.000  1880.421    1841.102
+Socialist                         1.000     0.991       0.085
+Political                         1.000     0.993       0.186
+YearofTranslationtoEnglish     1885.000  1887.180    1890.542
+special.cite_English.1914.1916    0.022     0.035       0.210
+special.cite_English.1908.1910    0.015     0.016       0.234
+special.cite_English.1902.1904    0.012     0.009       0.250
+special.cite_English.1896.1898    0.007     0.010       0.271
+special.cite_English.1890.1892    0.007     0.005       0.284
+special.cite_English.1884.1886    0.006     0.005       0.295
+special.cite_English.1878.1880    0.000     0.006       0.288
+
+Root Mean Square Prediction Error (RMSPE) Post/Pre Ratio: 2.428575 
+
+Overall Mean Squared Prediction Error (MSPE): 0.0003949859 

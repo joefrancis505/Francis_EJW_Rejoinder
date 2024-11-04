@@ -1,0 +1,44 @@
+Synthetic Control Analysis for William Wordsworth
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+            Name   Weight
+   Edward Jenner 0.799783
+    Robert Burns 0.057766
+  Edward Bellamy 0.030677
+          Malory 0.026839
+ Robert Browning 0.017934
+        Durkheim 0.009886
+           Kafka 0.009299
+         Herbart 0.007832
+         Spinoza 0.005824
+   Joseph Lister 0.003950
+    Schopenhauer 0.002403
+            Hume 0.002326
+          Dryden 0.001450
+           Renan 0.001331
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1798.000  1788.005    1563.067
+Socialist                         0.000     0.032       0.098
+Political                         0.000     0.043       0.397
+YearofTranslationtoEnglish     1798.000  1797.075    1800.005
+wrote_English                     1.000     0.951       0.392
+wrote_French                      0.000     0.015       0.134
+wrote_Greek                       0.000     0.002       0.077
+wrote_Latin                       0.000     0.007       0.072
+wrote_Italian                     0.000     0.000       0.026
+wrote_Spanish                     0.000     0.000       0.010
+wrote_German                      0.000     0.024       0.284
+special.cite_English.1914.1916    0.103     0.099       0.567
+special.cite_English.1908.1910    0.107     0.117       0.752
+special.cite_English.1902.1904    0.138     0.135       0.820
+special.cite_English.1896.1898    0.218     0.216       0.869
+special.cite_English.1890.1892    0.158     0.155       0.950
+special.cite_English.1884.1886    0.112     0.123       0.893
+special.cite_English.1878.1880    0.133     0.123       0.951
+
+Root Mean Square Prediction Error (RMSPE) Post/Pre Ratio: 1.05634 
+
+Overall Mean Squared Prediction Error (MSPE): 1.759674e-05 

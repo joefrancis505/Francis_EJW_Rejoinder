@@ -1,0 +1,50 @@
+Synthetic Control Analysis for John Bunyan
+Using citation variable: cite_German
+
+Synthetic Control Weights:
+                    Name   Weight
+            Izaak Walton 0.604394
+ Hans Christian Andersen 0.160934
+          William Caxton 0.119380
+           Edward Jenner 0.013877
+      William Wordsworth 0.012645
+        Archibald Geikie 0.009749
+          Henry Fielding 0.008767
+           Joseph Lister 0.008668
+           Thomas Browne 0.007752
+     Ralph Waldo Emerson 0.007354
+           Simon Newcomb 0.007249
+    Percy Bysshe Shelley 0.006357
+        Oliver Goldsmith 0.005198
+         Otto Pfleiderer 0.004484
+               John Knox 0.003231
+          Samuel Johnson 0.003088
+         Robert Browning 0.002857
+                 Thoreau 0.002434
+            Walt Whitman 0.002094
+          Walter Raleigh 0.001987
+            Robert Burns 0.001451
+
+Predictor Balance:
+                               Treated Synthetic Sample Mean
+YearofPublication             1678.000  1677.998    1597.986
+Socialist                        0.000     0.000       0.101
+Political                        0.000     0.002       0.378
+wrote_English                    1.000     0.997       0.323
+wrote_French                     0.000     0.000       0.115
+wrote_Greek                      0.000     0.000       0.069
+wrote_Latin                      0.000     0.000       0.065
+wrote_Italian                    0.000     0.000       0.023
+wrote_Spanish                    0.000     0.000       0.009
+wrote_German                     0.000     0.002       0.392
+special.cite_German.1914.1916    0.009     0.011       1.122
+special.cite_German.1908.1910    0.008     0.013       1.272
+special.cite_German.1902.1904    0.012     0.012       1.235
+special.cite_German.1896.1898    0.015     0.014       1.225
+special.cite_German.1890.1892    0.008     0.011       1.303
+special.cite_German.1884.1886    0.010     0.013       1.442
+special.cite_German.1878.1880    0.017     0.015       1.494
+
+Root Mean Square Prediction Error (RMSPE) Post/Pre Ratio: 1.303883 
+
+Overall Mean Squared Prediction Error (MSPE): 4.587949e-06 

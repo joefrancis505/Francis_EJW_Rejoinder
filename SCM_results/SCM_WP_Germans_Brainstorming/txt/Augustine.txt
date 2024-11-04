@@ -1,0 +1,35 @@
+Synthetic Control Analysis for Augustine
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+            Name   Weight
+          Cicero 0.338721
+           Plato 0.323515
+          Goethe 0.136341
+          Virgil 0.123844
+ Abraham Lincoln 0.077546
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication               426.000   241.834    1601.972
+Socialist                         0.000     0.000       0.132
+Political                         0.000     0.740       0.472
+YearofTranslationtoEnglish     1871.000  1801.159    1828.625
+wrote_English                     0.000     0.078       0.375
+wrote_French                      0.000     0.000       0.097
+wrote_Greek                       0.000     0.324       0.076
+wrote_Latin                       1.000     0.463       0.056
+wrote_Italian                     0.000     0.000       0.014
+wrote_Spanish                     0.000     0.000       0.007
+wrote_German                      0.000     0.136       0.368
+special.cite_English.1914.1916    4.597     4.065       0.448
+special.cite_English.1908.1910    5.887     5.785       0.605
+special.cite_English.1902.1904    6.413     6.217       0.669
+special.cite_English.1896.1898    7.403     6.751       0.693
+special.cite_English.1890.1892    7.223     8.130       0.778
+special.cite_English.1884.1886    7.560     7.553       0.732
+special.cite_English.1878.1880    7.863     8.594       0.774
+
+Root Mean Square Prediction Error (RMSPE) Post/Pre Ratio: 0.9669418 
+
+Overall Mean Squared Prediction Error (MSPE): 0.1392867 

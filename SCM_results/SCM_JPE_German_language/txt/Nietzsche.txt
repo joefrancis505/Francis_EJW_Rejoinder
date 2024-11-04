@@ -1,0 +1,31 @@
+Synthetic Control Analysis for Nietzsche
+Using citation variable: cite_German
+
+Synthetic Control Weights:
+   Name   Weight
+  Wundt 0.997530
+ Goethe 0.002470
+
+Predictor Balance:
+                               Treated Synthetic Sample Mean
+YearofPublication             1883.000  1895.783    1597.041
+Socialist                        0.000     0.000       0.101
+Political                        0.000     0.000       0.378
+wrote_English                    0.000     0.000       0.327
+wrote_French                     0.000     0.000       0.115
+wrote_Greek                      0.000     0.000       0.069
+wrote_Latin                      0.000     0.000       0.065
+wrote_Italian                    0.000     0.000       0.023
+wrote_Spanish                    0.000     0.000       0.009
+wrote_German                     1.000     1.000       0.387
+special.cite_German.1914.1916    6.597     6.078       1.092
+special.cite_German.1908.1910    8.807     5.725       1.232
+special.cite_German.1902.1904   10.767     6.323       1.185
+special.cite_German.1896.1898    4.313     4.370       1.205
+special.cite_German.1890.1892    1.543     3.614       1.296
+special.cite_German.1884.1886    0.185     2.295       1.442
+special.cite_German.1878.1880    0.284     2.462       1.493
+
+Root Mean Square Prediction Error (RMSPE) Post/Pre Ratio: 2.806423 
+
+Overall Mean Squared Prediction Error (MSPE): 0.2024039 

@@ -1,0 +1,29 @@
+Synthetic Control Analysis for Ranke
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+          Name   Weight
+ Hermann Lotze 0.661688
+       Herbart 0.133164
+ Martin Luther 0.090023
+        Goethe 0.048576
+        Fichte 0.034243
+     Helmholtz 0.030008
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1834.000  1815.049    1843.204
+Socialist                         0.000     0.002       0.111
+Political                         0.000     0.002       0.222
+YearofTranslationtoEnglish     1840.000  1876.022    1898.148
+special.cite_English.1914.1916    0.281     0.317       0.221
+special.cite_English.1908.1910    0.435     0.424       0.240
+special.cite_English.1902.1904    0.497     0.509       0.255
+special.cite_English.1896.1898    0.576     0.566       0.277
+special.cite_English.1890.1892    0.568     0.563       0.291
+special.cite_English.1884.1886    0.701     0.670       0.304
+special.cite_English.1878.1880    0.570     0.610       0.294
+
+Root Mean Square Prediction Error (RMSPE) Post/Pre Ratio: 0.6251108 
+
+Overall Mean Squared Prediction Error (MSPE): 0.0005639387 

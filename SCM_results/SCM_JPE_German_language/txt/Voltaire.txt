@@ -1,0 +1,33 @@
+Synthetic Control Analysis for Voltaire
+Using citation variable: cite_German
+
+Synthetic Control Weights:
+      Name   Weight
+ Rodbertus 0.512590
+    Herder 0.216706
+    Cicero 0.152615
+     Homer 0.118005
+
+Predictor Balance:
+                               Treated Synthetic Sample Mean
+YearofPublication             1731.000  1244.642    1597.742
+Socialist                        0.000     0.513       0.101
+Political                        1.000     0.665       0.373
+wrote_English                    0.000     0.000       0.327
+wrote_French                     1.000     0.000       0.111
+wrote_Greek                      0.000     0.118       0.069
+wrote_Latin                      0.000     0.153       0.065
+wrote_Italian                    0.000     0.000       0.023
+wrote_Spanish                    0.000     0.000       0.009
+wrote_German                     0.000     0.729       0.392
+special.cite_German.1914.1916    3.840     3.875       1.105
+special.cite_German.1908.1910    5.057     5.207       1.249
+special.cite_German.1902.1904    4.033     4.908       1.216
+special.cite_German.1896.1898    4.237     5.271       1.205
+special.cite_German.1890.1892    5.380     6.388       1.278
+special.cite_German.1884.1886   11.820     9.218       1.388
+special.cite_German.1878.1880    8.783     8.727       1.454
+
+Root Mean Square Prediction Error (RMSPE) Post/Pre Ratio: 2.295064 
+
+Overall Mean Squared Prediction Error (MSPE): 0.0659761 

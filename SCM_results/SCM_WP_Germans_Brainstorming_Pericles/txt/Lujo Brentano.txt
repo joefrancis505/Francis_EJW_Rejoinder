@@ -1,0 +1,34 @@
+Synthetic Control Analysis for Lujo Brentano
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+                  Name   Weight
+ William Graham Sumner 0.715081
+            Moses Hess 0.124690
+        Edward Bellamy 0.116999
+       Charles Fourier 0.041898
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1871.000  1875.197    1578.172
+Socialist                         1.000     0.284       0.124
+Political                         1.000     1.000       0.469
+YearofTranslationtoEnglish     1870.000  1879.681    1827.248
+wrote_English                     1.000     0.833       0.366
+wrote_French                      0.000     0.042       0.097
+wrote_Greek                       0.000     0.000       0.083
+wrote_Latin                       0.000     0.000       0.062
+wrote_Italian                     0.000     0.000       0.014
+wrote_Spanish                     0.000     0.000       0.007
+wrote_German                      0.000     0.125       0.366
+special.cite_English.1914.1916    0.008     0.014       0.483
+special.cite_English.1908.1910    0.005     0.016       0.653
+special.cite_English.1902.1904    0.004     0.008       0.719
+special.cite_English.1896.1898    0.005     0.020       0.751
+special.cite_English.1890.1892    0.013     0.034       0.839
+special.cite_English.1884.1886    0.006     0.013       0.789
+special.cite_English.1878.1880    0.004     0.005       0.836
+
+Root Mean Square Prediction Error (RMSPE) Post/Pre Ratio: 1.489607 
+
+Overall Mean Squared Prediction Error (MSPE): 0.0004756776 

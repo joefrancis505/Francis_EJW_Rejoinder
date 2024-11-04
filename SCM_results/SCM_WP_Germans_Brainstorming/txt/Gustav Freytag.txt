@@ -1,0 +1,50 @@
+Synthetic Control Analysis for Gustav Freytag
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+                       Name   Weight
+     Barthold Georg Niebuhr 0.544831
+            Theodor Fontane 0.167535
+                      Külpe 0.145034
+                      Kafka 0.041753
+                    Herbart 0.029417
+             Ludwig Büchner 0.009753
+                Carl Stumpf 0.004539
+             Edward Bellamy 0.004345
+                      Rilke 0.003826
+              Hermann Cohen 0.003213
+             Franz Brentano 0.002817
+              Eduard Zeller 0.002634
+           Ludwig Feuerbach 0.002577
+             E T A Hoffmann 0.002313
+                     Thünen 0.001830
+  Friedrich Heinrich Jacobi 0.001622
+ Friedrich Carl von Savigny 0.001422
+               Robert Burns 0.001269
+          Ferdinand Tönnies 0.001233
+        Eduard von Hartmann 0.001199
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1855.000  1840.599    1592.049
+Socialist                         0.000     0.009       0.132
+Political                         0.000     0.019       0.472
+YearofTranslationtoEnglish     1857.000  1862.052    1828.722
+wrote_English                     0.000     0.014       0.375
+wrote_French                      0.000     0.002       0.097
+wrote_Greek                       0.000     0.001       0.076
+wrote_Latin                       0.000     0.001       0.062
+wrote_Italian                     0.000     0.001       0.014
+wrote_Spanish                     0.000     0.000       0.007
+wrote_German                      1.000     0.980       0.361
+special.cite_English.1914.1916    0.022     0.022       0.479
+special.cite_English.1908.1910    0.019     0.027       0.646
+special.cite_English.1902.1904    0.020     0.033       0.713
+special.cite_English.1896.1898    0.054     0.045       0.744
+special.cite_English.1890.1892    0.041     0.039       0.828
+special.cite_English.1884.1886    0.014     0.019       0.785
+special.cite_English.1878.1880    0.012     0.017       0.828
+
+Root Mean Square Prediction Error (RMSPE) Post/Pre Ratio: 0.8566733 
+
+Overall Mean Squared Prediction Error (MSPE): 2.604397e-05 

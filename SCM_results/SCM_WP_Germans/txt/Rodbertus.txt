@@ -1,0 +1,36 @@
+Synthetic Control Analysis for Rodbertus
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+               Name   Weight
+ Ferdinand Lassalle 0.860441
+              Kafka 0.063970
+   Eduard Bernstein 0.031008
+    Robert Browning 0.022749
+     Edward Bellamy 0.010066
+       Henry George 0.001099
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1850.000  1864.155    1589.050
+Socialist                         1.000     0.905       0.128
+Political                         1.000     0.909       0.461
+YearofTranslationtoEnglish     1898.000  1886.691    1828.411
+wrote_English                     0.000     0.038       0.369
+wrote_French                      0.000     0.001       0.099
+wrote_Greek                       0.000     0.001       0.078
+wrote_Latin                       0.000     0.001       0.057
+wrote_Italian                     0.000     0.000       0.014
+wrote_Spanish                     0.000     0.000       0.007
+wrote_German                      1.000     0.959       0.369
+special.cite_English.1914.1916    0.036     0.037       0.486
+special.cite_English.1908.1910    0.050     0.051       0.656
+special.cite_English.1902.1904    0.030     0.043       0.724
+special.cite_English.1896.1898    0.056     0.056       0.755
+special.cite_English.1890.1892    0.110     0.099       0.842
+special.cite_English.1884.1886    0.055     0.049       0.797
+special.cite_English.1878.1880    0.021     0.037       0.844
+
+Root Mean Square Prediction Error (RMSPE) Post/Pre Ratio: 0.6043083 
+
+Overall Mean Squared Prediction Error (MSPE): 5.213882e-05 

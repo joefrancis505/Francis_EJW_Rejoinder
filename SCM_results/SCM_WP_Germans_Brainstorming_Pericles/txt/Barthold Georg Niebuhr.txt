@@ -1,0 +1,34 @@
+Synthetic Control Analysis for Barthold Georg Niebuhr
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+                       Name   Weight
+ Friedrich Carl von Savigny 0.671982
+             E T A Hoffmann 0.311329
+         Friedrich Schiller 0.002301
+             Ludwig Büchner 0.002149
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1811.000  1806.275    1578.586
+Socialist                         0.000     0.001       0.131
+Political                         0.000     0.003       0.476
+YearofTranslationtoEnglish     1827.000  1840.821    1827.545
+wrote_English                     0.000     0.003       0.372
+wrote_French                      0.000     0.001       0.097
+wrote_Greek                       0.000     0.000       0.083
+wrote_Latin                       0.000     0.000       0.062
+wrote_Italian                     0.000     0.000       0.014
+wrote_Spanish                     0.000     0.000       0.007
+wrote_German                      1.000     0.996       0.359
+special.cite_English.1914.1916    0.001     0.006       0.483
+special.cite_English.1908.1910    0.001     0.006       0.653
+special.cite_English.1902.1904    0.001     0.004       0.719
+special.cite_English.1896.1898    0.001     0.004       0.751
+special.cite_English.1890.1892    0.001     0.004       0.839
+special.cite_English.1884.1886    0.001     0.004       0.789
+special.cite_English.1878.1880    0.003     0.003       0.836
+
+Root Mean Square Prediction Error (RMSPE) Post/Pre Ratio: 1.50115 
+
+Overall Mean Squared Prediction Error (MSPE): 1.115441e-05 

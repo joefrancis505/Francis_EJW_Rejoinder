@@ -1,0 +1,37 @@
+Synthetic Control Analysis for Herbart
+Using citation variable: cite_German
+
+Synthetic Control Weights:
+           Name   Weight
+ Schleiermacher 0.332678
+          Frege 0.268785
+          Ranke 0.151691
+  Martin Luther 0.075793
+      Hölderlin 0.057661
+         Herder 0.046840
+      Helmholtz 0.042530
+         Goethe 0.020692
+
+Predictor Balance:
+                               Treated Synthetic Sample Mean
+YearofPublication             1813.000  1814.888    1597.364
+Socialist                        0.000     0.000       0.101
+Political                        0.000     0.002       0.378
+wrote_English                    0.000     0.001       0.327
+wrote_French                     0.000     0.000       0.115
+wrote_Greek                      0.000     0.000       0.069
+wrote_Latin                      0.000     0.001       0.065
+wrote_Italian                    0.000     0.000       0.023
+wrote_Spanish                    0.000     0.000       0.009
+wrote_German                     1.000     0.998       0.387
+special.cite_German.1914.1916    3.287     3.352       1.107
+special.cite_German.1908.1910    4.337     4.214       1.252
+special.cite_German.1902.1904    3.280     3.770       1.220
+special.cite_German.1896.1898    3.937     3.923       1.207
+special.cite_German.1890.1892    4.510     4.413       1.282
+special.cite_German.1884.1886    4.593     4.571       1.421
+special.cite_German.1878.1880    4.500     4.506       1.473
+
+Root Mean Square Prediction Error (RMSPE) Post/Pre Ratio: 4.287859 
+
+Overall Mean Squared Prediction Error (MSPE): 0.0001285202 

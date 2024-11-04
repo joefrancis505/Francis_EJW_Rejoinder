@@ -1,0 +1,36 @@
+Synthetic Control Analysis for Grimmelshausen
+Using citation variable: cite_German
+
+Synthetic Control Weights:
+               Name   Weight
+              Rilke 0.500325
+ Friedrich Schlegel 0.224577
+        Thomas Abbt 0.151333
+  Pliny the Younger 0.062219
+          Rodbertus 0.051186
+              Aesop 0.007623
+        Thomas Mann 0.001536
+
+Predictor Balance:
+                               Treated Synthetic Sample Mean
+YearofPublication             1668.000  1714.433    1598.032
+Socialist                        0.000     0.051       0.101
+Political                        0.000     0.051       0.378
+wrote_English                    0.000     0.000       0.327
+wrote_French                     0.000     0.000       0.115
+wrote_Greek                      0.000     0.008       0.069
+wrote_Latin                      0.000     0.062       0.065
+wrote_Italian                    0.000     0.000       0.023
+wrote_Spanish                    0.000     0.000       0.009
+wrote_German                     1.000     0.930       0.387
+special.cite_German.1914.1916    0.362     0.376       1.121
+special.cite_German.1908.1910    0.467     0.433       1.270
+special.cite_German.1902.1904    0.132     0.206       1.234
+special.cite_German.1896.1898    0.151     0.191       1.224
+special.cite_German.1890.1892    0.154     0.191       1.302
+special.cite_German.1884.1886    0.360     0.331       1.441
+special.cite_German.1878.1880    0.219     0.214       1.493
+
+Root Mean Square Prediction Error (RMSPE) Post/Pre Ratio: 5.555067 
+
+Overall Mean Squared Prediction Error (MSPE): 0.0001291959 

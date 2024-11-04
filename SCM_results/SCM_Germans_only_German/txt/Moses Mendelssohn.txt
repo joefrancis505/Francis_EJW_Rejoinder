@@ -1,0 +1,57 @@
+Synthetic Control Analysis for Moses Mendelssohn
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+                     Name   Weight
+ Gotthold Ephraim Lessing 0.459902
+       Friedrich Schiller 0.193825
+           Grimmelshausen 0.081895
+            Hermann Lotze 0.078060
+              Thomas Abbt 0.063026
+                    Kafka 0.035048
+           Schleiermacher 0.012448
+                    Ranke 0.008484
+                   Herder 0.004734
+              Rudolf Haym 0.004334
+           Ludwig Büchner 0.003706
+   Barthold Georg Niebuhr 0.003365
+                  Herbart 0.003111
+            Martin Luther 0.002691
+                   Fichte 0.002583
+            Otto Liebmann 0.002472
+           Franz Brentano 0.002202
+                   Hamann 0.002084
+                Helmholtz 0.002021
+                    Wundt 0.001760
+         Ludwig Feuerbach 0.001710
+            Eduard Zeller 0.001559
+                   Goethe 0.001546
+             Schopenhauer 0.001521
+              Carl Stumpf 0.001490
+      Eduard von Hartmann 0.001434
+            Immanuel Kant 0.001428
+                Hölderlin 0.001376
+                   Thünen 0.001317
+              Thomas Mann 0.001253
+           E T A Hoffmann 0.001197
+                  Scheler 0.001134
+            Hermann Cohen 0.001110
+           Gustav Freytag 0.001031
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1767.000  1773.882    1843.068
+YearofTranslationtoEnglish     1827.000  1828.965    1891.525
+Socialist                         0.000     0.002       0.102
+Political                         0.000     0.004       0.203
+special.cite_English.1914.1916    0.026     0.031       0.210
+special.cite_English.1908.1910    0.040     0.040       0.233
+special.cite_English.1902.1904    0.050     0.048       0.249
+special.cite_English.1896.1898    0.047     0.049       0.270
+special.cite_English.1890.1892    0.067     0.065       0.283
+special.cite_English.1884.1886    0.066     0.064       0.294
+special.cite_English.1878.1880    0.064     0.066       0.287
+
+Root Mean Square Prediction Error (RMSPE) Post/Pre Ratio: 0.6806707 
+
+Overall Mean Squared Prediction Error (MSPE): 8.206436e-06 

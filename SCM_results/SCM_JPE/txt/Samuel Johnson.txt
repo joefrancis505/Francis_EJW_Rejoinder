@@ -1,0 +1,44 @@
+Synthetic Control Analysis for Samuel Johnson
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+                    Name   Weight
+             John Bunyan 0.381029
+     Ralph Waldo Emerson 0.224879
+          Charles Darwin 0.132729
+                  Dryden 0.071950
+ Hans Christian Andersen 0.059795
+          Walter Raleigh 0.052829
+           Joseph Lister 0.036002
+            Walt Whitman 0.007745
+              Lord Byron 0.005459
+          William Caxton 0.003535
+            Robert Burns 0.001973
+    Percy Bysshe Shelley 0.001813
+           Edward Jenner 0.001409
+                  Newton 0.001071
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1755.000  1752.971    1563.289
+Socialist                         0.000     0.001       0.098
+Political                         0.000     0.005       0.397
+YearofTranslationtoEnglish     1755.000  1755.020    1800.227
+wrote_English                     1.000     0.993       0.392
+wrote_French                      0.000     0.001       0.134
+wrote_Greek                       0.000     0.001       0.077
+wrote_Latin                       0.000     0.002       0.072
+wrote_Italian                     0.000     0.000       0.026
+wrote_Spanish                     0.000     0.000       0.010
+wrote_German                      0.000     0.003       0.284
+special.cite_English.1914.1916    0.359     0.337       0.566
+special.cite_English.1908.1910    0.487     0.507       0.750
+special.cite_English.1902.1904    0.563     0.569       0.818
+special.cite_English.1896.1898    0.609     0.608       0.867
+special.cite_English.1890.1892    0.578     0.603       0.947
+special.cite_English.1884.1886    0.727     0.692       0.890
+special.cite_English.1878.1880    0.672     0.679       0.948
+
+Root Mean Square Prediction Error (RMSPE) Post/Pre Ratio: 1.405048 
+
+Overall Mean Squared Prediction Error (MSPE): 7.26779e-05 

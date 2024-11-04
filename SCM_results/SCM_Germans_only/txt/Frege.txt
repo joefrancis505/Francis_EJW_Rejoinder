@@ -1,0 +1,75 @@
+Synthetic Control Analysis for Frege
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+                       Name   Weight
+                Carl Stumpf 0.599693
+                      Kafka 0.075568
+  Friedrich Heinrich Jacobi 0.020719
+              Hermann Cohen 0.012110
+                      Rilke 0.011866
+             Franz Brentano 0.011849
+          Ferdinand Tönnies 0.011489
+                     Thünen 0.010080
+           Eduard Bernstein 0.009595
+                  Hölderlin 0.009488
+ Friedrich Carl von Savigny 0.009403
+             Ludwig Büchner 0.009117
+            Theodor Fontane 0.009096
+              Eduard Zeller 0.008905
+     Barthold Georg Niebuhr 0.008691
+                 Moses Hess 0.008548
+             Grimmelshausen 0.008279
+                    Scheler 0.008038
+           Ludwig Feuerbach 0.007744
+                Max Stirner 0.007726
+             E T A Hoffmann 0.007555
+        Eduard von Hartmann 0.007324
+               August Bebel 0.007249
+   Gotthold Ephraim Lessing 0.007072
+             Friedrich List 0.007068
+                   Schäffle 0.006964
+                      Külpe 0.006762
+         Friedrich Schiller 0.006266
+                 Clausewitz 0.006176
+                Thomas Mann 0.005915
+              Hermann Lotze 0.005883
+             Gustav Freytag 0.005670
+                    Sombart 0.005618
+         Ferdinand Lassalle 0.005315
+                    Dilthey 0.004920
+                  Rodbertus 0.004781
+       Wilhelm von Humboldt 0.004564
+                 Windelband 0.004559
+                     Simmel 0.004312
+              Immanuel Kant 0.003835
+                  Schmoller 0.003660
+                 Ebbinghaus 0.003392
+                     Hamann 0.002807
+             Schleiermacher 0.001795
+              Martin Luther 0.001660
+                      Ranke 0.001540
+                      Wundt 0.001466
+                  Nietzsche 0.001407
+                    Herbart 0.001359
+                     Herder 0.001350
+                     Fichte 0.001321
+               Schopenhauer 0.001109
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1879.000  1890.143    1842.370
+Socialist                         0.000     0.041       0.111
+Political                         0.000     0.083       0.222
+YearofTranslationtoEnglish     1972.000  1971.916    1895.704
+special.cite_English.1914.1916    0.024     0.021       0.226
+special.cite_English.1908.1910    0.014     0.019       0.248
+special.cite_English.1902.1904    0.009     0.017       0.264
+special.cite_English.1896.1898    0.004     0.021       0.288
+special.cite_English.1890.1892    0.047     0.038       0.301
+special.cite_English.1884.1886    0.006     0.019       0.317
+special.cite_English.1878.1880    0.016     0.017       0.304
+
+Root Mean Square Prediction Error (RMSPE) Post/Pre Ratio: 1.007014 
+
+Overall Mean Squared Prediction Error (MSPE): 7.838425e-05 

@@ -1,0 +1,29 @@
+Synthetic Control Analysis for Martin Luther
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+           Name   Weight
+ Grimmelshausen 0.566950
+    Thomas Abbt 0.228228
+         Fichte 0.072439
+      Nietzsche 0.069910
+         Goethe 0.054731
+          Ranke 0.007477
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1517.000  1722.331    1847.305
+YearofTranslationtoEnglish     1830.000  1840.773    1891.475
+Socialist                         0.000     0.000       0.102
+Political                         0.000     0.000       0.203
+special.cite_English.1914.1916    0.427     0.451       0.203
+special.cite_English.1908.1910    0.464     0.445       0.226
+special.cite_English.1902.1904    0.435     0.456       0.243
+special.cite_English.1896.1898    0.482     0.474       0.263
+special.cite_English.1890.1892    0.485     0.506       0.276
+special.cite_English.1884.1886    0.681     0.618       0.284
+special.cite_English.1878.1880    0.482     0.586       0.279
+
+Root Mean Square Prediction Error (RMSPE) Post/Pre Ratio: 1.434119 
+
+Overall Mean Squared Prediction Error (MSPE): 0.00353968 

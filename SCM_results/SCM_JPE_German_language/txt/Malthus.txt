@@ -1,0 +1,35 @@
+Synthetic Control Analysis for Malthus
+Using citation variable: cite_German
+
+Synthetic Control Weights:
+      Name   Weight
+ Kropotkin 0.907252
+     Plato 0.042428
+      Hume 0.031531
+ Nietzsche 0.008532
+    Goethe 0.007886
+  Voltaire 0.002121
+
+Predictor Balance:
+                               Treated Synthetic Sample Mean
+YearofPublication             1798.000  1798.619    1597.433
+Socialist                        0.000     0.907       0.101
+Political                        1.000     0.983       0.373
+wrote_English                    1.000     0.939       0.323
+wrote_French                     0.000     0.002       0.115
+wrote_Greek                      0.000     0.042       0.069
+wrote_Latin                      0.000     0.000       0.065
+wrote_Italian                    0.000     0.000       0.023
+wrote_Spanish                    0.000     0.000       0.009
+wrote_German                     0.000     0.017       0.392
+special.cite_German.1914.1916    0.680     0.757       1.119
+special.cite_German.1908.1910    1.140     1.006       1.267
+special.cite_German.1902.1904    0.733     0.839       1.231
+special.cite_German.1896.1898    0.597     0.702       1.222
+special.cite_German.1890.1892    0.660     0.670       1.300
+special.cite_German.1884.1886    0.750     0.739       1.439
+special.cite_German.1878.1880    0.738     0.758       1.491
+
+Root Mean Square Prediction Error (RMSPE) Post/Pre Ratio: 1.932121 
+
+Overall Mean Squared Prediction Error (MSPE): 0.0005173883 

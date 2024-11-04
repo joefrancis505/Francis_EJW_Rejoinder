@@ -1,0 +1,33 @@
+Synthetic Control Analysis for Aristotle
+Using citation variable: cite_German
+
+Synthetic Control Weights:
+      Name   Weight
+     Homer 0.598737
+    Cicero 0.185364
+    Goethe 0.172331
+ Herodotus 0.043546
+
+Predictor Balance:
+                               Treated Synthetic Sample Mean
+YearofPublication             -322.000  -135.689    1607.203
+Socialist                        0.000     0.000       0.101
+Political                        1.000     0.229       0.373
+wrote_English                    0.000     0.000       0.327
+wrote_French                     0.000     0.000       0.115
+wrote_Greek                      1.000     0.642       0.065
+wrote_Latin                      0.000     0.185       0.065
+wrote_Italian                    0.000     0.000       0.023
+wrote_Spanish                    0.000     0.000       0.009
+wrote_German                     0.000     0.172       0.392
+special.cite_German.1914.1916   14.033    14.165       1.058
+special.cite_German.1908.1910   16.693    17.968       1.195
+special.cite_German.1902.1904   15.343    16.047       1.164
+special.cite_German.1896.1898   18.043    16.960       1.142
+special.cite_German.1890.1892   22.257    19.564       1.200
+special.cite_German.1884.1886   21.123    21.937       1.345
+special.cite_German.1878.1880   25.370    21.430       1.377
+
+Root Mean Square Prediction Error (RMSPE) Post/Pre Ratio: 1.5106 
+
+Overall Mean Squared Prediction Error (MSPE): 0.1811666 

@@ -1,0 +1,50 @@
+Synthetic Control Analysis for John C Calhoun
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+                  Name   Weight
+ William Graham Sumner 0.705055
+          William Penn 0.105584
+         James Madison 0.041030
+             Kropotkin 0.028166
+               Herbart 0.019960
+       Herbert Spencer 0.016919
+          Robert Burns 0.014980
+               Malthus 0.009691
+          John Woolman 0.009237
+    Frederick Douglass 0.008145
+         David Ricardo 0.003160
+                Hobbes 0.002215
+        Wollstonecraft 0.001847
+        Jonathan Swift 0.001783
+        William Godwin 0.001612
+      Thomas Jefferson 0.001593
+        Charles Darwin 0.001316
+              Voltaire 0.001174
+          Henry George 0.001031
+    Alexander Hamilton 0.001019
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1851.000  1844.427    1589.043
+Socialist                         0.000     0.033       0.135
+Political                         1.000     0.951       0.461
+YearofTranslationtoEnglish     1851.000  1850.994    1828.745
+wrote_English                     1.000     0.967       0.362
+wrote_French                      0.000     0.004       0.099
+wrote_Greek                       0.000     0.002       0.078
+wrote_Latin                       0.000     0.001       0.057
+wrote_Italian                     0.000     0.000       0.014
+wrote_Spanish                     0.000     0.000       0.007
+wrote_German                      0.000     0.025       0.376
+special.cite_English.1914.1916    0.155     0.157       0.486
+special.cite_English.1908.1910    0.200     0.199       0.655
+special.cite_English.1902.1904    0.221     0.221       0.723
+special.cite_English.1896.1898    0.243     0.239       0.754
+special.cite_English.1890.1892    0.194     0.202       0.841
+special.cite_English.1884.1886    0.223     0.218       0.795
+special.cite_English.1878.1880    0.166     0.174       0.843
+
+Root Mean Square Prediction Error (RMSPE) Post/Pre Ratio: 0.7934205 
+
+Overall Mean Squared Prediction Error (MSPE): 1.601368e-05 

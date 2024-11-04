@@ -1,0 +1,36 @@
+Synthetic Control Analysis for Thomas More
+Using citation variable: cite_German
+
+Synthetic Control Weights:
+              Name   Weight
+       John Calvin 0.906537
+           Aquinas 0.026195
+          Proudhon 0.018748
+ Pliny the Younger 0.012201
+            Virgil 0.001442
+            Kempis 0.001394
+           Mazzini 0.001058
+
+Predictor Balance:
+                               Treated Synthetic Sample Mean
+YearofPublication             1516.000  1516.252    1598.733
+Socialist                        0.000     0.025       0.101
+Political                        1.000     0.044       0.373
+wrote_English                    0.000     0.015       0.327
+wrote_French                     0.000     0.021       0.115
+wrote_Greek                      0.000     0.002       0.069
+wrote_Latin                      1.000     0.950       0.060
+wrote_Italian                    0.000     0.001       0.023
+wrote_Spanish                    0.000     0.000       0.009
+wrote_German                     0.000     0.011       0.392
+special.cite_German.1914.1916    0.085     0.076       1.122
+special.cite_German.1908.1910    0.102     0.097       1.272
+special.cite_German.1902.1904    0.047     0.075       1.235
+special.cite_German.1896.1898    0.101     0.101       1.224
+special.cite_German.1890.1892    0.114     0.092       1.302
+special.cite_German.1884.1886    0.078     0.083       1.442
+special.cite_German.1878.1880    0.067     0.089       1.494
+
+Root Mean Square Prediction Error (RMSPE) Post/Pre Ratio: 0.8003536 
+
+Overall Mean Squared Prediction Error (MSPE): 0.0003285583 

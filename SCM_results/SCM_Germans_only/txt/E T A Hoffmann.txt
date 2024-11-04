@@ -1,0 +1,46 @@
+Synthetic Control Analysis for E T A Hoffmann
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+                       Name   Weight
+     Barthold Georg Niebuhr 0.879254
+ Friedrich Carl von Savigny 0.046289
+                 Moses Hess 0.009458
+             Ludwig Büchner 0.008998
+                 Ebbinghaus 0.004677
+             Friedrich List 0.003069
+                  Nietzsche 0.002989
+              Eduard Zeller 0.002702
+                Max Stirner 0.002369
+           Ludwig Feuerbach 0.002056
+        Eduard von Hartmann 0.001836
+           Eduard Bernstein 0.001644
+               August Bebel 0.001611
+         Friedrich Schiller 0.001583
+          Ferdinand Tönnies 0.001558
+                 Windelband 0.001261
+                     Simmel 0.001230
+                      Rilke 0.001154
+                 Clausewitz 0.001137
+                    Sombart 0.001128
+         Ferdinand Lassalle 0.001067
+                      Külpe 0.001046
+            Theodor Fontane 0.001042
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1815.000  1813.719    1843.556
+Socialist                         0.000     0.016       0.111
+Political                         0.000     0.025       0.222
+YearofTranslationtoEnglish     1824.000  1832.681    1898.444
+special.cite_English.1914.1916    0.011     0.013       0.226
+special.cite_English.1908.1910    0.012     0.010       0.248
+special.cite_English.1902.1904    0.004     0.008       0.264
+special.cite_English.1896.1898    0.004     0.008       0.288
+special.cite_English.1890.1892    0.004     0.006       0.302
+special.cite_English.1884.1886    0.006     0.006       0.317
+special.cite_English.1878.1880    0.001     0.007       0.305
+
+Root Mean Square Prediction Error (RMSPE) Post/Pre Ratio: 1.771538 
+
+Overall Mean Squared Prediction Error (MSPE): 1.194593e-05 

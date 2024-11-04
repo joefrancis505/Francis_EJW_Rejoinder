@@ -1,0 +1,35 @@
+Synthetic Control Analysis for Molière
+Using citation variable: cite_German
+
+Synthetic Control Weights:
+       Name   Weight
+    Blanqui 0.492800
+     Dryden 0.317581
+   Voltaire 0.070178
+   Plutarch 0.047879
+    Tacitus 0.038230
+ Clausewitz 0.033320
+
+Predictor Balance:
+                               Treated Synthetic Sample Mean
+YearofPublication             1645.000  1625.120    1598.138
+Socialist                        0.000     0.493       0.101
+Political                        0.000     0.649       0.378
+wrote_English                    0.000     0.318       0.327
+wrote_French                     1.000     0.563       0.111
+wrote_Greek                      0.000     0.048       0.069
+wrote_Latin                      0.000     0.038       0.065
+wrote_Italian                    0.000     0.000       0.023
+wrote_Spanish                    0.000     0.000       0.009
+wrote_German                     0.000     0.033       0.392
+special.cite_German.1914.1916    0.703     0.927       1.119
+special.cite_German.1908.1910    0.788     0.919       1.269
+special.cite_German.1902.1904    0.658     0.951       1.232
+special.cite_German.1896.1898    0.676     1.075       1.222
+special.cite_German.1890.1892    0.490     1.139       1.301
+special.cite_German.1884.1886    1.675     1.734       1.435
+special.cite_German.1878.1880    3.510     2.119       1.478
+
+Root Mean Square Prediction Error (RMSPE) Post/Pre Ratio: 0.5532884 
+
+Overall Mean Squared Prediction Error (MSPE): 0.01640275 

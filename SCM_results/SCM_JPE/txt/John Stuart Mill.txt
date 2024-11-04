@@ -1,0 +1,38 @@
+Synthetic Control Analysis for John Stuart Mill
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+                    Name   Weight
+   William Graham Sumner 0.473353
+                 Bentham 0.240394
+ James Fitzjames Stephen 0.223900
+                  Dryden 0.032996
+                  Kelvin 0.013243
+                  Cicero 0.006186
+                Voltaire 0.003839
+               Herodotus 0.003530
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1848.000  1825.088    1562.809
+Socialist                         0.000     0.001       0.098
+Political                         1.000     0.953       0.392
+YearofTranslationtoEnglish     1848.000  1846.021    1799.747
+wrote_English                     1.000     0.985       0.392
+wrote_French                      0.000     0.004       0.134
+wrote_Greek                       0.000     0.004       0.077
+wrote_Latin                       0.000     0.006       0.072
+wrote_Italian                     0.000     0.000       0.026
+wrote_Spanish                     0.000     0.000       0.010
+wrote_German                      0.000     0.001       0.284
+special.cite_English.1914.1916    0.359     0.369       0.566
+special.cite_English.1908.1910    0.557     0.547       0.750
+special.cite_English.1902.1904    0.501     0.517       0.818
+special.cite_English.1896.1898    0.612     0.597       0.867
+special.cite_English.1890.1892    0.639     0.670       0.947
+special.cite_English.1884.1886    0.729     0.727       0.890
+special.cite_English.1878.1880    0.799     0.774       0.948
+
+Root Mean Square Prediction Error (RMSPE) Post/Pre Ratio: 1.285486 
+
+Overall Mean Squared Prediction Error (MSPE): 0.0001305312 

@@ -1,0 +1,32 @@
+Synthetic Control Analysis for William Harrison
+Using citation variable: cite_German
+
+Synthetic Control Weights:
+              Name   Weight
+      Izaak Walton 0.607192
+    William Caxton 0.376884
+ Pliny the Younger 0.010275
+
+Predictor Balance:
+                               Treated Synthetic Sample Mean
+YearofPublication             1557.000  1566.336    1598.544
+Socialist                        0.000     0.001       0.101
+Political                        0.000     0.002       0.378
+wrote_English                    1.000     0.987       0.323
+wrote_French                     0.000     0.001       0.115
+wrote_Greek                      0.000     0.000       0.069
+wrote_Latin                      0.000     0.010       0.065
+wrote_Italian                    0.000     0.000       0.023
+wrote_Spanish                    0.000     0.000       0.009
+wrote_German                     0.000     0.002       0.392
+special.cite_German.1914.1916    0.003     0.008       1.122
+special.cite_German.1908.1910    0.002     0.010       1.272
+special.cite_German.1902.1904    0.002     0.012       1.235
+special.cite_German.1896.1898    0.005     0.015       1.225
+special.cite_German.1890.1892    0.002     0.010       1.303
+special.cite_German.1884.1886    0.001     0.014       1.443
+special.cite_German.1878.1880    0.003     0.015       1.494
+
+Root Mean Square Prediction Error (RMSPE) Post/Pre Ratio: 0.908254 
+
+Overall Mean Squared Prediction Error (MSPE): 6.089123e-06 

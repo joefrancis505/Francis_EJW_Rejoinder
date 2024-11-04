@@ -1,0 +1,26 @@
+Synthetic Control Analysis for Hamann
+Using citation variable: cite_German
+
+Synthetic Control Weights:
+         Name   Weight
+   Clausewitz 0.849006
+       Herder 0.101634
+ Schopenhauer 0.029629
+    Nietzsche 0.017848
+
+Predictor Balance:
+                               Treated Synthetic Sample Mean
+YearofPublication             1759.000  1827.615    1841.639
+Socialist                        0.000     0.001       0.108
+Political                        0.000     0.001       0.205
+special.cite_German.1914.1916    1.180     1.565       1.469
+special.cite_German.1908.1910    1.697     1.625       1.683
+special.cite_German.1902.1904    1.763     1.726       1.597
+special.cite_German.1896.1898    1.177     1.355       1.390
+special.cite_German.1890.1892    1.780     1.543       1.453
+special.cite_German.1884.1886    1.330     1.734       1.433
+special.cite_German.1878.1880    3.093     2.909       1.440
+
+Root Mean Square Prediction Error (RMSPE) Post/Pre Ratio: 2.191372 
+
+Overall Mean Squared Prediction Error (MSPE): 0.001159387 

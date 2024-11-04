@@ -1,0 +1,38 @@
+Synthetic Control Analysis for Dryden
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+         Name   Weight
+       Virgil 0.499792
+       Kempis 0.159668
+         Hume 0.131452
+     Voltaire 0.103358
+    Augustine 0.043352
+       Cicero 0.027552
+ Robert Burns 0.026316
+        Aesop 0.007951
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1677.000   688.351    1593.285
+Socialist                         0.000     0.000       0.132
+Political                         0.000     0.263       0.472
+YearofTranslationtoEnglish     1677.000  1708.341    1829.972
+wrote_English                     1.000     0.158       0.368
+wrote_French                      0.000     0.103       0.097
+wrote_Greek                       0.000     0.008       0.076
+wrote_Latin                       0.000     0.730       0.062
+wrote_Italian                     0.000     0.000       0.014
+wrote_Spanish                     0.000     0.000       0.007
+wrote_German                      0.000     0.000       0.368
+special.cite_English.1914.1916    2.223     2.247       0.464
+special.cite_English.1908.1910    3.100     3.451       0.625
+special.cite_English.1902.1904    3.857     3.807       0.687
+special.cite_English.1896.1898    4.397     4.134       0.714
+special.cite_English.1890.1892    4.230     4.480       0.799
+special.cite_English.1884.1886    4.280     4.378       0.755
+special.cite_English.1878.1880    5.460     5.194       0.791
+
+Root Mean Square Prediction Error (RMSPE) Post/Pre Ratio: 0.6561031 
+
+Overall Mean Squared Prediction Error (MSPE): 0.02166365 

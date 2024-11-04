@@ -1,0 +1,57 @@
+Synthetic Control Analysis for Eduard von Hartmann
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+                      Name   Weight
+             Otto Liebmann 0.472830
+            Ludwig Büchner 0.180409
+             Hermann Lotze 0.180386
+               Carl Stumpf 0.032348
+         Ferdinand Tönnies 0.022282
+             Hermann Cohen 0.014194
+            E T A Hoffmann 0.011396
+          Eduard Bernstein 0.007860
+               Thomas Abbt 0.007153
+                     Rilke 0.006921
+            Friedrich List 0.005113
+             Eduard Zeller 0.004919
+            Franz Brentano 0.003873
+                Moses Hess 0.003436
+               Max Stirner 0.002614
+    Barthold Georg Niebuhr 0.002142
+                    Natorp 0.002132
+              August Bebel 0.002100
+           Wilhelm Roscher 0.002075
+                Ebbinghaus 0.002060
+          Ludwig Feuerbach 0.001746
+           Theodor Fontane 0.001685
+            Sigismund Beck 0.001529
+                    Simmel 0.001290
+                 Hölderlin 0.001268
+                   Scheler 0.001226
+        Ferdinand Lassalle 0.001143
+                Windelband 0.001082
+                   Sombart 0.001082
+                     Külpe 0.001045
+        Friedrich Schiller 0.001036
+               Thomas Mann 0.001035
+ Friedrich Heinrich Jacobi 0.001005
+                     Frege 0.001001
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1869.000  1862.322    1841.339
+YearofTranslationtoEnglish     1884.000  1888.782    1890.559
+Socialist                         0.000     0.017       0.102
+Political                         0.000     0.050       0.203
+special.cite_English.1914.1916    0.007     0.009       0.210
+special.cite_English.1908.1910    0.009     0.008       0.234
+special.cite_English.1902.1904    0.006     0.008       0.250
+special.cite_English.1896.1898    0.006     0.010       0.271
+special.cite_English.1890.1892    0.008     0.010       0.284
+special.cite_English.1884.1886    0.019     0.017       0.295
+special.cite_English.1878.1880    0.008     0.010       0.288
+
+Root Mean Square Prediction Error (RMSPE) Post/Pre Ratio: 1.057087 
+
+Overall Mean Squared Prediction Error (MSPE): 6.738236e-06 

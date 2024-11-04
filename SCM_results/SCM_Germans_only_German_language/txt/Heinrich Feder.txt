@@ -1,0 +1,35 @@
+Synthetic Control Analysis for Heinrich Feder
+Using citation variable: cite_German
+
+Synthetic Control Weights:
+                      Name   Weight
+       Christian Schreiber 0.548822
+        Dietrich Tiedemann 0.395794
+            Sigismund Beck 0.009582
+     Gottlob Ernst Schulze 0.008483
+             Friedrich Ast 0.003150
+               Thomas Abbt 0.002535
+             Eduard Beneke 0.002492
+             Amadeus Wendt 0.002353
+           Bernard Bolzano 0.002133
+          Wilhelm Drobisch 0.002094
+    Barthold Georg Niebuhr 0.002002
+          Friedrich Krause 0.001517
+ Friedrich Heinrich Jacobi 0.001449
+
+Predictor Balance:
+                               Treated Synthetic Sample Mean
+YearofPublication             1787.000  1800.163    1841.301
+Socialist                        0.000     0.002       0.108
+Political                        0.000     0.003       0.205
+special.cite_German.1914.1916    0.006     0.014       1.483
+special.cite_German.1908.1910    0.002     0.016       1.703
+special.cite_German.1902.1904    0.004     0.017       1.618
+special.cite_German.1896.1898    0.002     0.016       1.405
+special.cite_German.1890.1892    0.002     0.013       1.474
+special.cite_German.1884.1886    0.004     0.012       1.448
+special.cite_German.1878.1880    0.004     0.013       1.477
+
+Root Mean Square Prediction Error (RMSPE) Post/Pre Ratio: 1.581085 
+
+Overall Mean Squared Prediction Error (MSPE): 6.694432e-06 

@@ -1,0 +1,45 @@
+Synthetic Control Analysis for Fritz Schultze
+Using citation variable: cite_German
+
+Synthetic Control Weights:
+                       Name   Weight
+           Wilhelm Drobisch 0.589058
+                Carl Stumpf 0.273883
+           Gustav Schönberg 0.054482
+              Amadeus Wendt 0.014261
+              Friedrich Ast 0.005182
+              Eduard Beneke 0.004449
+                 Mainländer 0.002957
+         Dietrich Tiedemann 0.002605
+             Heinrich Feder 0.002451
+                 Moses Hess 0.002366
+             Sigismund Beck 0.002307
+        Christian Schreiber 0.002148
+      Gottlob Ernst Schulze 0.001902
+ Christian Wilhelm von Dohm 0.001651
+     Barthold Georg Niebuhr 0.001596
+              Hermann Lotze 0.001494
+           Bruno Hildebrand 0.001470
+             Ludwig Büchner 0.001393
+                Rudolf Haym 0.001302
+           Friedrich Krause 0.001273
+                Thomas Abbt 0.001252
+                 Karl Knies 0.001108
+            Wilhelm Roscher 0.001010
+
+Predictor Balance:
+                               Treated Synthetic Sample Mean
+YearofPublication             1871.000  1858.058    1840.289
+Socialist                        0.000     0.008       0.108
+Political                        0.000     0.068       0.205
+special.cite_German.1914.1916    0.010     0.037       1.483
+special.cite_German.1908.1910    0.022     0.039       1.703
+special.cite_German.1902.1904    0.041     0.037       1.617
+special.cite_German.1896.1898    0.030     0.045       1.404
+special.cite_German.1890.1892    0.036     0.036       1.474
+special.cite_German.1884.1886    0.048     0.040       1.448
+special.cite_German.1878.1880    0.065     0.044       1.477
+
+Root Mean Square Prediction Error (RMSPE) Post/Pre Ratio: 1.448384 
+
+Overall Mean Squared Prediction Error (MSPE): 7.864801e-06 

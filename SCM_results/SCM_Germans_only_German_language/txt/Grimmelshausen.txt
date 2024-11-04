@@ -1,0 +1,29 @@
+Synthetic Control Analysis for Grimmelshausen
+Using citation variable: cite_German
+
+Synthetic Control Weights:
+                     Name   Weight
+              Thomas Abbt 0.566607
+       Friedrich Schlegel 0.302788
+           E T A Hoffmann 0.093617
+                Rodbertus 0.009574
+ Gotthold Ephraim Lessing 0.009535
+                   Simmel 0.006547
+               Windelband 0.001142
+
+Predictor Balance:
+                               Treated Synthetic Sample Mean
+YearofPublication             1668.000  1779.684    1842.735
+Socialist                        0.000     0.010       0.108
+Political                        0.000     0.011       0.205
+special.cite_German.1914.1916    0.362     0.320       1.478
+special.cite_German.1908.1910    0.467     0.418       1.697
+special.cite_German.1902.1904    0.132     0.225       1.616
+special.cite_German.1896.1898    0.151     0.208       1.403
+special.cite_German.1890.1892    0.154     0.188       1.472
+special.cite_German.1884.1886    0.360     0.255       1.444
+special.cite_German.1878.1880    0.219     0.228       1.475
+
+Root Mean Square Prediction Error (RMSPE) Post/Pre Ratio: 3.081444 
+
+Overall Mean Squared Prediction Error (MSPE): 0.0001812539 

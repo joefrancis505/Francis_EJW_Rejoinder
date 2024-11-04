@@ -1,0 +1,39 @@
+Synthetic Control Analysis for John Milton
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+                    Name   Weight
+                  Hobbes 0.730280
+         Robert Browning 0.133307
+ James Fitzjames Stephen 0.036792
+                  Cicero 0.034404
+         Abraham Lincoln 0.029712
+              Adam Smith 0.017120
+          Edward Bellamy 0.008832
+                    Hume 0.006006
+            Robert Burns 0.002886
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1644.000  1636.959    1579.738
+Socialist                         0.000     0.009       0.131
+Political                         1.000     0.864       0.469
+YearofTranslationtoEnglish     1644.000  1702.958    1828.807
+wrote_English                     1.000     0.965       0.366
+wrote_French                      0.000     0.000       0.097
+wrote_Greek                       0.000     0.000       0.083
+wrote_Latin                       0.000     0.034       0.062
+wrote_Italian                     0.000     0.000       0.014
+wrote_Spanish                     0.000     0.000       0.007
+wrote_German                      0.000     0.000       0.366
+special.cite_English.1914.1916    0.324     0.323       0.481
+special.cite_English.1908.1910    0.449     0.439       0.650
+special.cite_English.1902.1904    0.441     0.456       0.716
+special.cite_English.1896.1898    0.500     0.497       0.747
+special.cite_English.1890.1892    0.590     0.576       0.835
+special.cite_English.1884.1886    0.418     0.447       0.786
+special.cite_English.1878.1880    0.547     0.527       0.832
+
+Root Mean Square Prediction Error (RMSPE) Post/Pre Ratio: 1.21653 
+
+Overall Mean Squared Prediction Error (MSPE): 0.0001833316 

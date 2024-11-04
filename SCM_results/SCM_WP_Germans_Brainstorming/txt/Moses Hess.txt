@@ -1,0 +1,35 @@
+Synthetic Control Analysis for Moses Hess
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+                   Name   Weight
+           August Bebel 0.602793
+       Eduard Bernstein 0.319421
+ Barthold Georg Niebuhr 0.040097
+                 Hobbes 0.029636
+                  Aesop 0.006271
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1842.000  1862.824    1592.139
+Socialist                         1.000     0.922       0.125
+Political                         1.000     0.953       0.465
+YearofTranslationtoEnglish     1846.000  1880.849    1828.799
+wrote_English                     0.000     0.030       0.375
+wrote_French                      0.000     0.000       0.097
+wrote_Greek                       0.000     0.006       0.076
+wrote_Latin                       0.000     0.000       0.062
+wrote_Italian                     0.000     0.000       0.014
+wrote_Spanish                     0.000     0.000       0.007
+wrote_German                      1.000     0.963       0.361
+special.cite_English.1914.1916    0.006     0.021       0.479
+special.cite_English.1908.1910    0.003     0.013       0.646
+special.cite_English.1902.1904    0.002     0.010       0.713
+special.cite_English.1896.1898    0.001     0.007       0.744
+special.cite_English.1890.1892    0.001     0.006       0.828
+special.cite_English.1884.1886    0.000     0.006       0.785
+special.cite_English.1878.1880    0.001     0.002       0.828
+
+Root Mean Square Prediction Error (RMSPE) Post/Pre Ratio: 0.8626187 
+
+Overall Mean Squared Prediction Error (MSPE): 7.842267e-05 

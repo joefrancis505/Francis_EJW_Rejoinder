@@ -1,0 +1,40 @@
+Synthetic Control Analysis for Benjamin Franklin
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+               Name   Weight
+   Thomas Jefferson 0.279946
+       Robert Burns 0.261375
+    Abraham Lincoln 0.155858
+       William Penn 0.071947
+       Henry George 0.069157
+ Alexander Hamilton 0.063990
+         Adam Smith 0.046826
+             Dryden 0.017311
+          Augustine 0.013675
+        Machiavelli 0.001559
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1793.000  1772.682    1589.454
+Socialist                         0.000     0.073       0.135
+Political                         1.000     0.702       0.461
+YearofTranslationtoEnglish     1793.000  1795.230    1829.156
+wrote_English                     1.000     0.976       0.362
+wrote_French                      0.000     0.003       0.099
+wrote_Greek                       0.000     0.001       0.078
+wrote_Latin                       0.000     0.014       0.057
+wrote_Italian                     0.000     0.002       0.014
+wrote_Spanish                     0.000     0.000       0.007
+wrote_German                      0.000     0.005       0.376
+special.cite_English.1914.1916    1.046     1.039       0.479
+special.cite_English.1908.1910    1.187     1.193       0.648
+special.cite_English.1902.1904    1.250     1.256       0.716
+special.cite_English.1896.1898    1.260     1.252       0.746
+special.cite_English.1890.1892    1.097     1.096       0.835
+special.cite_English.1884.1886    0.948     0.952       0.790
+special.cite_English.1878.1880    0.844     0.845       0.838
+
+Root Mean Square Prediction Error (RMSPE) Post/Pre Ratio: 1.455312 
+
+Overall Mean Squared Prediction Error (MSPE): 9.17366e-05 

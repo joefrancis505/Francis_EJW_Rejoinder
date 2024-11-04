@@ -1,0 +1,28 @@
+Synthetic Control Analysis for Gotthold Ephraim Lessing
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+                   Name   Weight
+ Barthold Georg Niebuhr 0.780864
+         Grimmelshausen 0.185881
+          Hermann Lotze 0.013682
+         Schleiermacher 0.006486
+                 Fichte 0.002107
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1748.000  1785.334    1844.796
+Socialist                         0.000     0.001       0.111
+Political                         0.000     0.002       0.222
+YearofTranslationtoEnglish     1825.000  1844.402    1898.426
+special.cite_English.1914.1916    0.004     0.010       0.226
+special.cite_English.1908.1910    0.007     0.011       0.248
+special.cite_English.1902.1904    0.009     0.013       0.264
+special.cite_English.1896.1898    0.011     0.015       0.287
+special.cite_English.1890.1892    0.016     0.016       0.301
+special.cite_English.1884.1886    0.022     0.017       0.317
+special.cite_English.1878.1880    0.036     0.017       0.304
+
+Root Mean Square Prediction Error (RMSPE) Post/Pre Ratio: 1.607668 
+
+Overall Mean Squared Prediction Error (MSPE): 6.644841e-05 

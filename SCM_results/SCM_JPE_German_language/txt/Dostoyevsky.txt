@@ -1,0 +1,39 @@
+Synthetic Control Analysis for Dostoyevsky
+Using citation variable: cite_German
+
+Synthetic Control Weights:
+                       Name   Weight
+                      Kafka 0.406138
+            Hippolyte Taine 0.295912
+                      Külpe 0.186211
+                 Windelband 0.079089
+                John Calvin 0.010773
+          Pliny the Younger 0.006258
+            Marcus Aurelius 0.003490
+         Alessandro Manzoni 0.001287
+ Pedro Calderón de la Barca 0.001153
+                   Durkheim 0.001127
+
+Predictor Balance:
+                               Treated Synthetic Sample Mean
+YearofPublication             1866.000  1866.115    1597.120
+Socialist                        0.000     0.001       0.101
+Political                        0.000     0.003       0.378
+wrote_English                    0.000     0.006       0.327
+wrote_French                     0.000     0.298       0.115
+wrote_Greek                      0.000     0.004       0.069
+wrote_Latin                      0.000     0.017       0.065
+wrote_Italian                    0.000     0.001       0.023
+wrote_Spanish                    0.000     0.001       0.009
+wrote_German                     0.000     0.673       0.392
+special.cite_German.1914.1916    0.856     0.784       1.119
+special.cite_German.1908.1910    0.287     0.288       1.271
+special.cite_German.1902.1904    0.248     0.226       1.234
+special.cite_German.1896.1898    0.106     0.195       1.224
+special.cite_German.1890.1892    0.153     0.180       1.302
+special.cite_German.1884.1886    0.061     0.091       1.442
+special.cite_German.1878.1880    0.055     0.101       1.494
+
+Root Mean Square Prediction Error (RMSPE) Post/Pre Ratio: 14.79184 
+
+Overall Mean Squared Prediction Error (MSPE): 0.0005807856 

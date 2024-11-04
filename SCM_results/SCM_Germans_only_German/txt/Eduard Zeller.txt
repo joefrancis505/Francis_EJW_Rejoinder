@@ -1,0 +1,44 @@
+Synthetic Control Analysis for Eduard Zeller
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+                      Name   Weight
+    Barthold Georg Niebuhr 0.485928
+               Carl Stumpf 0.234146
+            Ludwig Büchner 0.177662
+            Sigismund Beck 0.034152
+            Franz Brentano 0.006505
+             Otto Liebmann 0.006327
+ Friedrich Heinrich Jacobi 0.005757
+               Thomas Abbt 0.004926
+            E T A Hoffmann 0.004522
+             Hermann Cohen 0.004196
+                     Rilke 0.003103
+           Theodor Fontane 0.003070
+                 Hölderlin 0.002158
+          Ludwig Feuerbach 0.002016
+                    Thünen 0.001548
+       Eduard von Hartmann 0.001467
+                     Külpe 0.001277
+                    Simmel 0.001260
+            Grimmelshausen 0.001199
+                Ebbinghaus 0.001084
+                    Natorp 0.001054
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1844.000  1843.834    1841.763
+YearofTranslationtoEnglish     1886.000  1886.699    1890.525
+Socialist                         0.000     0.001       0.102
+Political                         0.000     0.003       0.203
+special.cite_English.1914.1916    0.003     0.005       0.210
+special.cite_English.1908.1910    0.006     0.005       0.234
+special.cite_English.1902.1904    0.003     0.005       0.250
+special.cite_English.1896.1898    0.004     0.006       0.271
+special.cite_English.1890.1892    0.003     0.005       0.284
+special.cite_English.1884.1886    0.002     0.004       0.295
+special.cite_English.1878.1880    0.003     0.005       0.288
+
+Root Mean Square Prediction Error (RMSPE) Post/Pre Ratio: 0.9431349 
+
+Overall Mean Squared Prediction Error (MSPE): 4.384792e-06 

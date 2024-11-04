@@ -1,0 +1,29 @@
+Synthetic Control Analysis for Karl Marx
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+          Name   Weight
+    Ebbinghaus 0.698323
+ Martin Luther 0.081409
+         Wundt 0.080947
+         Kafka 0.061213
+        Fichte 0.052316
+     Nietzsche 0.023845
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1867.000  1852.884    1845.404
+Socialist                         1.000     0.001       0.105
+Political                         1.000     0.001       0.211
+YearofTranslationtoEnglish     1887.000  1903.602    1898.614
+special.cite_English.1914.1916    0.216     0.251       0.216
+special.cite_English.1908.1910    0.291     0.252       0.236
+special.cite_English.1902.1904    0.162     0.196       0.251
+special.cite_English.1896.1898    0.177     0.199       0.273
+special.cite_English.1890.1892    0.206     0.185       0.287
+special.cite_English.1884.1886    0.176     0.167       0.301
+special.cite_English.1878.1880    0.077     0.107       0.289
+
+Root Mean Square Prediction Error (RMSPE) Post/Pre Ratio: 5.613018 
+
+Overall Mean Squared Prediction Error (MSPE): 0.001266034 

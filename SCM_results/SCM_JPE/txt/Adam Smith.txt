@@ -1,0 +1,46 @@
+Synthetic Control Analysis for Adam Smith
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+                  Name   Weight
+           John Milton 0.225880
+                 Renan 0.155944
+    Frederick Douglass 0.119570
+        Edward Bellamy 0.116488
+                  Hume 0.090288
+                Kelvin 0.089760
+            Lord Byron 0.075948
+           Machiavelli 0.035652
+       Robert Browning 0.027312
+                Dryden 0.022087
+                 Plato 0.016861
+       Herbert Spencer 0.003219
+ Oliver Wendell Holmes 0.002888
+             Helmholtz 0.002885
+               Bentham 0.001940
+      John Stuart Mill 0.001882
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1776.000  1741.227    1563.180
+Socialist                         0.000     0.118       0.098
+Political                         1.000     0.777       0.392
+YearofTranslationtoEnglish     1776.000  1784.534    1800.119
+wrote_English                     1.000     0.784       0.392
+wrote_French                      0.000     0.157       0.134
+wrote_Greek                       0.000     0.017       0.077
+wrote_Latin                       0.000     0.001       0.072
+wrote_Italian                     0.000     0.036       0.026
+wrote_Spanish                     0.000     0.000       0.010
+wrote_German                      0.000     0.005       0.284
+special.cite_English.1914.1916    0.687     0.708       0.564
+special.cite_English.1908.1910    1.127     1.122       0.747
+special.cite_English.1902.1904    1.293     1.298       0.814
+special.cite_English.1896.1898    1.417     1.412       0.862
+special.cite_English.1890.1892    1.463     1.456       0.943
+special.cite_English.1884.1886    1.207     1.210       0.888
+special.cite_English.1878.1880    1.447     1.447       0.944
+
+Root Mean Square Prediction Error (RMSPE) Post/Pre Ratio: 0.9739269 
+
+Overall Mean Squared Prediction Error (MSPE): 0.0001112593 

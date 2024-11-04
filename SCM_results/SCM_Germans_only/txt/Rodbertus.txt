@@ -1,0 +1,25 @@
+Synthetic Control Analysis for Rodbertus
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+               Name   Weight
+ Ferdinand Lassalle 0.988677
+       Schopenhauer 0.009485
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1850.000  1862.501    1842.907
+Socialist                         1.000     0.989       0.093
+Political                         1.000     0.989       0.204
+YearofTranslationtoEnglish     1898.000  1883.941    1897.074
+special.cite_English.1914.1916    0.036     0.033       0.226
+special.cite_English.1908.1910    0.050     0.049       0.247
+special.cite_English.1902.1904    0.030     0.038       0.264
+special.cite_English.1896.1898    0.056     0.053       0.287
+special.cite_English.1890.1892    0.110     0.075       0.300
+special.cite_English.1884.1886    0.055     0.052       0.316
+special.cite_English.1878.1880    0.021     0.046       0.304
+
+Root Mean Square Prediction Error (RMSPE) Post/Pre Ratio: 0.5852693 
+
+Overall Mean Squared Prediction Error (MSPE): 0.0001776357 

@@ -1,0 +1,37 @@
+Synthetic Control Analysis for Bentham
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+             Name   Weight
+ John Stuart Mill 0.501893
+   Wollstonecraft 0.184528
+  Herbert Spencer 0.164137
+        Aristotle 0.059354
+           Cicero 0.050917
+           Goethe 0.028645
+      Oscar Wilde 0.009624
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1780.000  1611.747    1464.406
+Socialist                         0.000     0.010       0.146
+Political                         1.000     0.971       0.573
+YearofTranslationtoEnglish     1780.000  1823.251    1793.240
+wrote_English                     1.000     0.861       0.510
+wrote_French                      0.000     0.000       0.146
+wrote_Greek                       0.000     0.059       0.115
+wrote_Latin                       0.000     0.051       0.083
+wrote_Italian                     0.000     0.000       0.021
+wrote_Spanish                     0.000     0.000       0.010
+wrote_German                      0.000     0.029       0.104
+special.cite_English.1914.1916    0.977     0.902       0.665
+special.cite_English.1908.1910    1.417     1.313       0.905
+special.cite_English.1902.1904    1.227     1.420       1.003
+special.cite_English.1896.1898    1.433     1.541       1.040
+special.cite_English.1890.1892    1.797     1.802       1.162
+special.cite_English.1884.1886    2.050     1.875       1.104
+special.cite_English.1878.1880    1.980     1.909       1.178
+
+Root Mean Square Prediction Error (RMSPE) Post/Pre Ratio: 1.514805 
+
+Overall Mean Squared Prediction Error (MSPE): 0.005595609 

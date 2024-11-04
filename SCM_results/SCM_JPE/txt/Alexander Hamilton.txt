@@ -1,0 +1,43 @@
+Synthetic Control Analysis for Alexander Hamilton
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+                  Name   Weight
+      Thomas Jefferson 0.393746
+        William Godwin 0.324603
+       Abraham Lincoln 0.111979
+          John Woolman 0.111704
+                Hobbes 0.015120
+        Edmund Spenser 0.013783
+ William Graham Sumner 0.004993
+             Nietzsche 0.003767
+        Alexander Pope 0.003358
+                Newton 0.001834
+            John Locke 0.001724
+        Jonathan Swift 0.001667
+        Wollstonecraft 0.001604
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1787.000  1786.068    1563.124
+Socialist                         0.000     0.001       0.098
+Political                         1.000     0.992       0.392
+YearofTranslationtoEnglish     1787.000  1787.135    1800.062
+wrote_English                     1.000     0.992       0.392
+wrote_French                      0.000     0.001       0.134
+wrote_Greek                       0.000     0.000       0.077
+wrote_Latin                       0.000     0.002       0.072
+wrote_Italian                     0.000     0.000       0.026
+wrote_Spanish                     0.000     0.000       0.010
+wrote_German                      0.000     0.005       0.284
+special.cite_English.1914.1916    0.845     0.734       0.563
+special.cite_English.1908.1910    0.693     0.775       0.749
+special.cite_English.1902.1904    0.839     0.881       0.817
+special.cite_English.1896.1898    0.676     0.700       0.866
+special.cite_English.1890.1892    0.613     0.640       0.947
+special.cite_English.1884.1886    0.583     0.566       0.891
+special.cite_English.1878.1880    0.454     0.433       0.950
+
+Root Mean Square Prediction Error (RMSPE) Post/Pre Ratio: 1.750097 
+
+Overall Mean Squared Prediction Error (MSPE): 0.000601607 

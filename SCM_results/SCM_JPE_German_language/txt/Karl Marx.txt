@@ -1,0 +1,44 @@
+Synthetic Control Analysis for Karl Marx
+Using citation variable: cite_German
+
+Synthetic Control Weights:
+                       Name   Weight
+               August Bebel 0.428476
+             Friedrich List 0.292082
+                Max Stirner 0.095265
+                  Schmoller 0.090734
+                      Wundt 0.034208
+                    Sombart 0.024082
+                  Nietzsche 0.012674
+           Eduard Bernstein 0.003554
+                   Proudhon 0.003533
+                 Moses Hess 0.002931
+          Ferdinand Tönnies 0.002793
+                 Karl Knies 0.001640
+           Gustav Schönberg 0.001376
+ Christian Wilhelm von Dohm 0.001372
+           Bruno Hildebrand 0.001169
+
+Predictor Balance:
+                               Treated Synthetic Sample Mean
+YearofPublication             1867.000  1866.867    1598.353
+Socialist                        1.000     0.465       0.101
+Political                        1.000     0.952       0.376
+wrote_English                    0.000     0.001       0.326
+wrote_French                     0.000     0.004       0.115
+wrote_Greek                      0.000     0.000       0.069
+wrote_Latin                      0.000     0.000       0.064
+wrote_Italian                    0.000     0.000       0.023
+wrote_Spanish                    0.000     0.000       0.009
+wrote_German                     1.000     0.994       0.390
+special.cite_German.1914.1916    0.704     0.662       1.117
+special.cite_German.1908.1910    0.652     0.627       1.266
+special.cite_German.1902.1904    0.630     0.736       1.229
+special.cite_German.1896.1898    0.553     0.495       1.219
+special.cite_German.1890.1892    0.425     0.421       1.297
+special.cite_German.1884.1886    0.208     0.269       1.436
+special.cite_German.1878.1880    0.188     0.259       1.487
+
+Root Mean Square Prediction Error (RMSPE) Post/Pre Ratio: 9.545976 
+
+Overall Mean Squared Prediction Error (MSPE): 0.0002202933 

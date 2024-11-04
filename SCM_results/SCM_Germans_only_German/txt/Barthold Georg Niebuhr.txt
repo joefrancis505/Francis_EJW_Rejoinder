@@ -1,0 +1,34 @@
+Synthetic Control Analysis for Barthold Georg Niebuhr
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+                      Name   Weight
+            Ludwig Büchner 0.396653
+               Thomas Abbt 0.303971
+            Sigismund Beck 0.261592
+         Ferdinand Tönnies 0.009003
+             Otto Liebmann 0.007229
+                Moses Hess 0.002506
+               Carl Stumpf 0.002276
+                     Rilke 0.001521
+            Franz Brentano 0.001258
+             Hermann Cohen 0.001218
+ Friedrich Heinrich Jacobi 0.001025
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1811.000  1810.669    1842.322
+Socialist                         0.000     0.004       0.102
+Political                         0.000     0.015       0.203
+YearofTranslationtoEnglish     1827.000  1828.617    1891.525
+special.cite_English.1914.1916    0.001     0.001       0.210
+special.cite_English.1908.1910    0.001     0.002       0.234
+special.cite_English.1902.1904    0.001     0.003       0.250
+special.cite_English.1896.1898    0.001     0.002       0.271
+special.cite_English.1890.1892    0.001     0.002       0.284
+special.cite_English.1884.1886    0.001     0.002       0.295
+special.cite_English.1878.1880    0.003     0.002       0.288
+
+Root Mean Square Prediction Error (RMSPE) Post/Pre Ratio: 0.6172604 
+
+Overall Mean Squared Prediction Error (MSPE): 2.129164e-06 

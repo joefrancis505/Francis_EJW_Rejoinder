@@ -1,0 +1,54 @@
+Synthetic Control Analysis for Richard Cobden
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+                    Name   Weight
+ James Fitzjames Stephen 0.266068
+           Nassau Senior 0.259619
+          William Godwin 0.114090
+              Lord Acton 0.106158
+           David Ricardo 0.091072
+        John Stuart Mill 0.046005
+          Jonathan Swift 0.024239
+   William Graham Sumner 0.015638
+                Voltaire 0.006002
+                  Hobbes 0.005577
+       Ferdinand Tönnies 0.005477
+              Adam Smith 0.004209
+        Eduard Bernstein 0.003958
+              Moses Hess 0.003957
+               de Gouges 0.003346
+           Lujo Brentano 0.003273
+             Max Stirner 0.002497
+          Friedrich List 0.002282
+            August Bebel 0.002227
+               Herodotus 0.001987
+         Auberon Herbert 0.001902
+         Charles Fourier 0.001517
+             John Ruskin 0.001517
+                Schäffle 0.001379
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1835.000  1823.346    1562.876
+Socialist                         0.000     0.020       0.098
+Political                         1.000     0.992       0.392
+YearofTranslationtoEnglish     1835.000  1836.878    1799.814
+wrote_English                     1.000     0.952       0.392
+wrote_French                      0.000     0.015       0.134
+wrote_Greek                       0.000     0.004       0.077
+wrote_Latin                       0.000     0.003       0.072
+wrote_Italian                     0.000     0.001       0.026
+wrote_Spanish                     0.000     0.000       0.010
+wrote_German                      0.000     0.026       0.284
+special.cite_English.1914.1916    0.065     0.077       0.567
+special.cite_English.1908.1910    0.128     0.122       0.752
+special.cite_English.1902.1904    0.160     0.160       0.820
+special.cite_English.1896.1898    0.134     0.132       0.869
+special.cite_English.1890.1892    0.130     0.134       0.950
+special.cite_English.1884.1886    0.150     0.151       0.893
+special.cite_English.1878.1880    0.166     0.163       0.951
+
+Root Mean Square Prediction Error (RMSPE) Post/Pre Ratio: 1.070115 
+
+Overall Mean Squared Prediction Error (MSPE): 1.528412e-05 

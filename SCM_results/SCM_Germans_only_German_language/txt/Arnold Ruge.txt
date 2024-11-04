@@ -1,0 +1,83 @@
+Synthetic Control Analysis for Arnold Ruge
+Using citation variable: cite_German
+
+Synthetic Control Weights:
+                       Name   Weight
+           Gustav Schönberg 0.589415
+ Christian Wilhelm von Dohm 0.235977
+                 Karl Knies 0.030400
+                      Frege 0.007865
+                 Moses Hess 0.007620
+                  Rodbertus 0.006921
+        Christian Schreiber 0.004220
+            Wilhelm Roscher 0.004215
+             Heinrich Feder 0.003768
+            Bernard Bolzano 0.003757
+          Ferdinand Tönnies 0.003719
+              Friedrich Ast 0.003475
+              Amadeus Wendt 0.003263
+         Dietrich Tiedemann 0.003239
+             Sigismund Beck 0.002986
+              Eduard Beneke 0.002960
+      Gottlob Ernst Schulze 0.002579
+           Wilhelm Drobisch 0.002560
+                Max Stirner 0.002387
+           Bruno Hildebrand 0.002194
+                  Schmoller 0.002089
+               August Bebel 0.002066
+           Eduard Bernstein 0.002051
+     Barthold Georg Niebuhr 0.002036
+                Carl Stumpf 0.001930
+           Friedrich Krause 0.001889
+              Martin Luther 0.001740
+                    Sombart 0.001732
+              Hermann Lotze 0.001720
+             Fritz Schultze 0.001675
+              Otto Liebmann 0.001664
+                Rudolf Haym 0.001635
+             Ludwig Büchner 0.001581
+                   Schäffle 0.001569
+               Kuno Fischer 0.001498
+           Ludwig Feuerbach 0.001489
+                  Hölderlin 0.001426
+                  Wentscher 0.001420
+             Gustav Freytag 0.001415
+                 Mainländer 0.001410
+            Theodor Fontane 0.001375
+         Ferdinand Lassalle 0.001371
+                      Ranke 0.001352
+              Eduard Zeller 0.001322
+                  Laspeyres 0.001307
+  Friedrich Heinrich Jacobi 0.001303
+             Franz Brentano 0.001298
+              Theodor Lipps 0.001288
+        Eduard von Hartmann 0.001278
+                Thomas Abbt 0.001225
+                    Dilthey 0.001182
+         Friedrich Schiller 0.001168
+                     Natorp 0.001167
+              Hermann Cohen 0.001138
+                 Ebbinghaus 0.001136
+                     Thünen 0.001127
+   Gotthold Ephraim Lessing 0.001118
+                      Külpe 0.001081
+              Eugen Dühring 0.001030
+                 Windelband 0.001013
+              Immanuel Kant 0.001009
+
+Predictor Balance:
+                               Treated Synthetic Sample Mean
+YearofPublication             1846.000  1844.922    1840.590
+Socialist                        0.000     0.026       0.108
+Political                        1.000     0.895       0.193
+special.cite_German.1914.1916    0.076     0.085       1.482
+special.cite_German.1908.1910    0.075     0.087       1.702
+special.cite_German.1902.1904    0.103     0.088       1.617
+special.cite_German.1896.1898    0.072     0.075       1.404
+special.cite_German.1890.1892    0.091     0.083       1.473
+special.cite_German.1884.1886    0.124     0.095       1.447
+special.cite_German.1878.1880    0.044     0.081       1.477
+
+Root Mean Square Prediction Error (RMSPE) Post/Pre Ratio: 1.117821 
+
+Overall Mean Squared Prediction Error (MSPE): 6.909412e-06 

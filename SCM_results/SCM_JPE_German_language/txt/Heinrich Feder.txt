@@ -1,0 +1,31 @@
+Synthetic Control Analysis for Heinrich Feder
+Using citation variable: cite_German
+
+Synthetic Control Weights:
+                Name   Weight
+ Christian Schreiber 0.985057
+   Pliny the Younger 0.005792
+
+Predictor Balance:
+                               Treated Synthetic Sample Mean
+YearofPublication             1787.000  1792.413    1597.484
+Socialist                        0.000     0.001       0.101
+Political                        0.000     0.003       0.378
+wrote_English                    0.000     0.003       0.327
+wrote_French                     0.000     0.001       0.115
+wrote_Greek                      0.000     0.001       0.069
+wrote_Latin                      0.000     0.006       0.065
+wrote_Italian                    0.000     0.000       0.023
+wrote_Spanish                    0.000     0.000       0.009
+wrote_German                     1.000     0.989       0.387
+special.cite_German.1914.1916    0.006     0.007       1.122
+special.cite_German.1908.1910    0.002     0.008       1.272
+special.cite_German.1902.1904    0.004     0.008       1.235
+special.cite_German.1896.1898    0.002     0.009       1.225
+special.cite_German.1890.1892    0.002     0.007       1.303
+special.cite_German.1884.1886    0.004     0.008       1.443
+special.cite_German.1878.1880    0.004     0.007       1.494
+
+Root Mean Square Prediction Error (RMSPE) Post/Pre Ratio: 2.166901 
+
+Overall Mean Squared Prediction Error (MSPE): 1.920424e-06 

@@ -1,0 +1,38 @@
+Synthetic Control Analysis for John Calvin
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+              Name   Weight
+    William Harvey 0.357194
+            Kempis 0.325005
+    William Caxton 0.151331
+    Francis Pretty 0.114288
+         Nietzsche 0.024019
+ Pliny the Younger 0.015958
+            Kelvin 0.008360
+             Aesop 0.003141
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1536.000  1503.753    1564.418
+Socialist                         0.000     0.000       0.098
+Political                         0.000     0.000       0.397
+YearofTranslationtoEnglish     1559.000  1659.983    1801.237
+wrote_English                     0.000     0.274       0.397
+wrote_French                      0.000     0.000       0.134
+wrote_Greek                       0.000     0.003       0.077
+wrote_Latin                       1.000     0.698       0.067
+wrote_Italian                     0.000     0.000       0.026
+wrote_Spanish                     0.000     0.000       0.010
+wrote_German                      0.000     0.024       0.284
+special.cite_English.1914.1916    0.148     0.167       0.567
+special.cite_English.1908.1910    0.258     0.205       0.751
+special.cite_English.1902.1904    0.169     0.178       0.820
+special.cite_English.1896.1898    0.158     0.196       0.869
+special.cite_English.1890.1892    0.201     0.214       0.949
+special.cite_English.1884.1886    0.176     0.213       0.893
+special.cite_English.1878.1880    0.196     0.206       0.951
+
+Root Mean Square Prediction Error (RMSPE) Post/Pre Ratio: 0.3888001 
+
+Overall Mean Squared Prediction Error (MSPE): 0.0007822303 

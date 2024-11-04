@@ -1,0 +1,32 @@
+Synthetic Control Analysis for Proudhon
+Using citation variable: cite_German
+
+Synthetic Control Weights:
+    Name   Weight
+ Blanqui 0.841373
+ Pasteur 0.142624
+  Cicero 0.015818
+
+Predictor Balance:
+                               Treated Synthetic Sample Mean
+YearofPublication             1840.000  1835.647    1597.240
+Socialist                        1.000     0.841       0.097
+Political                        1.000     0.857       0.373
+wrote_English                    0.000     0.000       0.327
+wrote_French                     1.000     0.984       0.111
+wrote_Greek                      0.000     0.000       0.069
+wrote_Latin                      0.000     0.016       0.065
+wrote_Italian                    0.000     0.000       0.023
+wrote_Spanish                    0.000     0.000       0.009
+wrote_German                     0.000     0.000       0.392
+special.cite_German.1914.1916    0.268     0.594       1.121
+special.cite_German.1908.1910    0.497     0.782       1.270
+special.cite_German.1902.1904    0.637     0.775       1.232
+special.cite_German.1896.1898    1.666     1.009       1.217
+special.cite_German.1890.1892    1.087     0.901       1.298
+special.cite_German.1884.1886    0.501     0.845       1.440
+special.cite_German.1878.1880    0.762     0.935       1.491
+
+Root Mean Square Prediction Error (RMSPE) Post/Pre Ratio: 0.521433 
+
+Overall Mean Squared Prediction Error (MSPE): 0.007172547 

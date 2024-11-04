@@ -1,0 +1,37 @@
+Synthetic Control Analysis for Kafka
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+                   Name   Weight
+                  Frege 0.451520
+                Scheler 0.368787
+         Edward Bellamy 0.081870
+        Robert Browning 0.034288
+            Machiavelli 0.029716
+ Barthold Georg Niebuhr 0.021529
+         Schleiermacher 0.004505
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1915.000  1877.759    1577.869
+Socialist                         0.000     0.083       0.131
+Political                         0.000     0.115       0.476
+YearofTranslationtoEnglish     1937.000  1939.420    1826.786
+wrote_English                     0.000     0.118       0.372
+wrote_French                      0.000     0.001       0.097
+wrote_Greek                       0.000     0.000       0.083
+wrote_Latin                       0.000     0.001       0.062
+wrote_Italian                     0.000     0.030       0.014
+wrote_Spanish                     0.000     0.000       0.007
+wrote_German                      1.000     0.850       0.359
+special.cite_English.1914.1916    0.046     0.050       0.483
+special.cite_English.1908.1910    0.029     0.052       0.653
+special.cite_English.1902.1904    0.015     0.064       0.719
+special.cite_English.1896.1898    0.021     0.079       0.751
+special.cite_English.1890.1892    0.263     0.148       0.837
+special.cite_English.1884.1886    0.036     0.051       0.789
+special.cite_English.1878.1880    0.031     0.060       0.836
+
+Root Mean Square Prediction Error (RMSPE) Post/Pre Ratio: 0.4549525 
+
+Overall Mean Squared Prediction Error (MSPE): 0.001418098 

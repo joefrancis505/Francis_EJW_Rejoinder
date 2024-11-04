@@ -1,0 +1,40 @@
+Synthetic Control Analysis for Schopenhauer
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+           Name   Weight
+         Fichte 0.336937
+          Kafka 0.250378
+        Herbart 0.158696
+ Schleiermacher 0.117412
+      Nietzsche 0.063376
+          Plato 0.026247
+         Goethe 0.016559
+           Hume 0.015629
+         Cicero 0.005172
+       Rousseau 0.004558
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1818.000  1769.791    1592.306
+Socialist                         0.000     0.001       0.132
+Political                         0.000     0.054       0.472
+YearofTranslationtoEnglish     1883.000  1883.350    1828.542
+wrote_English                     0.000     0.017       0.375
+wrote_French                      0.000     0.005       0.097
+wrote_Greek                       0.000     0.026       0.076
+wrote_Latin                       0.000     0.005       0.062
+wrote_Italian                     0.000     0.001       0.014
+wrote_Spanish                     0.000     0.000       0.007
+wrote_German                      1.000     0.946       0.361
+special.cite_English.1914.1916    0.733     0.721       0.474
+special.cite_English.1908.1910    0.717     0.779       0.641
+special.cite_English.1902.1904    0.803     0.827       0.708
+special.cite_English.1896.1898    1.363     0.957       0.735
+special.cite_English.1890.1892    1.313     1.151       0.819
+special.cite_English.1884.1886    0.989     1.025       0.778
+special.cite_English.1878.1880    1.023     0.994       0.821
+
+Root Mean Square Prediction Error (RMSPE) Post/Pre Ratio: 0.380679 
+
+Overall Mean Squared Prediction Error (MSPE): 0.001950752 

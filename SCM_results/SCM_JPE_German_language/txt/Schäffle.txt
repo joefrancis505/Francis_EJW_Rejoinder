@@ -1,0 +1,37 @@
+Synthetic Control Analysis for Schäffle
+Using citation variable: cite_German
+
+Synthetic Control Weights:
+             Name   Weight
+        Laspeyres 0.430411
+ Gustav Schönberg 0.220029
+  Wilhelm Roscher 0.185080
+        Rodbertus 0.077248
+            Ranke 0.036704
+          Bastiat 0.026065
+        Herodotus 0.013451
+           Cicero 0.010724
+
+Predictor Balance:
+                               Treated Synthetic Sample Mean
+YearofPublication             1874.000  1810.711    1597.083
+Socialist                        0.000     0.508       0.101
+Political                        1.000     0.533       0.373
+wrote_English                    0.000     0.000       0.327
+wrote_French                     0.000     0.026       0.115
+wrote_Greek                      0.000     0.013       0.069
+wrote_Latin                      0.000     0.011       0.065
+wrote_Italian                    0.000     0.000       0.023
+wrote_Spanish                    0.000     0.000       0.009
+wrote_German                     1.000     0.949       0.387
+special.cite_German.1914.1916    0.263     0.408       1.121
+special.cite_German.1908.1910    0.453     0.511       1.270
+special.cite_German.1902.1904    0.570     0.533       1.232
+special.cite_German.1896.1898    0.630     0.645       1.222
+special.cite_German.1890.1892    1.051     0.944       1.298
+special.cite_German.1884.1886    1.075     1.069       1.438
+special.cite_German.1878.1880    0.947     0.884       1.490
+
+Root Mean Square Prediction Error (RMSPE) Post/Pre Ratio: 0.5210061 
+
+Overall Mean Squared Prediction Error (MSPE): 0.0004312978 

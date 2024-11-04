@@ -1,0 +1,50 @@
+Synthetic Control Analysis for Dilthey
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+                      Name   Weight
+               Carl Stumpf 0.364046
+                 Max Weber 0.285897
+ Friedrich Heinrich Jacobi 0.170004
+            Franz Brentano 0.089514
+                     Frege 0.011246
+                 Schmoller 0.006877
+                 Nietzsche 0.006598
+               Thomas Mann 0.005925
+                Clausewitz 0.005887
+                   Herbart 0.004460
+             Immanuel Kant 0.003330
+                Windelband 0.003075
+                     Wundt 0.002988
+                   Sombart 0.002467
+             Hermann Cohen 0.002246
+                   Scheler 0.001678
+                    Thünen 0.001636
+                    Simmel 0.001552
+                     Rilke 0.001528
+             Sigmund Freud 0.001490
+                    Hamann 0.001463
+                 Hölderlin 0.001450
+                     Külpe 0.001140
+                Ebbinghaus 0.001126
+        Friedrich Schiller 0.001076
+            Schleiermacher 0.001060
+            Grimmelshausen 0.001059
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1883.000  1883.938    1844.732
+Socialist                         0.000     0.006       0.107
+Political                         0.000     0.017       0.214
+YearofTranslationtoEnglish     1989.000  1983.465    1897.000
+special.cite_English.1914.1916    0.039     0.036       0.219
+special.cite_English.1908.1910    0.028     0.030       0.239
+special.cite_English.1902.1904    0.028     0.024       0.255
+special.cite_English.1896.1898    0.024     0.026       0.277
+special.cite_English.1890.1892    0.043     0.042       0.292
+special.cite_English.1884.1886    0.009     0.013       0.306
+special.cite_English.1878.1880    0.012     0.013       0.294
+
+Root Mean Square Prediction Error (RMSPE) Post/Pre Ratio: 3.064663 
+
+Overall Mean Squared Prediction Error (MSPE): 9.382855e-06 

@@ -1,0 +1,28 @@
+Synthetic Control Analysis for Wundt
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+       Name   Weight
+    Herbart 0.553999
+     Herder 0.196132
+      Kafka 0.139519
+  Nietzsche 0.101315
+ Ebbinghaus 0.009021
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1896.000  1829.285    1842.056
+Socialist                         0.000     0.000       0.111
+Political                         0.000     0.000       0.222
+YearofTranslationtoEnglish     1897.000  1880.275    1897.093
+special.cite_English.1914.1916    0.462     0.528       0.218
+special.cite_English.1908.1910    0.564     0.521       0.238
+special.cite_English.1902.1904    0.618     0.595       0.253
+special.cite_English.1896.1898    0.595     0.696       0.277
+special.cite_English.1890.1892    0.546     0.462       0.292
+special.cite_English.1884.1886    0.291     0.334       0.312
+special.cite_English.1878.1880    0.179     0.254       0.301
+
+Root Mean Square Prediction Error (RMSPE) Post/Pre Ratio: 0.7511264 
+
+Overall Mean Squared Prediction Error (MSPE): 0.003677483 

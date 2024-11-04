@@ -1,0 +1,27 @@
+Synthetic Control Analysis for Karl Knies
+Using citation variable: cite_German
+
+Synthetic Control Weights:
+                       Name   Weight
+           Gustav Schönberg 0.598961
+                Max Stirner 0.250236
+ Christian Wilhelm von Dohm 0.129047
+                 Moses Hess 0.014823
+           Bruno Hildebrand 0.001167
+
+Predictor Balance:
+                               Treated Synthetic Sample Mean
+YearofPublication             1853.000  1852.255    1840.506
+Socialist                        0.000     0.017       0.108
+Political                        1.000     0.995       0.193
+special.cite_German.1914.1916    0.013     0.025       1.483
+special.cite_German.1908.1910    0.023     0.029       1.703
+special.cite_German.1902.1904    0.024     0.026       1.618
+special.cite_German.1896.1898    0.046     0.041       1.404
+special.cite_German.1890.1892    0.015     0.021       1.474
+special.cite_German.1884.1886    0.026     0.018       1.448
+special.cite_German.1878.1880    0.007     0.020       1.477
+
+Root Mean Square Prediction Error (RMSPE) Post/Pre Ratio: 1.214358 
+
+Overall Mean Squared Prediction Error (MSPE): 3.019168e-06 

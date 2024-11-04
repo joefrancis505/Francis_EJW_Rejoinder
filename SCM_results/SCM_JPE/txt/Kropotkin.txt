@@ -1,0 +1,35 @@
+Synthetic Control Analysis for Kropotkin
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+          Name   Weight
+ Lujo Brentano 0.725401
+   John Ruskin 0.103808
+       Sombart 0.070583
+     Nietzsche 0.068843
+        Kelvin 0.029888
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1902.000  1872.089    1562.531
+Socialist                         1.000     0.900       0.093
+Political                         1.000     0.901       0.392
+YearofTranslationtoEnglish     1902.000  1872.633    1799.469
+wrote_English                     1.000     0.860       0.392
+wrote_French                      0.000     0.000       0.134
+wrote_Greek                       0.000     0.000       0.077
+wrote_Latin                       0.000     0.000       0.072
+wrote_Italian                     0.000     0.000       0.026
+wrote_Spanish                     0.000     0.000       0.010
+wrote_German                      0.000     0.140       0.284
+special.cite_English.1914.1916    0.245     0.236       0.567
+special.cite_English.1908.1910    0.202     0.213       0.752
+special.cite_English.1902.1904    0.185     0.157       0.820
+special.cite_English.1896.1898    0.144     0.148       0.869
+special.cite_English.1890.1892    0.049     0.064       0.950
+special.cite_English.1884.1886    0.025     0.036       0.894
+special.cite_English.1878.1880    0.002     0.030       0.952
+
+Root Mean Square Prediction Error (RMSPE) Post/Pre Ratio: 1.993803 
+
+Overall Mean Squared Prediction Error (MSPE): 0.0002087198 

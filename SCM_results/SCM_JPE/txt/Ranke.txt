@@ -1,0 +1,45 @@
+Synthetic Control Analysis for Ranke
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+                       Name   Weight
+              Hermann Lotze 0.395533
+         Friedrich Schiller 0.322580
+                 Lord Byron 0.083952
+                  Helmholtz 0.082895
+                    Pasteur 0.046247
+                     Goethe 0.022076
+                      Kafka 0.007193
+        Eduard von Hartmann 0.002353
+             Ludwig Büchner 0.002048
+           Ludwig Feuerbach 0.001475
+             Schleiermacher 0.001334
+ Friedrich Carl von Savigny 0.001214
+              Eduard Zeller 0.001163
+                  Montaigne 0.001152
+                Carl Stumpf 0.001150
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1834.000  1824.726    1562.881
+Socialist                         0.000     0.002       0.098
+Political                         0.000     0.009       0.397
+YearofTranslationtoEnglish     1840.000  1845.708    1799.789
+wrote_English                     0.000     0.090       0.397
+wrote_French                      0.000     0.050       0.134
+wrote_Greek                       0.000     0.002       0.077
+wrote_Latin                       0.000     0.002       0.072
+wrote_Italian                     0.000     0.001       0.026
+wrote_Spanish                     0.000     0.000       0.010
+wrote_German                      1.000     0.854       0.278
+special.cite_English.1914.1916    0.281     0.298       0.566
+special.cite_English.1908.1910    0.435     0.430       0.750
+special.cite_English.1902.1904    0.497     0.497       0.818
+special.cite_English.1896.1898    0.576     0.577       0.867
+special.cite_English.1890.1892    0.568     0.565       0.948
+special.cite_English.1884.1886    0.701     0.696       0.890
+special.cite_English.1878.1880    0.570     0.574       0.949
+
+Root Mean Square Prediction Error (RMSPE) Post/Pre Ratio: 0.7546434 
+
+Overall Mean Squared Prediction Error (MSPE): 3.534121e-05 

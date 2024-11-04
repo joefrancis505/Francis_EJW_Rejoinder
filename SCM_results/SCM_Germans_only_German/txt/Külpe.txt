@@ -1,0 +1,36 @@
+Synthetic Control Analysis for Külpe
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+                   Name   Weight
+        Theodor Fontane 0.773933
+                 Simmel 0.092109
+                 Natorp 0.070901
+            Thomas Abbt 0.025088
+             Windelband 0.005117
+ Barthold Georg Niebuhr 0.003907
+                Herbart 0.003796
+         Sigismund Beck 0.002672
+         Franz Brentano 0.002212
+              Nietzsche 0.001753
+          Otto Liebmann 0.001703
+             Ebbinghaus 0.001098
+       Ludwig Feuerbach 0.001073
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1893.000  1890.296    1840.932
+YearofTranslationtoEnglish     1895.000  1899.419    1890.373
+Socialist                         0.000     0.001       0.102
+Political                         0.000     0.002       0.203
+special.cite_English.1914.1916    0.018     0.019       0.210
+special.cite_English.1908.1910    0.016     0.016       0.234
+special.cite_English.1902.1904    0.015     0.013       0.250
+special.cite_English.1896.1898    0.023     0.021       0.271
+special.cite_English.1890.1892    0.004     0.009       0.284
+special.cite_English.1884.1886    0.000     0.004       0.295
+special.cite_English.1878.1880    0.000     0.004       0.288
+
+Root Mean Square Prediction Error (RMSPE) Post/Pre Ratio: 1.530409 
+
+Overall Mean Squared Prediction Error (MSPE): 7.427758e-06 

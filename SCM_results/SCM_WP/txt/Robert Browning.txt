@@ -1,0 +1,36 @@
+Synthetic Control Analysis for Robert Browning
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+           Name   Weight
+ Edward Bellamy 0.463491
+        Thoreau 0.206935
+   Henry George 0.192369
+   Robert Burns 0.080409
+    Machiavelli 0.039141
+          Plato 0.016887
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1843.000  1818.794    1463.750
+Socialist                         0.000     0.656       0.146
+Political                         0.000     0.712       0.583
+YearofTranslationtoEnglish     1843.000  1859.583    1792.583
+wrote_English                     1.000     0.944       0.510
+wrote_French                      0.000     0.000       0.146
+wrote_Greek                       0.000     0.017       0.115
+wrote_Latin                       0.000     0.000       0.083
+wrote_Italian                     0.000     0.039       0.021
+wrote_Spanish                     0.000     0.000       0.010
+wrote_German                      0.000     0.000       0.104
+special.cite_English.1914.1916    0.387     0.417       0.671
+special.cite_English.1908.1910    0.443     0.564       0.915
+special.cite_English.1902.1904    0.633     0.642       1.009
+special.cite_English.1896.1898    0.752     0.707       1.047
+special.cite_English.1890.1892    1.068     0.795       1.170
+special.cite_English.1884.1886    0.465     0.540       1.120
+special.cite_English.1878.1880    0.226     0.465       1.196
+
+Root Mean Square Prediction Error (RMSPE) Post/Pre Ratio: 0.8497982 
+
+Overall Mean Squared Prediction Error (MSPE): 0.006163727 

@@ -1,0 +1,55 @@
+Synthetic Control Analysis for Alexander Hamilton
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+                    Name   Weight
+        Thomas Jefferson 0.387918
+          William Godwin 0.334754
+         Abraham Lincoln 0.067510
+            John Woolman 0.046989
+          Wollstonecraft 0.025365
+            William Penn 0.024577
+              Lord Acton 0.013773
+                  Hobbes 0.009951
+          Jonathan Swift 0.008508
+                 Malthus 0.008249
+                 Bentham 0.007571
+            Edmund Burke 0.006785
+       Benjamin Franklin 0.005266
+          John C Calhoun 0.004160
+        John Stuart Mill 0.004125
+   William Graham Sumner 0.003805
+              John Locke 0.003755
+         Herbert Spencer 0.003566
+             John Milton 0.002974
+           David Ricardo 0.002935
+ James Fitzjames Stephen 0.002875
+          Richard Cobden 0.002455
+         Auberon Herbert 0.001895
+              Adam Smith 0.001759
+                    Hume 0.001716
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1787.000  1780.962    1464.333
+Socialist                         0.000     0.004       0.146
+Political                         1.000     0.991       0.573
+YearofTranslationtoEnglish     1787.000  1787.143    1793.167
+wrote_English                     1.000     0.991       0.510
+wrote_French                      0.000     0.003       0.146
+wrote_Greek                       0.000     0.002       0.115
+wrote_Latin                       0.000     0.002       0.083
+wrote_Italian                     0.000     0.000       0.021
+wrote_Spanish                     0.000     0.000       0.010
+wrote_German                      0.000     0.002       0.104
+special.cite_English.1914.1916    0.845     0.649       0.666
+special.cite_English.1908.1910    0.693     0.696       0.913
+special.cite_English.1902.1904    0.839     0.841       1.007
+special.cite_English.1896.1898    0.676     0.676       1.048
+special.cite_English.1890.1892    0.613     0.620       1.175
+special.cite_English.1884.1886    0.583     0.576       1.119
+special.cite_English.1878.1880    0.454     0.455       1.194
+
+Root Mean Square Prediction Error (RMSPE) Post/Pre Ratio: 2.333761 
+
+Overall Mean Squared Prediction Error (MSPE): 0.0001006164 

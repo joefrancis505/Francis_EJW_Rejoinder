@@ -1,0 +1,38 @@
+Synthetic Control Analysis for Leibniz
+Using citation variable: cite_German
+
+Synthetic Control Weights:
+      Name   Weight
+ Nietzsche 0.270979
+    Virgil 0.267237
+     Ranke 0.196729
+     Homer 0.107309
+    Fichte 0.050877
+    Herder 0.050135
+  Rousseau 0.038512
+    Goethe 0.017152
+   Tacitus 0.001010
+
+Predictor Balance:
+                               Treated Synthetic Sample Mean
+YearofPublication             1666.000  1070.437    1598.041
+Socialist                        0.000     0.000       0.101
+Political                        0.000     0.040       0.378
+wrote_English                    0.000     0.000       0.327
+wrote_French                     0.000     0.039       0.115
+wrote_Greek                      0.000     0.107       0.069
+wrote_Latin                      1.000     0.268       0.060
+wrote_Italian                    0.000     0.000       0.023
+wrote_Spanish                    0.000     0.000       0.009
+wrote_German                     0.000     0.586       0.392
+special.cite_German.1914.1916    6.753     6.200       1.091
+special.cite_German.1908.1910    6.733     7.182       1.241
+special.cite_German.1902.1904    8.673     7.722       1.195
+special.cite_German.1896.1898    5.403     5.823       1.200
+special.cite_German.1890.1892    6.730     6.415       1.272
+special.cite_German.1884.1886    6.713     6.449       1.412
+special.cite_German.1878.1880    6.043     6.209       1.466
+
+Root Mean Square Prediction Error (RMSPE) Post/Pre Ratio: 1.888859 
+
+Overall Mean Squared Prediction Error (MSPE): 0.02090553 

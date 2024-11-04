@@ -1,0 +1,37 @@
+Synthetic Control Analysis for Voltaire
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+        Name   Weight
+     Pasteur 0.293715
+      Dryden 0.224419
+        Hume 0.199830
+      Goethe 0.118485
+ Victor Hugo 0.086229
+   Herodotus 0.073369
+       Renan 0.003952
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1731.000  1624.586    1563.412
+Socialist                         0.000     0.000       0.098
+Political                         1.000     0.277       0.392
+YearofTranslationtoEnglish     1950.000  1798.261    1799.222
+wrote_English                     0.000     0.424       0.397
+wrote_French                      1.000     0.384       0.129
+wrote_Greek                       0.000     0.073       0.077
+wrote_Latin                       0.000     0.000       0.072
+wrote_Italian                     0.000     0.000       0.026
+wrote_Spanish                     0.000     0.000       0.010
+wrote_German                      0.000     0.118       0.284
+special.cite_English.1914.1916    1.640     2.390       0.559
+special.cite_English.1908.1910    2.850     3.150       0.738
+special.cite_English.1902.1904    4.013     3.782       0.800
+special.cite_English.1896.1898    4.190     4.126       0.848
+special.cite_English.1890.1892    3.920     4.282       0.930
+special.cite_English.1884.1886    5.493     4.911       0.866
+special.cite_English.1878.1880    4.800     4.635       0.927
+
+Root Mean Square Prediction Error (RMSPE) Post/Pre Ratio: 0.6599473 
+
+Overall Mean Squared Prediction Error (MSPE): 0.04977711 

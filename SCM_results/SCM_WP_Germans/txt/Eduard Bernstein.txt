@@ -1,0 +1,35 @@
+Synthetic Control Analysis for Eduard Bernstein
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+              Name   Weight
+      August Bebel 0.769235
+       Carl Stumpf 0.146382
+ Ferdinand Tönnies 0.038616
+         de Gouges 0.027819
+        Moses Hess 0.010587
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1899.000  1883.123    1588.702
+Socialist                         1.000     0.782       0.128
+Political                         1.000     0.851       0.461
+YearofTranslationtoEnglish     1909.000  1907.703    1828.333
+wrote_English                     0.000     0.003       0.369
+wrote_French                      0.000     0.029       0.099
+wrote_Greek                       0.000     0.000       0.078
+wrote_Latin                       0.000     0.000       0.057
+wrote_Italian                     0.000     0.000       0.014
+wrote_Spanish                     0.000     0.000       0.007
+wrote_German                      1.000     0.967       0.369
+special.cite_English.1914.1916    0.017     0.019       0.487
+special.cite_English.1908.1910    0.006     0.014       0.656
+special.cite_English.1902.1904    0.002     0.012       0.725
+special.cite_English.1896.1898    0.000     0.008       0.755
+special.cite_English.1890.1892    0.000     0.008       0.843
+special.cite_English.1884.1886    0.000     0.007       0.797
+special.cite_English.1878.1880    0.000     0.003       0.844
+
+Root Mean Square Prediction Error (RMSPE) Post/Pre Ratio: 0.3805395 
+
+Overall Mean Squared Prediction Error (MSPE): 8.53548e-05 

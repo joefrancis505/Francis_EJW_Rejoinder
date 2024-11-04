@@ -1,0 +1,51 @@
+Synthetic Control Analysis for Henry Fielding
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+                       Name   Weight
+            Otto Pfleiderer 0.367284
+             Francis Pretty 0.182586
+               Edward Haies 0.135567
+                 Lord Acton 0.120265
+                     Bigges 0.078133
+             Philip Nichols 0.017834
+            Abraham Lincoln 0.009675
+             William Caxton 0.009574
+              William Roper 0.007377
+                    Marlowe 0.001848
+       Percy Bysshe Shelley 0.001812
+                     Kelvin 0.001357
+ Pedro Calderón de la Barca 0.001323
+             Charles Darwin 0.001281
+           Pierre Corneille 0.001254
+                Jean Racine 0.001236
+           Oliver Goldsmith 0.001222
+              Francis Bacon 0.001215
+              Simon Newcomb 0.001104
+        Ralph Waldo Emerson 0.001089
+    Hans Christian Andersen 0.001021
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1749.000  1735.719    1563.320
+Socialist                         0.000     0.004       0.098
+Political                         0.000     0.148       0.397
+YearofTranslationtoEnglish     1749.000  1749.072    1800.258
+wrote_English                     1.000     0.959       0.392
+wrote_French                      0.000     0.010       0.134
+wrote_Greek                       0.000     0.003       0.077
+wrote_Latin                       0.000     0.004       0.072
+wrote_Italian                     0.000     0.002       0.026
+wrote_Spanish                     0.000     0.002       0.010
+wrote_German                      0.000     0.019       0.284
+special.cite_English.1914.1916    0.063     0.065       0.567
+special.cite_English.1908.1910    0.113     0.108       0.752
+special.cite_English.1902.1904    0.133     0.131       0.820
+special.cite_English.1896.1898    0.073     0.080       0.869
+special.cite_English.1890.1892    0.083     0.083       0.950
+special.cite_English.1884.1886    0.068     0.070       0.894
+special.cite_English.1878.1880    0.065     0.064       0.952
+
+Root Mean Square Prediction Error (RMSPE) Post/Pre Ratio: 1.6322 
+
+Overall Mean Squared Prediction Error (MSPE): 1.828679e-05 

@@ -1,0 +1,42 @@
+Synthetic Control Analysis for Francis Bacon
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+                 Name   Weight
+         Izaak Walton 0.509830
+ Percy Bysshe Shelley 0.184438
+              Marlowe 0.112542
+           Lord Acton 0.066918
+      Robert Browning 0.038722
+      Abraham Lincoln 0.035939
+          Oscar Wilde 0.018962
+   Alexander Hamilton 0.012788
+                Aesop 0.012095
+    Pliny the Younger 0.003408
+      Otto Pfleiderer 0.002479
+        Thomas Browne 0.001317
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1597.000  1680.412    1593.840
+Socialist                         0.000     0.019       0.132
+Political                         0.000     0.135       0.472
+YearofTranslationtoEnglish     1597.000  1711.931    1830.528
+wrote_English                     1.000     0.984       0.368
+wrote_French                      0.000     0.000       0.097
+wrote_Greek                       0.000     0.012       0.076
+wrote_Latin                       0.000     0.003       0.062
+wrote_Italian                     0.000     0.000       0.014
+wrote_Spanish                     0.000     0.000       0.007
+wrote_German                      0.000     0.000       0.368
+special.cite_English.1914.1916    0.296     0.285       0.477
+special.cite_English.1908.1910    0.427     0.432       0.643
+special.cite_English.1902.1904    0.477     0.471       0.710
+special.cite_English.1896.1898    0.365     0.379       0.742
+special.cite_English.1890.1892    0.427     0.415       0.825
+special.cite_English.1884.1886    0.395     0.404       0.782
+special.cite_English.1878.1880    0.345     0.340       0.826
+
+Root Mean Square Prediction Error (RMSPE) Post/Pre Ratio: 2.791828 
+
+Overall Mean Squared Prediction Error (MSPE): 0.0001288724 

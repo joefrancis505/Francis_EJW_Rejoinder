@@ -1,0 +1,37 @@
+Synthetic Control Analysis for Thomas Carlyle
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+           Name   Weight
+    Robert Owen 0.521886
+    John Ruskin 0.261556
+   Henry George 0.173560
+ Edward Bellamy 0.024880
+         Goethe 0.008791
+          Plato 0.004256
+           Hume 0.002685
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1837.000  1828.518    1562.866
+Socialist                         1.000     0.983       0.093
+Political                         1.000     0.990       0.392
+YearofTranslationtoEnglish     1837.000  1838.361    1799.804
+wrote_English                     1.000     0.986       0.392
+wrote_French                      0.000     0.000       0.134
+wrote_Greek                       0.000     0.004       0.077
+wrote_Latin                       0.000     0.000       0.072
+wrote_Italian                     0.000     0.000       0.026
+wrote_Spanish                     0.000     0.000       0.010
+wrote_German                      0.000     0.009       0.284
+special.cite_English.1914.1916    0.228     0.323       0.567
+special.cite_English.1908.1910    0.388     0.445       0.751
+special.cite_English.1902.1904    0.463     0.461       0.819
+special.cite_English.1896.1898    0.513     0.418       0.867
+special.cite_English.1890.1892    0.568     0.523       0.948
+special.cite_English.1884.1886    0.547     0.428       0.891
+special.cite_English.1878.1880    0.398     0.336       0.950
+
+Root Mean Square Prediction Error (RMSPE) Post/Pre Ratio: 0.4966458 
+
+Overall Mean Squared Prediction Error (MSPE): 0.001056729 

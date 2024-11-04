@@ -1,0 +1,38 @@
+Synthetic Control Analysis for Robert Burns
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+               Name   Weight
+        Tocqueville 0.285537
+ Frederick Douglass 0.221913
+       William Penn 0.211300
+    Robert Browning 0.139046
+            Herbart 0.083399
+          Euripides 0.025912
+  Benjamin Franklin 0.018056
+          Aeschylus 0.014804
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1793.000  1711.418    1589.454
+Socialist                         0.000     0.000       0.135
+Political                         0.000     0.737       0.468
+YearofTranslationtoEnglish     1793.000  1805.968    1829.156
+wrote_English                     1.000     0.590       0.362
+wrote_French                      0.000     0.286       0.099
+wrote_Greek                       0.000     0.041       0.078
+wrote_Latin                       0.000     0.000       0.057
+wrote_Italian                     0.000     0.000       0.014
+wrote_Spanish                     0.000     0.000       0.007
+wrote_German                      0.000     0.083       0.376
+special.cite_English.1914.1916    0.367     0.351       0.484
+special.cite_English.1908.1910    0.440     0.491       0.653
+special.cite_English.1902.1904    0.464     0.552       0.721
+special.cite_English.1896.1898    0.894     0.697       0.749
+special.cite_English.1890.1892    0.530     0.609       0.839
+special.cite_English.1884.1886    0.426     0.516       0.794
+special.cite_English.1878.1880    0.455     0.479       0.841
+
+Root Mean Square Prediction Error (RMSPE) Post/Pre Ratio: 0.6706362 
+
+Overall Mean Squared Prediction Error (MSPE): 0.005681652 

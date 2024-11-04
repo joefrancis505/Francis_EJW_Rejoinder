@@ -1,0 +1,43 @@
+Synthetic Control Analysis for Franz Brentano
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+                       Name   Weight
+                Carl Stumpf 0.676118
+ Friedrich Carl von Savigny 0.198197
+  Friedrich Heinrich Jacobi 0.080863
+             Ludwig Büchner 0.008124
+              Hermann Cohen 0.006221
+     Barthold Georg Niebuhr 0.004835
+                      Rilke 0.004467
+              Eduard Zeller 0.003319
+                  Hölderlin 0.002515
+            Theodor Fontane 0.002011
+           Ludwig Feuerbach 0.001606
+             E T A Hoffmann 0.001564
+                     Thünen 0.001275
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1874.000  1875.555    1578.152
+Socialist                         0.000     0.001       0.131
+Political                         0.000     0.002       0.476
+YearofTranslationtoEnglish     1973.000  1972.633    1826.538
+wrote_English                     0.000     0.002       0.372
+wrote_French                      0.000     0.000       0.097
+wrote_Greek                       0.000     0.000       0.083
+wrote_Latin                       0.000     0.000       0.062
+wrote_Italian                     0.000     0.000       0.014
+wrote_Spanish                     0.000     0.000       0.007
+wrote_German                      1.000     0.997       0.359
+special.cite_English.1914.1916    0.001     0.002       0.483
+special.cite_English.1908.1910    0.001     0.003       0.653
+special.cite_English.1902.1904    0.005     0.003       0.719
+special.cite_English.1896.1898    0.002     0.005       0.751
+special.cite_English.1890.1892    0.001     0.003       0.839
+special.cite_English.1884.1886    0.001     0.003       0.789
+special.cite_English.1878.1880    0.000     0.003       0.836
+
+Root Mean Square Prediction Error (RMSPE) Post/Pre Ratio: 1.266236 
+
+Overall Mean Squared Prediction Error (MSPE): 2.609144e-06 

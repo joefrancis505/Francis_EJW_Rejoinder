@@ -1,0 +1,56 @@
+Synthetic Control Analysis for Thomas Carlyle
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+                  Name   Weight
+        Edward Bellamy 0.373790
+       Herbert Spencer 0.169268
+           John Ruskin 0.095626
+                Hobbes 0.092100
+            Adam Smith 0.076557
+ William Graham Sumner 0.059689
+    Frederick Douglass 0.042693
+       Auberon Herbert 0.012269
+          William Penn 0.011693
+        Jonathan Swift 0.010245
+           Robert Owen 0.008304
+           John Milton 0.003297
+        Wollstonecraft 0.003250
+        John C Calhoun 0.003190
+        Richard Cobden 0.003145
+            John Locke 0.003046
+         David Ricardo 0.002692
+      John Stuart Mill 0.002665
+               Malthus 0.002347
+          John Woolman 0.002194
+        William Godwin 0.001654
+          Edmund Burke 0.001599
+       Abraham Lincoln 0.001595
+          Henry George 0.001355
+               Bentham 0.001274
+     Benjamin Franklin 0.001113
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1837.000  1832.881    1463.812
+Socialist                         1.000     0.481       0.135
+Political                         1.000     0.993       0.573
+YearofTranslationtoEnglish     1837.000  1837.129    1792.646
+wrote_English                     1.000     0.993       0.510
+wrote_French                      0.000     0.002       0.146
+wrote_Greek                       0.000     0.002       0.115
+wrote_Latin                       0.000     0.001       0.083
+wrote_Italian                     0.000     0.000       0.021
+wrote_Spanish                     0.000     0.000       0.010
+wrote_German                      0.000     0.001       0.104
+special.cite_English.1914.1916    0.228     0.240       0.673
+special.cite_English.1908.1910    0.388     0.368       0.916
+special.cite_English.1902.1904    0.463     0.473       1.011
+special.cite_English.1896.1898    0.513     0.499       1.049
+special.cite_English.1890.1892    0.568     0.570       1.175
+special.cite_English.1884.1886    0.547     0.543       1.119
+special.cite_English.1878.1880    0.398     0.416       1.195
+
+Root Mean Square Prediction Error (RMSPE) Post/Pre Ratio: 0.4228205 
+
+Overall Mean Squared Prediction Error (MSPE): 6.010955e-05 

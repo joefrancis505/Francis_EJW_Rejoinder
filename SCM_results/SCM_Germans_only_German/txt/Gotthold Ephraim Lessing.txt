@@ -1,0 +1,31 @@
+Synthetic Control Analysis for Gotthold Ephraim Lessing
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+                      Name   Weight
+               Thomas Abbt 0.403499
+ Friedrich Heinrich Jacobi 0.276851
+             Hermann Lotze 0.147444
+            Grimmelshausen 0.115759
+            Sigismund Beck 0.032276
+            Schleiermacher 0.004397
+         Moses Mendelssohn 0.002744
+                    Fichte 0.001439
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1748.000  1772.467    1843.390
+YearofTranslationtoEnglish     1825.000  1823.409    1891.559
+Socialist                         0.000     0.001       0.102
+Political                         0.000     0.003       0.203
+special.cite_English.1914.1916    0.004     0.008       0.210
+special.cite_English.1908.1910    0.007     0.010       0.234
+special.cite_English.1902.1904    0.009     0.012       0.250
+special.cite_English.1896.1898    0.011     0.013       0.271
+special.cite_English.1890.1892    0.016     0.015       0.284
+special.cite_English.1884.1886    0.022     0.021       0.295
+special.cite_English.1878.1880    0.036     0.015       0.287
+
+Root Mean Square Prediction Error (RMSPE) Post/Pre Ratio: 0.9501716 
+
+Overall Mean Squared Prediction Error (MSPE): 4.789169e-05 

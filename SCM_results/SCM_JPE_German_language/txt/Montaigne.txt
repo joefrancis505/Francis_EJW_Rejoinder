@@ -1,0 +1,41 @@
+Synthetic Control Analysis for Montaigne
+Using citation variable: cite_German
+
+Synthetic Control Weights:
+              Name   Weight
+     Ambroise Paré 0.579236
+           Bakunin 0.138310
+            Kelvin 0.084755
+          Proudhon 0.059765
+    Schleiermacher 0.040060
+         Nietzsche 0.029736
+         Hölderlin 0.029622
+ Pliny the Younger 0.014541
+            Goethe 0.009478
+         Aeschylus 0.008412
+  Pierre Corneille 0.003118
+       Jean Racine 0.001604
+
+Predictor Balance:
+                               Treated Synthetic Sample Mean
+YearofPublication             1580.000  1643.042    1598.438
+Socialist                        0.000     0.198       0.101
+Political                        0.000     0.198       0.378
+wrote_English                    0.000     0.085       0.327
+wrote_French                     1.000     0.782       0.111
+wrote_Greek                      0.000     0.008       0.069
+wrote_Latin                      0.000     0.015       0.065
+wrote_Italian                    0.000     0.000       0.023
+wrote_Spanish                    0.000     0.000       0.009
+wrote_German                     0.000     0.109       0.392
+special.cite_German.1914.1916    0.823     0.932       1.119
+special.cite_German.1908.1910    1.367     1.239       1.266
+special.cite_German.1902.1904    0.909     1.100       1.231
+special.cite_German.1896.1898    1.066     1.014       1.220
+special.cite_German.1890.1892    0.841     0.866       1.299
+special.cite_German.1884.1886    0.736     0.752       1.439
+special.cite_German.1878.1880    0.640     0.767       1.491
+
+Root Mean Square Prediction Error (RMSPE) Post/Pre Ratio: 1.521328 
+
+Overall Mean Squared Prediction Error (MSPE): 0.000831904 

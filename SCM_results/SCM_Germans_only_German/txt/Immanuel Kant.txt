@@ -1,0 +1,73 @@
+Synthetic Control Analysis for Immanuel Kant
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+                      Name   Weight
+            Grimmelshausen 0.251507
+        Friedrich Schiller 0.218354
+ Friedrich Heinrich Jacobi 0.071291
+            Sigismund Beck 0.038894
+                 Hölderlin 0.027819
+            Franz Brentano 0.022826
+                    Hamann 0.019706
+                 Nietzsche 0.018127
+                Windelband 0.017848
+               Thomas Mann 0.016124
+                   Herbart 0.015048
+                    Thünen 0.014425
+                   Dilthey 0.014140
+         Moses Mendelssohn 0.013123
+                Clausewitz 0.011572
+               Carl Stumpf 0.011261
+                Ebbinghaus 0.010240
+                    Herder 0.010214
+  Gotthold Ephraim Lessing 0.010116
+                     Frege 0.009977
+                    Simmel 0.009820
+                     Wundt 0.009700
+             Hermann Cohen 0.009468
+             Hermann Lotze 0.009408
+                     Rilke 0.008149
+       Eduard von Hartmann 0.007856
+            Gustav Freytag 0.007692
+                     Külpe 0.007665
+                   Scheler 0.007643
+               Rudolf Haym 0.007303
+           Theodor Fontane 0.007088
+             Otto Liebmann 0.006742
+             Eduard Zeller 0.006705
+            Schleiermacher 0.006619
+                     Ranke 0.006531
+          Ludwig Feuerbach 0.006494
+                     Kafka 0.005078
+            Ludwig Büchner 0.004857
+                    Fichte 0.004856
+             Martin Luther 0.004692
+            E T A Hoffmann 0.004501
+              Schopenhauer 0.004161
+                    Natorp 0.003970
+    Barthold Georg Niebuhr 0.003661
+                 Helmholtz 0.003579
+           Wilhelm Roscher 0.001437
+            Friedrich List 0.001306
+               Max Stirner 0.001290
+                  Schäffle 0.001183
+                 Schmoller 0.001113
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1785.000  1785.007    1842.763
+YearofTranslationtoEnglish     1895.000  1894.995    1890.373
+Socialist                         0.000     0.005       0.102
+Political                         0.000     0.012       0.203
+special.cite_English.1914.1916    0.094     0.093       0.208
+special.cite_English.1908.1910    0.076     0.083       0.233
+special.cite_English.1902.1904    0.096     0.079       0.248
+special.cite_English.1896.1898    0.077     0.084       0.270
+special.cite_English.1890.1892    0.065     0.072       0.283
+special.cite_English.1884.1886    0.058     0.063       0.295
+special.cite_English.1878.1880    0.050     0.057       0.287
+
+Root Mean Square Prediction Error (RMSPE) Post/Pre Ratio: 1.505105 
+
+Overall Mean Squared Prediction Error (MSPE): 0.0001580073 

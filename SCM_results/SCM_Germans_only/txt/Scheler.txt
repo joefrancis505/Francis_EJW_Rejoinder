@@ -1,0 +1,74 @@
+Synthetic Control Analysis for Scheler
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+                       Name   Weight
+                Carl Stumpf 0.502763
+     Barthold Georg Niebuhr 0.099123
+                      Kafka 0.074743
+             Ludwig Büchner 0.033345
+                      Rilke 0.031596
+              Hermann Cohen 0.021258
+          Ferdinand Tönnies 0.018749
+            Theodor Fontane 0.011227
+             Franz Brentano 0.010940
+           Eduard Bernstein 0.010917
+ Friedrich Carl von Savigny 0.009155
+                      Frege 0.008712
+              Eduard Zeller 0.007856
+        Eduard von Hartmann 0.007437
+                   Schäffle 0.007006
+                     Thünen 0.006557
+              Hermann Lotze 0.006371
+               August Bebel 0.006123
+                 Moses Hess 0.006103
+           Ludwig Feuerbach 0.006096
+                Thomas Mann 0.005944
+                      Külpe 0.005830
+                  Hölderlin 0.005785
+                Max Stirner 0.005612
+             Friedrich List 0.005373
+         Ferdinand Lassalle 0.005112
+             Gustav Freytag 0.004711
+                  Rodbertus 0.004594
+                    Sombart 0.004469
+       Wilhelm von Humboldt 0.004367
+   Gotthold Ephraim Lessing 0.004339
+                    Dilthey 0.004232
+                 Windelband 0.004124
+             E T A Hoffmann 0.004093
+                 Clausewitz 0.004076
+         Friedrich Schiller 0.004020
+                     Simmel 0.003999
+  Friedrich Heinrich Jacobi 0.003672
+             Grimmelshausen 0.003497
+              Immanuel Kant 0.003465
+                  Schmoller 0.003378
+                 Ebbinghaus 0.003023
+                     Hamann 0.002499
+             Schleiermacher 0.001913
+                      Ranke 0.001639
+              Martin Luther 0.001601
+                     Herder 0.001378
+                     Fichte 0.001347
+                      Wundt 0.001305
+                    Herbart 0.001270
+               Schopenhauer 0.001075
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1913.000  1885.518    1841.741
+Socialist                         0.000     0.037       0.111
+Political                         0.000     0.082       0.222
+YearofTranslationtoEnglish     1954.000  1954.016    1896.037
+special.cite_English.1914.1916    0.015     0.019       0.226
+special.cite_English.1908.1910    0.014     0.018       0.248
+special.cite_English.1902.1904    0.012     0.017       0.264
+special.cite_English.1896.1898    0.009     0.020       0.287
+special.cite_English.1890.1892    0.042     0.037       0.301
+special.cite_English.1884.1886    0.014     0.018       0.317
+special.cite_English.1878.1880    0.020     0.017       0.304
+
+Root Mean Square Prediction Error (RMSPE) Post/Pre Ratio: 2.463963 
+
+Overall Mean Squared Prediction Error (MSPE): 3.610015e-05 

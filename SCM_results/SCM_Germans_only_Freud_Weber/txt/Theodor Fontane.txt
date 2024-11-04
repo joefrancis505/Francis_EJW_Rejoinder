@@ -1,0 +1,40 @@
+Synthetic Control Analysis for Theodor Fontane
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+                       Name   Weight
+             Ludwig Büchner 0.402502
+                      Rilke 0.350033
+                Carl Stumpf 0.175138
+          Ferdinand Tönnies 0.011902
+              Hermann Cohen 0.011502
+     Barthold Georg Niebuhr 0.004828
+                 Moses Hess 0.003777
+           Eduard Bernstein 0.003474
+ Friedrich Carl von Savigny 0.002269
+             Franz Brentano 0.002157
+              Sigmund Freud 0.002073
+              Eduard Zeller 0.002034
+                      Külpe 0.001892
+                     Thünen 0.001390
+           Ludwig Feuerbach 0.001374
+             Gustav Freytag 0.001151
+             E T A Hoffmann 0.001042
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1894.000  1884.800    1844.536
+Socialist                         0.000     0.010       0.107
+Political                         0.000     0.025       0.214
+YearofTranslationtoEnglish     1914.000  1916.421    1898.339
+special.cite_English.1914.1916    0.008     0.009       0.219
+special.cite_English.1908.1910    0.004     0.005       0.240
+special.cite_English.1902.1904    0.003     0.005       0.255
+special.cite_English.1896.1898    0.011     0.005       0.278
+special.cite_English.1890.1892    0.003     0.006       0.293
+special.cite_English.1884.1886    0.000     0.004       0.306
+special.cite_English.1878.1880    0.001     0.004       0.294
+
+Root Mean Square Prediction Error (RMSPE) Post/Pre Ratio: 5.398437 
+
+Overall Mean Squared Prediction Error (MSPE): 8.589058e-06 

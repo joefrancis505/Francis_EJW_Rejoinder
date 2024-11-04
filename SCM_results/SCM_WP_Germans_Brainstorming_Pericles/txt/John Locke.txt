@@ -1,0 +1,44 @@
+Synthetic Control Analysis for John Locke
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+                    Name   Weight
+                  Hobbes 0.773991
+         Auberon Herbert 0.060383
+   William Graham Sumner 0.030612
+           Lujo Brentano 0.028327
+                 Bentham 0.025446
+          William Godwin 0.023499
+                    Hume 0.020373
+          Jonathan Swift 0.003054
+             John Milton 0.002647
+           David Ricardo 0.002596
+           Nassau Senior 0.001587
+ James Fitzjames Stephen 0.001558
+          Alexander Pope 0.001142
+             John Bunyan 0.001051
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1689.000  1689.416    1579.428
+Socialist                         0.000     0.032       0.131
+Political                         1.000     0.987       0.469
+YearofTranslationtoEnglish     1689.000  1692.528    1828.497
+wrote_English                     1.000     0.992       0.366
+wrote_French                      0.000     0.001       0.097
+wrote_Greek                       0.000     0.001       0.083
+wrote_Latin                       0.000     0.001       0.062
+wrote_Italian                     0.000     0.000       0.014
+wrote_Spanish                     0.000     0.000       0.007
+wrote_German                      0.000     0.004       0.366
+special.cite_English.1914.1916    0.117     0.119       0.482
+special.cite_English.1908.1910    0.174     0.174       0.652
+special.cite_English.1902.1904    0.191     0.193       0.718
+special.cite_English.1896.1898    0.190     0.195       0.750
+special.cite_English.1890.1892    0.220     0.215       0.837
+special.cite_English.1884.1886    0.216     0.217       0.788
+special.cite_English.1878.1880    0.256     0.252       0.834
+
+Root Mean Square Prediction Error (RMSPE) Post/Pre Ratio: 1.733213 
+
+Overall Mean Squared Prediction Error (MSPE): 1.138328e-05 

@@ -1,0 +1,27 @@
+Synthetic Control Analysis for Carl Stumpf
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+                      Name   Weight
+             Hermann Cohen 0.672235
+            Franz Brentano 0.295801
+            Sigismund Beck 0.017877
+ Friedrich Heinrich Jacobi 0.003730
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1911.000  1902.163    1840.627
+Socialist                         0.000     0.001       0.102
+Political                         0.000     0.003       0.203
+YearofTranslationtoEnglish     2012.000  1971.069    1888.390
+special.cite_English.1914.1916    0.001     0.006       0.210
+special.cite_English.1908.1910    0.002     0.003       0.234
+special.cite_English.1902.1904    0.001     0.004       0.250
+special.cite_English.1896.1898    0.003     0.003       0.271
+special.cite_English.1890.1892    0.001     0.004       0.284
+special.cite_English.1884.1886    0.000     0.002       0.295
+special.cite_English.1878.1880    0.001     0.002       0.288
+
+Root Mean Square Prediction Error (RMSPE) Post/Pre Ratio: 1.844697 
+
+Overall Mean Squared Prediction Error (MSPE): 1.829843e-05 

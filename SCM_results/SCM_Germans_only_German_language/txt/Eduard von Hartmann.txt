@@ -1,0 +1,72 @@
+Synthetic Control Analysis for Eduard von Hartmann
+Using citation variable: cite_German
+
+Synthetic Control Weights:
+                      Name   Weight
+               Carl Stumpf 0.404631
+            Fritz Schultze 0.127905
+                    Thünen 0.097329
+             Hermann Cohen 0.079484
+               Thomas Abbt 0.034056
+           Bernard Bolzano 0.024773
+             Amadeus Wendt 0.020006
+            Heinrich Feder 0.017205
+             Friedrich Ast 0.014524
+          Wilhelm Drobisch 0.011024
+       Christian Schreiber 0.010325
+             Eduard Beneke 0.009916
+             Hermann Lotze 0.009454
+            Sigismund Beck 0.009191
+                     Frege 0.009096
+        Dietrich Tiedemann 0.009001
+          Friedrich Krause 0.008049
+    Barthold Georg Niebuhr 0.007567
+     Gottlob Ernst Schulze 0.007327
+             Martin Luther 0.006697
+ Friedrich Heinrich Jacobi 0.005218
+                Mainländer 0.004758
+            Ludwig Büchner 0.003913
+         Moses Mendelssohn 0.003829
+          Ludwig Feuerbach 0.003692
+        Friedrich Schiller 0.003063
+             Immanuel Kant 0.003052
+             Eduard Zeller 0.002771
+               Bruno Bauer 0.002736
+            Franz Brentano 0.002660
+             Theodor Lipps 0.002544
+            Grimmelshausen 0.002299
+            E T A Hoffmann 0.002266
+                     Ranke 0.002023
+              Kuno Fischer 0.001927
+                 Hölderlin 0.001919
+                    Hamann 0.001821
+             Otto Liebmann 0.001790
+                    Herder 0.001690
+            Gustav Freytag 0.001687
+                Clausewitz 0.001635
+        Friedrich Schlegel 0.001596
+                 Helmholtz 0.001464
+                   Herbart 0.001379
+                   Dilthey 0.001243
+            Schleiermacher 0.001126
+                     Wundt 0.001060
+                Windelband 0.001024
+                Ebbinghaus 0.001016
+              Schopenhauer 0.001015
+
+Predictor Balance:
+                               Treated Synthetic Sample Mean
+YearofPublication             1869.000  1868.999    1840.313
+Socialist                        0.000     0.004       0.108
+Political                        0.000     0.006       0.205
+special.cite_German.1914.1916    0.143     0.158       1.481
+special.cite_German.1908.1910    0.193     0.197       1.701
+special.cite_German.1902.1904    0.196     0.179       1.616
+special.cite_German.1896.1898    0.134     0.143       1.403
+special.cite_German.1890.1892    0.141     0.140       1.472
+special.cite_German.1884.1886    0.195     0.162       1.446
+special.cite_German.1878.1880    0.146     0.155       1.476
+
+Root Mean Square Prediction Error (RMSPE) Post/Pre Ratio: 1.943484 
+
+Overall Mean Squared Prediction Error (MSPE): 9.432586e-06 

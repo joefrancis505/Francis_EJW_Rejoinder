@@ -1,0 +1,37 @@
+Synthetic Control Analysis for Machiavelli
+Using citation variable: cite_German
+
+Synthetic Control Weights:
+               Name   Weight
+    Dante Alighieri 0.511245
+            Mazzini 0.383027
+ Alessandro Manzoni 0.050351
+           Rousseau 0.018165
+            Tacitus 0.013419
+             Herder 0.010822
+           Voltaire 0.008765
+           Plutarch 0.003688
+
+Predictor Balance:
+                               Treated Synthetic Sample Mean
+YearofPublication             1532.000  1531.390    1598.659
+Socialist                        0.000     0.000       0.101
+Political                        1.000     0.427       0.373
+wrote_English                    0.000     0.000       0.327
+wrote_French                     0.000     0.027       0.115
+wrote_Greek                      0.000     0.004       0.069
+wrote_Latin                      0.000     0.013       0.065
+wrote_Italian                    1.000     0.945       0.018
+wrote_Spanish                    0.000     0.000       0.009
+wrote_German                     0.000     0.011       0.392
+special.cite_German.1914.1916    0.475     0.489       1.120
+special.cite_German.1908.1910    0.437     0.488       1.270
+special.cite_German.1902.1904    0.625     0.569       1.232
+special.cite_German.1896.1898    0.663     0.583       1.222
+special.cite_German.1890.1892    0.389     0.628       1.301
+special.cite_German.1884.1886    0.800     0.751       1.439
+special.cite_German.1878.1880    0.956     0.808       1.490
+
+Root Mean Square Prediction Error (RMSPE) Post/Pre Ratio: 1.195641 
+
+Overall Mean Squared Prediction Error (MSPE): 0.0008505071 

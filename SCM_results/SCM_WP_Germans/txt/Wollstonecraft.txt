@@ -1,0 +1,36 @@
+Synthetic Control Analysis for Wollstonecraft
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+                  Name   Weight
+        William Godwin 0.723112
+        Edward Bellamy 0.172614
+               Malthus 0.052764
+               Bentham 0.034990
+ William Graham Sumner 0.002523
+                Hobbes 0.001669
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1792.000  1806.336    1589.461
+Socialist                         0.000     0.174       0.135
+Political                         1.000     0.991       0.461
+YearofTranslationtoEnglish     1792.000  1809.582    1829.163
+wrote_English                     1.000     0.991       0.362
+wrote_French                      0.000     0.001       0.099
+wrote_Greek                       0.000     0.001       0.078
+wrote_Latin                       0.000     0.001       0.057
+wrote_Italian                     0.000     0.000       0.014
+wrote_Spanish                     0.000     0.000       0.007
+wrote_German                      0.000     0.006       0.376
+special.cite_English.1914.1916    0.101     0.100       0.486
+special.cite_English.1908.1910    0.120     0.130       0.655
+special.cite_English.1902.1904    0.081     0.135       0.724
+special.cite_English.1896.1898    0.160     0.152       0.754
+special.cite_English.1890.1892    0.213     0.197       0.841
+special.cite_English.1884.1886    0.272     0.242       0.795
+special.cite_English.1878.1880    0.178     0.200       0.843
+
+Root Mean Square Prediction Error (RMSPE) Post/Pre Ratio: 0.7173932 
+
+Overall Mean Squared Prediction Error (MSPE): 0.0003058118 

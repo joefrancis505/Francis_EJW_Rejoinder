@@ -1,0 +1,49 @@
+Synthetic Control Analysis for John Milton
+Using citation variable: cite_German
+
+Synthetic Control Weights:
+                    Name   Weight
+                  Hobbes 0.424105
+          Edmund Spenser 0.378982
+            William Penn 0.106107
+            John Woolman 0.012479
+          Alexander Pope 0.009769
+           James Madison 0.008220
+           Nassau Senior 0.006549
+      Frederick Douglass 0.006514
+ James Fitzjames Stephen 0.005560
+          Jonathan Swift 0.004800
+   William Graham Sumner 0.004545
+         Auberon Herbert 0.004415
+          Richard Cobden 0.003826
+        Thomas Jefferson 0.003671
+          William Godwin 0.003294
+      Alexander Hamilton 0.003091
+   Oliver Wendell Holmes 0.002806
+           David Ricardo 0.002739
+          Wollstonecraft 0.001812
+            Edmund Burke 0.001117
+
+Predictor Balance:
+                               Treated Synthetic Sample Mean
+YearofPublication             1644.000  1644.060    1598.143
+Socialist                        0.000     0.000       0.101
+Political                        1.000     0.997       0.373
+wrote_English                    1.000     0.997       0.323
+wrote_French                     0.000     0.000       0.115
+wrote_Greek                      0.000     0.000       0.069
+wrote_Latin                      0.000     0.000       0.065
+wrote_Italian                    0.000     0.000       0.023
+wrote_Spanish                    0.000     0.000       0.009
+wrote_German                     0.000     0.001       0.392
+special.cite_German.1914.1916    0.043     0.051       1.122
+special.cite_German.1908.1910    0.037     0.041       1.272
+special.cite_German.1902.1904    0.037     0.044       1.235
+special.cite_German.1896.1898    0.045     0.049       1.224
+special.cite_German.1890.1892    0.048     0.054       1.303
+special.cite_German.1884.1886    0.048     0.052       1.442
+special.cite_German.1878.1880    0.096     0.076       1.494
+
+Root Mean Square Prediction Error (RMSPE) Post/Pre Ratio: 1.658316 
+
+Overall Mean Squared Prediction Error (MSPE): 6.383686e-06 

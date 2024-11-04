@@ -1,0 +1,26 @@
+Synthetic Control Analysis for Ferdinand Tönnies
+Using citation variable: cite_German
+
+Synthetic Control Weights:
+             Name   Weight
+ Gustav Schönberg 0.724665
+      Max Stirner 0.168785
+ Eduard Bernstein 0.075699
+          Sombart 0.025139
+
+Predictor Balance:
+                               Treated Synthetic Sample Mean
+YearofPublication             1887.000  1869.426    1840.096
+Socialist                        0.000     0.101       0.108
+Political                        1.000     0.995       0.193
+special.cite_German.1914.1916    0.090     0.068       1.482
+special.cite_German.1908.1910    0.054     0.055       1.702
+special.cite_German.1902.1904    0.066     0.073       1.617
+special.cite_German.1896.1898    0.054     0.046       1.404
+special.cite_German.1890.1892    0.008     0.031       1.474
+special.cite_German.1884.1886    0.000     0.023       1.449
+special.cite_German.1878.1880    0.001     0.024       1.477
+
+Root Mean Square Prediction Error (RMSPE) Post/Pre Ratio: 2.436485 
+
+Overall Mean Squared Prediction Error (MSPE): 1.169443e-05 

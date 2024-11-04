@@ -1,0 +1,35 @@
+Synthetic Control Analysis for Lord Acton
+Using citation variable: cite_German
+
+Synthetic Control Weights:
+                  Name   Weight
+ William Graham Sumner 0.493174
+ Oliver Wendell Holmes 0.356847
+           John Ruskin 0.107539
+    Frederick Douglass 0.002489
+             Nietzsche 0.001404
+      Thomas Jefferson 0.001269
+
+Predictor Balance:
+                               Treated Synthetic Sample Mean
+YearofPublication             1877.000  1876.995    1597.069
+Socialist                        0.000     0.111       0.101
+Political                        1.000     0.978       0.373
+wrote_English                    1.000     0.983       0.323
+wrote_French                     0.000     0.004       0.115
+wrote_Greek                      0.000     0.001       0.069
+wrote_Latin                      0.000     0.001       0.065
+wrote_Italian                    0.000     0.001       0.023
+wrote_Spanish                    0.000     0.000       0.009
+wrote_German                     0.000     0.010       0.392
+special.cite_German.1914.1916    0.032     0.041       1.122
+special.cite_German.1908.1910    0.037     0.050       1.272
+special.cite_German.1902.1904    0.090     0.064       1.234
+special.cite_German.1896.1898    0.051     0.044       1.224
+special.cite_German.1890.1892    0.040     0.034       1.303
+special.cite_German.1884.1886    0.023     0.034       1.442
+special.cite_German.1878.1880    0.013     0.033       1.494
+
+Root Mean Square Prediction Error (RMSPE) Post/Pre Ratio: 1.209826 
+
+Overall Mean Squared Prediction Error (MSPE): 1.292389e-05 

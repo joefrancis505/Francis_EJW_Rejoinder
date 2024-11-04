@@ -1,0 +1,36 @@
+Synthetic Control Analysis for Lord Acton
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+                  Name   Weight
+ William Graham Sumner 0.727032
+       Auberon Herbert 0.131635
+      Thomas Jefferson 0.107051
+       Abraham Lincoln 0.016364
+               Thoreau 0.007659
+           John Ruskin 0.001454
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1877.000  1869.887    1591.896
+Socialist                         0.000     0.003       0.132
+Political                         1.000     0.988       0.465
+YearofTranslationtoEnglish     1877.000  1871.232    1828.583
+wrote_English                     1.000     0.993       0.368
+wrote_French                      0.000     0.002       0.097
+wrote_Greek                       0.000     0.000       0.076
+wrote_Latin                       0.000     0.000       0.062
+wrote_Italian                     0.000     0.000       0.014
+wrote_Spanish                     0.000     0.000       0.007
+wrote_German                      0.000     0.004       0.368
+special.cite_English.1914.1916    0.109     0.170       0.479
+special.cite_English.1908.1910    0.208     0.182       0.645
+special.cite_English.1902.1904    0.500     0.216       0.710
+special.cite_English.1896.1898    0.104     0.171       0.743
+special.cite_English.1890.1892    0.080     0.163       0.827
+special.cite_English.1884.1886    0.055     0.137       0.784
+special.cite_English.1878.1880    0.033     0.099       0.828
+
+Root Mean Square Prediction Error (RMSPE) Post/Pre Ratio: 0.7623533 
+
+Overall Mean Squared Prediction Error (MSPE): 0.003106408 

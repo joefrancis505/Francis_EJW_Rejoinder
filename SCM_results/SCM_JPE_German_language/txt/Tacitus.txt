@@ -1,0 +1,33 @@
+Synthetic Control Analysis for Tacitus
+Using citation variable: cite_German
+
+Synthetic Control Weights:
+      Name   Weight
+    Herder 0.292049
+    Cicero 0.267526
+   Molière 0.243146
+ Herodotus 0.197138
+
+Predictor Balance:
+                               Treated Synthetic Sample Mean
+YearofPublication             -100.000   822.775    1606.180
+Socialist                        0.000     0.000       0.101
+Political                        1.000     0.465       0.373
+wrote_English                    0.000     0.000       0.327
+wrote_French                     0.000     0.243       0.115
+wrote_Greek                      0.000     0.197       0.069
+wrote_Latin                      1.000     0.268       0.060
+wrote_Italian                    0.000     0.000       0.023
+wrote_Spanish                    0.000     0.000       0.009
+wrote_German                     0.000     0.292       0.392
+special.cite_German.1914.1916    5.760     4.853       1.096
+special.cite_German.1908.1910    5.093     6.557       1.249
+special.cite_German.1902.1904    6.690     6.184       1.204
+special.cite_German.1896.1898    8.110     7.162       1.187
+special.cite_German.1890.1892    8.010     8.315       1.266
+special.cite_German.1884.1886   10.250    10.594       1.395
+special.cite_German.1878.1880   13.473    12.283       1.432
+
+Root Mean Square Prediction Error (RMSPE) Post/Pre Ratio: 0.9060069 
+
+Overall Mean Squared Prediction Error (MSPE): 0.05177663 

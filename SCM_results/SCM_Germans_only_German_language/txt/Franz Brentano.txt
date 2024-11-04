@@ -1,0 +1,55 @@
+Synthetic Control Analysis for Franz Brentano
+Using citation variable: cite_German
+
+Synthetic Control Weights:
+                      Name   Weight
+               Carl Stumpf 0.581688
+       Christian Schreiber 0.102908
+        Dietrich Tiedemann 0.042949
+             Eduard Beneke 0.040077
+            Heinrich Feder 0.038759
+          Wilhelm Drobisch 0.031328
+            Sigismund Beck 0.021354
+             Friedrich Ast 0.017658
+     Gottlob Ernst Schulze 0.012510
+                     Külpe 0.012466
+             Eugen Dühring 0.011003
+                     Kafka 0.008747
+                Mainländer 0.007054
+             Amadeus Wendt 0.006962
+    Barthold Georg Niebuhr 0.006770
+            Ludwig Büchner 0.005034
+          Friedrich Krause 0.002968
+ Friedrich Heinrich Jacobi 0.002703
+             Hermann Cohen 0.002486
+               Thomas Abbt 0.002396
+               Thomas Mann 0.002294
+             Hermann Lotze 0.002224
+            Fritz Schultze 0.002147
+             Otto Liebmann 0.001866
+             Theodor Lipps 0.001695
+               Rudolf Haym 0.001633
+                 Wentscher 0.001611
+           Theodor Fontane 0.001222
+  Gotthold Ephraim Lessing 0.001217
+               Bruno Bauer 0.001036
+            Gustav Freytag 0.001028
+                     Rilke 0.001011
+                   Dilthey 0.001001
+
+Predictor Balance:
+                               Treated Synthetic Sample Mean
+YearofPublication             1874.000  1872.813    1840.253
+Socialist                        0.000     0.013       0.108
+Political                        0.000     0.005       0.205
+special.cite_German.1914.1916    0.096     0.081       1.482
+special.cite_German.1908.1910    0.053     0.069       1.702
+special.cite_German.1902.1904    0.028     0.053       1.618
+special.cite_German.1896.1898    0.072     0.057       1.404
+special.cite_German.1890.1892    0.024     0.042       1.474
+special.cite_German.1884.1886    0.017     0.039       1.448
+special.cite_German.1878.1880    0.021     0.038       1.477
+
+Root Mean Square Prediction Error (RMSPE) Post/Pre Ratio: 2.313803 
+
+Overall Mean Squared Prediction Error (MSPE): 1.011612e-05 

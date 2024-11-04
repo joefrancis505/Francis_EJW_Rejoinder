@@ -1,0 +1,37 @@
+Synthetic Control Analysis for Kempis
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+              Name   Weight
+       John Calvin 0.519494
+       John Bunyan 0.294714
+ Pliny the Younger 0.076703
+            Fichte 0.071740
+   Herbert Spencer 0.027692
+             Plato 0.007848
+            Goethe 0.001404
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1418.000  1463.862    1595.083
+Socialist                         0.000     0.000       0.132
+Political                         0.000     0.036       0.472
+YearofTranslationtoEnglish     1470.000  1652.594    1831.410
+wrote_English                     0.000     0.322       0.375
+wrote_French                      0.000     0.000       0.097
+wrote_Greek                       0.000     0.008       0.076
+wrote_Latin                       1.000     0.596       0.056
+wrote_Italian                     0.000     0.000       0.014
+wrote_Spanish                     0.000     0.000       0.007
+wrote_German                      0.000     0.073       0.368
+special.cite_English.1914.1916    0.164     0.220       0.478
+special.cite_English.1908.1910    0.281     0.335       0.644
+special.cite_English.1902.1904    0.284     0.312       0.711
+special.cite_English.1896.1898    0.311     0.328       0.742
+special.cite_English.1890.1892    0.457     0.403       0.825
+special.cite_English.1884.1886    0.487     0.440       0.781
+special.cite_English.1878.1880    0.369     0.389       0.826
+
+Root Mean Square Prediction Error (RMSPE) Post/Pre Ratio: 0.4247162 
+
+Overall Mean Squared Prediction Error (MSPE): 0.001316033 

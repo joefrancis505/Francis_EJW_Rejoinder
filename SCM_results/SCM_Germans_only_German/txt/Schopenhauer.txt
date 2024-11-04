@@ -1,0 +1,36 @@
+Synthetic Control Analysis for Schopenhauer
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+                      Name   Weight
+                 Helmholtz 0.303740
+                    Fichte 0.293133
+ Friedrich Heinrich Jacobi 0.125571
+                   Herbart 0.117443
+                 Nietzsche 0.090077
+                    Goethe 0.027702
+             Martin Luther 0.007014
+                    Hamann 0.002124
+            Grimmelshausen 0.001132
+            Sigismund Beck 0.001091
+           Wilhelm Roscher 0.001033
+            Friedrich List 0.001017
+               Max Stirner 0.001015
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1818.000  1818.766    1842.203
+YearofTranslationtoEnglish     1883.000  1882.021    1890.576
+Socialist                         0.000     0.004       0.102
+Political                         0.000     0.010       0.203
+special.cite_English.1914.1916    0.733     0.730       0.198
+special.cite_English.1908.1910    0.717     0.840       0.222
+special.cite_English.1902.1904    0.803     0.837       0.236
+special.cite_English.1896.1898    1.363     1.079       0.248
+special.cite_English.1890.1892    1.313     1.010       0.262
+special.cite_English.1884.1886    0.989     0.980       0.279
+special.cite_English.1878.1880    1.023     1.038       0.270
+
+Root Mean Square Prediction Error (RMSPE) Post/Pre Ratio: 0.4888832 
+
+Overall Mean Squared Prediction Error (MSPE): 0.003043473 

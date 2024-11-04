@@ -1,0 +1,38 @@
+Synthetic Control Analysis for Friedrich Heinrich Jacobi
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+                     Name   Weight
+           Sigismund Beck 0.943494
+           Grimmelshausen 0.010126
+           Franz Brentano 0.003748
+              Carl Stumpf 0.003679
+                   Thünen 0.002645
+                Hölderlin 0.002431
+   Barthold Georg Niebuhr 0.002393
+           Ludwig Büchner 0.002298
+            Otto Liebmann 0.002216
+            Hermann Cohen 0.001762
+            Eduard Zeller 0.001484
+                    Rilke 0.001335
+              Thomas Abbt 0.001182
+          Theodor Fontane 0.001129
+ Gotthold Ephraim Lessing 0.001009
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1781.000  1794.414    1842.831
+YearofTranslationtoEnglish     1994.000  1973.958    1888.695
+Socialist                         0.000     0.002       0.102
+Political                         0.000     0.004       0.203
+special.cite_English.1914.1916    0.001     0.003       0.210
+special.cite_English.1908.1910    0.002     0.004       0.234
+special.cite_English.1902.1904    0.003     0.004       0.250
+special.cite_English.1896.1898    0.003     0.005       0.271
+special.cite_English.1890.1892    0.004     0.005       0.284
+special.cite_English.1884.1886    0.002     0.004       0.295
+special.cite_English.1878.1880    0.004     0.004       0.288
+
+Root Mean Square Prediction Error (RMSPE) Post/Pre Ratio: 1.47524 
+
+Overall Mean Squared Prediction Error (MSPE): 8.283688e-06 

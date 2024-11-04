@@ -1,0 +1,37 @@
+Synthetic Control Analysis for Gottlob Ernst Schulze
+Using citation variable: cite_German
+
+Synthetic Control Weights:
+                      Name   Weight
+            Heinrich Feder 0.712434
+       Christian Schreiber 0.225458
+           Bernard Bolzano 0.007522
+        Dietrich Tiedemann 0.006952
+             Friedrich Ast 0.006825
+             Amadeus Wendt 0.006305
+            Sigismund Beck 0.004800
+             Eduard Beneke 0.003040
+          Wilhelm Drobisch 0.002588
+    Barthold Georg Niebuhr 0.002057
+               Carl Stumpf 0.001545
+          Friedrich Krause 0.001338
+               Rudolf Haym 0.001151
+ Friedrich Heinrich Jacobi 0.001111
+               Thomas Abbt 0.001088
+
+Predictor Balance:
+                               Treated Synthetic Sample Mean
+YearofPublication             1792.000  1793.560    1841.241
+Socialist                        0.000     0.001       0.108
+Political                        0.000     0.002       0.205
+special.cite_German.1914.1916    0.013     0.017       1.483
+special.cite_German.1908.1910    0.017     0.015       1.703
+special.cite_German.1902.1904    0.005     0.015       1.618
+special.cite_German.1896.1898    0.008     0.012       1.405
+special.cite_German.1890.1892    0.008     0.012       1.474
+special.cite_German.1884.1886    0.005     0.013       1.448
+special.cite_German.1878.1880    0.004     0.013       1.477
+
+Root Mean Square Prediction Error (RMSPE) Post/Pre Ratio: 1.907206 
+
+Overall Mean Squared Prediction Error (MSPE): 1.185005e-06 

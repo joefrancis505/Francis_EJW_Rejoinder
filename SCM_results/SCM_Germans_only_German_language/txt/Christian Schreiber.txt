@@ -1,0 +1,33 @@
+Synthetic Control Analysis for Christian Schreiber
+Using citation variable: cite_German
+
+Synthetic Control Weights:
+                   Name   Weight
+         Heinrich Feder 0.624500
+        Bernard Bolzano 0.291074
+          Friedrich Ast 0.040067
+          Amadeus Wendt 0.008631
+     Dietrich Tiedemann 0.006859
+       Wilhelm Drobisch 0.004022
+          Eduard Beneke 0.003887
+         Sigismund Beck 0.003610
+  Gottlob Ernst Schulze 0.002796
+            Carl Stumpf 0.001294
+ Barthold Georg Niebuhr 0.001230
+
+Predictor Balance:
+                               Treated Synthetic Sample Mean
+YearofPublication             1805.000  1804.387    1841.084
+Socialist                        0.000     0.001       0.108
+Political                        0.000     0.002       0.205
+special.cite_German.1914.1916    0.002     0.015       1.483
+special.cite_German.1908.1910    0.002     0.010       1.703
+special.cite_German.1902.1904    0.002     0.010       1.618
+special.cite_German.1896.1898    0.003     0.007       1.405
+special.cite_German.1890.1892    0.001     0.008       1.474
+special.cite_German.1884.1886    0.001     0.010       1.449
+special.cite_German.1878.1880    0.000     0.009       1.477
+
+Root Mean Square Prediction Error (RMSPE) Post/Pre Ratio: 1.247641 
+
+Overall Mean Squared Prediction Error (MSPE): 1.904949e-06 

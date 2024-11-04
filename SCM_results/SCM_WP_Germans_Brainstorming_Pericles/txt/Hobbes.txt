@@ -1,0 +1,36 @@
+Synthetic Control Analysis for Hobbes
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+           Name   Weight
+  David Ricardo 0.542099
+ Jonathan Swift 0.214201
+   John Woolman 0.128713
+ Alexander Pope 0.058950
+          Aesop 0.039607
+    John Calvin 0.016175
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1651.000  1688.209    1579.690
+Socialist                         0.000     0.000       0.131
+Political                         1.000     0.944       0.469
+YearofTranslationtoEnglish     1651.000  1769.002    1828.759
+wrote_English                     1.000     0.944       0.366
+wrote_French                      0.000     0.000       0.097
+wrote_Greek                       0.000     0.040       0.083
+wrote_Latin                       0.000     0.016       0.062
+wrote_Italian                     0.000     0.000       0.014
+wrote_Spanish                     0.000     0.000       0.007
+wrote_German                      0.000     0.000       0.366
+special.cite_English.1914.1916    0.031     0.041       0.483
+special.cite_English.1908.1910    0.047     0.061       0.653
+special.cite_English.1902.1904    0.050     0.058       0.719
+special.cite_English.1896.1898    0.059     0.057       0.750
+special.cite_English.1890.1892    0.042     0.054       0.838
+special.cite_English.1884.1886    0.054     0.063       0.789
+special.cite_English.1878.1880    0.051     0.056       0.836
+
+Root Mean Square Prediction Error (RMSPE) Post/Pre Ratio: 0.5345608 
+
+Overall Mean Squared Prediction Error (MSPE): 0.0004707243 

@@ -6,16 +6,24 @@ setwd(sourceDir)
 
 # Load necessary libraries
 library(strucchange)
-library(readODS)
 
-# Read the ODS file
-data <- read_ods("Marx_n-grams.ods", sheet = "Data")
+# Read the CSV file
+data <- read.csv("all_authors_with_citations_and_indicators.csv")
 
-# Filter data from 1867 onwards
-data_filtered <- subset(data, Year >= 1867)
+# Ensure the Year column is numeric
+data$Year <- as.numeric(as.character(data$Year))
+
+# Filter data for Karl Marx from 1867 onwards
+data_filtered <- subset(data, Name == "Karl Marx" & Year >= 1867)
+
+# Handle potential missing data
+data_filtered <- na.omit(data_filtered)
 
 # Convert to time series object and apply log transformation
-ts_data <- ts(log(data_filtered$cite_English), start = 1867, end = 2000, frequency = 1)
+ts_data <- ts(log(data_filtered$cite_English), 
+              start = min(data_filtered$Year), 
+              end = max(data_filtered$Year), 
+              frequency = 1)
 
 # Perform Bai-Perron test on log-transformed data
 bp_test <- breakpoints(ts_data ~ 1)
@@ -38,13 +46,11 @@ plot(ts_data)
 lines(bp_test)
 
 # Function to set up plot parameters
-setup_plot <- function(width, height, top_margin = 0.2, bottom_margin = 0.6, left_margin = 1.2, right_margin = 1.2) {
-  # Convert inches to points (1 inch = 72 points)
-  width_pt <- width * 72
-  height_pt <- height * 72
-  
+setup_plot <- function(width, height, top_margin = 0.2, bottom_margin = 0.6, 
+                       left_margin = 1.2, right_margin = 1.2) {
   # Set the plot area size
-  par(pin = c(width - left_margin - right_margin, height - top_margin - bottom_margin))
+  par(pin = c(width - left_margin - right_margin, 
+              height - top_margin - bottom_margin))
   
   # Set margins in inches
   par(mai = c(bottom_margin, left_margin, top_margin, right_margin))
@@ -65,53 +71,32 @@ format_labels <- function(x) {
   gsub("-", "\uad", format(x, scientific = FALSE, trim = TRUE))
 }
 
-# Function to create centered legend
-create_centered_legend <- function(labels, line_widths, line_types, y_offset = 0.07, x_intersp = 0.5) {
-  plot_info <- par("usr")
-  plot_height <- plot_info[4] - plot_info[3]
-  plot_width <- plot_info[2] - plot_info[1]
-  
-  # Calculate legend width
-  legend_width <- sum(strwidth(labels, units="user")) + 
-    length(labels) * par("csi") * x_intersp
-  
-  # Center of x-axis
-  legend_x <- (plot_info[2] + plot_info[1]) / 2
-  
-  # Adjustable vertical position
-  legend_y <- plot_info[3] - y_offset * plot_height
-  
-  legend(x = legend_x, y = legend_y,
-         legend = labels,
-         col = "black",
-         lwd = line_widths,
-         lty = line_types,
-         bty = "n",
-         horiz = TRUE,
-         cex = 1.2,
-         seg.len = 2,
-         xpd = TRUE,
-         xjust = 0.5,
-         x.intersp = x_intersp)
-}
-
 # Function to create the structural break plot
 create_structural_break_plot <- function() {
   # Set plot dimensions
   plot_width <- 9.2  # inches
-  plot_height <- 5  # inches
+  plot_height <- 5   # inches
   
   # Set up plot parameters
   setup_plot(plot_width, plot_height)
   
-  # Read the ODS file
-  data <- read_ods("Marx_n-grams.ods", sheet = "Data")
+  # Read the CSV file
+  data <- read.csv("all_authors_with_citations_and_indicators.csv")
   
-  # Filter data from 1867 onwards
-  data_filtered <- subset(data, Year >= 1867 & Year <= 2000)
+  # Ensure the Year column is numeric
+  data$Year <- as.numeric(as.character(data$Year))
+  
+  # Filter data for Karl Marx from 1867 onwards
+  data_filtered <- subset(data, Name == "Karl Marx" & Year >= 1867 & Year <= 2000)
+  
+  # Handle potential missing data
+  data_filtered <- na.omit(data_filtered)
   
   # Convert to time series object and apply log transformation
-  ts_data <- ts(log(data_filtered$cite_English), start = 1867, end = 2000, frequency = 1)
+  ts_data <- ts(log(data_filtered$cite_English), 
+                start = min(data_filtered$Year), 
+                end = max(data_filtered$Year), 
+                frequency = 1)
   
   # Perform Bai-Perron test on log-transformed data
   bp_test <- breakpoints(ts_data ~ 1)

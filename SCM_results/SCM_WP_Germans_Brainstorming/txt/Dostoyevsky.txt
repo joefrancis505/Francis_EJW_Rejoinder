@@ -1,0 +1,44 @@
+Synthetic Control Analysis for Dostoyevsky
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+                       Name   Weight
+                      Rilke 0.396088
+              Hermann Lotze 0.376233
+                 Clausewitz 0.073916
+            Dante Alighieri 0.032876
+             Ludwig Büchner 0.032554
+      William Graham Sumner 0.029003
+                      Aesop 0.013463
+                  Nietzsche 0.011680
+                   Durkheim 0.008362
+                    Leibniz 0.005910
+              Lujo Brentano 0.004386
+ Friedrich Carl von Savigny 0.003085
+            Theodor Fontane 0.001603
+            Otto Pfleiderer 0.001499
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1866.000  1825.386    1591.972
+Socialist                         0.000     0.005       0.132
+Political                         0.000     0.037       0.472
+YearofTranslationtoEnglish     1885.000  1893.761    1828.528
+wrote_English                     0.000     0.037       0.375
+wrote_French                      0.000     0.009       0.097
+wrote_Greek                       0.000     0.014       0.076
+wrote_Latin                       0.000     0.006       0.062
+wrote_Italian                     0.000     0.033       0.014
+wrote_Spanish                     0.000     0.000       0.007
+wrote_German                      0.000     0.901       0.368
+special.cite_English.1914.1916    0.074     0.061       0.479
+special.cite_English.1908.1910    0.010     0.034       0.646
+special.cite_English.1902.1904    0.014     0.022       0.713
+special.cite_English.1896.1898    0.025     0.024       0.744
+special.cite_English.1890.1892    0.009     0.022       0.828
+special.cite_English.1884.1886    0.040     0.029       0.784
+special.cite_English.1878.1880    0.000     0.016       0.828
+
+Root Mean Square Prediction Error (RMSPE) Post/Pre Ratio: 2.714498 
+
+Overall Mean Squared Prediction Error (MSPE): 0.0009454388 

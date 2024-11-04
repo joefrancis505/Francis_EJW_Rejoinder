@@ -1,0 +1,48 @@
+Synthetic Control Analysis for Eduard von Hartmann
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+                      Name   Weight
+            Ludwig Büchner 0.596357
+             Hermann Lotze 0.189055
+             Hermann Cohen 0.049692
+               Carl Stumpf 0.045833
+                     Rilke 0.026370
+         Ferdinand Tönnies 0.023626
+            E T A Hoffmann 0.012340
+             Eduard Zeller 0.007224
+            Franz Brentano 0.005254
+           Theodor Fontane 0.003560
+            Friedrich List 0.003415
+               Max Stirner 0.002770
+          Ludwig Feuerbach 0.002464
+                Ebbinghaus 0.001980
+ Friedrich Heinrich Jacobi 0.001522
+                 Hölderlin 0.001438
+                     Külpe 0.001378
+                   Scheler 0.001352
+                    Simmel 0.001351
+                Windelband 0.001103
+                    Thünen 0.001069
+                     Frege 0.001066
+        Friedrich Schiller 0.001052
+               Thomas Mann 0.001034
+                Clausewitz 0.001020
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1869.000  1862.144    1842.556
+Socialist                         0.000     0.002       0.111
+Political                         0.000     0.034       0.222
+YearofTranslationtoEnglish     1884.000  1885.611    1897.333
+special.cite_English.1914.1916    0.007     0.008       0.226
+special.cite_English.1908.1910    0.009     0.008       0.248
+special.cite_English.1902.1904    0.006     0.009       0.264
+special.cite_English.1896.1898    0.006     0.010       0.288
+special.cite_English.1890.1892    0.008     0.010       0.301
+special.cite_English.1884.1886    0.019     0.017       0.317
+special.cite_English.1878.1880    0.008     0.010       0.304
+
+Root Mean Square Prediction Error (RMSPE) Post/Pre Ratio: 1.107734 
+
+Overall Mean Squared Prediction Error (MSPE): 6.929638e-06 

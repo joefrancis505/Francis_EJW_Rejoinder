@@ -1,0 +1,35 @@
+Synthetic Control Analysis for Herder
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+                     Name   Weight
+              Thomas Abbt 0.333126
+               Ebbinghaus 0.242250
+            Martin Luther 0.140448
+                    Wundt 0.133985
+                   Goethe 0.087633
+                Nietzsche 0.037573
+            Immanuel Kant 0.006331
+           Grimmelshausen 0.005233
+           Schleiermacher 0.001486
+ Gotthold Ephraim Lessing 0.001124
+        Moses Mendelssohn 0.001028
+                   Hamann 0.001009
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1784.000  1784.129    1842.780
+YearofTranslationtoEnglish     1800.000  1800.034    1891.983
+Socialist                         0.000     0.001       0.102
+Political                         0.000     0.003       0.203
+special.cite_English.1914.1916    0.604     0.610       0.200
+special.cite_English.1908.1910    0.732     0.711       0.222
+special.cite_English.1902.1904    0.895     0.775       0.235
+special.cite_English.1896.1898    0.663     0.765       0.260
+special.cite_English.1890.1892    0.785     0.821       0.271
+special.cite_English.1884.1886    0.999     0.991       0.279
+special.cite_English.1878.1880    0.914     0.916       0.272
+
+Root Mean Square Prediction Error (RMSPE) Post/Pre Ratio: 0.8101915 
+
+Overall Mean Squared Prediction Error (MSPE): 0.003176324 

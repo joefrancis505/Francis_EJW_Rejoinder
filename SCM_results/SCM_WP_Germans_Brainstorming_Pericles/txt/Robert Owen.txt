@@ -1,0 +1,41 @@
+Synthetic Control Analysis for Robert Owen
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+            Name   Weight
+  Edward Bellamy 0.356426
+          Hobbes 0.198893
+     Oscar Wilde 0.187751
+     John Ruskin 0.136749
+     John Milton 0.052747
+   Lujo Brentano 0.026356
+         Bentham 0.021724
+        Pericles 0.004807
+ Abraham Lincoln 0.002375
+         Marlowe 0.001995
+     Machiavelli 0.001279
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1813.000  1806.112    1578.572
+Socialist                         1.000     0.709       0.124
+Political                         1.000     0.993       0.469
+YearofTranslationtoEnglish     1813.000  1818.745    1827.641
+wrote_English                     1.000     0.988       0.366
+wrote_French                      0.000     0.001       0.097
+wrote_Greek                       0.000     0.006       0.083
+wrote_Latin                       0.000     0.001       0.062
+wrote_Italian                     0.000     0.001       0.014
+wrote_Spanish                     0.000     0.000       0.007
+wrote_German                      0.000     0.002       0.366
+special.cite_English.1914.1916    0.165     0.186       0.482
+special.cite_English.1908.1910    0.240     0.209       0.651
+special.cite_English.1902.1904    0.183     0.188       0.718
+special.cite_English.1896.1898    0.176     0.199       0.750
+special.cite_English.1890.1892    0.293     0.267       0.837
+special.cite_English.1884.1886    0.178     0.176       0.788
+special.cite_English.1878.1880    0.140     0.150       0.835
+
+Root Mean Square Prediction Error (RMSPE) Post/Pre Ratio: 1.572879 
+
+Overall Mean Squared Prediction Error (MSPE): 0.0002384636 

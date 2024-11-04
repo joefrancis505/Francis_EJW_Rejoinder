@@ -1,0 +1,26 @@
+Synthetic Control Analysis for Kafka
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+           Name   Weight
+      Rodbertus 0.616846
+          Frege 0.345836
+ Schleiermacher 0.036858
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1915.000  1859.454    1840.559
+YearofTranslationtoEnglish     1937.000  1921.836    1889.661
+Socialist                         0.000     0.617       0.102
+Political                         0.000     0.617       0.203
+special.cite_English.1914.1916    0.046     0.043       0.209
+special.cite_English.1908.1910    0.029     0.050       0.234
+special.cite_English.1902.1904    0.015     0.039       0.250
+special.cite_English.1896.1898    0.021     0.050       0.271
+special.cite_English.1890.1892    0.263     0.113       0.280
+special.cite_English.1884.1886    0.036     0.059       0.295
+special.cite_English.1878.1880    0.031     0.044       0.287
+
+Root Mean Square Prediction Error (RMSPE) Post/Pre Ratio: 0.2099929 
+
+Overall Mean Squared Prediction Error (MSPE): 0.002659352 

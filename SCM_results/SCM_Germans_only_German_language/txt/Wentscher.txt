@@ -1,0 +1,63 @@
+Synthetic Control Analysis for Wentscher
+Using citation variable: cite_German
+
+Synthetic Control Weights:
+                       Name   Weight
+                Carl Stumpf 0.697990
+          Ferdinand Tönnies 0.043498
+        Christian Schreiber 0.030674
+                Rudolf Haym 0.027975
+              Friedrich Ast 0.023006
+             Sigismund Beck 0.019119
+           Eduard Bernstein 0.016470
+                  Nietzsche 0.011489
+         Dietrich Tiedemann 0.011262
+             Heinrich Feder 0.011251
+              Eduard Beneke 0.009444
+              Amadeus Wendt 0.008225
+           Wilhelm Drobisch 0.006728
+                      Külpe 0.004920
+      Gottlob Ernst Schulze 0.004047
+              Theodor Lipps 0.003876
+             Franz Brentano 0.003237
+                 Ebbinghaus 0.003032
+              Eugen Dühring 0.003029
+              Otto Liebmann 0.002854
+              Hermann Cohen 0.002568
+                 Karl Knies 0.002444
+                 Moses Hess 0.002383
+ Christian Wilhelm von Dohm 0.002233
+     Barthold Georg Niebuhr 0.002084
+                Thomas Mann 0.002032
+                Max Stirner 0.001825
+                    Sombart 0.001621
+             Fritz Schultze 0.001593
+              Hermann Lotze 0.001512
+                 Mainländer 0.001490
+                      Rilke 0.001402
+           Friedrich Krause 0.001374
+             Ludwig Büchner 0.001325
+           Gustav Schönberg 0.001237
+  Friedrich Heinrich Jacobi 0.001206
+                     Simmel 0.001149
+             E T A Hoffmann 0.001140
+                 Windelband 0.001085
+           Ludwig Feuerbach 0.001057
+                Thomas Abbt 0.001029
+
+Predictor Balance:
+                               Treated Synthetic Sample Mean
+YearofPublication             1896.000  1890.741    1839.988
+Socialist                        0.000     0.027       0.108
+Political                        0.000     0.078       0.205
+special.cite_German.1914.1916    0.146     0.151       1.481
+special.cite_German.1908.1910    0.162     0.175       1.701
+special.cite_German.1902.1904    0.216     0.179       1.615
+special.cite_German.1896.1898    0.113     0.107       1.403
+special.cite_German.1890.1892    0.015     0.057       1.474
+special.cite_German.1884.1886    0.011     0.040       1.448
+special.cite_German.1878.1880    0.003     0.038       1.477
+
+Root Mean Square Prediction Error (RMSPE) Post/Pre Ratio: 1.679652 
+
+Overall Mean Squared Prediction Error (MSPE): 1.769694e-05 

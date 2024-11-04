@@ -1,0 +1,62 @@
+Synthetic Control Analysis for Eduard Zeller
+Using citation variable: cite_German
+
+Synthetic Control Weights:
+                       Name   Weight
+                Rudolf Haym 0.431588
+              Amadeus Wendt 0.229603
+               Kuno Fischer 0.153639
+         Friedrich Schiller 0.018963
+        Christian Schreiber 0.014824
+             Ludwig Büchner 0.012811
+         Dietrich Tiedemann 0.012248
+              Eduard Beneke 0.011994
+            Bernard Bolzano 0.011770
+           Wilhelm Drobisch 0.009853
+ Friedrich Carl von Savigny 0.009337
+      Gottlob Ernst Schulze 0.008607
+                Carl Stumpf 0.008228
+             Sigismund Beck 0.006931
+              Friedrich Ast 0.006645
+             Heinrich Feder 0.005074
+                  Hölderlin 0.004340
+             Fritz Schultze 0.004173
+              Hermann Cohen 0.002748
+              Theodor Lipps 0.002623
+     Barthold Georg Niebuhr 0.002409
+           Friedrich Krause 0.002000
+                  Wentscher 0.001761
+             Franz Brentano 0.001755
+           Ludwig Feuerbach 0.001602
+                 Mainländer 0.001574
+  Friedrich Heinrich Jacobi 0.001513
+              Hermann Lotze 0.001511
+                      Rilke 0.001444
+   Gotthold Ephraim Lessing 0.001435
+              Otto Liebmann 0.001345
+            Theodor Fontane 0.001317
+                Thomas Abbt 0.001074
+
+Predictor Balance:
+                               Treated Synthetic Sample Mean
+YearofPublication             1844.000  1844.002    1597.221
+Socialist                        0.000     0.001       0.101
+Political                        0.000     0.003       0.378
+wrote_English                    0.000     0.002       0.327
+wrote_French                     0.000     0.001       0.115
+wrote_Greek                      0.000     0.001       0.069
+wrote_Latin                      0.000     0.001       0.065
+wrote_Italian                    0.000     0.000       0.023
+wrote_Spanish                    0.000     0.000       0.009
+wrote_German                     1.000     0.995       0.387
+special.cite_German.1914.1916    0.076     0.091       1.122
+special.cite_German.1908.1910    0.177     0.160       1.271
+special.cite_German.1902.1904    0.131     0.134       1.234
+special.cite_German.1896.1898    0.125     0.122       1.224
+special.cite_German.1890.1892    0.116     0.111       1.302
+special.cite_German.1884.1886    0.101     0.110       1.442
+special.cite_German.1878.1880    0.072     0.075       1.494
+
+Root Mean Square Prediction Error (RMSPE) Post/Pre Ratio: 2.019111 
+
+Overall Mean Squared Prediction Error (MSPE): 1.313442e-05 

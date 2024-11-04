@@ -1,0 +1,75 @@
+Synthetic Control Analysis for Ferdinand Lassalle
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+                      Name   Weight
+                Moses Hess 0.402504
+         Ferdinand Tönnies 0.129306
+          Eduard Bernstein 0.106014
+                     Kafka 0.066934
+             Hermann Cohen 0.059659
+                 Rodbertus 0.034819
+                  Schäffle 0.012209
+               Max Stirner 0.011612
+              August Bebel 0.011541
+            Friedrich List 0.010410
+                Ebbinghaus 0.007507
+                    Simmel 0.007255
+       Eduard von Hartmann 0.005951
+         Moses Mendelssohn 0.005802
+            Gustav Freytag 0.005680
+            E T A Hoffmann 0.005481
+                    Hamann 0.005310
+             Hermann Lotze 0.005146
+                     Frege 0.004885
+             Martin Luther 0.004233
+                Windelband 0.004178
+               Rudolf Haym 0.004069
+                   Dilthey 0.004057
+             Immanuel Kant 0.004050
+        Friedrich Schiller 0.004006
+             Eduard Zeller 0.003974
+                     Külpe 0.003799
+                 Hölderlin 0.003784
+  Gotthold Ephraim Lessing 0.003767
+          Ludwig Feuerbach 0.003630
+                    Natorp 0.003560
+                 Schmoller 0.003436
+                     Ranke 0.003233
+               Thomas Mann 0.003204
+            Grimmelshausen 0.003121
+                Clausewitz 0.002980
+            Schleiermacher 0.002903
+                    Thünen 0.002879
+                   Herbart 0.002814
+                    Fichte 0.002776
+                     Wundt 0.002769
+                   Sombart 0.002723
+                 Helmholtz 0.002453
+                    Herder 0.002275
+           Theodor Fontane 0.002239
+              Schopenhauer 0.002180
+           Wilhelm Roscher 0.002180
+ Friedrich Heinrich Jacobi 0.001893
+                   Scheler 0.001829
+                 Nietzsche 0.001402
+               Thomas Abbt 0.001372
+            Franz Brentano 0.001281
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1863.000  1862.959    1841.441
+YearofTranslationtoEnglish     1884.000  1888.920    1890.559
+Socialist                         1.000     0.558       0.085
+Political                         1.000     0.727       0.186
+special.cite_English.1914.1916    0.022     0.033       0.210
+special.cite_English.1908.1910    0.037     0.033       0.233
+special.cite_English.1902.1904    0.024     0.031       0.249
+special.cite_English.1896.1898    0.034     0.035       0.270
+special.cite_English.1890.1892    0.056     0.053       0.283
+special.cite_English.1884.1886    0.033     0.034       0.295
+special.cite_English.1878.1880    0.027     0.032       0.287
+
+Root Mean Square Prediction Error (RMSPE) Post/Pre Ratio: 0.9200423 
+
+Overall Mean Squared Prediction Error (MSPE): 5.081759e-05 

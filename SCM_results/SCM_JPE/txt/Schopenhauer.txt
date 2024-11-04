@@ -1,0 +1,40 @@
+Synthetic Control Analysis for Schopenhauer
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+            Name   Weight
+    Robert Burns 0.352253
+          Fichte 0.240742
+       Helmholtz 0.183914
+ Robert Browning 0.157021
+     Machiavelli 0.024423
+           Plato 0.018432
+         Pasteur 0.013982
+          Newton 0.004034
+       Augustine 0.003598
+         Herbart 0.001558
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1818.000  1759.921    1562.964
+Socialist                         0.000     0.000       0.098
+Political                         0.000     0.043       0.397
+YearofTranslationtoEnglish     1883.000  1825.969    1799.567
+wrote_English                     0.000     0.509       0.397
+wrote_French                      0.000     0.014       0.134
+wrote_Greek                       0.000     0.018       0.077
+wrote_Latin                       0.000     0.008       0.072
+wrote_Italian                     0.000     0.024       0.026
+wrote_Spanish                     0.000     0.000       0.010
+wrote_German                      1.000     0.426       0.278
+special.cite_English.1914.1916    0.733     0.647       0.564
+special.cite_English.1908.1910    0.717     0.822       0.749
+special.cite_English.1902.1904    0.803     0.898       0.817
+special.cite_English.1896.1898    1.363     1.249       0.863
+special.cite_English.1890.1892    1.313     1.238       0.944
+special.cite_English.1884.1886    0.989     1.045       0.889
+special.cite_English.1878.1880    1.023     1.013       0.947
+
+Root Mean Square Prediction Error (RMSPE) Post/Pre Ratio: 0.4228083 
+
+Overall Mean Squared Prediction Error (MSPE): 0.002724108 
