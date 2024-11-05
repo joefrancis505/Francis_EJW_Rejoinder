@@ -1,0 +1,44 @@
+Synthetic Control Analysis for Thünen
+Using citation variable: cite_German
+
+Synthetic Control Weights:
+                Name   Weight
+  Friedrich Schiller 0.559761
+         Rudolf Haym 0.260934
+         Carl Stumpf 0.104222
+           Nietzsche 0.019067
+              Herder 0.009859
+      Grimmelshausen 0.007680
+       Martin Luther 0.005144
+       Hermann Cohen 0.003711
+      Fritz Schultze 0.002980
+ Eduard von Hartmann 0.002187
+       Theodor Lipps 0.001745
+           Wentscher 0.001625
+       Amadeus Wendt 0.001178
+     Bernard Bolzano 0.001099
+
+Predictor Balance:
+                               Treated Synthetic Sample Mean
+YearofPublication             1826.000  1825.338    1597.304
+Socialist                        0.000     0.001       0.101
+Political                        0.000     0.002       0.378
+wrote_English                    0.000     0.002       0.327
+wrote_French                     0.000     0.001       0.115
+wrote_Greek                      0.000     0.000       0.069
+wrote_Latin                      0.000     0.000       0.065
+wrote_Italian                    0.000     0.000       0.023
+wrote_Spanish                    0.000     0.000       0.009
+wrote_German                     1.000     0.996       0.387
+special.cite_German.1914.1916    0.235     0.304       1.121
+special.cite_German.1908.1910    0.543     0.463       1.270
+special.cite_German.1902.1904    0.470     0.442       1.233
+special.cite_German.1896.1898    0.212     0.261       1.224
+special.cite_German.1890.1892    0.181     0.234       1.302
+special.cite_German.1884.1886    0.330     0.253       1.441
+special.cite_German.1878.1880    0.227     0.249       1.493
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 2.097963e-07
+Post (1917-1932): 1.216355e-07
+Post/Pre Ratio: 0.579779 

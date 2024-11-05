@@ -1,0 +1,39 @@
+Synthetic Control Analysis for Herbert Spencer
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+            Name   Weight
+ Auberon Herbert 0.479328
+         Malthus 0.265617
+            Hume 0.173758
+        Voltaire 0.029532
+ Abraham Lincoln 0.016925
+          Goethe 0.015338
+           Plato 0.011344
+    Henry George 0.006901
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1851.000  1808.169    1463.667
+Socialist                         0.000     0.007       0.146
+Political                         1.000     0.984       0.573
+YearofTranslationtoEnglish     1851.000  1839.746    1792.500
+wrote_English                     1.000     0.943       0.510
+wrote_French                      0.000     0.030       0.146
+wrote_Greek                       0.000     0.011       0.115
+wrote_Latin                       0.000     0.000       0.083
+wrote_Italian                     0.000     0.000       0.021
+wrote_Spanish                     0.000     0.000       0.010
+wrote_German                      0.000     0.015       0.104
+special.cite_English.1914.1916    0.737     0.802       0.668
+special.cite_English.1908.1910    1.090     1.154       0.908
+special.cite_English.1902.1904    1.523     1.454       1.000
+special.cite_English.1896.1898    1.490     1.355       1.039
+special.cite_English.1890.1892    1.713     1.602       1.163
+special.cite_English.1884.1886    2.107     1.601       1.103
+special.cite_English.1878.1880    1.310     1.800       1.185
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 2.810538e-07
+Post (1917-1932): 4.455588e-07
+Post/Pre Ratio: 1.585315 

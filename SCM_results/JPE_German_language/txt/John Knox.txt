@@ -1,0 +1,73 @@
+Synthetic Control Analysis for John Knox
+Using citation variable: cite_German
+
+Synthetic Control Weights:
+                    Name   Weight
+        William Harrison 0.432433
+          William Caxton 0.431895
+                 Faraday 0.012261
+      William Wordsworth 0.006431
+             John Bunyan 0.005821
+           Edward Jenner 0.005798
+            Robert Burns 0.005615
+          Henry Fielding 0.004824
+ Hans Christian Andersen 0.004725
+            Izaak Walton 0.004719
+           Thomas Browne 0.004461
+        Oliver Goldsmith 0.004131
+    Percy Bysshe Shelley 0.004014
+        Archibald Geikie 0.003687
+     Ralph Waldo Emerson 0.003649
+           Simon Newcomb 0.003495
+           Joseph Lister 0.003368
+          Samuel Johnson 0.002598
+         Otto Pfleiderer 0.002537
+   William Graham Sumner 0.001936
+         Auberon Herbert 0.001912
+          Walter Raleigh 0.001890
+      Frederick Douglass 0.001886
+ James Fitzjames Stephen 0.001884
+           Nassau Senior 0.001814
+            John Woolman 0.001783
+   Oliver Wendell Holmes 0.001743
+          Edward Bellamy 0.001690
+         Robert Browning 0.001653
+           James Madison 0.001621
+        Thomas Jefferson 0.001361
+          Richard Cobden 0.001341
+          Alexander Pope 0.001306
+          Jonathan Swift 0.001280
+          William Godwin 0.001279
+           David Ricardo 0.001270
+      Alexander Hamilton 0.001203
+            Walt Whitman 0.001158
+                 Thoreau 0.001157
+          Edmund Spenser 0.001127
+              Lord Acton 0.001087
+             John Milton 0.001071
+          Wollstonecraft 0.001060
+
+Predictor Balance:
+                               Treated Synthetic Sample Mean
+YearofPublication             1548.000  1549.266    1598.585
+Socialist                        0.000     0.006       0.101
+Political                        0.000     0.041       0.378
+wrote_English                    1.000     0.993       0.323
+wrote_French                     0.000     0.001       0.115
+wrote_Greek                      0.000     0.001       0.069
+wrote_Latin                      0.000     0.001       0.065
+wrote_Italian                    0.000     0.000       0.023
+wrote_Spanish                    0.000     0.000       0.009
+wrote_German                     0.000     0.004       0.392
+special.cite_German.1914.1916    0.025     0.034       1.122
+special.cite_German.1908.1910    0.038     0.043       1.272
+special.cite_German.1902.1904    0.049     0.048       1.235
+special.cite_German.1896.1898    0.066     0.059       1.224
+special.cite_German.1890.1892    0.032     0.044       1.303
+special.cite_German.1884.1886    0.054     0.055       1.442
+special.cite_German.1878.1880    0.057     0.049       1.494
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 1.280227e-08
+Post (1917-1932): 2.238049e-08
+Post/Pre Ratio: 1.748166 

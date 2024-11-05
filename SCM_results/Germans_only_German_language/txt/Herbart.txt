@@ -1,0 +1,88 @@
+Synthetic Control Analysis for Herbart
+Using citation variable: cite_German
+
+Synthetic Control Weights:
+                       Name   Weight
+             Schleiermacher 0.402701
+                      Ranke 0.262522
+              Martin Luther 0.053524
+                     Herder 0.034610
+                     Goethe 0.010780
+                     Hamann 0.009235
+             Grimmelshausen 0.008175
+                  Hölderlin 0.007743
+   Gotthold Ephraim Lessing 0.006240
+          Moses Mendelssohn 0.005989
+                Thomas Abbt 0.005779
+  Friedrich Heinrich Jacobi 0.005266
+             Heinrich Feder 0.005141
+         Dietrich Tiedemann 0.005059
+      Gottlob Ernst Schulze 0.005046
+         Friedrich Schiller 0.005024
+             Sigismund Beck 0.004981
+              Immanuel Kant 0.004898
+        Christian Schreiber 0.004747
+           Friedrich Krause 0.004746
+         Friedrich Schlegel 0.004703
+     Barthold Georg Niebuhr 0.004607
+              Friedrich Ast 0.004493
+              Eduard Beneke 0.004307
+                 Clausewitz 0.004151
+             E T A Hoffmann 0.004146
+                     Thünen 0.004098
+           Wilhelm Drobisch 0.004085
+              Amadeus Wendt 0.004081
+            Bernard Bolzano 0.004037
+                Bruno Bauer 0.003984
+              Eduard Zeller 0.003961
+               Kuno Fischer 0.003881
+           Ludwig Feuerbach 0.003874
+             Ludwig Büchner 0.003714
+                      Frege 0.003649
+              Hermann Lotze 0.003617
+                Rudolf Haym 0.003575
+             Gustav Freytag 0.003407
+             Fritz Schultze 0.003364
+        Eduard von Hartmann 0.003336
+              Otto Liebmann 0.003251
+                 Mainländer 0.003217
+             Franz Brentano 0.003206
+            Theodor Fontane 0.002779
+                  Wentscher 0.002637
+              Theodor Lipps 0.002596
+                Carl Stumpf 0.002546
+                  Helmholtz 0.002491
+                Thomas Mann 0.002436
+                      Rilke 0.002410
+                 Ebbinghaus 0.002332
+                    Scheler 0.002314
+              Hermann Cohen 0.002279
+                     Simmel 0.002261
+                    Dilthey 0.002243
+                      Külpe 0.002091
+                 Windelband 0.002011
+                      Kafka 0.001949
+                     Natorp 0.001909
+               Schopenhauer 0.001490
+                      Wundt 0.001246
+                  Laspeyres 0.001088
+ Christian Wilhelm von Dohm 0.001071
+              Eugen Dühring 0.001045
+
+Predictor Balance:
+                               Treated Synthetic Sample Mean
+YearofPublication             1813.000  1813.034    1840.988
+Socialist                        0.000     0.006       0.108
+Political                        0.000     0.012       0.205
+special.cite_German.1914.1916    3.287     3.345       1.443
+special.cite_German.1908.1910    4.337     3.957       1.651
+special.cite_German.1902.1904    3.280     3.541       1.578
+special.cite_German.1896.1898    3.937     3.894       1.357
+special.cite_German.1890.1892    4.510     4.447       1.420
+special.cite_German.1884.1886    4.593     4.609       1.393
+special.cite_German.1878.1880    4.500     4.462       1.423
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 8.110569e-07
+Post (1917-1932): 3.095303e-06
+Post/Pre Ratio: 3.816382 

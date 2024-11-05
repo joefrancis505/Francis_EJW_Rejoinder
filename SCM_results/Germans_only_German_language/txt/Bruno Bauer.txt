@@ -1,0 +1,49 @@
+Synthetic Control Analysis for Bruno Bauer
+Using citation variable: cite_German
+
+Synthetic Control Weights:
+                      Name   Weight
+                Mainländer 0.400120
+            Ludwig Büchner 0.153898
+               Thomas Abbt 0.149306
+          Wilhelm Drobisch 0.064845
+               Max Stirner 0.061652
+         Moses Mendelssohn 0.055099
+                Clausewitz 0.036806
+        Dietrich Tiedemann 0.007821
+                 Helmholtz 0.006964
+            Sigismund Beck 0.004696
+            Heinrich Feder 0.003010
+             Otto Liebmann 0.002654
+             Eugen Dühring 0.002418
+            Franz Brentano 0.002415
+                 Wentscher 0.002136
+     Gottlob Ernst Schulze 0.001970
+ Friedrich Heinrich Jacobi 0.001798
+             Eduard Beneke 0.001759
+            Gustav Freytag 0.001443
+    Barthold Georg Niebuhr 0.001347
+                Ebbinghaus 0.001346
+  Gotthold Ephraim Lessing 0.001312
+             Immanuel Kant 0.001310
+             Hermann Lotze 0.001190
+              Schopenhauer 0.001166
+              Kuno Fischer 0.001024
+
+Predictor Balance:
+                               Treated Synthetic Sample Mean
+YearofPublication             1838.000  1840.040    1840.687
+Socialist                        0.000     0.005       0.108
+Political                        0.000     0.069       0.205
+special.cite_German.1914.1916    0.124     0.133       1.481
+special.cite_German.1908.1910    0.129     0.132       1.701
+special.cite_German.1902.1904    0.159     0.159       1.616
+special.cite_German.1896.1898    0.181     0.170       1.402
+special.cite_German.1890.1892    0.124     0.141       1.473
+special.cite_German.1884.1886    0.140     0.156       1.447
+special.cite_German.1878.1880    0.237     0.219       1.475
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 6.827308e-08
+Post (1917-1932): 8.736622e-08
+Post/Pre Ratio: 1.279658 

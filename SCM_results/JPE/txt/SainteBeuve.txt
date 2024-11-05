@@ -1,0 +1,41 @@
+Synthetic Control Analysis for SainteBeuve
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+            Name   Weight
+ Hippolyte Taine 0.693189
+         Spinoza 0.093737
+     Machiavelli 0.085250
+          Kelvin 0.051276
+       Helmholtz 0.034060
+         Blanqui 0.015035
+         Molière 0.012541
+       Herodotus 0.009701
+       Montaigne 0.002419
+            Hume 0.001521
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1828.000  1782.472    1562.912
+Socialist                         0.000     0.015       0.098
+Political                         0.000     0.112       0.397
+YearofTranslationtoEnglish     1868.000  1841.792    1799.644
+wrote_English                     0.000     0.053       0.397
+wrote_French                      1.000     0.724       0.129
+wrote_Greek                       0.000     0.010       0.077
+wrote_Latin                       0.000     0.094       0.072
+wrote_Italian                     0.000     0.085       0.026
+wrote_Spanish                     0.000     0.000       0.010
+wrote_German                      0.000     0.034       0.284
+special.cite_English.1914.1916    0.147     0.204       0.567
+special.cite_English.1908.1910    0.378     0.375       0.751
+special.cite_English.1902.1904    0.429     0.413       0.819
+special.cite_English.1896.1898    0.432     0.430       0.868
+special.cite_English.1890.1892    0.452     0.435       0.948
+special.cite_English.1884.1886    0.269     0.318       0.893
+special.cite_English.1878.1880    0.498     0.466       0.949
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 1.286843e-07
+Post (1917-1932): 1.879615e-07
+Post/Pre Ratio: 1.460641 

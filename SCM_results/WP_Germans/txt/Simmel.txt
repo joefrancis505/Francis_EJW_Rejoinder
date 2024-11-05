@@ -1,0 +1,50 @@
+Synthetic Control Analysis for Simmel
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+                       Name   Weight
+                Carl Stumpf 0.666382
+                 Ebbinghaus 0.189744
+                      Külpe 0.061670
+                    Herbart 0.016417
+                 Windelband 0.006518
+              Hermann Cohen 0.005050
+             Ludwig Büchner 0.005046
+             Franz Brentano 0.005039
+ Friedrich Carl von Savigny 0.004814
+                      Rilke 0.004538
+  Friedrich Heinrich Jacobi 0.004347
+            Theodor Fontane 0.004303
+     Barthold Georg Niebuhr 0.003626
+                  Nietzsche 0.003269
+              Eduard Zeller 0.003167
+                  Hölderlin 0.001791
+                     Thünen 0.001434
+             E T A Hoffmann 0.001322
+           Ludwig Feuerbach 0.001119
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1900.000  1897.744    1588.695
+Socialist                         0.000     0.001       0.135
+Political                         0.000     0.004       0.468
+YearofTranslationtoEnglish     1978.000  1976.715    1827.844
+wrote_English                     0.000     0.004       0.369
+wrote_French                      0.000     0.001       0.099
+wrote_Greek                       0.000     0.001       0.078
+wrote_Latin                       0.000     0.000       0.057
+wrote_Italian                     0.000     0.000       0.014
+wrote_Spanish                     0.000     0.000       0.007
+wrote_German                      1.000     0.994       0.369
+special.cite_English.1914.1916    0.037     0.040       0.486
+special.cite_English.1908.1910    0.052     0.045       0.656
+special.cite_English.1902.1904    0.035     0.036       0.724
+special.cite_English.1896.1898    0.041     0.039       0.755
+special.cite_English.1890.1892    0.016     0.020       0.843
+special.cite_English.1884.1886    0.003     0.015       0.797
+special.cite_English.1878.1880    0.003     0.007       0.844
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 1.081388e-08
+Post (1917-1932): 6.088305e-08
+Post/Pre Ratio: 5.630084 

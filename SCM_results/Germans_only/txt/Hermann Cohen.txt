@@ -1,0 +1,31 @@
+Synthetic Control Analysis for Hermann Cohen
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+              Name   Weight
+       Carl Stumpf 0.523364
+             Rilke 0.439010
+ Ferdinand Tönnies 0.011090
+    Franz Brentano 0.003257
+  Eduard Bernstein 0.001809
+   Theodor Fontane 0.001773
+        Moses Hess 0.001332
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1919.000  1908.714    1841.630
+Socialist                         0.000     0.005       0.111
+Political                         0.000     0.018       0.222
+YearofTranslationtoEnglish     1971.000  1972.313    1895.722
+special.cite_English.1914.1916    0.007     0.008       0.226
+special.cite_English.1908.1910    0.002     0.004       0.248
+special.cite_English.1902.1904    0.002     0.003       0.264
+special.cite_English.1896.1898    0.002     0.004       0.288
+special.cite_English.1890.1892    0.004     0.005       0.302
+special.cite_English.1884.1886    0.001     0.002       0.317
+special.cite_English.1878.1880    0.001     0.003       0.305
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 2.502192e-09
+Post (1917-1932): 2.416904e-08
+Post/Pre Ratio: 9.659147 

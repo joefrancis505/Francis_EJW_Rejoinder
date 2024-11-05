@@ -1,0 +1,47 @@
+Synthetic Control Analysis for Ludwig Feuerbach
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+                       Name   Weight
+             Ludwig Büchner 0.611168
+     Barthold Georg Niebuhr 0.314596
+ Friedrich Carl von Savigny 0.011661
+                      Rilke 0.006381
+            Theodor Fontane 0.004833
+             Franz Brentano 0.004817
+              Hermann Cohen 0.004473
+              Eduard Zeller 0.004167
+                Carl Stumpf 0.004113
+             E T A Hoffmann 0.003993
+  Friedrich Heinrich Jacobi 0.002260
+                      Külpe 0.002175
+        Eduard von Hartmann 0.001533
+                     Thünen 0.001527
+                  Hölderlin 0.001521
+         Friedrich Schiller 0.001149
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1841.000  1838.587    1578.379
+Socialist                         0.000     0.003       0.131
+Political                         0.000     0.009       0.476
+YearofTranslationtoEnglish     1854.000  1854.902    1827.359
+wrote_English                     0.000     0.006       0.372
+wrote_French                      0.000     0.001       0.097
+wrote_Greek                       0.000     0.001       0.083
+wrote_Latin                       0.000     0.001       0.062
+wrote_Italian                     0.000     0.000       0.014
+wrote_Spanish                     0.000     0.000       0.007
+wrote_German                      1.000     0.991       0.359
+special.cite_English.1914.1916    0.005     0.005       0.483
+special.cite_English.1908.1910    0.006     0.007       0.653
+special.cite_English.1902.1904    0.008     0.007       0.719
+special.cite_English.1896.1898    0.007     0.007       0.751
+special.cite_English.1890.1892    0.007     0.007       0.839
+special.cite_English.1884.1886    0.006     0.007       0.789
+special.cite_English.1878.1880    0.004     0.007       0.836
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 2.898831e-09
+Post (1917-1932): 4.003089e-09
+Post/Pre Ratio: 1.380932 

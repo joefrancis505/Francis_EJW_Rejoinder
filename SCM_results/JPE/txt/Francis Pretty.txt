@@ -1,0 +1,35 @@
+Synthetic Control Analysis for Francis Pretty
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+                       Name   Weight
+               Edward Haies 0.983679
+                     Bigges 0.002367
+             Philip Nichols 0.001574
+ Pedro Calderón de la Barca 0.001538
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1580.000  1583.321    1564.191
+Socialist                         0.000     0.001       0.098
+Political                         0.000     0.004       0.397
+YearofTranslationtoEnglish     1580.000  1585.268    1801.129
+wrote_English                     1.000     0.992       0.392
+wrote_French                      0.000     0.003       0.134
+wrote_Greek                       0.000     0.001       0.077
+wrote_Latin                       0.000     0.000       0.072
+wrote_Italian                     0.000     0.000       0.026
+wrote_Spanish                     0.000     0.002       0.010
+wrote_German                      0.000     0.001       0.284
+special.cite_English.1914.1916    0.001     0.002       0.568
+special.cite_English.1908.1910    0.002     0.003       0.753
+special.cite_English.1902.1904    0.005     0.004       0.821
+special.cite_English.1896.1898    0.001     0.004       0.870
+special.cite_English.1890.1892    0.001     0.004       0.950
+special.cite_English.1884.1886    0.003     0.004       0.894
+special.cite_English.1878.1880    0.001     0.004       0.952
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 2.478592e-09
+Post (1917-1932): 1.893197e-09
+Post/Pre Ratio: 0.7638193 

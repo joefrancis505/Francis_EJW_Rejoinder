@@ -1,0 +1,38 @@
+Synthetic Control Analysis for Pliny the Younger
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+               Name   Weight
+   Ludwig Feuerbach 0.319347
+      Immanuel Kant 0.218494
+        John Calvin 0.206345
+ Friedrich Schiller 0.133716
+              Aesop 0.109684
+          de Gouges 0.006622
+    Dante Alighieri 0.001349
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              -113.000  1496.527    1484.125
+Socialist                         0.000     0.001       0.146
+Political                         0.000     0.009       0.583
+YearofTranslationtoEnglish     1900.000  1754.743    1791.990
+wrote_English                     0.000     0.002       0.521
+wrote_French                      0.000     0.007       0.146
+wrote_Greek                       0.000     0.110       0.115
+wrote_Latin                       1.000     0.207       0.073
+wrote_Italian                     0.000     0.001       0.021
+wrote_Spanish                     0.000     0.000       0.010
+wrote_German                      0.000     0.672       0.104
+special.cite_English.1914.1916    0.031     0.071       0.675
+special.cite_English.1908.1910    0.065     0.090       0.919
+special.cite_English.1902.1904    0.056     0.072       1.015
+special.cite_English.1896.1898    0.052     0.063       1.054
+special.cite_English.1890.1892    0.066     0.067       1.180
+special.cite_English.1884.1886    0.047     0.058       1.125
+special.cite_English.1878.1880    0.060     0.061       1.198
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 2.002552e-08
+Post (1917-1932): 3.408486e-08
+Post/Pre Ratio: 1.702071 

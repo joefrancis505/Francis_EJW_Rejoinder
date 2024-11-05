@@ -1,0 +1,53 @@
+Synthetic Control Analysis for John Locke
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+                    Name   Weight
+                  Hobbes 0.403144
+          Edmund Spenser 0.256573
+ James Fitzjames Stephen 0.187307
+          William Godwin 0.056499
+                    Hume 0.012101
+          Jonathan Swift 0.010469
+                 Bentham 0.003921
+   William Graham Sumner 0.003772
+             John Milton 0.003601
+               Herodotus 0.003244
+        John Stuart Mill 0.002239
+           Nassau Senior 0.001843
+             Robert Owen 0.001736
+             Thomas More 0.001669
+                 Chaucer 0.001646
+              Lord Byron 0.001608
+             Oscar Wilde 0.001552
+         Auberon Herbert 0.001429
+          Wollstonecraft 0.001398
+          William Caxton 0.001259
+                  Cicero 0.001131
+               Descartes 0.001031
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1689.000  1675.773    1563.629
+Socialist                         0.000     0.007       0.098
+Political                         1.000     0.972       0.392
+YearofTranslationtoEnglish     1689.000  1693.668    1800.567
+wrote_English                     1.000     0.972       0.392
+wrote_French                      0.000     0.008       0.134
+wrote_Greek                       0.000     0.006       0.077
+wrote_Latin                       0.000     0.006       0.072
+wrote_Italian                     0.000     0.002       0.026
+wrote_Spanish                     0.000     0.001       0.010
+wrote_German                      0.000     0.007       0.284
+special.cite_English.1914.1916    0.117     0.118       0.567
+special.cite_English.1908.1910    0.174     0.172       0.752
+special.cite_English.1902.1904    0.191     0.193       0.820
+special.cite_English.1896.1898    0.190     0.193       0.869
+special.cite_English.1890.1892    0.220     0.218       0.949
+special.cite_English.1884.1886    0.216     0.218       0.893
+special.cite_English.1878.1880    0.256     0.253       0.951
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 2.23125e-08
+Post (1917-1932): 4.42162e-08
+Post/Pre Ratio: 1.981678 

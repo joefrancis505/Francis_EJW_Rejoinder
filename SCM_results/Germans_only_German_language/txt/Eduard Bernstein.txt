@@ -1,0 +1,29 @@
+Synthetic Control Analysis for Eduard Bernstein
+Using citation variable: cite_German
+
+Synthetic Control Weights:
+             Name   Weight
+     August Bebel 0.563647
+       Moses Hess 0.367131
+      Thomas Mann 0.038415
+ Bruno Hildebrand 0.015771
+        Nietzsche 0.003963
+          Sombart 0.003740
+
+Predictor Balance:
+                               Treated Synthetic Sample Mean
+YearofPublication             1899.000  1867.989    1839.952
+Socialist                        1.000     0.951       0.096
+Political                        1.000     0.952       0.193
+special.cite_German.1914.1916    0.115     0.101       1.481
+special.cite_German.1908.1910    0.085     0.089       1.702
+special.cite_German.1902.1904    0.110     0.082       1.617
+special.cite_German.1896.1898    0.033     0.051       1.404
+special.cite_German.1890.1892    0.003     0.036       1.474
+special.cite_German.1884.1886    0.000     0.013       1.449
+special.cite_German.1878.1880    0.000     0.014       1.477
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 2.733183e-08
+Post (1917-1932): 6.183323e-08
+Post/Pre Ratio: 2.262316 

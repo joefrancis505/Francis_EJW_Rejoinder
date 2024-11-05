@@ -1,0 +1,41 @@
+Synthetic Control Analysis for Martin Luther
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+              Name   Weight
+    Grimmelshausen 0.651094
+   Herbert Spencer 0.095982
+            Fichte 0.075298
+         Nietzsche 0.064200
+             Aesop 0.047644
+            Goethe 0.031101
+    Charles Darwin 0.013308
+ Pliny the Younger 0.008577
+       John Bunyan 0.008232
+          Voltaire 0.003863
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1517.000  1595.163    1594.396
+Socialist                         0.000     0.000       0.132
+Political                         0.000     0.100       0.472
+YearofTranslationtoEnglish     1830.000  1875.916    1828.910
+wrote_English                     0.000     0.118       0.375
+wrote_French                      0.000     0.004       0.097
+wrote_Greek                       0.000     0.048       0.076
+wrote_Latin                       0.000     0.009       0.062
+wrote_Italian                     0.000     0.001       0.014
+wrote_Spanish                     0.000     0.000       0.007
+wrote_German                      1.000     0.822       0.361
+special.cite_English.1914.1916    0.427     0.428       0.477
+special.cite_English.1908.1910    0.464     0.438       0.643
+special.cite_English.1902.1904    0.435     0.466       0.710
+special.cite_English.1896.1898    0.482     0.486       0.741
+special.cite_English.1890.1892    0.485     0.515       0.825
+special.cite_English.1884.1886    0.681     0.624       0.780
+special.cite_English.1878.1880    0.482     0.518       0.825
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 7.64872e-08
+Post (1917-1932): 1.041704e-07
+Post/Pre Ratio: 1.361932 

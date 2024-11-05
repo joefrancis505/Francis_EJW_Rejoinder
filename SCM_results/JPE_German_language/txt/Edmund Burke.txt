@@ -1,0 +1,66 @@
+Synthetic Control Analysis for Edmund Burke
+Using citation variable: cite_German
+
+Synthetic Control Weights:
+                    Name   Weight
+            John Woolman 0.440863
+   William Graham Sumner 0.221577
+          Edmund Spenser 0.078768
+      Frederick Douglass 0.051932
+           Lujo Brentano 0.027146
+ James Fitzjames Stephen 0.025976
+           James Madison 0.011941
+          William Godwin 0.010723
+                 Chaucer 0.009178
+           Nassau Senior 0.008235
+          Alexander Pope 0.007717
+          Jonathan Swift 0.007568
+      Alexander Hamilton 0.007412
+         Auberon Herbert 0.007407
+             Oscar Wilde 0.007121
+        Thomas Jefferson 0.005558
+          Richard Cobden 0.005494
+          Wollstonecraft 0.005288
+           David Ricardo 0.004020
+            Henry George 0.003328
+         Abraham Lincoln 0.002813
+   Oliver Wendell Holmes 0.002579
+                 Thoreau 0.002166
+             John Milton 0.002025
+                  Hobbes 0.002014
+              Lord Acton 0.001990
+            Walt Whitman 0.001478
+           Joseph Lister 0.001320
+            William Penn 0.001201
+        John Stuart Mill 0.001123
+    Percy Bysshe Shelley 0.001111
+           Thomas Browne 0.001075
+           Francis Bacon 0.001050
+        Archibald Geikie 0.001017
+     Ralph Waldo Emerson 0.001004
+          Edward Bellamy 0.001002
+
+Predictor Balance:
+                               Treated Synthetic Sample Mean
+YearofPublication             1790.000  1789.422    1597.470
+Socialist                        0.000     0.042       0.101
+Political                        1.000     0.961       0.373
+wrote_English                    1.000     0.993       0.323
+wrote_French                     0.000     0.001       0.115
+wrote_Greek                      0.000     0.001       0.069
+wrote_Latin                      0.000     0.001       0.065
+wrote_Italian                    0.000     0.000       0.023
+wrote_Spanish                    0.000     0.000       0.009
+wrote_German                     0.000     0.004       0.392
+special.cite_German.1914.1916    0.076     0.054       1.122
+special.cite_German.1908.1910    0.033     0.038       1.272
+special.cite_German.1902.1904    0.029     0.038       1.235
+special.cite_German.1896.1898    0.034     0.046       1.225
+special.cite_German.1890.1892    0.061     0.043       1.303
+special.cite_German.1884.1886    0.041     0.042       1.442
+special.cite_German.1878.1880    0.033     0.047       1.494
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 1.493931e-08
+Post (1917-1932): 4.099447e-08
+Post/Pre Ratio: 2.744067 

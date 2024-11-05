@@ -1,0 +1,44 @@
+Synthetic Control Analysis for John C Calhoun
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+                  Name   Weight
+ William Graham Sumner 0.714849
+          William Penn 0.116053
+         James Madison 0.044594
+             Kropotkin 0.023921
+       Herbert Spencer 0.021517
+               Herbart 0.016029
+    Frederick Douglass 0.015587
+          Robert Burns 0.014863
+               Leibniz 0.003972
+          John Woolman 0.003005
+               Malthus 0.002989
+         David Ricardo 0.001717
+                Hobbes 0.001533
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1851.000  1845.641    1578.310
+Socialist                         0.000     0.026       0.131
+Political                         1.000     0.958       0.469
+YearofTranslationtoEnglish     1851.000  1850.990    1827.379
+wrote_English                     1.000     0.973       0.366
+wrote_French                      0.000     0.002       0.097
+wrote_Greek                       0.000     0.001       0.083
+wrote_Latin                       0.000     0.005       0.062
+wrote_Italian                     0.000     0.000       0.014
+wrote_Spanish                     0.000     0.000       0.007
+wrote_German                      0.000     0.019       0.366
+special.cite_English.1914.1916    0.155     0.156       0.482
+special.cite_English.1908.1910    0.200     0.200       0.652
+special.cite_English.1902.1904    0.221     0.221       0.718
+special.cite_English.1896.1898    0.243     0.239       0.749
+special.cite_English.1890.1892    0.194     0.201       0.837
+special.cite_English.1884.1886    0.223     0.219       0.788
+special.cite_English.1878.1880    0.166     0.173       0.835
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 4.661732e-08
+Post (1917-1932): 3.634863e-08
+Post/Pre Ratio: 0.7797238 

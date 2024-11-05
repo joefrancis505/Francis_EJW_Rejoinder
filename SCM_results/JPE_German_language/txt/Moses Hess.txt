@@ -1,0 +1,35 @@
+Synthetic Control Analysis for Moses Hess
+Using citation variable: cite_German
+
+Synthetic Control Weights:
+                       Name   Weight
+           Bruno Hildebrand 0.788050
+ Christian Wilhelm von Dohm 0.201287
+            Charles Fourier 0.001919
+           Gustav Schönberg 0.001338
+                  de Gouges 0.001250
+
+Predictor Balance:
+                               Treated Synthetic Sample Mean
+YearofPublication             1842.000  1834.077    1597.230
+Socialist                        1.000     0.791       0.097
+Political                        1.000     0.998       0.373
+wrote_English                    0.000     0.003       0.327
+wrote_French                     0.000     0.004       0.115
+wrote_Greek                      0.000     0.000       0.069
+wrote_Latin                      0.000     0.000       0.065
+wrote_Italian                    0.000     0.000       0.023
+wrote_Spanish                    0.000     0.000       0.009
+wrote_German                     1.000     0.993       0.387
+special.cite_German.1914.1916    0.010     0.018       1.122
+special.cite_German.1908.1910    0.002     0.032       1.272
+special.cite_German.1902.1904    0.013     0.027       1.235
+special.cite_German.1896.1898    0.012     0.016       1.225
+special.cite_German.1890.1892    0.000     0.017       1.303
+special.cite_German.1884.1886    0.000     0.026       1.443
+special.cite_German.1878.1880    0.000     0.036       1.494
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 2.424851e-08
+Post (1917-1932): 2.835309e-08
+Post/Pre Ratio: 1.169271 

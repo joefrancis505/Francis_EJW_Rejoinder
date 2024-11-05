@@ -1,0 +1,31 @@
+Synthetic Control Analysis for Windelband
+Using citation variable: cite_German
+
+Synthetic Control Weights:
+               Name   Weight
+              Kafka 0.430286
+             Natorp 0.236874
+             Simmel 0.229859
+          Nietzsche 0.051763
+              Külpe 0.028082
+        Thomas Mann 0.002206
+     Grimmelshausen 0.002093
+ Friedrich Schlegel 0.001121
+
+Predictor Balance:
+                               Treated Synthetic Sample Mean
+YearofPublication             1893.000  1905.950    1840.024
+Socialist                        0.000     0.002       0.108
+Political                        0.000     0.004       0.205
+special.cite_German.1914.1916    1.583     1.465       1.464
+special.cite_German.1908.1910    1.110     1.078       1.690
+special.cite_German.1902.1904    0.882     0.958       1.607
+special.cite_German.1896.1898    0.519     0.557       1.398
+special.cite_German.1890.1892    0.370     0.418       1.470
+special.cite_German.1884.1886    0.225     0.240       1.446
+special.cite_German.1878.1880    0.203     0.196       1.475
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 1.600942e-07
+Post (1917-1932): 7.657008e-07
+Post/Pre Ratio: 4.782816 

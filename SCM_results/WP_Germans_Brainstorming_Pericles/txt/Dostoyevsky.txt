@@ -1,0 +1,45 @@
+Synthetic Control Analysis for Dostoyevsky
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+                       Name   Weight
+                      Rilke 0.406647
+              Hermann Lotze 0.359046
+                 Clausewitz 0.074766
+            Dante Alighieri 0.034293
+             Ludwig Büchner 0.032787
+      William Graham Sumner 0.027694
+                      Aesop 0.013433
+                  Nietzsche 0.011312
+                   Durkheim 0.008346
+                    Leibniz 0.005748
+ Friedrich Carl von Savigny 0.004505
+              Lujo Brentano 0.004407
+            Otto Pfleiderer 0.002164
+            Theodor Fontane 0.002043
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1866.000  1824.951    1578.207
+Socialist                         0.000     0.006       0.131
+Political                         0.000     0.037       0.476
+YearofTranslationtoEnglish     1885.000  1894.028    1827.145
+wrote_English                     0.000     0.037       0.372
+wrote_French                      0.000     0.009       0.097
+wrote_Greek                       0.000     0.014       0.083
+wrote_Latin                       0.000     0.006       0.062
+wrote_Italian                     0.000     0.034       0.014
+wrote_Spanish                     0.000     0.000       0.007
+wrote_German                      0.000     0.900       0.366
+special.cite_English.1914.1916    0.074     0.060       0.482
+special.cite_English.1908.1910    0.010     0.034       0.653
+special.cite_English.1902.1904    0.014     0.023       0.719
+special.cite_English.1896.1898    0.025     0.024       0.751
+special.cite_English.1890.1892    0.009     0.022       0.839
+special.cite_English.1884.1886    0.040     0.029       0.789
+special.cite_English.1878.1880    0.000     0.016       0.836
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 3.228036e-08
+Post (1917-1932): 8.72689e-08
+Post/Pre Ratio: 2.703467 

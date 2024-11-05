@@ -1,0 +1,35 @@
+Synthetic Control Analysis for Blanqui
+Using citation variable: cite_German
+
+Synthetic Control Weights:
+            Name   Weight
+ Charles Fourier 0.925539
+        Proudhon 0.047497
+         Molière 0.008655
+         Tacitus 0.006245
+       de Gouges 0.001567
+
+Predictor Balance:
+                               Treated Synthetic Sample Mean
+YearofPublication             1866.000  1795.533    1597.120
+Socialist                        1.000     0.976       0.097
+Political                        1.000     0.990       0.373
+wrote_English                    0.000     0.004       0.327
+wrote_French                     1.000     0.986       0.111
+wrote_Greek                      0.000     0.000       0.069
+wrote_Latin                      0.000     0.006       0.065
+wrote_Italian                    0.000     0.000       0.023
+wrote_Spanish                    0.000     0.000       0.009
+wrote_German                     0.000     0.003       0.392
+special.cite_German.1914.1916    0.056     0.073       1.122
+special.cite_German.1908.1910    0.073     0.087       1.272
+special.cite_German.1902.1904    0.071     0.098       1.234
+special.cite_German.1896.1898    0.172     0.160       1.224
+special.cite_German.1890.1892    0.115     0.141       1.302
+special.cite_German.1884.1886    0.085     0.126       1.442
+special.cite_German.1878.1880    0.274     0.180       1.493
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 5.244769e-08
+Post (1917-1932): 5.202685e-08
+Post/Pre Ratio: 0.9919761 

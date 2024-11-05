@@ -1,0 +1,40 @@
+Synthetic Control Analysis for Francis Bacon
+Using citation variable: cite_German
+
+Synthetic Control Weights:
+                Name   Weight
+    William Harrison 0.389820
+              Malory 0.343588
+ Ralph Waldo Emerson 0.164672
+             Sombart 0.049598
+             Chaucer 0.013473
+       Lujo Brentano 0.011379
+         Montesquieu 0.003068
+        Izaak Walton 0.001747
+           Nietzsche 0.001395
+      William Caxton 0.001194
+
+Predictor Balance:
+                               Treated Synthetic Sample Mean
+YearofPublication             1597.000  1599.545    1598.359
+Socialist                        0.000     0.062       0.101
+Political                        0.000     0.071       0.378
+wrote_English                    1.000     0.935       0.323
+wrote_French                     0.000     0.005       0.115
+wrote_Greek                      0.000     0.001       0.069
+wrote_Latin                      0.000     0.002       0.065
+wrote_Italian                    0.000     0.000       0.023
+wrote_Spanish                    0.000     0.000       0.009
+wrote_German                     0.000     0.056       0.392
+special.cite_German.1914.1916    0.240     0.209       1.121
+special.cite_German.1908.1910    0.121     0.151       1.272
+special.cite_German.1902.1904    0.225     0.187       1.234
+special.cite_German.1896.1898    0.150     0.148       1.224
+special.cite_German.1890.1892    0.121     0.118       1.302
+special.cite_German.1884.1886    0.107     0.101       1.442
+special.cite_German.1878.1880    0.069     0.108       1.494
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 8.088171e-08
+Post (1917-1932): 1.932249e-07
+Post/Pre Ratio: 2.388982 

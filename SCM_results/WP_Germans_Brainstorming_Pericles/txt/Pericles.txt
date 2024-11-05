@@ -1,0 +1,37 @@
+Synthetic Control Analysis for Pericles
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+            Name   Weight
+      Thucydides 0.554804
+     Machiavelli 0.206625
+ Abraham Lincoln 0.104908
+       Aristotle 0.077106
+           Aesop 0.043885
+       Euripides 0.011589
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              -404.000   236.118    1593.862
+Socialist                         0.000     0.000       0.131
+Political                         1.000     0.944       0.469
+YearofTranslationtoEnglish     1628.000  1648.266    1828.917
+wrote_English                     0.000     0.105       0.372
+wrote_French                      0.000     0.000       0.097
+wrote_Greek                       1.000     0.688       0.076
+wrote_Latin                       0.000     0.000       0.062
+wrote_Italian                     0.000     0.207       0.014
+wrote_Spanish                     0.000     0.000       0.007
+wrote_German                      0.000     0.000       0.366
+special.cite_English.1914.1916    0.964     1.031       0.476
+special.cite_English.1908.1910    1.640     1.519       0.642
+special.cite_English.1902.1904    1.570     1.494       0.708
+special.cite_English.1896.1898    1.730     1.738       0.739
+special.cite_English.1890.1892    2.363     2.263       0.822
+special.cite_English.1884.1886    1.447     1.625       0.779
+special.cite_English.1878.1880    1.907     1.942       0.823
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 2.438418e-07
+Post (1917-1932): 3.160237e-07
+Post/Pre Ratio: 1.29602 

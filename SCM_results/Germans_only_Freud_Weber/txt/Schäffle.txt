@@ -1,0 +1,62 @@
+Synthetic Control Analysis for Schäffle
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+                       Name   Weight
+          Ferdinand Tönnies 0.479918
+                 Moses Hess 0.176548
+     Barthold Georg Niebuhr 0.151901
+                      Kafka 0.094278
+             Ludwig Büchner 0.010888
+ Friedrich Carl von Savigny 0.006417
+         Friedrich Schiller 0.006299
+                    Herbart 0.003751
+           Ludwig Feuerbach 0.003699
+         Ferdinand Lassalle 0.003223
+             Gustav Freytag 0.003206
+                Max Stirner 0.002756
+              Eduard Zeller 0.002689
+       Wilhelm von Humboldt 0.002668
+             Friedrich List 0.002632
+                  Rodbertus 0.002623
+             E T A Hoffmann 0.002570
+                  Max Weber 0.002510
+                      Wundt 0.001840
+   Gotthold Ephraim Lessing 0.001818
+                  Schmoller 0.001762
+                      Külpe 0.001730
+                     Simmel 0.001702
+                Thomas Mann 0.001631
+                  Helmholtz 0.001587
+                 Windelband 0.001523
+               August Bebel 0.001518
+                 Ebbinghaus 0.001464
+                      Ranke 0.001379
+             Schleiermacher 0.001332
+            Theodor Fontane 0.001326
+                    Scheler 0.001324
+        Eduard von Hartmann 0.001323
+                     Hamann 0.001239
+              Immanuel Kant 0.001180
+               Schopenhauer 0.001107
+                     Herder 0.001021
+                    Dilthey 0.001016
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1874.000  1865.846    1844.893
+Socialist                         0.000     0.185       0.107
+Political                         1.000     0.675       0.196
+YearofTranslationtoEnglish     1890.000  1900.412    1898.768
+special.cite_English.1914.1916    0.008     0.015       0.219
+special.cite_English.1908.1910    0.016     0.015       0.240
+special.cite_English.1902.1904    0.015     0.014       0.255
+special.cite_English.1896.1898    0.019     0.018       0.277
+special.cite_English.1890.1892    0.043     0.039       0.292
+special.cite_English.1884.1886    0.009     0.015       0.306
+special.cite_English.1878.1880    0.014     0.014       0.294
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 9.083411e-09
+Post (1917-1932): 9.217318e-09
+Post/Pre Ratio: 1.014742 

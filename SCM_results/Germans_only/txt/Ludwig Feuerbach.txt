@@ -1,0 +1,52 @@
+Synthetic Control Analysis for Ludwig Feuerbach
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+                       Name   Weight
+             Ludwig Büchner 0.571998
+     Barthold Georg Niebuhr 0.329574
+ Friedrich Carl von Savigny 0.019152
+             Franz Brentano 0.007502
+              Eduard Zeller 0.005568
+                      Rilke 0.005544
+                Carl Stumpf 0.005376
+            Theodor Fontane 0.005028
+              Hermann Cohen 0.004860
+             E T A Hoffmann 0.003668
+  Friedrich Heinrich Jacobi 0.003303
+         Friedrich Schiller 0.002775
+                     Thünen 0.002459
+                      Külpe 0.002216
+        Eduard von Hartmann 0.002188
+                  Hölderlin 0.001804
+             Grimmelshausen 0.001537
+                Thomas Mann 0.001355
+             Gustav Freytag 0.001335
+   Gotthold Ephraim Lessing 0.001234
+                 Windelband 0.001196
+                     Simmel 0.001181
+                    Scheler 0.001148
+              Hermann Lotze 0.001131
+                 Ebbinghaus 0.001084
+                    Dilthey 0.001074
+                      Frege 0.001053
+              Immanuel Kant 0.001014
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1841.000  1839.563    1843.074
+Socialist                         0.000     0.002       0.111
+Political                         0.000     0.003       0.222
+YearofTranslationtoEnglish     1854.000  1856.008    1897.889
+special.cite_English.1914.1916    0.005     0.006       0.226
+special.cite_English.1908.1910    0.006     0.007       0.248
+special.cite_English.1902.1904    0.008     0.007       0.264
+special.cite_English.1896.1898    0.007     0.008       0.288
+special.cite_English.1890.1892    0.007     0.007       0.302
+special.cite_English.1884.1886    0.006     0.006       0.317
+special.cite_English.1878.1880    0.004     0.007       0.304
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 3.038081e-09
+Post (1917-1932): 4.395609e-09
+Post/Pre Ratio: 1.446837 

@@ -1,0 +1,43 @@
+Synthetic Control Analysis for Alexander Pope
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+                    Name   Weight
+                  Hobbes 0.644524
+           Nassau Senior 0.132570
+            Edmund Burke 0.097355
+              Lord Acton 0.039569
+      Alexander Hamilton 0.016823
+   William Graham Sumner 0.016391
+           Lujo Brentano 0.013432
+          William Godwin 0.006448
+                    Hume 0.005473
+ James Fitzjames Stephen 0.004410
+           James Madison 0.003212
+        Thomas Jefferson 0.002041
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1711.000  1709.255    1593.049
+Socialist                         0.000     0.016       0.132
+Political                         1.000     0.994       0.465
+YearofTranslationtoEnglish     1711.000  1711.980    1829.736
+wrote_English                     1.000     0.991       0.368
+wrote_French                      0.000     0.003       0.097
+wrote_Greek                       0.000     0.001       0.076
+wrote_Latin                       0.000     0.001       0.062
+wrote_Italian                     0.000     0.000       0.014
+wrote_Spanish                     0.000     0.000       0.007
+wrote_German                      0.000     0.004       0.368
+special.cite_English.1914.1916    0.095     0.093       0.479
+special.cite_English.1908.1910    0.116     0.121       0.645
+special.cite_English.1902.1904    0.148     0.147       0.712
+special.cite_English.1896.1898    0.141     0.141       0.743
+special.cite_English.1890.1892    0.128     0.130       0.827
+special.cite_English.1884.1886    0.136     0.136       0.784
+special.cite_English.1878.1880    0.153     0.150       0.827
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 2.481042e-08
+Post (1917-1932): 1.242961e-08
+Post/Pre Ratio: 0.5009833 

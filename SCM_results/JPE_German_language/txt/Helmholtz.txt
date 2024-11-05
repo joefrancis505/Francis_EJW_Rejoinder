@@ -1,0 +1,37 @@
+Synthetic Control Analysis for Helmholtz
+Using citation variable: cite_German
+
+Synthetic Control Weights:
+         Name   Weight
+        Ranke 0.541724
+    Nietzsche 0.181948
+       Hamann 0.132503
+       Herder 0.075461
+ Kuno Fischer 0.050132
+       Cicero 0.012173
+      Pasteur 0.005748
+
+Predictor Balance:
+                               Treated Synthetic Sample Mean
+YearofPublication             1847.000  1807.419    1597.207
+Socialist                        0.000     0.000       0.101
+Political                        0.000     0.012       0.378
+wrote_English                    0.000     0.000       0.327
+wrote_French                     0.000     0.006       0.115
+wrote_Greek                      0.000     0.000       0.069
+wrote_Latin                      0.000     0.012       0.065
+wrote_Italian                    0.000     0.000       0.023
+wrote_Spanish                    0.000     0.000       0.009
+wrote_German                     1.000     0.982       0.387
+special.cite_German.1914.1916    2.853     4.260       1.109
+special.cite_German.1908.1910    4.723     4.805       1.250
+special.cite_German.1902.1904    7.367     5.821       1.201
+special.cite_German.1896.1898    6.220     4.812       1.196
+special.cite_German.1890.1892    5.190     5.581       1.279
+special.cite_German.1884.1886    4.867     5.510       1.420
+special.cite_German.1878.1880    6.153     4.852       1.466
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 1.27699e-06
+Post (1917-1932): 3.305434e-06
+Post/Pre Ratio: 2.588458 

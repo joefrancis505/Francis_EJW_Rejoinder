@@ -1,0 +1,46 @@
+Synthetic Control Analysis for Richard Cobden
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+                    Name   Weight
+           Nassau Senior 0.507305
+   William Graham Sumner 0.145141
+              Lord Acton 0.102750
+          Jonathan Swift 0.073020
+        John Stuart Mill 0.049680
+              Lord Byron 0.042614
+ James Fitzjames Stephen 0.030340
+           Lujo Brentano 0.015991
+                  Hobbes 0.004040
+      Frederick Douglass 0.002313
+              Adam Smith 0.002250
+          John C Calhoun 0.001938
+             John Ruskin 0.001453
+         Herbert Spencer 0.001164
+          Thomas Carlyle 0.001113
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1835.000  1831.713    1592.188
+Socialist                         0.000     0.020       0.132
+Political                         1.000     0.949       0.465
+YearofTranslationtoEnglish     1835.000  1834.296    1828.875
+wrote_English                     1.000     0.993       0.368
+wrote_French                      0.000     0.001       0.097
+wrote_Greek                       0.000     0.001       0.076
+wrote_Latin                       0.000     0.001       0.062
+wrote_Italian                     0.000     0.000       0.014
+wrote_Spanish                     0.000     0.000       0.007
+wrote_German                      0.000     0.004       0.368
+special.cite_English.1914.1916    0.065     0.070       0.479
+special.cite_English.1908.1910    0.128     0.125       0.645
+special.cite_English.1902.1904    0.160     0.160       0.712
+special.cite_English.1896.1898    0.134     0.133       0.743
+special.cite_English.1890.1892    0.130     0.132       0.827
+special.cite_English.1884.1886    0.150     0.150       0.784
+special.cite_English.1878.1880    0.166     0.166       0.827
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 2.617355e-08
+Post (1917-1932): 2.932161e-08
+Post/Pre Ratio: 1.120276 

@@ -1,0 +1,38 @@
+Synthetic Control Analysis for Malory
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+            Name   Weight
+  William Caxton 0.574580
+         Herbart 0.139770
+ Robert Browning 0.124966
+          Kelvin 0.071922
+           Aesop 0.043778
+     Machiavelli 0.043333
+         Pasteur 0.001551
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1485.000  1506.849    1564.680
+Socialist                         0.000     0.000       0.098
+Political                         0.000     0.043       0.397
+YearofTranslationtoEnglish     1485.000  1611.359    1801.619
+wrote_English                     1.000     0.772       0.392
+wrote_French                      0.000     0.002       0.134
+wrote_Greek                       0.000     0.044       0.077
+wrote_Latin                       0.000     0.000       0.072
+wrote_Italian                     0.000     0.043       0.026
+wrote_Spanish                     0.000     0.000       0.010
+wrote_German                      0.000     0.140       0.284
+special.cite_English.1914.1916    0.246     0.217       0.567
+special.cite_English.1908.1910    0.311     0.368       0.751
+special.cite_English.1902.1904    0.386     0.387       0.819
+special.cite_English.1896.1898    0.549     0.474       0.867
+special.cite_English.1890.1892    0.402     0.375       0.948
+special.cite_English.1884.1886    0.136     0.181       0.893
+special.cite_English.1878.1880    0.120     0.164       0.951
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 8.376703e-08
+Post (1917-1932): 1.955885e-07
+Post/Pre Ratio: 2.33491 

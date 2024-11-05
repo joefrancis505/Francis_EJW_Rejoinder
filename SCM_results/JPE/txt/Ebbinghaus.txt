@@ -1,0 +1,51 @@
+Synthetic Control Analysis for Ebbinghaus
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+                       Name   Weight
+        Eduard von Hartmann 0.594863
+                Carl Stumpf 0.202067
+                     Simmel 0.035076
+                Oscar Wilde 0.031346
+                  Nietzsche 0.029103
+                     Kelvin 0.024588
+                 Lord Acton 0.014520
+             Ludwig Büchner 0.012370
+             E T A Hoffmann 0.009873
+              Hermann Cohen 0.008000
+                      Rilke 0.003532
+              Eduard Zeller 0.002120
+            Abraham Lincoln 0.001983
+ Friedrich Carl von Savigny 0.001924
+                Thomas Mann 0.001899
+                  Hölderlin 0.001652
+             Franz Brentano 0.001268
+  Friedrich Heinrich Jacobi 0.001254
+     Barthold Georg Niebuhr 0.001196
+           Ludwig Feuerbach 0.001007
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1885.000  1874.460    1562.619
+Socialist                         0.000     0.033       0.098
+Political                         0.000     0.053       0.397
+YearofTranslationtoEnglish     1913.000  1911.784    1799.412
+wrote_English                     0.000     0.078       0.397
+wrote_French                      0.000     0.002       0.134
+wrote_Greek                       0.000     0.001       0.077
+wrote_Latin                       0.000     0.001       0.072
+wrote_Italian                     0.000     0.001       0.026
+wrote_Spanish                     0.000     0.000       0.010
+wrote_German                      1.000     0.917       0.278
+special.cite_English.1914.1916    0.123     0.130       0.567
+special.cite_English.1908.1910    0.150     0.134       0.752
+special.cite_English.1902.1904    0.094     0.091       0.820
+special.cite_English.1896.1898    0.076     0.093       0.869
+special.cite_English.1890.1892    0.038     0.041       0.950
+special.cite_English.1884.1886    0.040     0.033       0.894
+special.cite_English.1878.1880    0.002     0.020       0.952
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 2.522228e-08
+Post (1917-1932): 2.208926e-08
+Post/Pre Ratio: 0.8757836 

@@ -1,0 +1,36 @@
+Synthetic Control Analysis for Ferdinand Tönnies
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+                  Name   Weight
+           Max Stirner 0.541554
+              Schäffle 0.171533
+           Carl Stumpf 0.152338
+      Eduard Bernstein 0.119157
+ William Graham Sumner 0.012312
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1887.000  1866.836    1591.826
+Socialist                         0.000     0.120       0.132
+Political                         1.000     0.846       0.465
+YearofTranslationtoEnglish     1940.000  1919.967    1828.146
+wrote_English                     0.000     0.013       0.375
+wrote_French                      0.000     0.000       0.097
+wrote_Greek                       0.000     0.000       0.076
+wrote_Latin                       0.000     0.000       0.062
+wrote_Italian                     0.000     0.000       0.014
+wrote_Spanish                     0.000     0.000       0.007
+wrote_German                      1.000     0.987       0.361
+special.cite_English.1914.1916    0.001     0.013       0.480
+special.cite_English.1908.1910    0.001     0.015       0.646
+special.cite_English.1902.1904    0.000     0.007       0.713
+special.cite_English.1896.1898    0.001     0.009       0.744
+special.cite_English.1890.1892    0.000     0.011       0.828
+special.cite_English.1884.1886    0.000     0.004       0.785
+special.cite_English.1878.1880    0.000     0.005       0.828
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 9.393513e-09
+Post (1917-1932): 1.115004e-08
+Post/Pre Ratio: 1.186994 

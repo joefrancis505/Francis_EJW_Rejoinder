@@ -1,0 +1,38 @@
+Synthetic Control Analysis for Sismondi
+Using citation variable: cite_German
+
+Synthetic Control Weights:
+            Name   Weight
+ Charles Fourier 0.863441
+       Rodbertus 0.034147
+     Victor Hugo 0.032292
+       Froissart 0.020549
+        Proudhon 0.017035
+        Voltaire 0.012882
+       de Gouges 0.006595
+       Nietzsche 0.004543
+
+Predictor Balance:
+                               Treated Synthetic Sample Mean
+YearofPublication             1815.000  1799.631    1597.355
+Socialist                        1.000     0.915       0.097
+Political                        1.000     0.958       0.373
+wrote_English                    0.000     0.002       0.327
+wrote_French                     1.000     0.955       0.111
+wrote_Greek                      0.000     0.001       0.069
+wrote_Latin                      0.000     0.001       0.065
+wrote_Italian                    0.000     0.000       0.023
+wrote_Spanish                    0.000     0.000       0.009
+wrote_German                     0.000     0.041       0.392
+special.cite_German.1914.1916    0.130     0.157       1.122
+special.cite_German.1908.1910    0.211     0.205       1.271
+special.cite_German.1902.1904    0.209     0.199       1.234
+special.cite_German.1896.1898    0.189     0.188       1.224
+special.cite_German.1890.1892    0.210     0.210       1.302
+special.cite_German.1884.1886    0.400     0.383       1.441
+special.cite_German.1878.1880    0.225     0.249       1.493
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 1.518039e-07
+Post (1917-1932): 2.214051e-07
+Post/Pre Ratio: 1.458494 

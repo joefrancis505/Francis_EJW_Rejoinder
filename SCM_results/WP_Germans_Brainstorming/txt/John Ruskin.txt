@@ -1,0 +1,40 @@
+Synthetic Control Analysis for John Ruskin
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+            Name   Weight
+      Lord Acton 0.421810
+  Thomas Carlyle 0.167159
+         Thoreau 0.131216
+     Robert Owen 0.092949
+       Kropotkin 0.085818
+   Lujo Brentano 0.085472
+         Marlowe 0.006363
+ Charles Fourier 0.005611
+            Hume 0.001416
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1860.000  1858.625    1592.014
+Socialist                         1.000     0.437       0.125
+Political                         1.000     0.862       0.465
+YearofTranslationtoEnglish     1860.000  1860.740    1828.701
+wrote_English                     1.000     0.993       0.368
+wrote_French                      0.000     0.006       0.097
+wrote_Greek                       0.000     0.001       0.076
+wrote_Latin                       0.000     0.000       0.062
+wrote_Italian                     0.000     0.000       0.014
+wrote_Spanish                     0.000     0.000       0.007
+wrote_German                      0.000     0.001       0.368
+special.cite_English.1914.1916    0.200     0.226       0.478
+special.cite_English.1908.1910    0.384     0.360       0.643
+special.cite_English.1902.1904    0.542     0.530       0.710
+special.cite_English.1896.1898    0.332     0.333       0.742
+special.cite_English.1890.1892    0.326     0.333       0.826
+special.cite_English.1884.1886    0.250     0.258       0.783
+special.cite_English.1878.1880    0.214     0.212       0.827
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 1.471979e-07
+Post (1917-1932): 8.747727e-08
+Post/Pre Ratio: 0.5942835 

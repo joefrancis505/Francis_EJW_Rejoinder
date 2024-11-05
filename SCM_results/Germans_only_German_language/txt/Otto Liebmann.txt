@@ -1,0 +1,46 @@
+Synthetic Control Analysis for Otto Liebmann
+Using citation variable: cite_German
+
+Synthetic Control Weights:
+                  Name   Weight
+        Ludwig Büchner 0.486554
+             Wentscher 0.300139
+           Max Stirner 0.102240
+           Carl Stumpf 0.019054
+                 Külpe 0.015654
+        Gustav Freytag 0.013306
+             Schmoller 0.005006
+         Eugen Dühring 0.004829
+             Nietzsche 0.003724
+            Ebbinghaus 0.003284
+       Theodor Fontane 0.003020
+               Dilthey 0.001828
+       Bernard Bolzano 0.001610
+        Sigismund Beck 0.001602
+               Sombart 0.001438
+          Kuno Fischer 0.001388
+                 Wundt 0.001384
+             Helmholtz 0.001310
+        Heinrich Feder 0.001214
+    Dietrich Tiedemann 0.001196
+      Ludwig Feuerbach 0.001131
+      Wilhelm Drobisch 0.001052
+ Gottlob Ernst Schulze 0.001006
+
+Predictor Balance:
+                               Treated Synthetic Sample Mean
+YearofPublication             1865.000  1867.590    1840.361
+Socialist                        0.000     0.009       0.108
+Political                        0.000     0.114       0.205
+special.cite_German.1914.1916    0.154     0.158       1.481
+special.cite_German.1908.1910    0.152     0.172       1.701
+special.cite_German.1902.1904    0.221     0.205       1.615
+special.cite_German.1896.1898    0.184     0.166       1.402
+special.cite_German.1890.1892    0.097     0.098       1.473
+special.cite_German.1884.1886    0.025     0.073       1.448
+special.cite_German.1878.1880    0.020     0.073       1.477
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 4.417863e-08
+Post (1917-1932): 5.128122e-08
+Post/Pre Ratio: 1.16077 

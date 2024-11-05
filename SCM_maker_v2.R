@@ -30,7 +30,7 @@ is_german_language <- function(sheet_name) {
 
 # Function to create directories for each analysis
 create_analysis_directories <- function(analysis_name) {
-  base_dir <- file.path("SCM_results", paste0("SCM_", analysis_name))
+  base_dir <- file.path("SCM_results", paste0(analysis_name))
   dir.create(base_dir, showWarnings = FALSE, recursive = TRUE)
   dir.create(file.path(base_dir, "pdf"), showWarnings = FALSE, recursive = TRUE)
   dir.create(file.path(base_dir, "png"), showWarnings = FALSE, recursive = TRUE)
@@ -89,11 +89,12 @@ save_synth_details <- function(synth_out, dataprep_out, author, base_dir, citati
   
   pre_rmspe <- calculate_period_rmspe(Y1plot[,1], synthetic[,1], 1878, 1916, years)
   post_rmspe <- calculate_period_rmspe(Y1plot[,1], synthetic[,1], 1917, 1932, years)
-  
   rmspe_ratio <- post_rmspe / pre_rmspe
   
-  cat("\nRoot Mean Square Prediction Error (RMSPE) Post/Pre Ratio:", rmspe_ratio, "\n")
-  cat("\nOverall Mean Squared Prediction Error (MSPE):", synth_out$loss.w, "\n")
+  cat("\nRoot Mean Square Prediction Error (RMSPE):")
+  cat("\nPre (1878-1916):", pre_rmspe)
+  cat("\nPost (1917-1932):", post_rmspe)
+  cat("\nPost/Pre Ratio:", rmspe_ratio, "\n")
   
   sink()
   

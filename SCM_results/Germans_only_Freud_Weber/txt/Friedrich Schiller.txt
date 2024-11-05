@@ -1,0 +1,37 @@
+Synthetic Control Analysis for Friedrich Schiller
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+                       Name   Weight
+     Barthold Georg Niebuhr 0.941976
+ Friedrich Carl von Savigny 0.007708
+   Gotthold Ephraim Lessing 0.007129
+                     Herder 0.005994
+                    Herbart 0.005780
+                      Wundt 0.004722
+             E T A Hoffmann 0.003931
+              Immanuel Kant 0.001596
+                 Moses Hess 0.001479
+             Ludwig Büchner 0.001126
+             Schleiermacher 0.001124
+                  Schmoller 0.001060
+           Ludwig Feuerbach 0.001003
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1799.000  1811.272    1846.232
+Socialist                         0.000     0.003       0.107
+Political                         0.000     0.006       0.214
+YearofTranslationtoEnglish     1800.000  1829.082    1900.375
+special.cite_English.1914.1916    0.008     0.012       0.219
+special.cite_English.1908.1910    0.013     0.015       0.240
+special.cite_English.1902.1904    0.027     0.017       0.255
+special.cite_English.1896.1898    0.011     0.018       0.278
+special.cite_English.1890.1892    0.015     0.016       0.292
+special.cite_English.1884.1886    0.015     0.015       0.306
+special.cite_English.1878.1880    0.009     0.015       0.294
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 1.048197e-08
+Post (1917-1932): 4.589745e-09
+Post/Pre Ratio: 0.4378705 

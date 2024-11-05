@@ -1,0 +1,28 @@
+Synthetic Control Analysis for Hermann Lotze
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+                     Name   Weight
+      Eduard von Hartmann 0.783811
+ Gotthold Ephraim Lessing 0.168988
+              Carl Stumpf 0.035291
+                   Fichte 0.010040
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1856.000  1849.187    1842.796
+Socialist                         0.000     0.000       0.111
+Political                         0.000     0.000       0.222
+YearofTranslationtoEnglish     1885.000  1878.389    1897.315
+special.cite_English.1914.1916    0.005     0.012       0.226
+special.cite_English.1908.1910    0.007     0.015       0.248
+special.cite_English.1902.1904    0.010     0.013       0.264
+special.cite_English.1896.1898    0.013     0.015       0.287
+special.cite_English.1890.1892    0.017     0.020       0.301
+special.cite_English.1884.1886    0.056     0.030       0.316
+special.cite_English.1878.1880    0.024     0.022       0.304
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 1.184613e-08
+Post (1917-1932): 6.666627e-09
+Post/Pre Ratio: 0.5627685 

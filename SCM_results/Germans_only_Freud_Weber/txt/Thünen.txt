@@ -1,0 +1,44 @@
+Synthetic Control Analysis for Thünen
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+                       Name   Weight
+  Friedrich Heinrich Jacobi 0.474421
+                Carl Stumpf 0.251058
+ Friedrich Carl von Savigny 0.144375
+          Ferdinand Tönnies 0.019284
+             Ludwig Büchner 0.018182
+                      Kafka 0.015334
+     Barthold Georg Niebuhr 0.014661
+            Theodor Fontane 0.010327
+             Franz Brentano 0.008128
+              Hermann Cohen 0.005002
+                      Rilke 0.003354
+             Gustav Freytag 0.003189
+                 Moses Hess 0.002251
+             Grimmelshausen 0.002110
+              Hermann Lotze 0.001946
+              Eduard Zeller 0.001666
+           Ludwig Feuerbach 0.001491
+                  Hölderlin 0.001131
+   Gotthold Ephraim Lessing 0.001114
+           Eduard Bernstein 0.001028
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1826.000  1827.690    1845.750
+Socialist                         0.000     0.006       0.107
+Political                         0.000     0.028       0.214
+YearofTranslationtoEnglish     1966.000  1965.546    1897.411
+special.cite_English.1914.1916    0.004     0.005       0.219
+special.cite_English.1908.1910    0.002     0.006       0.240
+special.cite_English.1902.1904    0.004     0.006       0.255
+special.cite_English.1896.1898    0.014     0.008       0.278
+special.cite_English.1890.1892    0.012     0.011       0.292
+special.cite_English.1884.1886    0.007     0.006       0.306
+special.cite_English.1878.1880    0.003     0.007       0.294
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 1.075366e-08
+Post (1917-1932): 4.083029e-09
+Post/Pre Ratio: 0.3796874 

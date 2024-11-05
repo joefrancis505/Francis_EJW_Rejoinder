@@ -1,0 +1,38 @@
+Synthetic Control Analysis for Faraday
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+            Name   Weight
+ Otto Pfleiderer 0.339719
+ Robert Browning 0.333218
+          Dryden 0.158994
+            Hume 0.096256
+          Newton 0.037518
+          Kelvin 0.026238
+ Abraham Lincoln 0.003703
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1827.000  1815.176    1562.918
+Socialist                         0.000     0.001       0.098
+Political                         0.000     0.102       0.397
+YearofTranslationtoEnglish     1827.000  1820.705    1799.856
+wrote_English                     1.000     0.960       0.392
+wrote_French                      0.000     0.001       0.134
+wrote_Greek                       0.000     0.000       0.077
+wrote_Latin                       0.000     0.038       0.072
+wrote_Italian                     0.000     0.000       0.026
+wrote_Spanish                     0.000     0.000       0.010
+wrote_German                      0.000     0.001       0.284
+special.cite_English.1914.1916    1.337     1.327       0.561
+special.cite_English.1908.1910    1.677     1.656       0.744
+special.cite_English.1902.1904    1.843     1.964       0.811
+special.cite_English.1896.1898    2.137     2.043       0.859
+special.cite_English.1890.1892    2.243     2.198       0.939
+special.cite_English.1884.1886    1.927     1.922       0.884
+special.cite_English.1878.1880    2.227     2.221       0.940
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 2.528854e-07
+Post (1917-1932): 5.998016e-07
+Post/Pre Ratio: 2.371832 

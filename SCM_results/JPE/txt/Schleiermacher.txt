@@ -1,0 +1,39 @@
+Synthetic Control Analysis for Schleiermacher
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+           Name   Weight
+          Kafka 0.804806
+         Herder 0.064813
+        Tacitus 0.043085
+         Goethe 0.037636
+        Spinoza 0.019318
+    Oscar Wilde 0.011793
+ William Caxton 0.010736
+      Herodotus 0.004795
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1834.000  1793.552    1562.881
+Socialist                         0.000     0.012       0.098
+Political                         0.000     0.061       0.397
+YearofTranslationtoEnglish     1850.000  1900.696    1799.737
+wrote_English                     0.000     0.024       0.397
+wrote_French                      0.000     0.000       0.134
+wrote_Greek                       0.000     0.005       0.077
+wrote_Latin                       0.000     0.063       0.072
+wrote_Italian                     0.000     0.000       0.026
+wrote_Spanish                     0.000     0.000       0.010
+wrote_German                      1.000     0.908       0.278
+special.cite_English.1914.1916    0.331     0.305       0.566
+special.cite_English.1908.1910    0.386     0.397       0.751
+special.cite_English.1902.1904    0.462     0.451       0.819
+special.cite_English.1896.1898    0.377     0.441       0.868
+special.cite_English.1890.1892    0.773     0.741       0.946
+special.cite_English.1884.1886    0.635     0.627       0.891
+special.cite_English.1878.1880    0.686     0.670       0.948
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 1.146229e-07
+Post (1917-1932): 1.504167e-07
+Post/Pre Ratio: 1.312275 

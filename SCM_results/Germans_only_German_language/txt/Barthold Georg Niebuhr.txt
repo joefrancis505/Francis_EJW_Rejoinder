@@ -1,0 +1,44 @@
+Synthetic Control Analysis for Barthold Georg Niebuhr
+Using citation variable: cite_German
+
+Synthetic Control Weights:
+                       Name   Weight
+        Christian Schreiber 0.729820
+            Bernard Bolzano 0.139535
+             Heinrich Feder 0.033335
+              Friedrich Ast 0.010170
+              Amadeus Wendt 0.008536
+         Dietrich Tiedemann 0.008467
+      Gottlob Ernst Schulze 0.005942
+           Wilhelm Drobisch 0.005715
+              Eduard Beneke 0.005298
+             Sigismund Beck 0.004860
+ Christian Wilhelm von Dohm 0.003687
+           Gustav Schönberg 0.003185
+                Carl Stumpf 0.002217
+                 Moses Hess 0.002130
+                Thomas Abbt 0.001582
+           Friedrich Krause 0.001542
+                 Karl Knies 0.001320
+             Fritz Schultze 0.001320
+  Friedrich Heinrich Jacobi 0.001278
+                 Mainländer 0.001138
+             Franz Brentano 0.001016
+
+Predictor Balance:
+                               Treated Synthetic Sample Mean
+YearofPublication             1811.000  1811.162    1841.012
+Socialist                        0.000     0.006       0.108
+Political                        0.000     0.017       0.205
+special.cite_German.1914.1916    0.028     0.026       1.482
+special.cite_German.1908.1910    0.021     0.025       1.703
+special.cite_German.1902.1904    0.011     0.024       1.618
+special.cite_German.1896.1898    0.022     0.022       1.404
+special.cite_German.1890.1892    0.020     0.021       1.474
+special.cite_German.1884.1886    0.027     0.022       1.448
+special.cite_German.1878.1880    0.018     0.021       1.477
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 9.513494e-09
+Post (1917-1932): 2.120003e-08
+Post/Pre Ratio: 2.228417 

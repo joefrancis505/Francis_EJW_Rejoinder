@@ -1,0 +1,39 @@
+Synthetic Control Analysis for Marcus Aurelius
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+      Name   Weight
+ Epictetus 0.548657
+     Aesop 0.348458
+    Goethe 0.033601
+ Aristotle 0.022693
+  Plutarch 0.017786
+   Marlowe 0.015774
+    Dryden 0.006520
+    Kempis 0.005935
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication               170.000   -19.508    1603.750
+Socialist                         0.000     0.000       0.132
+Political                         0.000     0.041       0.472
+YearofTranslationtoEnglish     1634.000  1648.571    1830.271
+wrote_English                     0.000     0.022       0.375
+wrote_French                      0.000     0.000       0.097
+wrote_Greek                       1.000     0.938       0.069
+wrote_Latin                       0.000     0.006       0.062
+wrote_Italian                     0.000     0.000       0.014
+wrote_Spanish                     0.000     0.000       0.007
+wrote_German                      0.000     0.034       0.368
+special.cite_English.1914.1916    0.463     0.488       0.476
+special.cite_English.1908.1910    0.688     0.666       0.641
+special.cite_English.1902.1904    0.817     0.734       0.708
+special.cite_English.1896.1898    0.766     0.717       0.739
+special.cite_English.1890.1892    0.806     0.953       0.822
+special.cite_English.1884.1886    0.971     0.826       0.778
+special.cite_English.1878.1880    0.787     0.853       0.823
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 1.070307e-07
+Post (1917-1932): 1.595654e-07
+Post/Pre Ratio: 1.490837 

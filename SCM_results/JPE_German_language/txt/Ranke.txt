@@ -1,0 +1,37 @@
+Synthetic Control Analysis for Ranke
+Using citation variable: cite_German
+
+Synthetic Control Weights:
+      Name   Weight
+   Herbart 0.328985
+ Helmholtz 0.209030
+  Schäffle 0.197711
+    Cicero 0.151961
+    Fichte 0.103196
+ Rodbertus 0.007104
+  Voltaire 0.001429
+
+Predictor Balance:
+                               Treated Synthetic Sample Mean
+YearofPublication             1834.000  1547.016    1597.267
+Socialist                        0.000     0.007       0.101
+Political                        0.000     0.358       0.378
+wrote_English                    0.000     0.000       0.327
+wrote_French                     0.000     0.001       0.115
+wrote_Greek                      0.000     0.000       0.069
+wrote_Latin                      0.000     0.152       0.065
+wrote_Italian                    0.000     0.000       0.023
+wrote_Spanish                    0.000     0.000       0.009
+wrote_German                     1.000     0.847       0.387
+special.cite_German.1914.1916    4.140     4.030       1.103
+special.cite_German.1908.1910    3.823     5.145       1.255
+special.cite_German.1902.1904    4.970     4.895       1.212
+special.cite_German.1896.1898    5.697     5.813       1.198
+special.cite_German.1890.1892    7.653     6.190       1.268
+special.cite_German.1884.1886    7.530     6.461       1.408
+special.cite_German.1878.1880    5.467     6.898       1.469
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 1.106596e-06
+Post (1917-1932): 1.717267e-06
+Post/Pre Ratio: 1.551846 

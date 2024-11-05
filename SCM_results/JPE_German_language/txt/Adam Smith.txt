@@ -1,0 +1,53 @@
+Synthetic Control Analysis for Adam Smith
+Using citation variable: cite_German
+
+Synthetic Control Weights:
+                    Name   Weight
+              Lord Acton 0.695371
+         Herbert Spencer 0.097227
+                 Bentham 0.061085
+                  Hobbes 0.034523
+               Aristotle 0.022871
+                 Leibniz 0.021629
+                 Tacitus 0.012352
+                 Spinoza 0.006430
+         Auberon Herbert 0.004669
+   William Graham Sumner 0.004386
+   Oliver Wendell Holmes 0.003839
+ James Fitzjames Stephen 0.003643
+      Frederick Douglass 0.003192
+          Richard Cobden 0.003150
+           Nassau Senior 0.002247
+               Helmholtz 0.002018
+           James Madison 0.001857
+         Abraham Lincoln 0.001405
+      Alexander Hamilton 0.001377
+            John Woolman 0.001373
+        Thomas Jefferson 0.001372
+           David Ricardo 0.001348
+            Edmund Burke 0.001306
+
+Predictor Balance:
+                               Treated Synthetic Sample Mean
+YearofPublication             1776.000  1777.390    1597.535
+Socialist                        0.000     0.001       0.101
+Political                        1.000     0.967       0.373
+wrote_English                    1.000     0.931       0.323
+wrote_French                     0.000     0.001       0.115
+wrote_Greek                      0.000     0.023       0.069
+wrote_Latin                      0.000     0.041       0.065
+wrote_Italian                    0.000     0.000       0.023
+wrote_Spanish                    0.000     0.000       0.009
+wrote_German                     0.000     0.005       0.392
+special.cite_German.1914.1916    0.669     0.685       1.119
+special.cite_German.1908.1910    0.743     0.754       1.269
+special.cite_German.1902.1904    0.868     0.837       1.231
+special.cite_German.1896.1898    0.817     0.826       1.221
+special.cite_German.1890.1892    0.990     0.951       1.298
+special.cite_German.1884.1886    0.936     0.956       1.438
+special.cite_German.1878.1880    1.056     1.051       1.489
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 2.174702e-07
+Post (1917-1932): 6.298068e-07
+Post/Pre Ratio: 2.89606 

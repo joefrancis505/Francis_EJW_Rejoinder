@@ -1,0 +1,30 @@
+Synthetic Control Analysis for Simmel
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+        Name   Weight
+ Carl Stumpf 0.634898
+  Ebbinghaus 0.244668
+  Windelband 0.095265
+     Herbart 0.010490
+       Külpe 0.004899
+ Max Stirner 0.001262
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1900.000  1901.066    1841.981
+Socialist                         0.000     0.001       0.111
+Political                         0.000     0.003       0.222
+YearofTranslationtoEnglish     1978.000  1974.307    1895.593
+special.cite_English.1914.1916    0.037     0.041       0.226
+special.cite_English.1908.1910    0.052     0.050       0.247
+special.cite_English.1902.1904    0.035     0.037       0.263
+special.cite_English.1896.1898    0.041     0.036       0.287
+special.cite_English.1890.1892    0.016     0.018       0.301
+special.cite_English.1884.1886    0.003     0.014       0.317
+special.cite_English.1878.1880    0.003     0.005       0.304
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 1.058072e-08
+Post (1917-1932): 5.899093e-08
+Post/Pre Ratio: 5.57532 

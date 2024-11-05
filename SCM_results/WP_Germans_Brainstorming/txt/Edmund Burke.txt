@@ -1,0 +1,53 @@
+Synthetic Control Analysis for Edmund Burke
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+                    Name   Weight
+        John Stuart Mill 0.332642
+                  Hobbes 0.206280
+          Wollstonecraft 0.132531
+           Nassau Senior 0.127209
+ James Fitzjames Stephen 0.052144
+      Alexander Hamilton 0.051909
+      Frederick Douglass 0.026503
+                    Hume 0.016298
+            William Penn 0.006401
+            John Woolman 0.005784
+          Alexander Pope 0.004396
+              Adam Smith 0.003586
+          John C Calhoun 0.002595
+         Auberon Herbert 0.002586
+           David Ricardo 0.002398
+       Benjamin Franklin 0.002295
+           James Madison 0.002096
+          William Godwin 0.001958
+          Richard Cobden 0.001219
+        Thomas Jefferson 0.001202
+                 Malthus 0.001196
+          Jonathan Swift 0.001181
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1790.000  1786.568    1592.500
+Socialist                         0.000     0.003       0.132
+Political                         1.000     0.991       0.465
+YearofTranslationtoEnglish     1790.000  1790.115    1829.188
+wrote_English                     1.000     0.990       0.368
+wrote_French                      0.000     0.002       0.097
+wrote_Greek                       0.000     0.001       0.076
+wrote_Latin                       0.000     0.001       0.062
+wrote_Italian                     0.000     0.000       0.014
+wrote_Spanish                     0.000     0.000       0.007
+wrote_German                      0.000     0.005       0.368
+special.cite_English.1914.1916    0.265     0.256       0.478
+special.cite_English.1908.1910    0.324     0.350       0.644
+special.cite_English.1902.1904    0.343     0.356       0.711
+special.cite_English.1896.1898    0.422     0.393       0.741
+special.cite_English.1890.1892    0.401     0.415       0.825
+special.cite_English.1884.1886    0.435     0.442       0.782
+special.cite_English.1878.1880    0.503     0.479       0.825
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 4.433219e-08
+Post (1917-1932): 3.557104e-08
+Post/Pre Ratio: 0.8023751 

@@ -1,0 +1,39 @@
+Synthetic Control Analysis for Marlowe
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+            Name   Weight
+      Lord Acton 0.571219
+ Abraham Lincoln 0.151485
+          Goethe 0.106243
+         Thoreau 0.088335
+           Aesop 0.037704
+   Francis Bacon 0.025212
+            Hume 0.018345
+        Plutarch 0.001010
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1589.000  1762.524    1590.901
+Socialist                         0.000     0.000       0.135
+Political                         0.000     0.742       0.468
+YearofTranslationtoEnglish     1589.000  1842.285    1830.603
+wrote_English                     1.000     0.855       0.362
+wrote_French                      0.000     0.000       0.099
+wrote_Greek                       0.000     0.039       0.078
+wrote_Latin                       0.000     0.000       0.057
+wrote_Italian                     0.000     0.000       0.014
+wrote_Spanish                     0.000     0.000       0.007
+wrote_German                      0.000     0.106       0.376
+special.cite_English.1914.1916    0.882     0.974       0.480
+special.cite_English.1908.1910    1.420     1.317       0.646
+special.cite_English.1902.1904    1.710     1.542       0.713
+special.cite_English.1896.1898    1.130     1.228       0.747
+special.cite_English.1890.1892    1.283     1.338       0.834
+special.cite_English.1884.1886    1.463     1.425       0.787
+special.cite_English.1878.1880    1.333     1.365       0.835
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 3.263786e-07
+Post (1917-1932): 5.096312e-07
+Post/Pre Ratio: 1.561473 

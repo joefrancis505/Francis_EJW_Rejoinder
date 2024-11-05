@@ -1,0 +1,40 @@
+Synthetic Control Analysis for James Fitzjames Stephen
+Using citation variable: cite_German
+
+Synthetic Control Weights:
+                  Name   Weight
+ William Graham Sumner 0.506528
+    Frederick Douglass 0.457959
+         Nassau Senior 0.007133
+          John Woolman 0.006546
+            Lord Acton 0.003272
+         James Madison 0.002116
+       Abraham Lincoln 0.002071
+        Richard Cobden 0.002040
+         David Ricardo 0.001820
+        William Godwin 0.001477
+
+Predictor Balance:
+                               Treated Synthetic Sample Mean
+YearofPublication             1862.000  1861.998    1597.138
+Socialist                        0.000     0.001       0.101
+Political                        1.000     0.997       0.373
+wrote_English                    1.000     0.997       0.323
+wrote_French                     0.000     0.001       0.115
+wrote_Greek                      0.000     0.000       0.069
+wrote_Latin                      0.000     0.000       0.065
+wrote_Italian                    0.000     0.000       0.023
+wrote_Spanish                    0.000     0.000       0.009
+wrote_German                     0.000     0.002       0.392
+special.cite_German.1914.1916    0.001     0.005       1.122
+special.cite_German.1908.1910    0.001     0.006       1.272
+special.cite_German.1902.1904    0.001     0.006       1.235
+special.cite_German.1896.1898    0.000     0.007       1.225
+special.cite_German.1890.1892    0.001     0.006       1.303
+special.cite_German.1884.1886    0.005     0.008       1.443
+special.cite_German.1878.1880    0.002     0.006       1.494
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 5.258087e-09
+Post (1917-1932): 7.434038e-09
+Post/Pre Ratio: 1.413829 

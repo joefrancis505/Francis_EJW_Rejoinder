@@ -1,0 +1,25 @@
+Synthetic Control Analysis for Rodbertus
+Using citation variable: cite_German
+
+Synthetic Control Weights:
+     Name   Weight
+ Schäffle 0.954759
+   Herder 0.044062
+
+Predictor Balance:
+                               Treated Synthetic Sample Mean
+YearofPublication             1850.000  1869.967    1840.542
+Socialist                        1.000     0.000       0.096
+Political                        1.000     0.955       0.193
+special.cite_German.1914.1916    0.680     0.610       1.475
+special.cite_German.1908.1910    0.906     0.911       1.692
+special.cite_German.1902.1904    0.673     1.050       1.610
+special.cite_German.1896.1898    0.808     0.971       1.395
+special.cite_German.1890.1892    1.323     1.449       1.458
+special.cite_German.1884.1886    3.767     1.632       1.403
+special.cite_German.1878.1880    1.467     1.634       1.460
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 7.318616e-07
+Post (1917-1932): 5.054318e-07
+Post/Pre Ratio: 0.6906112 

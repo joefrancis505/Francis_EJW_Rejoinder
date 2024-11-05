@@ -1,0 +1,37 @@
+Synthetic Control Analysis for Robert Owen
+Using citation variable: cite_German
+
+Synthetic Control Weights:
+              Name   Weight
+    Edward Bellamy 0.655532
+     Lujo Brentano 0.189962
+    Edmund Spenser 0.082439
+            Kelvin 0.024828
+ Pliny the Younger 0.010060
+    Thomas Carlyle 0.003699
+       John Ruskin 0.002181
+
+Predictor Balance:
+                               Treated Synthetic Sample Mean
+YearofPublication             1813.000  1826.771    1597.364
+Socialist                        1.000     0.854       0.097
+Political                        1.000     0.947       0.373
+wrote_English                    1.000     0.972       0.323
+wrote_French                     0.000     0.002       0.115
+wrote_Greek                      0.000     0.003       0.069
+wrote_Latin                      0.000     0.012       0.065
+wrote_Italian                    0.000     0.001       0.023
+wrote_Spanish                    0.000     0.000       0.009
+wrote_German                     0.000     0.009       0.392
+special.cite_German.1914.1916    0.089     0.095       1.122
+special.cite_German.1908.1910    0.086     0.087       1.272
+special.cite_German.1902.1904    0.080     0.087       1.234
+special.cite_German.1896.1898    0.107     0.097       1.224
+special.cite_German.1890.1892    0.067     0.071       1.303
+special.cite_German.1884.1886    0.036     0.052       1.442
+special.cite_German.1878.1880    0.056     0.057       1.494
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 2.519415e-08
+Post (1917-1932): 4.865488e-08
+Post/Pre Ratio: 1.931198 

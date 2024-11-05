@@ -1,0 +1,30 @@
+Synthetic Control Analysis for Frege
+Using citation variable: cite_German
+
+Synthetic Control Weights:
+                Name   Weight
+      Ludwig Büchner 0.673953
+           Laspeyres 0.119130
+           Hölderlin 0.086608
+           Rodbertus 0.085929
+               Ranke 0.016676
+ Christian Schreiber 0.003062
+            Schäffle 0.002052
+
+Predictor Balance:
+                               Treated Synthetic Sample Mean
+YearofPublication             1879.000  1850.671    1840.193
+Socialist                        0.000     0.206       0.108
+Political                        0.000     0.090       0.205
+special.cite_German.1914.1916    0.191     0.247       1.480
+special.cite_German.1908.1910    0.292     0.316       1.699
+special.cite_German.1902.1904    0.200     0.261       1.615
+special.cite_German.1896.1898    0.312     0.309       1.401
+special.cite_German.1890.1892    0.545     0.489       1.468
+special.cite_German.1884.1886    0.621     0.580       1.441
+special.cite_German.1878.1880    0.221     0.359       1.475
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 4.904582e-07
+Post (1917-1932): 4.536711e-07
+Post/Pre Ratio: 0.9249946 

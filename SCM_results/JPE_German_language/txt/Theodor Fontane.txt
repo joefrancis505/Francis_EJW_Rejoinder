@@ -1,0 +1,45 @@
+Synthetic Control Analysis for Theodor Fontane
+Using citation variable: cite_German
+
+Synthetic Control Weights:
+                Name   Weight
+         Carl Stumpf 0.500625
+       Otto Liebmann 0.212312
+               Külpe 0.051303
+           Hölderlin 0.044241
+      Franz Brentano 0.043031
+          Ebbinghaus 0.039957
+ Christian Schreiber 0.017990
+               Rilke 0.017261
+              Natorp 0.015543
+       Theodor Lipps 0.014028
+     Bernard Bolzano 0.006471
+            Proudhon 0.005692
+              Kelvin 0.003408
+         Max Stirner 0.002722
+               Kafka 0.001666
+
+Predictor Balance:
+                               Treated Synthetic Sample Mean
+YearofPublication             1894.000  1884.264    1596.991
+Socialist                        0.000     0.009       0.101
+Political                        0.000     0.016       0.378
+wrote_English                    0.000     0.009       0.327
+wrote_French                     0.000     0.008       0.115
+wrote_Greek                      0.000     0.001       0.069
+wrote_Latin                      0.000     0.001       0.065
+wrote_Italian                    0.000     0.000       0.023
+wrote_Spanish                    0.000     0.000       0.009
+wrote_German                     1.000     0.981       0.387
+special.cite_German.1914.1916    0.237     0.235       1.121
+special.cite_German.1908.1910    0.229     0.226       1.271
+special.cite_German.1902.1904    0.158     0.182       1.234
+special.cite_German.1896.1898    0.177     0.162       1.224
+special.cite_German.1890.1892    0.146     0.135       1.302
+special.cite_German.1884.1886    0.050     0.067       1.442
+special.cite_German.1878.1880    0.020     0.055       1.494
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 4.281192e-08
+Post (1917-1932): 1.995761e-07
+Post/Pre Ratio: 4.661696 

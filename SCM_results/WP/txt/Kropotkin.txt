@@ -1,0 +1,37 @@
+Synthetic Control Analysis for Kropotkin
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+                  Name   Weight
+        Edward Bellamy 0.323565
+ William Graham Sumner 0.247142
+            Lord Acton 0.233488
+       Charles Fourier 0.101682
+             Nietzsche 0.087457
+           John Ruskin 0.001104
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1902.000  1874.321    1463.135
+Socialist                         1.000     0.428       0.135
+Political                         1.000     0.911       0.573
+YearofTranslationtoEnglish     1902.000  1885.748    1791.969
+wrote_English                     1.000     0.809       0.510
+wrote_French                      0.000     0.103       0.146
+wrote_Greek                       0.000     0.000       0.115
+wrote_Latin                       0.000     0.000       0.083
+wrote_Italian                     0.000     0.000       0.021
+wrote_Spanish                     0.000     0.000       0.010
+wrote_German                      0.000     0.088       0.104
+special.cite_English.1914.1916    0.245     0.255       0.673
+special.cite_English.1908.1910    0.202     0.182       0.918
+special.cite_English.1902.1904    0.185     0.185       1.014
+special.cite_English.1896.1898    0.144     0.127       1.053
+special.cite_English.1890.1892    0.049     0.105       1.180
+special.cite_English.1884.1886    0.025     0.034       1.125
+special.cite_English.1878.1880    0.002     0.025       1.199
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 5.791763e-08
+Post (1917-1932): 8.541061e-08
+Post/Pre Ratio: 1.474691 

@@ -1,0 +1,43 @@
+Synthetic Control Analysis for Gustav Freytag
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+                       Name   Weight
+     Barthold Georg Niebuhr 0.511381
+            Theodor Fontane 0.361807
+                      Kafka 0.053462
+                    Herbart 0.027600
+ Friedrich Carl von Savigny 0.003856
+               Schopenhauer 0.002676
+                 Moses Hess 0.002452
+                  Rodbertus 0.002185
+                      Külpe 0.002104
+       Wilhelm von Humboldt 0.001773
+             E T A Hoffmann 0.001315
+          Ferdinand Tönnies 0.001260
+                 Clausewitz 0.001205
+                      Rilke 0.001200
+         Ferdinand Lassalle 0.001178
+   Gotthold Ephraim Lessing 0.001171
+                    Sombart 0.001091
+                     Fichte 0.001061
+           Ludwig Feuerbach 0.001043
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1855.000  1848.053    1842.815
+Socialist                         0.000     0.008       0.111
+Political                         0.000     0.014       0.222
+YearofTranslationtoEnglish     1857.000  1868.890    1897.833
+special.cite_English.1914.1916    0.022     0.021       0.226
+special.cite_English.1908.1910    0.019     0.023       0.248
+special.cite_English.1902.1904    0.020     0.027       0.264
+special.cite_English.1896.1898    0.054     0.040       0.287
+special.cite_English.1890.1892    0.041     0.038       0.301
+special.cite_English.1884.1886    0.014     0.017       0.317
+special.cite_English.1878.1880    0.012     0.015       0.304
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 1.145017e-08
+Post (1917-1932): 7.741401e-09
+Post/Pre Ratio: 0.6760949 

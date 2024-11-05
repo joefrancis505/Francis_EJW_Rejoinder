@@ -1,0 +1,37 @@
+Synthetic Control Analysis for Kempis
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+              Name   Weight
+       John Calvin 0.682507
+    William Caxton 0.200962
+           Tacitus 0.047908
+   Herbert Spencer 0.035327
+ Pliny the Younger 0.019410
+           Pasteur 0.013871
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1418.000  1428.256    1565.026
+Socialist                         0.000     0.000       0.098
+Political                         0.000     0.083       0.397
+YearofTranslationtoEnglish     1470.000  1564.267    1801.696
+wrote_English                     0.000     0.236       0.397
+wrote_French                      0.000     0.014       0.134
+wrote_Greek                       0.000     0.000       0.077
+wrote_Latin                       1.000     0.750       0.067
+wrote_Italian                     0.000     0.000       0.026
+wrote_Spanish                     0.000     0.000       0.010
+wrote_German                      0.000     0.000       0.284
+special.cite_English.1914.1916    0.164     0.220       0.567
+special.cite_English.1908.1910    0.281     0.350       0.751
+special.cite_English.1902.1904    0.284     0.313       0.819
+special.cite_English.1896.1898    0.311     0.330       0.868
+special.cite_English.1890.1892    0.457     0.414       0.948
+special.cite_English.1884.1886    0.487     0.403       0.892
+special.cite_English.1878.1880    0.369     0.389       0.950
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 1.925723e-07
+Post (1917-1932): 7.45419e-08
+Post/Pre Ratio: 0.3870854 

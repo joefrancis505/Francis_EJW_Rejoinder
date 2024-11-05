@@ -1,0 +1,35 @@
+Synthetic Control Analysis for Fichte
+Using citation variable: cite_German
+
+Synthetic Control Weights:
+         Name   Weight
+ Schopenhauer 0.594261
+  Montesquieu 0.235713
+    Aristotle 0.104180
+       Goethe 0.063739
+      Chaucer 0.002104
+
+Predictor Balance:
+                               Treated Synthetic Sample Mean
+YearofPublication             1794.000  1577.037    1597.452
+Socialist                        0.000     0.000       0.101
+Political                        0.000     0.340       0.378
+wrote_English                    0.000     0.002       0.327
+wrote_French                     0.000     0.236       0.115
+wrote_Greek                      0.000     0.104       0.069
+wrote_Latin                      0.000     0.000       0.065
+wrote_Italian                    0.000     0.000       0.023
+wrote_Spanish                    0.000     0.000       0.009
+wrote_German                     1.000     0.658       0.387
+special.cite_German.1914.1916   11.850     9.200       1.068
+special.cite_German.1908.1910    9.660     9.654       1.228
+special.cite_German.1902.1904    8.323     8.889       1.196
+special.cite_German.1896.1898    8.713     8.865       1.185
+special.cite_German.1890.1892    9.617     9.239       1.259
+special.cite_German.1884.1886    9.220     9.254       1.400
+special.cite_German.1878.1880   10.960    10.966       1.444
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 1.382115e-06
+Post (1917-1932): 5.601293e-06
+Post/Pre Ratio: 4.052696 

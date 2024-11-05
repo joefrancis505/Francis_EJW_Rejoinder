@@ -1,0 +1,55 @@
+Synthetic Control Analysis for Frege
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+                       Name   Weight
+                Carl Stumpf 0.404083
+                      Rilke 0.184309
+  Friedrich Heinrich Jacobi 0.146756
+                      Kafka 0.123181
+                 Clausewitz 0.031301
+              Hermann Cohen 0.031124
+             Franz Brentano 0.013022
+             Ludwig Büchner 0.004898
+ Friedrich Carl von Savigny 0.004508
+                  Hölderlin 0.004493
+              Eduard Zeller 0.003999
+     Barthold Georg Niebuhr 0.003730
+            Theodor Fontane 0.003007
+          Ferdinand Tönnies 0.002266
+                     Thünen 0.002175
+             E T A Hoffmann 0.002156
+                    Scheler 0.002149
+           Ludwig Feuerbach 0.001889
+        Eduard von Hartmann 0.001558
+           Eduard Bernstein 0.001422
+             Grimmelshausen 0.001226
+                      Külpe 0.001083
+                 Moses Hess 0.001073
+                    Dilthey 0.001050
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1879.000  1880.699    1588.844
+Socialist                         0.000     0.007       0.135
+Political                         0.000     0.017       0.468
+YearofTranslationtoEnglish     1972.000  1969.741    1827.887
+wrote_English                     0.000     0.008       0.369
+wrote_French                      0.000     0.003       0.099
+wrote_Greek                       0.000     0.001       0.078
+wrote_Latin                       0.000     0.001       0.057
+wrote_Italian                     0.000     0.000       0.014
+wrote_Spanish                     0.000     0.000       0.007
+wrote_German                      1.000     0.986       0.369
+special.cite_English.1914.1916    0.024     0.021       0.487
+special.cite_English.1908.1910    0.014     0.015       0.656
+special.cite_English.1902.1904    0.009     0.012       0.725
+special.cite_English.1896.1898    0.004     0.014       0.755
+special.cite_English.1890.1892    0.047     0.045       0.842
+special.cite_English.1884.1886    0.006     0.014       0.797
+special.cite_English.1878.1880    0.016     0.014       0.844
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 2.702699e-08
+Post (1917-1932): 2.536471e-08
+Post/Pre Ratio: 0.9384956 

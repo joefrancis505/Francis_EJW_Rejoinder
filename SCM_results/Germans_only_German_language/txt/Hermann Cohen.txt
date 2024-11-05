@@ -1,0 +1,51 @@
+Synthetic Control Analysis for Hermann Cohen
+Using citation variable: cite_German
+
+Synthetic Control Weights:
+                       Name   Weight
+                Carl Stumpf 0.632106
+                Thomas Mann 0.295646
+                 Moses Hess 0.003570
+        Christian Schreiber 0.003077
+              Friedrich Ast 0.002984
+           Gustav Schönberg 0.002822
+             Heinrich Feder 0.002324
+           Wilhelm Drobisch 0.002254
+              Eduard Beneke 0.002065
+         Dietrich Tiedemann 0.001916
+           Eduard Bernstein 0.001885
+ Christian Wilhelm von Dohm 0.001820
+             Sigismund Beck 0.001696
+              Amadeus Wendt 0.001694
+          Ferdinand Tönnies 0.001644
+             Fritz Schultze 0.001616
+      Gottlob Ernst Schulze 0.001454
+                Rudolf Haym 0.001409
+           Bruno Hildebrand 0.001252
+                 Karl Knies 0.001218
+     Barthold Georg Niebuhr 0.001217
+               August Bebel 0.001179
+             Franz Brentano 0.001153
+                 Mainländer 0.001119
+                      Kafka 0.001111
+              Theodor Lipps 0.001025
+           Friedrich Krause 0.001012
+                      Rilke 0.001010
+
+Predictor Balance:
+                               Treated Synthetic Sample Mean
+YearofPublication             1919.000  1902.893    1839.711
+Socialist                        0.000     0.011       0.108
+Political                        0.000     0.020       0.205
+special.cite_German.1914.1916    0.186     0.175       1.480
+special.cite_German.1908.1910    0.089     0.107       1.702
+special.cite_German.1902.1904    0.052     0.056       1.617
+special.cite_German.1896.1898    0.024     0.043       1.404
+special.cite_German.1890.1892    0.019     0.032       1.474
+special.cite_German.1884.1886    0.020     0.033       1.448
+special.cite_German.1878.1880    0.024     0.028       1.477
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 2.217446e-08
+Post (1917-1932): 2.926522e-07
+Post/Pre Ratio: 13.19772 

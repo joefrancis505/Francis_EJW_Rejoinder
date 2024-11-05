@@ -1,0 +1,53 @@
+Synthetic Control Analysis for Dilthey
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+                       Name   Weight
+                Carl Stumpf 0.462893
+             Franz Brentano 0.174588
+  Friedrich Heinrich Jacobi 0.101667
+                      Kafka 0.082108
+                      Frege 0.069340
+                Thomas Mann 0.027244
+                  Nietzsche 0.008440
+                    Herbart 0.008095
+                      Wundt 0.005963
+                 Windelband 0.005506
+                     Simmel 0.004122
+              Immanuel Kant 0.003157
+              Hermann Cohen 0.002909
+                  Hölderlin 0.002835
+                      Rilke 0.002640
+                     Thünen 0.002553
+             Ludwig Büchner 0.002434
+                 Clausewitz 0.002279
+ Friedrich Carl von Savigny 0.002222
+                    Scheler 0.002043
+            Theodor Fontane 0.001884
+                 Ebbinghaus 0.001883
+                      Külpe 0.001699
+     Barthold Georg Niebuhr 0.001575
+              Eduard Zeller 0.001499
+                     Hamann 0.001422
+             Grimmelshausen 0.001404
+         Friedrich Schiller 0.001240
+           Ludwig Feuerbach 0.001169
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1883.000  1884.104    1842.296
+Socialist                         0.000     0.002       0.111
+Political                         0.000     0.004       0.222
+YearofTranslationtoEnglish     1989.000  1982.844    1895.389
+special.cite_English.1914.1916    0.039     0.038       0.226
+special.cite_English.1908.1910    0.028     0.029       0.248
+special.cite_English.1902.1904    0.028     0.024       0.264
+special.cite_English.1896.1898    0.024     0.027       0.287
+special.cite_English.1890.1892    0.043     0.041       0.301
+special.cite_English.1884.1886    0.009     0.015       0.317
+special.cite_English.1878.1880    0.012     0.013       0.304
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 1.094145e-08
+Post (1917-1932): 3.889702e-08
+Post/Pre Ratio: 3.555014 

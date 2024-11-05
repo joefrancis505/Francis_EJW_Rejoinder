@@ -1,0 +1,39 @@
+Synthetic Control Analysis for Edward Haies
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+                       Name   Weight
+             Francis Pretty 0.976410
+             Philip Nichols 0.004031
+                     Bigges 0.002224
+ Pedro Calderón de la Barca 0.001959
+              Lujo Brentano 0.001248
+                Jean Racine 0.001244
+            Hippolyte Taine 0.001105
+      William Graham Sumner 0.001043
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1583.000  1582.754    1564.175
+Socialist                         0.000     0.002       0.098
+Political                         0.000     0.007       0.397
+YearofTranslationtoEnglish     1583.000  1583.952    1801.113
+wrote_English                     1.000     0.990       0.392
+wrote_French                      0.000     0.005       0.134
+wrote_Greek                       0.000     0.000       0.077
+wrote_Latin                       0.000     0.000       0.072
+wrote_Italian                     0.000     0.001       0.026
+wrote_Spanish                     0.000     0.002       0.010
+wrote_German                      0.000     0.001       0.284
+special.cite_English.1914.1916    0.000     0.003       0.568
+special.cite_English.1908.1910    0.001     0.004       0.753
+special.cite_English.1902.1904    0.002     0.006       0.821
+special.cite_English.1896.1898    0.002     0.003       0.870
+special.cite_English.1890.1892    0.001     0.003       0.950
+special.cite_English.1884.1886    0.002     0.005       0.894
+special.cite_English.1878.1880    0.002     0.003       0.952
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 2.685674e-09
+Post (1917-1932): 3.962468e-09
+Post/Pre Ratio: 1.475409 

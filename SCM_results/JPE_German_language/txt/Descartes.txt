@@ -1,0 +1,40 @@
+Synthetic Control Analysis for Descartes
+Using citation variable: cite_German
+
+Synthetic Control Weights:
+        Name   Weight
+     Pasteur 0.519799
+        Hume 0.185854
+ Montesquieu 0.130096
+       Plato 0.040638
+    Rousseau 0.037411
+   Augustine 0.022135
+   Nietzsche 0.020785
+     Molière 0.019968
+      Goethe 0.017038
+     Tacitus 0.006152
+
+Predictor Balance:
+                               Treated Synthetic Sample Mean
+YearofPublication             1637.000  1686.472    1598.175
+Socialist                        0.000     0.000       0.101
+Political                        0.000     0.400       0.378
+wrote_English                    0.000     0.186       0.327
+wrote_French                     1.000     0.707       0.111
+wrote_Greek                      0.000     0.041       0.069
+wrote_Latin                      0.000     0.028       0.065
+wrote_Italian                    0.000     0.000       0.023
+wrote_Spanish                    0.000     0.000       0.009
+wrote_German                     0.000     0.038       0.392
+special.cite_German.1914.1916    3.840     3.755       1.105
+special.cite_German.1908.1910    4.433     4.417       1.252
+special.cite_German.1902.1904    4.407     4.439       1.214
+special.cite_German.1896.1898    4.377     4.296       1.205
+special.cite_German.1890.1892    3.777     3.947       1.285
+special.cite_German.1884.1886    3.987     4.059       1.424
+special.cite_German.1878.1880    4.003     3.953       1.476
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 1.362085e-06
+Post (1917-1932): 1.194243e-06
+Post/Pre Ratio: 0.8767756 

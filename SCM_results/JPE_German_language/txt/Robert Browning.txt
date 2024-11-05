@@ -1,0 +1,41 @@
+Synthetic Control Analysis for Robert Browning
+Using citation variable: cite_German
+
+Synthetic Control Weights:
+                    Name   Weight
+            Walt Whitman 0.394695
+           Simon Newcomb 0.268630
+     Ralph Waldo Emerson 0.107213
+          Henry Fielding 0.087508
+                 Thoreau 0.046792
+ Hans Christian Andersen 0.032767
+            Izaak Walton 0.023781
+                  Kelvin 0.019817
+         Otto Pfleiderer 0.006049
+    Percy Bysshe Shelley 0.001735
+           Joseph Lister 0.001297
+
+Predictor Balance:
+                               Treated Synthetic Sample Mean
+YearofPublication             1843.000  1843.002    1597.226
+Socialist                        0.000     0.001       0.101
+Political                        0.000     0.002       0.378
+wrote_English                    1.000     0.996       0.323
+wrote_French                     0.000     0.001       0.115
+wrote_Greek                      0.000     0.000       0.069
+wrote_Latin                      0.000     0.000       0.065
+wrote_Italian                    0.000     0.000       0.023
+wrote_Spanish                    0.000     0.000       0.009
+wrote_German                     0.000     0.002       0.392
+special.cite_German.1914.1916    0.054     0.056       1.122
+special.cite_German.1908.1910    0.071     0.075       1.272
+special.cite_German.1902.1904    0.088     0.067       1.234
+special.cite_German.1896.1898    0.031     0.045       1.225
+special.cite_German.1890.1892    0.039     0.039       1.303
+special.cite_German.1884.1886    0.014     0.026       1.442
+special.cite_German.1878.1880    0.010     0.017       1.494
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 2.487249e-08
+Post (1917-1932): 5.297858e-08
+Post/Pre Ratio: 2.130007 

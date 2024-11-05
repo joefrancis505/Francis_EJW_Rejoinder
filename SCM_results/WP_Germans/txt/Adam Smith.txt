@@ -1,0 +1,38 @@
+Synthetic Control Analysis for Adam Smith
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+               Name   Weight
+ Frederick Douglass 0.398770
+       William Penn 0.203623
+               Hume 0.152443
+        John Milton 0.113049
+    Herbert Spencer 0.104430
+  Benjamin Franklin 0.014047
+              Plato 0.001887
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1776.000  1770.247    1589.574
+Socialist                         0.000     0.002       0.135
+Political                         1.000     0.992       0.461
+YearofTranslationtoEnglish     1776.000  1776.166    1829.277
+wrote_English                     1.000     0.992       0.362
+wrote_French                      0.000     0.001       0.099
+wrote_Greek                       0.000     0.002       0.078
+wrote_Latin                       0.000     0.001       0.057
+wrote_Italian                     0.000     0.000       0.014
+wrote_Spanish                     0.000     0.000       0.007
+wrote_German                      0.000     0.004       0.376
+special.cite_English.1914.1916    0.687     0.756       0.482
+special.cite_English.1908.1910    1.127     1.075       0.648
+special.cite_English.1902.1904    1.293     1.298       0.716
+special.cite_English.1896.1898    1.417     1.267       0.745
+special.cite_English.1890.1892    1.463     1.384       0.832
+special.cite_English.1884.1886    1.207     1.315       0.789
+special.cite_English.1878.1880    1.447     1.515       0.834
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 1.77451e-07
+Post (1917-1932): 1.394401e-07
+Post/Pre Ratio: 0.7857948 

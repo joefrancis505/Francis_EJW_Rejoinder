@@ -1,0 +1,35 @@
+Synthetic Control Analysis for Pasteur
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+            Name   Weight
+ Herbert Spencer 0.830681
+          Newton 0.104994
+        Voltaire 0.041152
+          Kelvin 0.023172
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1866.000  1828.610    1562.716
+Socialist                         0.000     0.000       0.098
+Political                         0.000     0.872       0.397
+YearofTranslationtoEnglish     1882.000  1842.033    1799.572
+wrote_English                     0.000     0.854       0.397
+wrote_French                      1.000     0.041       0.129
+wrote_Greek                       0.000     0.000       0.077
+wrote_Latin                       0.000     0.105       0.072
+wrote_Italian                     0.000     0.000       0.026
+wrote_Spanish                     0.000     0.000       0.010
+wrote_German                      0.000     0.000       0.284
+special.cite_English.1914.1916    2.330     2.184       0.556
+special.cite_English.1908.1910    2.437     2.537       0.740
+special.cite_English.1902.1904    2.727     3.067       0.807
+special.cite_English.1896.1898    3.780     3.057       0.850
+special.cite_English.1890.1892    3.147     3.273       0.934
+special.cite_English.1884.1886    4.683     3.614       0.870
+special.cite_English.1878.1880    1.210     2.944       0.946
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 9.166807e-07
+Post (1917-1932): 6.197657e-07
+Post/Pre Ratio: 0.6760977 

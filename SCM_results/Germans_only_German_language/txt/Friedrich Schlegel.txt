@@ -1,0 +1,83 @@
+Synthetic Control Analysis for Friedrich Schlegel
+Using citation variable: cite_German
+
+Synthetic Control Weights:
+                      Name   Weight
+                    Simmel 0.392096
+            Grimmelshausen 0.294546
+             Martin Luther 0.040633
+                 Hölderlin 0.031086
+            Schleiermacher 0.016582
+                Ebbinghaus 0.012763
+                    Thünen 0.009580
+             Hermann Cohen 0.008447
+        Friedrich Schiller 0.008009
+              Kuno Fischer 0.007346
+            E T A Hoffmann 0.007047
+                   Herbart 0.006160
+         Moses Mendelssohn 0.006057
+             Immanuel Kant 0.006051
+             Eduard Zeller 0.004972
+  Gotthold Ephraim Lessing 0.004960
+                    Hamann 0.004746
+                 Nietzsche 0.004223
+            Gustav Freytag 0.003986
+               Thomas Abbt 0.003968
+               Bruno Bauer 0.003924
+               Carl Stumpf 0.003912
+          Ludwig Feuerbach 0.003822
+                     Frege 0.003656
+       Eduard von Hartmann 0.003548
+            Ludwig Büchner 0.003439
+ Friedrich Heinrich Jacobi 0.003419
+             Hermann Lotze 0.003278
+    Barthold Georg Niebuhr 0.003170
+                Clausewitz 0.003148
+          Wilhelm Drobisch 0.003118
+               Rudolf Haym 0.003100
+           Theodor Fontane 0.003058
+            Fritz Schultze 0.003051
+             Amadeus Wendt 0.002991
+             Eduard Beneke 0.002988
+                     Rilke 0.002967
+          Friedrich Krause 0.002960
+            Franz Brentano 0.002903
+                Mainländer 0.002899
+     Gottlob Ernst Schulze 0.002887
+             Theodor Lipps 0.002878
+              Schopenhauer 0.002871
+             Otto Liebmann 0.002865
+           Bernard Bolzano 0.002810
+             Friedrich Ast 0.002778
+        Dietrich Tiedemann 0.002775
+       Christian Schreiber 0.002753
+            Sigismund Beck 0.002683
+                    Herder 0.002641
+            Heinrich Feder 0.002606
+                    Fichte 0.002525
+                 Wentscher 0.002514
+                 Helmholtz 0.002272
+                   Dilthey 0.002106
+                     Ranke 0.002096
+                     Wundt 0.001928
+                    Natorp 0.001855
+                    Goethe 0.001570
+                   Scheler 0.001059
+
+Predictor Balance:
+                               Treated Synthetic Sample Mean
+YearofPublication             1798.000  1797.994    1841.169
+Socialist                        0.000     0.005       0.108
+Political                        0.000     0.011       0.205
+special.cite_German.1914.1916    0.793     0.836       1.473
+special.cite_German.1908.1910    1.110     0.909       1.690
+special.cite_German.1902.1904    0.534     0.637       1.611
+special.cite_German.1896.1898    0.526     0.503       1.398
+special.cite_German.1890.1892    0.450     0.505       1.469
+special.cite_German.1884.1886    0.522     0.518       1.442
+special.cite_German.1878.1880    0.467     0.493       1.472
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 1.862412e-07
+Post (1917-1932): 4.522071e-07
+Post/Pre Ratio: 2.428072 

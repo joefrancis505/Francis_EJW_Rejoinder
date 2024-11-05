@@ -1,0 +1,80 @@
+Synthetic Control Analysis for Hamann
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+                       Name   Weight
+  Friedrich Heinrich Jacobi 0.594057
+                Carl Stumpf 0.123963
+                      Wundt 0.057402
+                  Nietzsche 0.014667
+                     Herder 0.007780
+                 Ebbinghaus 0.007313
+                     Goethe 0.007189
+                      Ranke 0.005043
+             Friedrich List 0.004807
+              Immanuel Kant 0.004705
+                 Windelband 0.004615
+                Max Stirner 0.004593
+                  Schmoller 0.004478
+              Martin Luther 0.004411
+                  Rodbertus 0.004372
+              Eduard Zeller 0.004364
+              Hermann Lotze 0.004342
+         Ferdinand Lassalle 0.004326
+                Thomas Mann 0.004325
+        Eduard von Hartmann 0.004306
+ Friedrich Carl von Savigny 0.004221
+          Ferdinand Tönnies 0.004219
+               August Bebel 0.004200
+   Gotthold Ephraim Lessing 0.004179
+                      Külpe 0.004164
+           Ludwig Feuerbach 0.004146
+            Theodor Fontane 0.004144
+                   Schäffle 0.004143
+             Ludwig Büchner 0.004138
+           Eduard Bernstein 0.004134
+             E T A Hoffmann 0.004128
+       Wilhelm von Humboldt 0.004104
+              Sigmund Freud 0.004096
+     Barthold Georg Niebuhr 0.004060
+                      Rilke 0.004060
+                    Sombart 0.004051
+                 Moses Hess 0.004048
+         Friedrich Schiller 0.004038
+                 Clausewitz 0.003895
+             Gustav Freytag 0.003889
+                    Scheler 0.003870
+             Schleiermacher 0.003769
+                     Simmel 0.003725
+                  Max Weber 0.003389
+                  Helmholtz 0.003386
+              Hermann Cohen 0.003277
+                     Fichte 0.003259
+                      Frege 0.003249
+                     Thünen 0.003244
+             Franz Brentano 0.003243
+                      Kafka 0.003206
+             Grimmelshausen 0.002594
+               Schopenhauer 0.001933
+                  Hölderlin 0.001708
+                    Dilthey 0.001565
+                    Herbart 0.001468
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1759.000  1818.648    1846.946
+Socialist                         0.000     0.025       0.107
+Political                         0.000     0.051       0.214
+YearofTranslationtoEnglish     1967.000  1966.819    1897.393
+special.cite_English.1914.1916    0.108     0.114       0.218
+special.cite_English.1908.1910    0.121     0.117       0.238
+special.cite_English.1902.1904    0.120     0.119       0.253
+special.cite_English.1896.1898    0.113     0.120       0.276
+special.cite_English.1890.1892    0.115     0.120       0.291
+special.cite_English.1884.1886    0.119     0.116       0.304
+special.cite_English.1878.1880    0.101     0.107       0.292
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 2.868448e-08
+Post (1917-1932): 6.646176e-08
+Post/Pre Ratio: 2.316994 

@@ -1,0 +1,47 @@
+Synthetic Control Analysis for William Penn
+Using citation variable: cite_German
+
+Synthetic Control Weights:
+                    Name   Weight
+             John Milton 0.465581
+       Benjamin Franklin 0.239809
+          Edmund Spenser 0.202597
+          Jonathan Swift 0.019683
+            John Woolman 0.011685
+           Nassau Senior 0.010720
+           James Madison 0.007515
+                 Bentham 0.006446
+ James Fitzjames Stephen 0.005819
+   William Graham Sumner 0.005097
+      Frederick Douglass 0.004428
+        Thomas Jefferson 0.003864
+         Auberon Herbert 0.003612
+      Alexander Hamilton 0.002463
+   Oliver Wendell Holmes 0.002143
+          Alexander Pope 0.001388
+          William Godwin 0.001009
+
+Predictor Balance:
+                               Treated Synthetic Sample Mean
+YearofPublication             1682.000  1682.094    1597.968
+Socialist                        0.000     0.000       0.101
+Political                        1.000     0.998       0.373
+wrote_English                    1.000     0.998       0.323
+wrote_French                     0.000     0.000       0.115
+wrote_Greek                      0.000     0.000       0.069
+wrote_Latin                      0.000     0.000       0.065
+wrote_Italian                    0.000     0.000       0.023
+wrote_Spanish                    0.000     0.000       0.009
+wrote_German                     0.000     0.001       0.392
+special.cite_German.1914.1916    0.043     0.060       1.122
+special.cite_German.1908.1910    0.052     0.059       1.272
+special.cite_German.1902.1904    0.063     0.062       1.235
+special.cite_German.1896.1898    0.050     0.057       1.224
+special.cite_German.1890.1892    0.046     0.065       1.303
+special.cite_German.1884.1886    0.116     0.087       1.442
+special.cite_German.1878.1880    0.101     0.093       1.494
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 2.854629e-08
+Post (1917-1932): 2.384971e-08
+Post/Pre Ratio: 0.8354748 

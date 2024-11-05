@@ -1,0 +1,80 @@
+Synthetic Control Analysis for Simmel
+Using citation variable: cite_German
+
+Synthetic Control Weights:
+                      Name   Weight
+             Hermann Cohen 0.500199
+                     Kafka 0.237144
+                 Nietzsche 0.048870
+                Windelband 0.009184
+                     Külpe 0.007899
+               Thomas Mann 0.007885
+                Ebbinghaus 0.005875
+                     Rilke 0.005823
+             Theodor Lipps 0.005183
+                 Wentscher 0.004825
+           Theodor Fontane 0.004731
+            Franz Brentano 0.004347
+               Rudolf Haym 0.004124
+            Fritz Schultze 0.004081
+                Mainländer 0.004057
+             Otto Liebmann 0.003966
+             Hermann Lotze 0.003863
+       Eduard von Hartmann 0.003843
+            Ludwig Büchner 0.003816
+                   Dilthey 0.003808
+           Bernard Bolzano 0.003799
+            E T A Hoffmann 0.003778
+             Amadeus Wendt 0.003776
+          Wilhelm Drobisch 0.003718
+             Eduard Zeller 0.003688
+          Ludwig Feuerbach 0.003637
+             Eduard Beneke 0.003613
+             Friedrich Ast 0.003548
+    Barthold Georg Niebuhr 0.003479
+            Gustav Freytag 0.003466
+       Christian Schreiber 0.003442
+                    Thünen 0.003426
+               Bruno Bauer 0.003423
+          Friedrich Krause 0.003411
+     Gottlob Ernst Schulze 0.003334
+            Sigismund Beck 0.003331
+        Dietrich Tiedemann 0.003313
+        Friedrich Schlegel 0.003304
+            Heinrich Feder 0.003289
+        Friedrich Schiller 0.003251
+ Friedrich Heinrich Jacobi 0.003221
+             Immanuel Kant 0.003145
+                 Hölderlin 0.003105
+               Thomas Abbt 0.003056
+                     Frege 0.003048
+              Kuno Fischer 0.002985
+  Gotthold Ephraim Lessing 0.002957
+                Clausewitz 0.002829
+         Moses Mendelssohn 0.002767
+            Grimmelshausen 0.002704
+               Carl Stumpf 0.002365
+             Martin Luther 0.002055
+                    Hamann 0.001947
+                   Scheler 0.001947
+            Schleiermacher 0.001382
+                   Herbart 0.001206
+                     Wundt 0.001179
+
+Predictor Balance:
+                               Treated Synthetic Sample Mean
+YearofPublication             1900.000  1899.821    1839.940
+Socialist                        0.000     0.004       0.108
+Political                        0.000     0.009       0.205
+special.cite_German.1914.1916    0.906     0.799       1.472
+special.cite_German.1908.1910    0.807     0.646       1.693
+special.cite_German.1902.1904    0.483     0.680       1.612
+special.cite_German.1896.1898    0.239     0.360       1.402
+special.cite_German.1890.1892    0.169     0.250       1.472
+special.cite_German.1884.1886    0.092     0.144       1.447
+special.cite_German.1878.1880    0.103     0.165       1.476
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 1.508486e-07
+Post (1917-1932): 9.014496e-07
+Post/Pre Ratio: 5.975855 

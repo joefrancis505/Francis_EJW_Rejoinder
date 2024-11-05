@@ -1,0 +1,44 @@
+Synthetic Control Analysis for Walter Raleigh
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+            Name   Weight
+  William Caxton 0.400965
+     John Bunyan 0.234262
+  Samuel Johnson 0.216498
+       John Knox 0.057151
+          Kelvin 0.031735
+          Goethe 0.021656
+ Herbert Spencer 0.011529
+          Newton 0.007085
+         Pasteur 0.003449
+  Francis Pretty 0.001441
+    Robert Burns 0.001216
+    Edward Haies 0.001152
+          Dryden 0.001004
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1614.000  1613.607    1564.015
+Socialist                         0.000     0.001       0.098
+Political                         0.000     0.016       0.397
+YearofTranslationtoEnglish     1614.000  1616.239    1800.954
+wrote_English                     1.000     0.964       0.392
+wrote_French                      0.000     0.004       0.134
+wrote_Greek                       0.000     0.001       0.077
+wrote_Latin                       0.000     0.007       0.072
+wrote_Italian                     0.000     0.000       0.026
+wrote_Spanish                     0.000     0.000       0.010
+wrote_German                      0.000     0.023       0.284
+special.cite_English.1914.1916    0.385     0.383       0.566
+special.cite_English.1908.1910    0.532     0.533       0.750
+special.cite_English.1902.1904    0.576     0.577       0.818
+special.cite_English.1896.1898    0.612     0.610       0.867
+special.cite_English.1890.1892    0.594     0.598       0.947
+special.cite_English.1884.1886    0.697     0.692       0.890
+special.cite_English.1878.1880    0.648     0.650       0.949
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 5.515658e-08
+Post (1917-1932): 5.774957e-08
+Post/Pre Ratio: 1.047011 

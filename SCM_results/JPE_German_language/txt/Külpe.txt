@@ -1,0 +1,35 @@
+Synthetic Control Analysis for Külpe
+Using citation variable: cite_German
+
+Synthetic Control Weights:
+        Name   Weight
+ Thomas Mann 0.492412
+       Kafka 0.432000
+   Nietzsche 0.038263
+      Kelvin 0.023612
+ Dostoyevsky 0.012160
+
+Predictor Balance:
+                               Treated Synthetic Sample Mean
+YearofPublication             1893.000  1903.961    1596.995
+Socialist                        0.000     0.000       0.101
+Political                        0.000     0.000       0.378
+wrote_English                    0.000     0.024       0.327
+wrote_French                     0.000     0.000       0.115
+wrote_Greek                      0.000     0.000       0.069
+wrote_Latin                      0.000     0.000       0.065
+wrote_Italian                    0.000     0.000       0.023
+wrote_Spanish                    0.000     0.000       0.009
+wrote_German                     1.000     0.964       0.387
+special.cite_German.1914.1916    1.028     0.964       1.118
+special.cite_German.1908.1910    0.496     0.550       1.270
+special.cite_German.1902.1904    0.540     0.509       1.232
+special.cite_German.1896.1898    0.334     0.271       1.223
+special.cite_German.1890.1892    0.092     0.204       1.302
+special.cite_German.1884.1886    0.001     0.086       1.443
+special.cite_German.1878.1880    0.003     0.099       1.494
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 1.087301e-07
+Post (1917-1932): 9.828341e-07
+Post/Pre Ratio: 9.039206 

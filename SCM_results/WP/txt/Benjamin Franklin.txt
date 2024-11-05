@@ -1,0 +1,41 @@
+Synthetic Control Analysis for Benjamin Franklin
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+               Name   Weight
+   Thomas Jefferson 0.327578
+        Tocqueville 0.190166
+    Abraham Lincoln 0.170032
+       Robert Burns 0.126377
+       William Penn 0.111394
+        Machiavelli 0.034974
+          Augustine 0.024022
+          Nietzsche 0.003945
+ Frederick Douglass 0.001816
+       Henry George 0.001119
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1793.000  1752.035    1464.271
+Socialist                         0.000     0.004       0.146
+Political                         1.000     0.844       0.573
+YearofTranslationtoEnglish     1793.000  1792.093    1793.104
+wrote_English                     1.000     0.744       0.510
+wrote_French                      0.000     0.192       0.146
+wrote_Greek                       0.000     0.001       0.115
+wrote_Latin                       0.000     0.024       0.083
+wrote_Italian                     0.000     0.035       0.021
+wrote_Spanish                     0.000     0.000       0.010
+wrote_German                      0.000     0.004       0.104
+special.cite_English.1914.1916    1.046     1.034       0.664
+special.cite_English.1908.1910    1.187     1.204       0.907
+special.cite_English.1902.1904    1.250     1.269       1.003
+special.cite_English.1896.1898    1.260     1.234       1.041
+special.cite_English.1890.1892    1.097     1.098       1.170
+special.cite_English.1884.1886    0.948     0.960       1.115
+special.cite_English.1878.1880    0.844     0.856       1.190
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 1.712541e-07
+Post (1917-1932): 2.380694e-07
+Post/Pre Ratio: 1.390153 

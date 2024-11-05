@@ -1,0 +1,55 @@
+Synthetic Control Analysis for Sigismund Beck
+Using citation variable: cite_German
+
+Synthetic Control Weights:
+                       Name   Weight
+             Heinrich Feder 0.880151
+                Carl Stumpf 0.019832
+        Christian Schreiber 0.008233
+            Bernard Bolzano 0.006347
+              Amadeus Wendt 0.006212
+              Friedrich Ast 0.005668
+              Hermann Cohen 0.005355
+ Friedrich Carl von Savigny 0.005204
+           Wilhelm Drobisch 0.005090
+              Eduard Beneke 0.004900
+             Fritz Schultze 0.004600
+                Rudolf Haym 0.004374
+      Gottlob Ernst Schulze 0.003945
+             Franz Brentano 0.003601
+              Theodor Lipps 0.003297
+                 Mainländer 0.003041
+             Ludwig Büchner 0.002942
+     Barthold Georg Niebuhr 0.002497
+              Hermann Lotze 0.002308
+                  Wentscher 0.002145
+           Friedrich Krause 0.001949
+                      Rilke 0.001454
+                Thomas Mann 0.001336
+  Friedrich Heinrich Jacobi 0.001126
+              Otto Liebmann 0.001023
+
+Predictor Balance:
+                               Treated Synthetic Sample Mean
+YearofPublication             1793.000  1793.223    1597.456
+Socialist                        0.000     0.001       0.101
+Political                        0.000     0.003       0.378
+wrote_English                    0.000     0.003       0.327
+wrote_French                     0.000     0.001       0.115
+wrote_Greek                      0.000     0.001       0.069
+wrote_Latin                      0.000     0.001       0.065
+wrote_Italian                    0.000     0.000       0.023
+wrote_Spanish                    0.000     0.000       0.009
+wrote_German                     1.000     0.995       0.387
+special.cite_German.1914.1916    0.008     0.019       1.122
+special.cite_German.1908.1910    0.008     0.015       1.272
+special.cite_German.1902.1904    0.018     0.016       1.235
+special.cite_German.1896.1898    0.010     0.014       1.225
+special.cite_German.1890.1892    0.004     0.012       1.303
+special.cite_German.1884.1886    0.002     0.015       1.443
+special.cite_German.1878.1880    0.004     0.015       1.494
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 2.008744e-08
+Post (1917-1932): 8.602825e-08
+Post/Pre Ratio: 4.282689 

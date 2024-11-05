@@ -1,0 +1,40 @@
+Synthetic Control Analysis for Marlowe
+Using citation variable: cite_German
+
+Synthetic Control Weights:
+           Name   Weight
+ William Caxton 0.476309
+         Dryden 0.252399
+        Faraday 0.214200
+        Chaucer 0.043776
+          Homer 0.003000
+       Voltaire 0.002375
+         Cicero 0.001338
+ Charles Darwin 0.001249
+         Herder 0.001248
+         Goethe 0.001049
+
+Predictor Balance:
+                               Treated Synthetic Sample Mean
+YearofPublication             1589.000  1590.008    1598.396
+Socialist                        0.000     0.000       0.101
+Political                        0.000     0.005       0.378
+wrote_English                    1.000     0.990       0.323
+wrote_French                     0.000     0.003       0.115
+wrote_Greek                      0.000     0.003       0.069
+wrote_Latin                      0.000     0.001       0.065
+wrote_Italian                    0.000     0.000       0.023
+wrote_Spanish                    0.000     0.000       0.009
+wrote_German                     0.000     0.003       0.392
+special.cite_German.1914.1916    0.639     0.642       1.120
+special.cite_German.1908.1910    0.665     0.643       1.269
+special.cite_German.1902.1904    0.548     0.665       1.232
+special.cite_German.1896.1898    0.722     0.786       1.221
+special.cite_German.1890.1892    0.609     0.633       1.300
+special.cite_German.1884.1886    1.032     0.789       1.438
+special.cite_German.1878.1880    0.868     0.836       1.490
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 2.09466e-07
+Post (1917-1932): 2.950393e-07
+Post/Pre Ratio: 1.408531 

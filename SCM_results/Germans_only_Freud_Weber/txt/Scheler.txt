@@ -1,0 +1,57 @@
+Synthetic Control Analysis for Scheler
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+                       Name   Weight
+              Hermann Cohen 0.453742
+                  Max Weber 0.243389
+                      Rilke 0.231220
+             Ludwig Büchner 0.002897
+             Gustav Freytag 0.002851
+         Friedrich Schiller 0.002807
+        Eduard von Hartmann 0.002771
+           Ludwig Feuerbach 0.002754
+             E T A Hoffmann 0.002749
+     Barthold Georg Niebuhr 0.002680
+              Hermann Lotze 0.002484
+            Theodor Fontane 0.002364
+ Friedrich Carl von Savigny 0.002311
+              Eduard Zeller 0.002284
+                 Windelband 0.002176
+                      Külpe 0.002166
+   Gotthold Ephraim Lessing 0.002061
+                 Clausewitz 0.002010
+                Thomas Mann 0.001844
+                      Ranke 0.001779
+             Schleiermacher 0.001777
+              Sigmund Freud 0.001754
+                 Ebbinghaus 0.001743
+                     Herder 0.001569
+              Immanuel Kant 0.001514
+                     Fichte 0.001233
+                    Herbart 0.001187
+                      Wundt 0.001178
+                  Helmholtz 0.001174
+             Grimmelshausen 0.001116
+              Martin Luther 0.001102
+       Wilhelm von Humboldt 0.001045
+               Schopenhauer 0.001019
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1913.000  1911.675    1844.196
+Socialist                         0.000     0.004       0.107
+Political                         0.000     0.008       0.214
+YearofTranslationtoEnglish     1954.000  1954.031    1897.625
+special.cite_English.1914.1916    0.015     0.024       0.219
+special.cite_English.1908.1910    0.014     0.020       0.240
+special.cite_English.1902.1904    0.012     0.019       0.255
+special.cite_English.1896.1898    0.009     0.019       0.278
+special.cite_English.1890.1892    0.042     0.040       0.292
+special.cite_English.1884.1886    0.014     0.016       0.306
+special.cite_English.1878.1880    0.020     0.015       0.293
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 1.553258e-08
+Post (1917-1932): 2.452147e-08
+Post/Pre Ratio: 1.578712 

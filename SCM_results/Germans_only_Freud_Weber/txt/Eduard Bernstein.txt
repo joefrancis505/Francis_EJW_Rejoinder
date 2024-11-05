@@ -1,0 +1,35 @@
+Synthetic Control Analysis for Eduard Bernstein
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+              Name   Weight
+        Moses Hess 0.460979
+ Ferdinand Tönnies 0.250623
+       Carl Stumpf 0.148347
+     Sigmund Freud 0.088507
+      August Bebel 0.013133
+     Hermann Cohen 0.006931
+           Sombart 0.005332
+    Franz Brentano 0.001519
+         Nietzsche 0.001165
+        Clausewitz 0.001162
+   Theodor Fontane 0.001156
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1899.000  1870.215    1844.446
+Socialist                         1.000     0.481       0.089
+Political                         1.000     0.735       0.196
+YearofTranslationtoEnglish     1909.000  1903.415    1898.429
+special.cite_English.1914.1916    0.017     0.013       0.219
+special.cite_English.1908.1910    0.006     0.007       0.240
+special.cite_English.1902.1904    0.002     0.005       0.255
+special.cite_English.1896.1898    0.000     0.006       0.278
+special.cite_English.1890.1892    0.000     0.005       0.293
+special.cite_English.1884.1886    0.000     0.004       0.306
+special.cite_English.1878.1880    0.000     0.004       0.294
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 4.186365e-09
+Post (1917-1932): 7.240134e-09
+Post/Pre Ratio: 1.729456 

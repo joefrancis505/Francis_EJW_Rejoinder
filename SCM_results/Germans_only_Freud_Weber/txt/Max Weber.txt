@@ -1,0 +1,46 @@
+Synthetic Control Analysis for Max Weber
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+              Name   Weight
+             Kafka 0.311444
+            Simmel 0.303696
+       Carl Stumpf 0.169642
+     Hermann Cohen 0.166861
+       Thomas Mann 0.003412
+           Dilthey 0.003071
+        Windelband 0.002599
+         Schmoller 0.002433
+             Frege 0.001898
+             Wundt 0.001586
+           Scheler 0.001538
+    Franz Brentano 0.001526
+  Eduard Bernstein 0.001427
+         Nietzsche 0.001389
+           Herbart 0.001373
+      August Bebel 0.001327
+           Sombart 0.001220
+             Külpe 0.001186
+          Schäffle 0.001165
+     Immanuel Kant 0.001056
+ Ferdinand Tönnies 0.001053
+        Clausewitz 0.001014
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1922.000  1907.770    1844.036
+Socialist                         0.000     0.006       0.107
+Political                         0.000     0.013       0.214
+YearofTranslationtoEnglish     1968.000  1966.353    1897.375
+special.cite_English.1914.1916    0.034     0.035       0.219
+special.cite_English.1908.1910    0.033     0.032       0.239
+special.cite_English.1902.1904    0.025     0.023       0.255
+special.cite_English.1896.1898    0.024     0.027       0.277
+special.cite_English.1890.1892    0.097     0.094       0.291
+special.cite_English.1884.1886    0.010     0.018       0.306
+special.cite_English.1878.1880    0.011     0.016       0.294
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 1.626354e-08
+Post (1917-1932): 3.206373e-08
+Post/Pre Ratio: 1.971509 

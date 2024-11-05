@@ -1,0 +1,41 @@
+Synthetic Control Analysis for Max Stirner
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+                       Name   Weight
+             Friedrich List 0.664414
+          Ferdinand Tönnies 0.269377
+                 Moses Hess 0.030893
+     Barthold Georg Niebuhr 0.008683
+ Friedrich Carl von Savigny 0.003772
+             E T A Hoffmann 0.003056
+                   Schäffle 0.001964
+             Ludwig Büchner 0.001495
+                  Nietzsche 0.001332
+           Ludwig Feuerbach 0.001057
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1845.000  1851.883    1562.825
+Socialist                         0.000     0.032       0.098
+Political                         1.000     0.969       0.392
+YearofTranslationtoEnglish     1907.000  1913.498    1799.443
+wrote_English                     0.000     0.002       0.397
+wrote_French                      0.000     0.001       0.134
+wrote_Greek                       0.000     0.000       0.077
+wrote_Latin                       0.000     0.000       0.072
+wrote_Italian                     0.000     0.000       0.026
+wrote_Spanish                     0.000     0.000       0.010
+wrote_German                      1.000     0.997       0.278
+special.cite_English.1914.1916    0.017     0.016       0.568
+special.cite_English.1908.1910    0.020     0.020       0.753
+special.cite_English.1902.1904    0.006     0.012       0.821
+special.cite_English.1896.1898    0.009     0.007       0.870
+special.cite_English.1890.1892    0.005     0.006       0.950
+special.cite_English.1884.1886    0.002     0.007       0.894
+special.cite_English.1878.1880    0.003     0.004       0.952
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 5.850339e-09
+Post (1917-1932): 8.264498e-09
+Post/Pre Ratio: 1.412653 

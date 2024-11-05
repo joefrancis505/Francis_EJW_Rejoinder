@@ -1,0 +1,51 @@
+Synthetic Control Analysis for Hölderlin
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+                       Name   Weight
+  Friedrich Heinrich Jacobi 0.678848
+ Friedrich Carl von Savigny 0.113588
+             Franz Brentano 0.080779
+                Carl Stumpf 0.020583
+             Ludwig Büchner 0.014099
+     Barthold Georg Niebuhr 0.012293
+              Hermann Cohen 0.011089
+                      Rilke 0.010984
+              Eduard Zeller 0.008495
+             E T A Hoffmann 0.006823
+            Theodor Fontane 0.004948
+           Ludwig Feuerbach 0.003566
+             Grimmelshausen 0.003531
+        Eduard von Hartmann 0.002907
+                     Thünen 0.002697
+                      Külpe 0.001969
+          Ferdinand Tönnies 0.001950
+           Eduard Bernstein 0.001252
+         Friedrich Schiller 0.001182
+                 Moses Hess 0.001134
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1797.000  1799.383    1578.683
+Socialist                         0.000     0.004       0.131
+Political                         0.000     0.012       0.476
+YearofTranslationtoEnglish     1965.000  1964.611    1826.593
+wrote_English                     0.000     0.004       0.372
+wrote_French                      0.000     0.001       0.097
+wrote_Greek                       0.000     0.001       0.083
+wrote_Latin                       0.000     0.000       0.062
+wrote_Italian                     0.000     0.000       0.014
+wrote_Spanish                     0.000     0.000       0.007
+wrote_German                      1.000     0.994       0.359
+special.cite_English.1914.1916    0.006     0.006       0.483
+special.cite_English.1908.1910    0.009     0.007       0.653
+special.cite_English.1902.1904    0.008     0.008       0.719
+special.cite_English.1896.1898    0.006     0.008       0.751
+special.cite_English.1890.1892    0.005     0.009       0.839
+special.cite_English.1884.1886    0.007     0.007       0.789
+special.cite_English.1878.1880    0.005     0.008       0.836
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 4.597606e-09
+Post (1917-1932): 2.415519e-08
+Post/Pre Ratio: 5.253863 

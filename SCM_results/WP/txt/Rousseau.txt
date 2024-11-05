@@ -1,0 +1,40 @@
+Synthetic Control Analysis for Rousseau
+Using citation variable: cite_English
+
+Synthetic Control Weights:
+            Name   Weight
+        Voltaire 0.462658
+ Abraham Lincoln 0.292803
+       Nietzsche 0.106739
+          Cicero 0.056408
+           Plato 0.046924
+       de Gouges 0.024732
+     Montesquieu 0.002858
+         Blanqui 0.001896
+         Bakunin 0.001182
+
+Predictor Balance:
+                                Treated Synthetic Sample Mean
+YearofPublication              1762.000  1586.637    1464.594
+Socialist                         0.000     0.005       0.146
+Political                         1.000     0.893       0.573
+YearofTranslationtoEnglish     1913.000  1903.536    1791.854
+wrote_English                     0.000     0.293       0.521
+wrote_French                      1.000     0.496       0.135
+wrote_Greek                       0.000     0.047       0.115
+wrote_Latin                       0.000     0.056       0.083
+wrote_Italian                     0.000     0.001       0.021
+wrote_Spanish                     0.000     0.000       0.010
+wrote_German                      0.000     0.107       0.104
+special.cite_English.1914.1916    2.607     2.154       0.648
+special.cite_English.1908.1910    2.993     2.941       0.889
+special.cite_English.1902.1904    3.447     3.234       0.980
+special.cite_English.1896.1898    3.230     3.317       1.021
+special.cite_English.1890.1892    3.927     3.317       1.140
+special.cite_English.1884.1886    3.167     3.775       1.092
+special.cite_English.1878.1880    3.433     3.523       1.163
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 7.571926e-07
+Post (1917-1932): 5.124652e-07
+Post/Pre Ratio: 0.6767964 

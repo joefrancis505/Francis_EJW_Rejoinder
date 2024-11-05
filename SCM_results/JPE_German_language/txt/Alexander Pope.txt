@@ -1,0 +1,54 @@
+Synthetic Control Analysis for Alexander Pope
+Using citation variable: cite_German
+
+Synthetic Control Weights:
+                    Name   Weight
+          Edmund Spenser 0.424568
+            John Woolman 0.334611
+         Auberon Herbert 0.030358
+   Oliver Wendell Holmes 0.028731
+   William Graham Sumner 0.027989
+ James Fitzjames Stephen 0.020709
+      Frederick Douglass 0.017477
+           Nassau Senior 0.013151
+          Richard Cobden 0.010848
+           David Ricardo 0.010375
+          William Godwin 0.009719
+           James Madison 0.008606
+              Lord Acton 0.008468
+         Abraham Lincoln 0.008200
+          Wollstonecraft 0.008046
+      Alexander Hamilton 0.007621
+        Thomas Jefferson 0.006911
+            Edmund Burke 0.005557
+          Jonathan Swift 0.004847
+            William Penn 0.001635
+              John Locke 0.001497
+       Benjamin Franklin 0.001232
+        John Stuart Mill 0.001155
+                  Hobbes 0.001066
+
+Predictor Balance:
+                               Treated Synthetic Sample Mean
+YearofPublication             1711.000  1711.028    1597.834
+Socialist                        0.000     0.001       0.101
+Political                        1.000     0.996       0.373
+wrote_English                    1.000     0.996       0.323
+wrote_French                     0.000     0.001       0.115
+wrote_Greek                      0.000     0.001       0.069
+wrote_Latin                      0.000     0.000       0.065
+wrote_Italian                    0.000     0.000       0.023
+wrote_Spanish                    0.000     0.000       0.009
+wrote_German                     0.000     0.002       0.392
+special.cite_German.1914.1916    0.023     0.026       1.122
+special.cite_German.1908.1910    0.024     0.022       1.272
+special.cite_German.1902.1904    0.012     0.019       1.235
+special.cite_German.1896.1898    0.023     0.020       1.225
+special.cite_German.1890.1892    0.024     0.022       1.303
+special.cite_German.1884.1886    0.016     0.022       1.442
+special.cite_German.1878.1880    0.027     0.024       1.494
+
+Root Mean Square Prediction Error (RMSPE):
+Pre (1878-1916): 9.546107e-09
+Post (1917-1932): 7.521256e-09
+Post/Pre Ratio: 0.7878873 
