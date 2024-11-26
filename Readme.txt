@@ -5,16 +5,19 @@ Necessary elements from Magness and Makovi's database for use in the Structural_
 
 JSTOR_1907-1916.odsThe calculations for Table 1 in the rejoinder.
 
-JSTOR_sociology_correction.odsThe calculations showing how Magness and Makovi subtracted Annals from the numerator but not the denominator.SCM_donor_pool_analysis.ods
+JSTOR_sociology_correction.odsThe calculations showing how Magness and Makovi subtracted Annals from the numerator but not the denominator.Normalized_Marxes files
+These make Figure 2 in the rejoinder.SCM_donor_pool_analysis.ods
 The donor pools used in the SCM_maker.R script.
 SCM_maker_v2.RThe replication of some of Magness and Makovi's (2020; 2023) synthetic Marxes.SCM_p_values.csv
 The p-values produced by the SCM_maker_v2.R script.
 
 SCM_results
-The folder containing the detailed output of SCM_maker_v2.R, including plots for all the donors in the various pools tested. The subfolders are listed below.
+The folder containing the detailed output of SCM_maker_v2.R, including plots for all the donors in the various pools tested. The subfolders are listed below. Figure 3 in the rejoinder is taken from here.
 Structural_breaks.pdf
-Figure 3 in the rejoinder, which is produced by the Structural_breaks.R script.Structural_breaks.RApplies the Bai-Perron structural break test to Marx's n-gram share from 1867 to 2000.
+Figure 5 in the rejoinder, which is produced by the Structural_breaks.R script.Structural_breaks.RApplies the Bai-Perron structural break test to Marx's n-gram share from 1867 to 2000.
 
+Synthetic_Marxes.ods
+Contains analyses of individual Synthetic Marxes from Magness and Makovi, as discussed in the rejoinder.
 
 The SCM_results subfolders contain my replications of the following Synthetic Marxes and their donors, as created by the SCM_maker_v2.R script:
 
